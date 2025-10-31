@@ -803,7 +803,7 @@
       <modifiers>
         <modifier type="set" value="130" field="51b2-306e-1021-d207">
           <conditions>
-            <condition type="atLeast" value="40" field="selections" scope="add0-052a-e92d-31fc" childId="model" shared="true" includeChildSelections="false"/>
+            <condition type="greaterThan" value="17" field="selections" scope="add0-052a-e92d-31fc" childId="model" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -828,13 +828,13 @@
         </profile>
       </profiles>
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Clanrats" hidden="false" id="bd09-8fce-d714-3768">
+        <selectionEntry type="model" import="true" name="Clanrats" hidden="false" id="bd09-8fce-d714-3768" collective="true">
           <constraints>
             <constraint type="min" value="17" field="selections" scope="parent" shared="true" id="cbbe-e1e6-6ea3-31c9"/>
             <constraint type="max" value="37" field="selections" scope="parent" shared="true" id="3d00-880d-ef10-8970"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Rusty Weapon" hidden="false" id="ac7a-3350-37f5-8689">
+            <selectionEntry type="upgrade" import="true" name="Rusty Weapon" hidden="false" id="ac7a-3350-37f5-8689" collective="true">
               <profiles>
                 <profile name="Rusty Weapon" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="2276-60d0-0512-9701">
                   <characteristics>
@@ -858,7 +858,7 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Clanrats Champion" hidden="false" id="c9e9-fcba-fe68-dd9c">
+        <selectionEntry type="model" import="true" name="Clanrats Champion" hidden="false" id="c9e9-fcba-fe68-dd9c">
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Master Crafted Weapon" hidden="false" id="c642-9231-2395-65a1">
               <profiles>
@@ -888,7 +888,7 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3d00-880d-ef10-8970"/>
           </constraints>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Clanrats Musician" hidden="false" id="ab0e-7798-0414-8b42">
+        <selectionEntry type="model" import="true" name="Clanrats Musician" hidden="false" id="ab0e-7798-0414-8b42">
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Rusty Weapon" hidden="false" id="96fd-27a2-59c4-f8d1">
               <profiles>
@@ -925,7 +925,7 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="37ef-f694-6c2c-4712"/>
           </constraints>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Clanrats Standard Bearer" hidden="false" id="2cb9-62c5-1ca1-229a">
+        <selectionEntry type="model" import="true" name="Clanrats Standard Bearer" hidden="false" id="2cb9-62c5-1ca1-229a">
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Rusty Weapon" hidden="false" id="8771-7051-ff30-fbb8">
               <profiles>
@@ -987,7 +987,7 @@
       <modifiers>
         <modifier type="set" value="130" field="51b2-306e-1021-d207">
           <conditions>
-            <condition type="atLeast" value="40" field="selections" scope="c501-a45e-5161-dbad" childId="model" shared="true" includeChildSelections="false"/>
+            <condition type="greaterThan" value="17" field="selections" scope="c501-a45e-5161-dbad" childId="model" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -1017,7 +1017,7 @@
         </profile>
       </profiles>
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Plague Monks Musician" hidden="false" id="8a4f-9dc5-1de0-3df1">
+        <selectionEntry type="model" import="true" name="Plague Monks Musician" hidden="false" id="8a4f-9dc5-1de0-3df1">
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Foetid Weapons" hidden="false" id="d916-2903-a7a4-616f">
               <constraints>
@@ -1054,7 +1054,7 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="853e-166b-0a75-4219"/>
           </constraints>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Plague Monks Champion" hidden="false" id="347a-8f18-a972-b7b5">
+        <selectionEntry type="model" import="true" name="Plague Monks Champion" hidden="false" id="347a-8f18-a972-b7b5">
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Master Crafted Foetid Weapons" hidden="false" id="422f-a3c4-ab7b-61a7">
               <constraints>
@@ -1084,7 +1084,7 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="96f3-43fc-f37d-7d1c"/>
           </constraints>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Plague Monks Standard Bearer" hidden="false" id="862c-a4c4-6c67-3ca2">
+        <selectionEntry type="model" import="true" name="Plague Monks Standard Bearer" hidden="false" id="862c-a4c4-6c67-3ca2">
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Foetid Weapons" hidden="false" id="1165-67af-6a58-4131">
               <constraints>
@@ -1121,9 +1121,9 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="935d-3b7d-9984-5936"/>
           </constraints>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Plague Monks" hidden="false" id="7421-e807-77c8-2643">
+        <selectionEntry type="model" import="true" name="Plague Monks" hidden="false" id="7421-e807-77c8-2643" collective="true">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Foetid Weapons" hidden="false" id="b726-5c4b-4fdc-0aae">
+            <selectionEntry type="upgrade" import="true" name="Foetid Weapons" hidden="false" id="b726-5c4b-4fdc-0aae" collective="true">
               <profiles>
                 <profile name="Foetid Weapons" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="fd59-234d-fb67-7cf0">
                   <characteristics>
@@ -3510,7 +3510,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
       <modifiers>
         <modifier type="set" value="150" field="51b2-306e-1021-d207">
           <conditions>
-            <condition type="atLeast" value="2" field="selections" scope="ca8f-ac46-2ebe-8c60" childId="model" shared="true" includeChildSelections="false"/>
+            <condition type="greaterThan" value="1" field="selections" scope="ca8f-ac46-2ebe-8c60" childId="model" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -3544,9 +3544,9 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
         </profile>
       </profiles>
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Warp-Grinder" hidden="false" id="8433-2443-19c5-561b">
+        <selectionEntry type="model" import="true" name="Warp-Grinder" hidden="false" id="8433-2443-19c5-561b" collective="true">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Warpstone Drill-fang" hidden="false" id="3a98-e81f-18d6-2a4e">
+            <selectionEntry type="upgrade" import="true" name="Warpstone Drill-fang" hidden="false" id="3a98-e81f-18d6-2a4e" collective="true">
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="47f5-0feb-4399-df7b" includeChildSelections="false"/>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="22d6-119c-080b-38e1" includeChildSelections="false"/>
@@ -3568,7 +3568,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Crew’s Teeth and Knives" hidden="false" id="17e0-63aa-e535-f91b">
+            <selectionEntry type="upgrade" import="true" name="Crew’s Teeth and Knives" hidden="false" id="17e0-63aa-e535-f91b" collective="true">
               <infoLinks>
                 <infoLink name="Crew&apos;s Teeth and Knives" id="3031-e246-7747-1e7f" hidden="false" type="profile" targetId="0633-e81c-6c4b-0e4e"/>
               </infoLinks>
@@ -3623,9 +3623,9 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
         </profile>
       </profiles>
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Acolyte Globadiers" hidden="false" id="831a-a689-79c5-fe01">
+        <selectionEntry type="model" import="true" name="Acolyte Globadiers" hidden="false" id="831a-a689-79c5-fe01" collective="true">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Poisoned Wind Globe" hidden="false" id="cf6f-5ab1-a645-c1b2">
+            <selectionEntry type="upgrade" import="true" name="Poisoned Wind Globe" hidden="false" id="cf6f-5ab1-a645-c1b2" collective="true">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c9c7-863c-2e46-6825" includeChildSelections="false"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="df6c-e0da-c82f-8852" includeChildSelections="false"/>
@@ -3649,7 +3649,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
                 <infoLink name="Pistol" id="c154-2f63-e3bf-32b4" hidden="false" type="rule" targetId="8bf7-8812-923d-29e4"/>
               </infoLinks>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Rusty Knives" hidden="false" id="26b8-9766-56ba-21d8">
+            <selectionEntry type="upgrade" import="true" name="Rusty Knives" hidden="false" id="26b8-9766-56ba-21d8" collective="true">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e928-7925-15a8-3357" includeChildSelections="false"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d344-e917-10cc-e7f2" includeChildSelections="false"/>
@@ -3701,7 +3701,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
       <modifiers>
         <modifier type="set" value="220" field="51b2-306e-1021-d207">
           <conditions>
-            <condition type="atLeast" value="20" field="selections" scope="1113-2b9e-d187-dfee" childId="model" shared="true" includeChildSelections="false"/>
+            <condition type="greaterThan" value="9" field="selections" scope="1113-2b9e-d187-dfee" childId="model" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -3729,9 +3729,9 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
         </profile>
       </profiles>
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Night Runners" hidden="false" id="e15e-ac71-3318-276c">
+        <selectionEntry type="model" import="true" name="Night Runners" hidden="false" id="e15e-ac71-3318-276c" collective="true">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Poisoned Blades" hidden="false" id="611f-1e7c-3d1b-d710">
+            <selectionEntry type="upgrade" import="true" name="Poisoned Blades" hidden="false" id="611f-1e7c-3d1b-d710" collective="true">
               <constraints>
                 <constraint type="min" value="9" field="selections" scope="parent" shared="true" id="10b1-9508-91bb-a2bd" includeChildSelections="false"/>
                 <constraint type="max" value="19" field="selections" scope="parent" shared="true" id="55a5-976b-d2c3-383e" includeChildSelections="false"/>
@@ -3753,7 +3753,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
                 <infoLink name="Devastating Wounds" id="f10d-e540-4daa-bb87" hidden="false" type="rule" targetId="be1e-ac8e-1e2c-3528"/>
               </infoLinks>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Slings and Poisoned Stars" hidden="false" id="9e26-d086-2db6-9df4">
+            <selectionEntry type="upgrade" import="true" name="Slings and Poisoned Stars" hidden="false" id="9e26-d086-2db6-9df4" collective="true">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d318-c16c-c39c-f1c0" includeChildSelections="false"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2e97-fb03-9603-0c4c" includeChildSelections="false"/>
@@ -3782,7 +3782,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
             <constraint type="max" value="19" field="selections" scope="parent" shared="true" id="43e9-326c-4df3-3db4" includeChildSelections="false"/>
           </constraints>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Night Runners Champion" hidden="false" id="0395-27cb-c077-d1b6">
+        <selectionEntry type="model" import="true" name="Night Runners Champion" hidden="false" id="0395-27cb-c077-d1b6">
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Slings and Poisoned Stars" hidden="false" id="55b3-38bf-08b4-e413">
               <constraints>
@@ -3879,9 +3879,9 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
         </profile>
       </profiles>
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Plaguepack" hidden="false" id="c3db-ffdc-bd70-3a6e">
+        <selectionEntry type="model" import="true" name="Plaguepack" hidden="false" id="c3db-ffdc-bd70-3a6e" collective="true">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Plague Stricken Curse" hidden="false" id="3ff5-b2d9-2775-a740">
+            <selectionEntry type="upgrade" import="true" name="Plague Stricken Curse" hidden="false" id="3ff5-b2d9-2775-a740" collective="true">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2530-d6fb-eb4a-bacc"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9bf9-fc75-d616-321a"/>
@@ -3895,7 +3895,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
                 <infoLink name="Psychic" id="ccb9-0842-2b72-2518" hidden="false" type="rule" targetId="e9c4-2bb8-12ee-cd1b"/>
               </infoLinks>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Plague Censer" hidden="false" id="3c4e-d2a9-06f0-700d">
+            <selectionEntry type="upgrade" import="true" name="Plague Censer" hidden="false" id="3c4e-d2a9-06f0-700d" collective="true">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4ba2-fdf2-c30c-ccfc" includeChildSelections="false"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dbea-b9b7-37c3-fc94" includeChildSelections="false"/>
@@ -3918,7 +3918,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Weapons of Corruption" hidden="false" id="9a8e-9354-cfcd-34f5">
+            <selectionEntry type="upgrade" import="true" name="Weapons of Corruption" hidden="false" id="9a8e-9354-cfcd-34f5" collective="true">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8c9f-596c-4404-a8ad" includeChildSelections="false"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7d27-aadf-3959-52f8" includeChildSelections="false"/>
@@ -3947,7 +3947,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
             <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="4a18-562e-7732-efd7" includeChildSelections="false"/>
           </constraints>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Plaguepack Champion" hidden="false" id="f4ae-bc0b-8d63-de20">
+        <selectionEntry type="model" import="true" name="Plaguepack Champion" hidden="false" id="f4ae-bc0b-8d63-de20">
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Master Crafted Weapons of Corruption" hidden="false" id="c161-44bd-b222-af89">
               <constraints>
@@ -4040,14 +4040,14 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
       <modifiers>
         <modifier type="set" value="180" field="51b2-306e-1021-d207">
           <conditions>
-            <condition type="atLeast" value="6" field="selections" scope="e56a-55b2-824f-1c59" childId="model" shared="true" includeChildSelections="false"/>
+            <condition type="greaterThan" value="3" field="selections" scope="e56a-55b2-824f-1c59" childId="model" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
       </modifiers>
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Ratling Guns" hidden="false" id="f84a-9c28-d8cf-893a">
+        <selectionEntry type="model" import="true" name="Ratling Guns" hidden="false" id="f84a-9c28-d8cf-893a" collective="true">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Rusty Knives" hidden="false" id="da40-a6ca-dd89-6173">
+            <selectionEntry type="upgrade" import="true" name="Rusty Knives" hidden="false" id="da40-a6ca-dd89-6173" collective="true">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ef77-9a24-c83f-75f5" includeChildSelections="false"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="996a-2676-8913-78b5" includeChildSelections="false"/>
@@ -4056,7 +4056,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
                 <infoLink name="Rusty Knives" id="5e0a-c265-83a4-997d" hidden="false" type="profile" targetId="2200-91b5-34e8-8af7"/>
               </infoLinks>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Ratling Gun" hidden="false" id="ab06-694b-2d10-3e5a">
+            <selectionEntry type="upgrade" import="true" name="Ratling Gun" hidden="false" id="ab06-694b-2d10-3e5a" collective="true">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="677f-908e-502f-a1ab" includeChildSelections="false"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="815a-c9ad-075c-bd5d" includeChildSelections="false"/>
@@ -4143,7 +4143,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
       <modifiers>
         <modifier type="set" value="140" field="51b2-306e-1021-d207">
           <conditions>
-            <condition type="atLeast" value="20" field="selections" scope="87f8-4d64-2955-68ee" childId="model" shared="true" includeChildSelections="false"/>
+            <condition type="greaterThan" value="7" field="selections" scope="87f8-4d64-2955-68ee" childId="model" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -4169,7 +4169,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
         </profile>
       </profiles>
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Stormvermin Musician" hidden="false" id="bf2f-a336-8a74-851d">
+        <selectionEntry type="model" import="true" name="Stormvermin Musician" hidden="false" id="bf2f-a336-8a74-851d">
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Stormvermin Weapons" hidden="false" id="48a4-a6bf-b526-1255">
               <constraints>
@@ -4206,7 +4206,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4a4f-1b79-7c30-260a"/>
           </constraints>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Stormvermin Champion" hidden="false" id="2f37-fc33-955a-e993">
+        <selectionEntry type="model" import="true" name="Stormvermin Champion" hidden="false" id="2f37-fc33-955a-e993">
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Master Crafted Stormvermin Weapons" hidden="false" id="5de2-bef8-0a62-3e72">
               <constraints>
@@ -4238,9 +4238,9 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3eae-33d3-0578-2d16"/>
           </constraints>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Stormvermin" hidden="false" id="0ee7-7306-2ff9-1e73">
+        <selectionEntry type="model" import="true" name="Stormvermin" hidden="false" id="0ee7-7306-2ff9-1e73" collective="true">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Stormvermin Weapons" hidden="false" id="edef-fa8b-069e-289b">
+            <selectionEntry type="upgrade" import="true" name="Stormvermin Weapons" hidden="false" id="edef-fa8b-069e-289b" collective="true">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d48e-49b1-1769-9a3c" includeChildSelections="false"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1ef1-30a0-9815-cf41" includeChildSelections="false"/>
@@ -4268,7 +4268,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
             <constraint type="max" value="17" field="selections" scope="parent" shared="true" id="f700-fa38-d33a-b38e" includeChildSelections="false"/>
           </constraints>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Stormvermin Standard Bearer" hidden="false" id="27b9-75ef-773b-cc23">
+        <selectionEntry type="model" import="true" name="Stormvermin Standard Bearer" hidden="false" id="27b9-75ef-773b-cc23">
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Stormvermin Weapons" hidden="false" id="1347-ceb8-cfdd-4b11">
               <constraints>
@@ -4330,14 +4330,14 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
       <modifiers>
         <modifier type="set" value="120" field="51b2-306e-1021-d207">
           <conditions>
-            <condition type="atLeast" value="6" field="selections" scope="d81f-ba33-a928-511b" childId="model" shared="true" includeChildSelections="false"/>
+            <condition type="greaterThan" value="3" field="selections" scope="d81f-ba33-a928-511b" childId="model" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
       </modifiers>
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Warpfire Throwers" hidden="false" id="227a-be15-3e9a-aee0">
+        <selectionEntry type="model" import="true" name="Warpfire Throwers" hidden="false" id="227a-be15-3e9a-aee0" collective="true">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Rusty Knives" hidden="false" id="f509-2ebe-114e-908e">
+            <selectionEntry type="upgrade" import="true" name="Rusty Knives" hidden="false" id="f509-2ebe-114e-908e" collective="true">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f910-f444-7c07-3cf5" includeChildSelections="false"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a8a8-0cce-90a7-6ef3" includeChildSelections="false"/>
@@ -4346,7 +4346,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
                 <infoLink name="Rusty Knives" id="2f1c-dd42-a7ef-4326" hidden="false" type="profile" targetId="2200-91b5-34e8-8af7"/>
               </infoLinks>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Warpfire Thrower" hidden="false" id="3b92-473e-4c0d-3dec">
+            <selectionEntry type="upgrade" import="true" name="Warpfire Thrower" hidden="false" id="3b92-473e-4c0d-3dec" collective="true">
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dd32-8b16-14bc-0016" includeChildSelections="false"/>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="47c6-902c-fb62-1a5e" includeChildSelections="false"/>
@@ -4430,14 +4430,14 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
       <modifiers>
         <modifier type="set" value="150" field="51b2-306e-1021-d207">
           <conditions>
-            <condition type="atLeast" value="6" field="selections" scope="5dbe-1f51-2388-fa5e" childId="model" shared="true" includeChildSelections="false"/>
+            <condition type="greaterThan" value="2" field="selections" scope="5dbe-1f51-2388-fa5e" childId="model" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
       </modifiers>
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Warplock Jezzails" hidden="false" id="05bf-cb0c-cdaf-667c">
+        <selectionEntry type="model" import="true" name="Warplock Jezzails" hidden="false" id="05bf-cb0c-cdaf-667c" collective="true">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Rusty Knives" hidden="false" id="b968-3246-bdd1-718c">
+            <selectionEntry type="upgrade" import="true" name="Rusty Knives" hidden="false" id="b968-3246-bdd1-718c" collective="true">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6cfb-0a22-665e-fd0d" includeChildSelections="false"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="db59-46d6-beaa-66e1" includeChildSelections="false"/>
@@ -4446,7 +4446,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
                 <infoLink name="Rusty Knives" id="a767-470c-dcc0-d98c" hidden="false" type="profile" targetId="2200-91b5-34e8-8af7"/>
               </infoLinks>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Warplock Jezzail" hidden="false" id="9030-1d0e-81ac-c79c">
+            <selectionEntry type="upgrade" import="true" name="Warplock Jezzail" hidden="false" id="9030-1d0e-81ac-c79c" collective="true">
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f2d9-7bc1-a035-6938" includeChildSelections="false"/>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ebcb-fbb0-1330-651a" includeChildSelections="false"/>
@@ -4488,7 +4488,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
             <constraint type="max" value="5" field="selections" scope="parent" shared="true" id="989e-53e1-6896-2ad9"/>
           </constraints>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Warplock Jezzails Champion" hidden="false" id="ac10-045b-d63d-2e9a">
+        <selectionEntry type="model" import="true" name="Warplock Jezzails Champion" hidden="false" id="ac10-045b-d63d-2e9a">
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Master Crafted Rusty Knives" hidden="false" id="e629-818e-de34-e5c2">
               <constraints>
@@ -4547,8 +4547,8 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
             </selectionEntry>
           </selectionEntries>
           <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="02f1-f037-7edb-c3fb"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="626a-b234-0b89-352c"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1bf-67af-af8c-21b0"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8fe5-390f-cbdb-902e"/>
           </constraints>
         </selectionEntry>
       </selectionEntries>
@@ -4647,7 +4647,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
       <modifiers>
         <modifier type="set" value="120" field="51b2-306e-1021-d207">
           <conditions>
-            <condition type="atLeast" value="6" field="selections" scope="3c0d-ff59-c4da-44f2" childId="model" shared="true" includeChildSelections="false"/>
+            <condition type="greaterThan" value="3" field="selections" scope="3c0d-ff59-c4da-44f2" childId="model" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -4674,9 +4674,9 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
         </profile>
       </profiles>
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Rat Ogors" hidden="false" id="16fe-0add-2c16-90b1">
+        <selectionEntry type="model" import="true" name="Rat Ogors" hidden="false" id="16fe-0add-2c16-90b1" collective="true">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Claws, Blades, and Fangs" hidden="false" id="b555-56af-841f-31ca">
+            <selectionEntry type="upgrade" import="true" name="Claws, Blades, and Fangs" hidden="false" id="b555-56af-841f-31ca" collective="true">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0336-eccc-60c0-c722" includeChildSelections="false"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="473a-fa40-f87e-d126" includeChildSelections="false"/>
@@ -4695,7 +4695,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Warpfire Gun" hidden="false" id="3dfe-b409-b28e-0c3b">
+            <selectionEntry type="upgrade" import="true" name="Warpfire Gun" hidden="false" id="3dfe-b409-b28e-0c3b" collective="true">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f16d-9422-e09d-4bc8" includeChildSelections="false"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="318f-be65-a7a5-edae" includeChildSelections="false"/>
@@ -4761,7 +4761,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
       <modifiers>
         <modifier type="set" value="200" field="51b2-306e-1021-d207">
           <conditions>
-            <condition type="atLeast" value="6" field="selections" scope="d204-4169-1804-d84d" childId="model" shared="true" includeChildSelections="false"/>
+            <condition type="greaterThan" value="3" field="selections" scope="d204-4169-1804-d84d" childId="model" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -4793,7 +4793,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
         </profile>
       </profiles>
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Stormfiends" hidden="false" id="4236-c832-36c4-a2ac">
+        <selectionEntry type="model" import="true" name="Stormfiends" hidden="false" id="4236-c832-36c4-a2ac" collective="true">
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Options" hidden="false" id="4473-8012-27ae-9346">
               <constraints>
@@ -4801,7 +4801,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f8be-be40-53a4-2c37" includeChildSelections="false"/>
               </constraints>
               <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Clubbing Blows" hidden="false" id="6672-e308-d0a7-f73a">
+                <selectionEntry type="upgrade" import="true" name="Clubbing Blows" hidden="false" id="6672-e308-d0a7-f73a" collective="true">
                   <constraints>
                     <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="0016-70e7-9a2f-e4f3" includeChildSelections="false"/>
                     <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="6545-1ce9-ccdf-a2a1" includeChildSelections="false"/>
@@ -4820,7 +4820,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
                     </profile>
                   </profiles>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Grinderfists" hidden="false" id="47cf-31fa-3ae1-359e">
+                <selectionEntry type="upgrade" import="true" name="Grinderfists" hidden="false" id="47cf-31fa-3ae1-359e" collective="true">
                   <constraints>
                     <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b673-5e7f-1fc8-5111" includeChildSelections="false"/>
                     <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="e24b-6778-b542-64a5" includeChildSelections="false"/>
@@ -4842,7 +4842,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
                     </profile>
                   </profiles>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Ratling Cannons" hidden="false" id="213a-34c7-c3e3-2f7a">
+                <selectionEntry type="upgrade" import="true" name="Ratling Cannons" hidden="false" id="213a-34c7-c3e3-2f7a" collective="true">
                   <constraints>
                     <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="558a-0e0e-7588-a37f" includeChildSelections="false"/>
                     <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="5efb-5cdc-6e65-561b" includeChildSelections="false"/>
@@ -4877,7 +4877,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
                     </profile>
                   </profiles>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Warpfire Projectors" hidden="false" id="aaae-2bd6-a1c4-7bfe">
+                <selectionEntry type="upgrade" import="true" name="Warpfire Projectors" hidden="false" id="aaae-2bd6-a1c4-7bfe" collective="true">
                   <constraints>
                     <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9103-b630-7b03-6f24" includeChildSelections="false"/>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3426-40be-e1d5-58df" includeChildSelections="false"/>
@@ -4912,7 +4912,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
                     </profile>
                   </profiles>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Windlaunchers" hidden="false" id="6693-44be-6f07-c962">
+                <selectionEntry type="upgrade" import="true" name="Windlaunchers" hidden="false" id="6693-44be-6f07-c962" collective="true">
                   <constraints>
                     <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f80d-910c-9be4-7a8a" includeChildSelections="false"/>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5c13-ab12-6583-804f" includeChildSelections="false"/>
@@ -4947,7 +4947,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
                     </profile>
                   </profiles>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Doomflayer Gauntlets" hidden="false" id="566e-74b6-5b92-7c92">
+                <selectionEntry type="upgrade" import="true" name="Doomflayer Gauntlets" hidden="false" id="566e-74b6-5b92-7c92" collective="true">
                   <constraints>
                     <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d1e4-5dcd-d8d0-4f1c" includeChildSelections="false"/>
                     <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="079b-be16-3862-c151" includeChildSelections="false"/>
@@ -4969,7 +4969,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
                     <infoLink name="Lance" id="e395-cb97-7e2d-ade3" hidden="false" type="rule" targetId="2ebc-abdf-8129-6c57"/>
                   </infoLinks>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Shock Gauntlets" hidden="false" id="cba0-93ed-80c4-0901">
+                <selectionEntry type="upgrade" import="true" name="Shock Gauntlets" hidden="false" id="cba0-93ed-80c4-0901" collective="true">
                   <constraints>
                     <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="956d-4cb9-257d-804d" includeChildSelections="false"/>
                     <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="fcbb-a1eb-7426-56ed" includeChildSelections="false"/>
@@ -5200,7 +5200,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Doom-flayers" hidden="false" id="1d7d-dc1b-17bc-f252">
+    <selectionEntry type="unit" import="true" name="Doom-flayers" hidden="false" id="1d7d-dc1b-17bc-f252" collective="true">
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="60"/>
         <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
@@ -5241,9 +5241,9 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
         </profile>
       </profiles>
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Doom-flayers" hidden="false" id="3be0-5169-c80c-b465">
+        <selectionEntry type="model" import="true" name="Doom-flayers" hidden="false" id="3be0-5169-c80c-b465" collective="true">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Whirling Blades" hidden="false" id="8011-8e01-0954-b216">
+            <selectionEntry type="upgrade" import="true" name="Whirling Blades" hidden="false" id="8011-8e01-0954-b216" collective="true">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ec82-01b2-0535-9646" includeChildSelections="false"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a868-97a1-5891-f7c7" includeChildSelections="false"/>
@@ -5276,7 +5276,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
       <modifiers>
         <modifier type="set" value="120" field="51b2-306e-1021-d207">
           <conditions>
-            <condition type="atLeast" value="4" field="selections" scope="1d7d-dc1b-17bc-f252" childId="model" shared="true" includeChildSelections="false"/>
+            <condition type="greaterThan" value="2" field="selections" scope="1d7d-dc1b-17bc-f252" childId="model" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -5710,14 +5710,14 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
       <modifiers>
         <modifier type="set" value="140" field="51b2-306e-1021-d207">
           <conditions>
-            <condition type="atLeast" value="6" field="selections" scope="0c5b-92fe-f90a-6295" childId="model" shared="true" includeChildSelections="false"/>
+            <condition type="greaterThan" value="3" field="selections" scope="0c5b-92fe-f90a-6295" childId="model" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
       </modifiers>
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Warpvolt Scourgers" hidden="false" id="867a-dc3c-7aa2-daf3">
+        <selectionEntry type="model" import="true" name="Warpvolt Scourgers" hidden="false" id="867a-dc3c-7aa2-daf3" collective="true">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Rusty Knives" hidden="false" id="7678-96e6-a5ee-b655">
+            <selectionEntry type="upgrade" import="true" name="Rusty Knives" hidden="false" id="7678-96e6-a5ee-b655" collective="true">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d040-03aa-a94d-0a32" includeChildSelections="false"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c82a-ffaa-dc7e-bbed" includeChildSelections="false"/>
@@ -5726,7 +5726,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
                 <infoLink name="Rusty Knives" id="a155-ee21-54d7-b295" hidden="false" type="profile" targetId="2200-91b5-34e8-8af7"/>
               </infoLinks>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Warpvolt Scourger" hidden="false" id="d10f-1b68-7ebc-83b7">
+            <selectionEntry type="upgrade" import="true" name="Warpvolt Scourger" hidden="false" id="d10f-1b68-7ebc-83b7" collective="true">
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dcf4-d66b-3d2c-9c55" includeChildSelections="false"/>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b904-dbcc-b50f-e467" includeChildSelections="false"/>
