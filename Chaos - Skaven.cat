@@ -80,6 +80,7 @@
           <modifierGroups>
             <modifierGroup type="and">
               <modifiers>
+                <modifier type="set" value="0" field="a948-be31-aba1-2e60"/>
                 <modifier type="set" value="0" field="d499-b0e6-2f13-b1a3"/>
               </modifiers>
               <conditions>
@@ -704,7 +705,7 @@
       </selectionEntryGroups>
       <constraints>
         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d499-b0e6-2f13-b1a3" includeChildSelections="false"/>
-        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="cd0b-ab30-d485-06b0" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a948-be31-aba1-2e60" includeChildSelections="false"/>
       </constraints>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Detachment" hidden="false" id="f160-ba43-c94c-0645">
