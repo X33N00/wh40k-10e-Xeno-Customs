@@ -80,11 +80,11 @@
           <modifierGroups>
             <modifierGroup type="and">
               <modifiers>
-                <modifier type="set" value="0" field="d499-b0e6-2f13-b1a3"/>
                 <modifier type="set" value="0" field="cd0b-ab30-d485-06b0"/>
+                <modifier type="set" value="0" field="d499-b0e6-2f13-b1a3"/>
               </modifiers>
               <conditions>
-                <condition type="lessThan" value="1" field="selections" scope="parent" childId="7661-cf6f-c466-213b" shared="true"/>
+                <condition type="lessThan" value="1" field="selections" scope="parent" childId="7661-cf6f-c466-213b" shared="true" includeChildSelections="true" includeChildForces="true"/>
               </conditions>
             </modifierGroup>
           </modifierGroups>
@@ -293,6 +293,10 @@
                   </conditions>
                 </modifier>
               </modifiers>
+              <constraints>
+                <constraint type="max" value="3" field="selections" scope="roster" shared="true" id="529b-86dc-211c-2337" includeChildSelections="true" includeChildForces="true"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9315-83c2-0c54-ea16" includeChildSelections="false"/>
+              </constraints>
             </selectionEntryGroup>
             <selectionEntryGroup name="Fleshmeld Menagerie Enhancements" id="9b98-c107-8991-b8c0" hidden="false">
               <selectionEntries>
@@ -388,6 +392,10 @@
                   </conditions>
                 </modifier>
               </modifiers>
+              <constraints>
+                <constraint type="max" value="3" field="selections" scope="roster" shared="true" id="4633-07e5-e88e-835e" includeChildSelections="true" includeChildForces="true"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e712-0b52-488c-cf7d" includeChildSelections="false"/>
+              </constraints>
             </selectionEntryGroup>
             <selectionEntryGroup name="Gathering of the Clans Enhancements" id="83c8-23f6-c3f1-62df" hidden="false">
               <selectionEntries>
@@ -489,6 +497,10 @@
                   </conditions>
                 </modifier>
               </modifiers>
+              <constraints>
+                <constraint type="max" value="3" field="selections" scope="roster" shared="true" id="bd7c-11ad-5276-0b83" includeChildSelections="true" includeChildForces="true"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="668f-0919-307a-67a9" includeChildSelections="false"/>
+              </constraints>
             </selectionEntryGroup>
             <selectionEntryGroup name="Virulent Procession Enhancements" id="8483-8604-da1c-af67" hidden="false">
               <selectionEntries>
@@ -584,6 +596,10 @@
                   </conditions>
                 </modifier>
               </modifiers>
+              <constraints>
+                <constraint type="max" value="3" field="selections" scope="roster" shared="true" id="2fb7-009e-9672-d031" includeChildSelections="true" includeChildForces="true"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ea99-79be-48eb-a59f" includeChildSelections="false"/>
+              </constraints>
             </selectionEntryGroup>
             <selectionEntryGroup name="Warpcog Convocation Enhancements" id="c010-2d8b-a743-6448" hidden="false">
               <selectionEntries>
@@ -679,12 +695,12 @@
                   </conditions>
                 </modifier>
               </modifiers>
+              <constraints>
+                <constraint type="max" value="3" field="selections" scope="roster" shared="true" id="b056-0dcd-195d-b175" includeChildSelections="true" includeChildForces="true"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6f63-4496-59de-cfeb" includeChildSelections="false"/>
+              </constraints>
             </selectionEntryGroup>
           </selectionEntryGroups>
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8968-6af0-17c6-4702" includeChildSelections="false"/>
-            <constraint type="max" value="1" field="selections" scope="force" shared="true" id="ea6a-d1f7-4e63-93ce" includeChildSelections="false"/>
-          </constraints>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <constraints>
