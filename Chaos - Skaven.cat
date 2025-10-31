@@ -4967,7 +4967,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
           </selectionEntries>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7871-4f05-2921-a675" includeChildSelections="false"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f8be-be40-53a4-2c37" includeChildSelections="false"/>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="f8be-be40-53a4-2c37" includeChildSelections="false"/>
           </constraints>
           <modifiers>
             <modifier type="increment" value="1" field="7871-4f05-2921-a675">
@@ -5086,7 +5086,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
           </selectionEntries>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6078-f710-6a9b-7967" includeChildSelections="false"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a226-d25f-4ad0-45cd" includeChildSelections="false"/>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="a226-d25f-4ad0-45cd" includeChildSelections="false"/>
           </constraints>
           <modifiers>
             <modifier type="increment" value="1" field="6078-f710-6a9b-7967">
@@ -5240,7 +5240,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
           </selectionEntries>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2bdb-9d12-a5d2-b11e" includeChildSelections="false"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f446-b83a-b11c-78db" includeChildSelections="false"/>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="f446-b83a-b11c-78db" includeChildSelections="false"/>
           </constraints>
           <modifiers>
             <modifier type="increment" value="1" field="2bdb-9d12-a5d2-b11e">
