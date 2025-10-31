@@ -6685,6 +6685,6 @@ Designer’s Note: This ability allows the target to set up in combat with a new
     </profile>
   </sharedProfiles>
   <catalogueLinks>
-    <catalogueLink type="catalogue" name="New Catalogue (link)" id="7cde-374f-d509-fa33" targetId="581a-46b9-5b86-44b7"/>
+    <catalogueLink type="catalogue" name="New Catalogue (link)" id="7cde-374f-d509-fa33" targetId="581a-46b9-5b86-44b7" importRootEntries="true"/>
   </catalogueLinks>
 </catalogue>
