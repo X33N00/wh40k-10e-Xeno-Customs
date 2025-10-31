@@ -4904,60 +4904,70 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Stormfiends" hidden="false" id="4236-c832-36c4-a2ac" collective="true">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Options" hidden="false" id="4473-8012-27ae-9346">
+            <selectionEntry type="upgrade" import="true" name="Wargear Options" hidden="false" id="4473-8012-27ae-9346">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d626-aff0-09c0-ec70" includeChildSelections="false"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f7ce-b70b-bf18-76d8" includeChildSelections="false"/>
               </constraints>
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Doomflayer Gauntlets" hidden="false" id="566e-74b6-5b92-7c92" collective="true">
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="upgrade" shared="true" id="4da7-e0b1-ac47-07cc" includeChildSelections="false"/>
-                  </constraints>
-                  <profiles>
-                    <profile name="Doomflayer Gauntlets" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="1d77-cb15-8ff2-8361">
-                      <characteristics>
-                        <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
-                        <characteristic name="A" typeId="2337-daa1-6682-b110">5</characteristic>
-                        <characteristic name="WS" typeId="95d1-95f-45b4-11d6">4+</characteristic>
-                        <characteristic name="S" typeId="ab33-d393-96ce-ccba">8</characteristic>
-                        <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
-                        <characteristic name="D" typeId="3254-9fe6-d824-513e">D3</characteristic>
-                        <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Lance</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                  <infoLinks>
-                    <infoLink name="Lance" id="5718-6e5d-e43b-7e2a" hidden="false" type="rule" targetId="2ebc-abdf-8129-6c57"/>
-                  </infoLinks>
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Doomflayer Gauntlets" hidden="false" id="1eb3-ccdd-583e-61bb">
+                      <constraints>
+                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4da7-e0b1-ac47-07cc" includeChildSelections="false"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2ef2-9859-e3d9-5bec" includeChildSelections="false"/>
+                      </constraints>
+                      <profiles>
+                        <profile name="Doomflayer Gauntlets" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="1d77-cb15-8ff2-8361">
+                          <characteristics>
+                            <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                            <characteristic name="A" typeId="2337-daa1-6682-b110">5</characteristic>
+                            <characteristic name="WS" typeId="95d1-95f-45b4-11d6">4+</characteristic>
+                            <characteristic name="S" typeId="ab33-d393-96ce-ccba">8</characteristic>
+                            <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
+                            <characteristic name="D" typeId="3254-9fe6-d824-513e">D3</characteristic>
+                            <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Lance</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <infoLinks>
+                        <infoLink name="Lance" id="5718-6e5d-e43b-7e2a" hidden="false" type="rule" targetId="2ebc-abdf-8129-6c57"/>
+                      </infoLinks>
+                    </selectionEntry>
+                  </selectionEntries>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Shock Gauntlets" hidden="false" id="cba0-93ed-80c4-0901" collective="true">
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="upgrade" shared="true" id="412d-34f5-cff9-4566" includeChildSelections="false"/>
-                  </constraints>
-                  <profiles>
-                    <profile name="Shock Gauntlets" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="1ea8-7444-6a49-a5f1">
-                      <characteristics>
-                        <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
-                        <characteristic name="A" typeId="2337-daa1-6682-b110">4</characteristic>
-                        <characteristic name="WS" typeId="95d1-95f-45b4-11d6">4+</characteristic>
-                        <characteristic name="S" typeId="ab33-d393-96ce-ccba">12</characteristic>
-                        <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-1</characteristic>
-                        <characteristic name="D" typeId="3254-9fe6-d824-513e">2</characteristic>
-                        <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Sustained Hits D6</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                  <infoLinks>
-                    <infoLink name="Sustained Hits" id="48bf-1af8-3ee7-12dc" hidden="false" type="rule" targetId="1897-c22c-9597-12b1"/>
-                  </infoLinks>
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Shock Gauntlets" hidden="false" id="9659-e6f9-bbcd-e9d8">
+                      <constraints>
+                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="bb1f-8a02-1159-b185" includeChildSelections="true"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7597-083d-8aa4-3107" includeChildSelections="false"/>
+                      </constraints>
+                      <profiles>
+                        <profile name="Shock Gauntlets" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="5cea-6b51-5152-b07d">
+                          <characteristics>
+                            <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                            <characteristic name="A" typeId="2337-daa1-6682-b110">4</characteristic>
+                            <characteristic name="WS" typeId="95d1-95f-45b4-11d6">4+</characteristic>
+                            <characteristic name="S" typeId="ab33-d393-96ce-ccba">12</characteristic>
+                            <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-1</characteristic>
+                            <characteristic name="D" typeId="3254-9fe6-d824-513e">2</characteristic>
+                            <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Sustained Hits D6</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <infoLinks>
+                        <infoLink name="Sustained Hits" id="48f5-6b85-cb53-d477" hidden="false" type="rule" targetId="1897-c22c-9597-12b1"/>
+                      </infoLinks>
+                    </selectionEntry>
+                  </selectionEntries>
                 </selectionEntry>
               </selectionEntries>
             </selectionEntry>
           </selectionEntries>
           <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7871-4f05-2921-a675" includeChildSelections="false"/>
-            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="f8be-be40-53a4-2c37" includeChildSelections="false"/>
+            <constraint type="min" value="1" field="selections" scope="root-entry" shared="true" id="7871-4f05-2921-a675" includeChildSelections="false"/>
+            <constraint type="max" value="2" field="selections" scope="root-entry" shared="true" id="f8be-be40-53a4-2c37" includeChildSelections="false"/>
           </constraints>
           <modifiers>
             <modifier type="increment" value="1" field="7871-4f05-2921-a675">
@@ -4974,7 +4984,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
         </selectionEntry>
         <selectionEntry type="model" import="true" name="Stormfiends" hidden="false" id="fa0d-cd26-d420-55a7" collective="true">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Options" hidden="false" id="c21b-7c56-169d-cf0b">
+            <selectionEntry type="upgrade" import="true" name="Wargear Options" hidden="false" id="c21b-7c56-169d-cf0b">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="01c1-59a3-6723-5c2e" includeChildSelections="false"/>
                 <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="d650-01e6-66fe-438e" includeChildSelections="false"/>
@@ -4983,99 +4993,135 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
                 <selectionEntry type="upgrade" import="true" name="Warpfire Projectors and Clubbing Blows" hidden="false" id="214a-d373-0a8b-9385" collective="true">
                   <infoLinks>
                     <infoLink name="Sweep of Flames" id="9ddd-540b-72ea-6e88" hidden="false" type="profile" targetId="43f4-3437-7eef-8109"/>
-                    <infoLink name="Hazardous" id="82d5-bca0-d7e5-027d" hidden="false" type="rule" targetId="8367-374c-f87-c627"/>
-                    <infoLink name="Pistol" id="9e5a-e7a5-3fbc-111a" hidden="false" type="rule" targetId="8bf7-8812-923d-29e4"/>
-                    <infoLink name="Torrent" id="25f6-6682-9c89-5374" hidden="false" type="rule" targetId="5edf-d619-23e0-9b56"/>
                   </infoLinks>
-                  <profiles>
-                    <profile name="Clubbing Blows" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="db68-bded-b2bb-c5d4">
-                      <characteristics>
-                        <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
-                        <characteristic name="A" typeId="2337-daa1-6682-b110">3</characteristic>
-                        <characteristic name="WS" typeId="95d1-95f-45b4-11d6">4+</characteristic>
-                        <characteristic name="S" typeId="ab33-d393-96ce-ccba">12</characteristic>
-                        <characteristic name="AP" typeId="41a0-1301-112a-e2f2">0</characteristic>
-                        <characteristic name="D" typeId="3254-9fe6-d824-513e">2</characteristic>
-                        <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
-                      </characteristics>
-                    </profile>
-                    <profile name="Warpfire Projectors" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="15dd-12b6-66bd-1d1d">
-                      <characteristics>
-                        <characteristic name="Range" typeId="9896-9419-16a1-92fc">10&quot;</characteristic>
-                        <characteristic name="A" typeId="3bb-c35f-f54-fb08">2D6</characteristic>
-                        <characteristic name="BS" typeId="94d-8a98-cf90-183e">-</characteristic>
-                        <characteristic name="S" typeId="2229-f494-25db-c5d3">7</characteristic>
-                        <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
-                        <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
-                        <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Pistol, Torrent</characteristic>
-                      </characteristics>
-                    </profile>
-                    <profile name="Warpfire Projectors - Overcharged" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="3ec9-de93-f36a-5820">
-                      <characteristics>
-                        <characteristic name="Range" typeId="9896-9419-16a1-92fc">10&quot;</characteristic>
-                        <characteristic name="A" typeId="3bb-c35f-f54-fb08">2D6</characteristic>
-                        <characteristic name="BS" typeId="94d-8a98-cf90-183e">-</characteristic>
-                        <characteristic name="S" typeId="2229-f494-25db-c5d3">8</characteristic>
-                        <characteristic name="AP" typeId="9ead-8a10-520-de15">-3</characteristic>
-                        <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
-                        <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Hazardous, Pistol, Torrent</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Clubbing Blows" hidden="false" id="d909-41ba-ed41-524a">
+                      <profiles>
+                        <profile name="Clubbing Blows" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="e48b-1d6c-8ace-9e68">
+                          <characteristics>
+                            <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                            <characteristic name="A" typeId="2337-daa1-6682-b110">3</characteristic>
+                            <characteristic name="WS" typeId="95d1-95f-45b4-11d6">4+</characteristic>
+                            <characteristic name="S" typeId="ab33-d393-96ce-ccba">12</characteristic>
+                            <characteristic name="AP" typeId="41a0-1301-112a-e2f2">0</characteristic>
+                            <characteristic name="D" typeId="3254-9fe6-d824-513e">2</characteristic>
+                            <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <constraints>
+                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1901-f4d3-a6a7-ec2f"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9cd0-ceb3-0522-8824"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Warpfire Projectors" hidden="false" id="3959-f749-92ae-a03a">
+                      <constraints>
+                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8ba4-0494-0cac-002d"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d8fb-641a-998d-83da"/>
+                      </constraints>
+                      <profiles>
+                        <profile name="Warpfire Projectors" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="15dd-12b6-66bd-1d1d">
+                          <characteristics>
+                            <characteristic name="Range" typeId="9896-9419-16a1-92fc">10&quot;</characteristic>
+                            <characteristic name="A" typeId="3bb-c35f-f54-fb08">2D6</characteristic>
+                            <characteristic name="BS" typeId="94d-8a98-cf90-183e">-</characteristic>
+                            <characteristic name="S" typeId="2229-f494-25db-c5d3">7</characteristic>
+                            <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
+                            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Pistol, Torrent</characteristic>
+                          </characteristics>
+                        </profile>
+                        <profile name="Warpfire Projectors - Overcharged" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="3ec9-de93-f36a-5820">
+                          <characteristics>
+                            <characteristic name="Range" typeId="9896-9419-16a1-92fc">10&quot;</characteristic>
+                            <characteristic name="A" typeId="3bb-c35f-f54-fb08">2D6</characteristic>
+                            <characteristic name="BS" typeId="94d-8a98-cf90-183e">-</characteristic>
+                            <characteristic name="S" typeId="2229-f494-25db-c5d3">8</characteristic>
+                            <characteristic name="AP" typeId="9ead-8a10-520-de15">-3</characteristic>
+                            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
+                            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Hazardous, Pistol, Torrent</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <infoLinks>
+                        <infoLink name="Hazardous" id="82d5-bca0-d7e5-027d" hidden="false" type="rule" targetId="8367-374c-f87-c627"/>
+                        <infoLink name="Pistol" id="9e5a-e7a5-3fbc-111a" hidden="false" type="rule" targetId="8bf7-8812-923d-29e4"/>
+                        <infoLink name="Torrent" id="25f6-6682-9c89-5374" hidden="false" type="rule" targetId="5edf-d619-23e0-9b56"/>
+                      </infoLinks>
+                    </selectionEntry>
+                  </selectionEntries>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Windlaunchers and Clubbing Blows" hidden="false" id="8f36-77ca-af92-34fa" collective="true">
-                  <infoLinks>
-                    <infoLink name="Anti-" id="217a-2b63-6e31-5cd7" hidden="false" type="rule" targetId="4111-82e3-9444-e942"/>
-                    <infoLink name="Devastating Wounds" id="ed21-3df6-8b9a-036f" hidden="false" type="rule" targetId="be1e-ac8e-1e2c-3528"/>
-                    <infoLink name="Hazardous" id="422f-00cc-5253-1296" hidden="false" type="rule" targetId="8367-374c-f87-c627"/>
-                  </infoLinks>
                   <profiles>
                     <profile name="Get Swept-Blown Away!" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="afb8-6022-66d3-1b4d">
                       <characteristics>
                         <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If a model with **Windlaunchers** hits an enemy target, after all damage has resolved, move the target X&quot; away where X is equal to the amount of hits.</characteristic>
                       </characteristics>
                     </profile>
-                    <profile name="Clubbing Blows" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="aaff-3582-bfb7-f5b3">
-                      <characteristics>
-                        <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
-                        <characteristic name="A" typeId="2337-daa1-6682-b110">3</characteristic>
-                        <characteristic name="WS" typeId="95d1-95f-45b4-11d6">4+</characteristic>
-                        <characteristic name="S" typeId="ab33-d393-96ce-ccba">12</characteristic>
-                        <characteristic name="AP" typeId="41a0-1301-112a-e2f2">0</characteristic>
-                        <characteristic name="D" typeId="3254-9fe6-d824-513e">2</characteristic>
-                        <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
-                      </characteristics>
-                    </profile>
-                    <profile name="Windlaunchers" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="951d-b8b9-e71e-26c8">
-                      <characteristics>
-                        <characteristic name="Range" typeId="9896-9419-16a1-92fc">15&quot;</characteristic>
-                        <characteristic name="A" typeId="3bb-c35f-f54-fb08">3</characteristic>
-                        <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
-                        <characteristic name="S" typeId="2229-f494-25db-c5d3">8</characteristic>
-                        <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
-                        <characteristic name="D" typeId="a354-c1c8-a745-f9e3">D3</characteristic>
-                        <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-Infantry 3+, Devastating Wounds</characteristic>
-                      </characteristics>
-                    </profile>
-                    <profile name="Windlaunchers - Overcharged" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="55ed-778a-95d8-6b2c">
-                      <characteristics>
-                        <characteristic name="Range" typeId="9896-9419-16a1-92fc">15&quot;</characteristic>
-                        <characteristic name="A" typeId="3bb-c35f-f54-fb08">3</characteristic>
-                        <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
-                        <characteristic name="S" typeId="2229-f494-25db-c5d3">9</characteristic>
-                        <characteristic name="AP" typeId="9ead-8a10-520-de15">-3</characteristic>
-                        <characteristic name="D" typeId="a354-c1c8-a745-f9e3">3</characteristic>
-                        <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-Infantry 3+, Devastating Wounds, Hazardous</characteristic>
-                      </characteristics>
-                    </profile>
                   </profiles>
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Clubbing Blows" hidden="false" id="f2a1-19fa-8e8a-2bd5">
+                      <profiles>
+                        <profile name="Clubbing Blows" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="38b5-4985-46ba-81f9">
+                          <characteristics>
+                            <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                            <characteristic name="A" typeId="2337-daa1-6682-b110">3</characteristic>
+                            <characteristic name="WS" typeId="95d1-95f-45b4-11d6">4+</characteristic>
+                            <characteristic name="S" typeId="ab33-d393-96ce-ccba">12</characteristic>
+                            <characteristic name="AP" typeId="41a0-1301-112a-e2f2">0</characteristic>
+                            <characteristic name="D" typeId="3254-9fe6-d824-513e">2</characteristic>
+                            <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <constraints>
+                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="bc9a-9c25-c6e3-4315"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b5fe-0444-4831-b869"/>
+                      </constraints>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Windlaunchers" hidden="false" id="941c-a9f7-bd7c-53dd">
+                      <profiles>
+                        <profile name="Windlaunchers" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="951d-b8b9-e71e-26c8">
+                          <characteristics>
+                            <characteristic name="Range" typeId="9896-9419-16a1-92fc">15&quot;</characteristic>
+                            <characteristic name="A" typeId="3bb-c35f-f54-fb08">3</characteristic>
+                            <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
+                            <characteristic name="S" typeId="2229-f494-25db-c5d3">8</characteristic>
+                            <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
+                            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">D3</characteristic>
+                            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-Infantry 3+, Devastating Wounds</characteristic>
+                          </characteristics>
+                        </profile>
+                        <profile name="Windlaunchers - Overcharged" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="55ed-778a-95d8-6b2c">
+                          <characteristics>
+                            <characteristic name="Range" typeId="9896-9419-16a1-92fc">15&quot;</characteristic>
+                            <characteristic name="A" typeId="3bb-c35f-f54-fb08">3</characteristic>
+                            <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
+                            <characteristic name="S" typeId="2229-f494-25db-c5d3">9</characteristic>
+                            <characteristic name="AP" typeId="9ead-8a10-520-de15">-3</characteristic>
+                            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">3</characteristic>
+                            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-Infantry 3+, Devastating Wounds, Hazardous</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <infoLinks>
+                        <infoLink name="Anti-" id="217a-2b63-6e31-5cd7" hidden="false" type="rule" targetId="4111-82e3-9444-e942"/>
+                        <infoLink name="Devastating Wounds" id="ed21-3df6-8b9a-036f" hidden="false" type="rule" targetId="be1e-ac8e-1e2c-3528"/>
+                        <infoLink name="Hazardous" id="422f-00cc-5253-1296" hidden="false" type="rule" targetId="8367-374c-f87-c627"/>
+                      </infoLinks>
+                      <constraints>
+                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="524a-5b65-129e-55d2"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="13af-61b9-16b8-2b15"/>
+                      </constraints>
+                    </selectionEntry>
+                  </selectionEntries>
                 </selectionEntry>
               </selectionEntries>
             </selectionEntry>
           </selectionEntries>
           <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2bdb-9d12-a5d2-b11e" includeChildSelections="false"/>
-            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="f446-b83a-b11c-78db" includeChildSelections="false"/>
+            <constraint type="min" value="1" field="selections" scope="root-entry" shared="true" id="2bdb-9d12-a5d2-b11e" includeChildSelections="false"/>
+            <constraint type="max" value="2" field="selections" scope="root-entry" shared="true" id="f446-b83a-b11c-78db" includeChildSelections="false"/>
           </constraints>
           <modifiers>
             <modifier type="increment" value="1" field="2bdb-9d12-a5d2-b11e">
