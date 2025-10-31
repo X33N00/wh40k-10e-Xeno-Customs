@@ -4923,7 +4923,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Clubbing Blows" hidden="false" id="6672-e308-d0a7-f73a" collective="true">
                   <constraints>
-                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0016-70e7-9a2f-e4f3" includeChildSelections="false"/>
+                    <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="0016-70e7-9a2f-e4f3" includeChildSelections="false"/>
                     <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="6545-1ce9-ccdf-a2a1" includeChildSelections="false"/>
                   </constraints>
                   <profiles>
@@ -4942,7 +4942,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Grinderfists" hidden="false" id="47cf-31fa-3ae1-359e" collective="true">
                   <constraints>
-                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b673-5e7f-1fc8-5111" includeChildSelections="false"/>
+                    <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="b673-5e7f-1fc8-5111" includeChildSelections="false"/>
                     <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="e24b-6778-b542-64a5" includeChildSelections="false"/>
                   </constraints>
                   <infoLinks>
@@ -4964,7 +4964,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Ratling Cannons" hidden="false" id="213a-34c7-c3e3-2f7a" collective="true">
                   <constraints>
-                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="558a-0e0e-7588-a37f" includeChildSelections="false"/>
+                    <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="558a-0e0e-7588-a37f" includeChildSelections="false"/>
                     <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="5efb-5cdc-6e65-561b" includeChildSelections="false"/>
                   </constraints>
                   <infoLinks>
@@ -4999,7 +4999,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Warpfire Projectors" hidden="false" id="aaae-2bd6-a1c4-7bfe" collective="true">
                   <constraints>
-                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9103-b630-7b03-6f24" includeChildSelections="false"/>
+                    <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="9103-b630-7b03-6f24" includeChildSelections="false"/>
                     <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="3426-40be-e1d5-58df" includeChildSelections="false"/>
                   </constraints>
                   <infoLinks>
@@ -5034,7 +5034,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Windlaunchers" hidden="false" id="6693-44be-6f07-c962" collective="true">
                   <constraints>
-                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f80d-910c-9be4-7a8a" includeChildSelections="false"/>
+                    <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="f80d-910c-9be4-7a8a" includeChildSelections="false"/>
                     <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="5c13-ab12-6583-804f" includeChildSelections="false"/>
                   </constraints>
                   <infoLinks>
@@ -5069,7 +5069,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Doomflayer Gauntlets" hidden="false" id="566e-74b6-5b92-7c92" collective="true">
                   <constraints>
-                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d1e4-5dcd-d8d0-4f1c" includeChildSelections="false"/>
+                    <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="d1e4-5dcd-d8d0-4f1c" includeChildSelections="false"/>
                     <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="079b-be16-3862-c151" includeChildSelections="false"/>
                   </constraints>
                   <profiles>
@@ -5091,7 +5091,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Shock Gauntlets" hidden="false" id="cba0-93ed-80c4-0901" collective="true">
                   <constraints>
-                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="956d-4cb9-257d-804d" includeChildSelections="false"/>
+                    <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="956d-4cb9-257d-804d" includeChildSelections="false"/>
                     <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="fcbb-a1eb-7426-56ed" includeChildSelections="false"/>
                   </constraints>
                   <profiles>
@@ -5115,8 +5115,8 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
             </selectionEntry>
           </selectionEntries>
           <constraints>
-            <constraint type="min" value="3" field="selections" scope="parent" shared="true" id="6631-62be-a534-0541" includeChildSelections="false"/>
-            <constraint type="max" value="6" field="selections" scope="parent" shared="true" id="b246-813f-a695-baa3" includeChildSelections="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6631-62be-a534-0541" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b246-813f-a695-baa3" includeChildSelections="false"/>
           </constraints>
         </selectionEntry>
       </selectionEntries>
