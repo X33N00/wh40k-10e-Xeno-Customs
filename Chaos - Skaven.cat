@@ -883,6 +883,10 @@
               </constraints>
             </selectionEntry>
           </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="cbbe-e1e6-6ea3-31c9"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3d00-880d-ef10-8970"/>
+          </constraints>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Clanrats Musician" hidden="false" id="ab0e-7798-0414-8b42">
           <selectionEntries>
@@ -916,6 +920,10 @@
               </characteristics>
             </profile>
           </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f9aa-cd4b-e0c2-9aa0"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="37ef-f694-6c2c-4712"/>
+          </constraints>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Clanrats Standard Bearer" hidden="false" id="2cb9-62c5-1ca1-229a">
           <selectionEntries>
@@ -949,6 +957,10 @@
               </characteristics>
             </profile>
           </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="52b9-1bb4-ac32-71c6"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7f15-56fc-b3c9-b2e7"/>
+          </constraints>
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
@@ -1037,6 +1049,10 @@
               </characteristics>
             </profile>
           </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b60c-9824-64e7-944e"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="853e-166b-0a75-4219"/>
+          </constraints>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Plague Monks Champion" hidden="false" id="347a-8f18-a972-b7b5">
           <selectionEntries>
@@ -1063,6 +1079,10 @@
               </infoLinks>
             </selectionEntry>
           </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ea22-ca71-898d-92fa"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="96f3-43fc-f37d-7d1c"/>
+          </constraints>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Plague Monks Standard Bearer" hidden="false" id="862c-a4c4-6c67-3ca2">
           <selectionEntries>
@@ -1096,6 +1116,10 @@
               </characteristics>
             </profile>
           </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1fd0-879c-39bd-9bef"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="935d-3b7d-9984-5936"/>
+          </constraints>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Plague Monks" hidden="false" id="7421-e807-77c8-2643">
           <selectionEntries>
@@ -3644,7 +3668,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
       <modifiers>
         <modifier type="set" value="120" field="51b2-306e-1021-d207">
           <conditions>
-            <condition type="greaterThan" value="5" field="selections" scope="a107-dc0f-4fdf-4a08" childId="model" shared="true" includeChildSelections="false"/>
+            <condition type="greaterThan" value="5" field="selections" scope="a107-dc0f-4fdf-4a08" childId="model" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -3806,6 +3830,10 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
               </infoLinks>
             </selectionEntry>
           </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7cf6-40fa-d2e4-9fbe"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7905-f2d5-e1fc-f1f7"/>
+          </constraints>
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
@@ -3982,6 +4010,10 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
               </profiles>
             </selectionEntry>
           </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="73d3-06d1-ec09-7110"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c208-ac47-ccc9-2ed5"/>
+          </constraints>
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
@@ -4169,6 +4201,10 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
               </characteristics>
             </profile>
           </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="14c3-6b98-020f-ee57"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4a4f-1b79-7c30-260a"/>
+          </constraints>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Stormvermin Champion" hidden="false" id="2f37-fc33-955a-e993">
           <selectionEntries>
@@ -4195,6 +4231,12 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
               </profiles>
             </selectionEntry>
           </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="11ce-7638-984b-0454"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9fc2-d091-0f1c-4c2e"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="af19-1c69-afe8-d6de"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3eae-33d3-0578-2d16"/>
+          </constraints>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Stormvermin" hidden="false" id="0ee7-7306-2ff9-1e73">
           <selectionEntries>
@@ -4258,6 +4300,10 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
               </characteristics>
             </profile>
           </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="cfa6-244b-370e-949f"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0335-cfae-cac0-c99c"/>
+          </constraints>
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
@@ -4500,6 +4546,10 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
               </profiles>
             </selectionEntry>
           </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="02f1-f037-7edb-c3fb"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="626a-b234-0b89-352c"/>
+          </constraints>
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
@@ -4541,7 +4591,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
         <categoryLink targetId="7dd2-676a-51da-fba1" id="362b-a901-c644-34b1" primary="false" name="Warp Lightning Vortex"/>
       </categoryLinks>
       <constraints>
-        <constraint type="max" value="0" field="selections" scope="force" shared="true" id="3754-263e-0207-9459" includeChildSelections="true"/>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="3754-263e-0207-9459" includeChildSelections="true"/>
       </constraints>
       <infoLinks>
         <infoLink name="Great Vermintide" id="40da-6f0c-c2af-8e9d" hidden="false" type="rule" targetId="fb49-cf71-d602-5614"/>
