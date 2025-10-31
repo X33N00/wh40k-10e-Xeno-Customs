@@ -3668,133 +3668,6 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry type="unit" name="Vizzik Skour, Prophet of the Horned Rat" hidden="false" id="6a12-807e-5ae8-18cb">
-      <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="225"/>
-        <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
-        <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
-        <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
-        <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
-        <cost name="Blackstone Fragments" typeId="ac6b-ced3-9b5e-9a6e" value="0"/>
-      </costs>
-      <categoryLinks>
-        <categoryLink targetId="9cfd-1c32-585f-7d5c" id="9619-8d67-73b1-5af4" primary="false" name="Character"/>
-        <categoryLink targetId="4f3a-f0f7-6647-348d" id="fff1-763f-3a7b-e0cb" primary="true" name="Epic Hero"/>
-        <categoryLink targetId="9693-cf84-fe69-37a9" id="e57e-2fa6-261e-9aa7" primary="false" name="Monster"/>
-        <categoryLink targetId="4c00-2578-faf5-6918" id="48b4-7b3a-94e2-ac53" primary="false" name="Chaos"/>
-        <categoryLink targetId="9c0e-7e25-4580-e439" id="7feb-fe01-647d-7e65" primary="false" name="Daemon"/>
-        <categoryLink targetId="5004-405c-0631-27da" id="73cf-7e0c-7b25-5f0c" primary="false" name="Masterclan"/>
-        <categoryLink targetId="13bf-2bee-3ae0-b414" id="d351-e3ae-9549-00bf" primary="false" name="Psyker"/>
-        <categoryLink targetId="67bd-2342-cca1-349c" id="f8f2-a2e7-50c8-6624" primary="false" name="Vizzik Skour, Prophet of the Horned Rat"/>
-        <categoryLink targetId="e1e8-5b24-6211-117f" id="a833-b39d-3330-fbdc" primary="false" name="Faction: Skaven"/>
-      </categoryLinks>
-      <entryLinks>
-        <entryLink import="true" name="Warlord" hidden="false" id="00a8-f645-bfcb-d4db" type="selectionEntry" targetId="fd0b-986d-d500-26a3"/>
-      </entryLinks>
-      <constraints>
-        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="8002-aca5-ce81-841f" includeChildSelections="true" includeChildForces="true"/>
-      </constraints>
-      <infoLinks>
-        <infoLink name="Great Vermintide" id="b60d-d248-55d9-7fd3" hidden="false" type="rule" targetId="fb49-cf71-d602-5614"/>
-        <infoLink name="Feel No Pain" id="4070-3b83-41dd-9983" hidden="false" type="rule" targetId="9bf4-280f-bbe2-6fbb"/>
-        <infoLink name="Lone Operative" id="804d-0fc5-161f-35cf" hidden="false" type="rule" targetId="a8a0-8fe7-898-e0f3"/>
-      </infoLinks>
-      <profiles>
-        <profile name="Vizzik Skour, Prophet of the Horned Rat" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="9f15-6649-cd05-e6be">
-          <characteristics>
-            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">10&quot;</characteristic>
-            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">10</characteristic>
-            <characteristic name="SV" typeId="450-a17e-9d5e-29da">5+</characteristic>
-            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">15</characteristic>
-            <characteristic name="LD" typeId="58d2-b879-49c7-43bc">5+</characteristic>
-            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">5</characteristic>
-          </characteristics>
-        </profile>
-        <profile name="Prophet of the Horned Rat" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="608c-4876-982a-5e0b">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">During your command phase, make one of the following predictions for this round:
-
-- **Filled With Cheese Holes**: Pick a friendly SKAVEN unit, if its ranged weapons bring an enemy unit below half-strength this round, its ranged weapons gain +1 damage for the rest of the battle.
-- **Vermin Swarm**: Pick 3 friendly SKAVEN units, if they successfully charge the same target, they gain 2&quot; to charge rolls for the rest of the battle.
-- **Ripped in Twain**: Pick a friendly SKAVEN unit, if its melee weapons bring an enemy unit below half-strength this round, its melee weapons gain +1 damage for the rest of the battle.</characteristic>
-          </characteristics>
-        </profile>
-        <profile name="Fissures In Reality" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2fea-48eb-82ee-53fb">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When this unit is in combat and has fought, the unit(s) it has fought against must take a Battle-Shock test, if they fail, they also take D3 mortal wounds.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Vizzik Skour, Prophet of the Horned Rat" hidden="false" id="cf46-024e-11dd-105a">
-          <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Psychic Strike" hidden="false" id="4378-373c-5947-a15f">
-              <infoLinks>
-                <infoLink name="➤ Psychic Strike - Witchfire" id="99a0-f715-c096-6124" hidden="false" type="profile" targetId="d7d8-4fca-1a2d-898f"/>
-                <infoLink name="➤ Psychic Strike - Focused Witchfire" id="8a85-4c2e-5054-8991" hidden="false" type="profile" targetId="b015-3b14-1acd-636a"/>
-                <infoLink name="Psychic" id="7f14-c94a-4853-98a1" hidden="false" type="rule" targetId="e9c4-2bb8-12ee-cd1b"/>
-                <infoLink name="Blast" id="2f82-b0d3-f99d-545e" hidden="false" type="rule" targetId="6c1f-1cf7-ff25-c99e"/>
-                <infoLink name="Hazardous" id="fbfd-66b6-b445-c292" hidden="false" type="rule" targetId="8367-374c-f87-c627"/>
-                <infoLink name="Devastating Wounds" id="35ce-cf13-8aea-6fc1" hidden="false" type="rule" targetId="be1e-ac8e-1e2c-3528"/>
-              </infoLinks>
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8615-b9ca-0e75-fe5a"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="348e-433b-779a-c1e2"/>
-              </constraints>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Host of Vermin" hidden="false" id="9ffc-ca33-db40-86a5">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5bdb-219a-4c1d-7e1c" includeChildSelections="false"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dae9-6238-d4b0-f7c3" includeChildSelections="false"/>
-              </constraints>
-              <infoLinks>
-                <infoLink name="Lethal Hits" id="0722-6a56-1b07-8201" hidden="false" type="rule" targetId="d1d1-611e-5191-1095"/>
-              </infoLinks>
-              <profiles>
-                <profile name="Host of Vermin" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="d025-9875-7cd7-a18b">
-                  <characteristics>
-                    <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
-                    <characteristic name="A" typeId="2337-daa1-6682-b110">10</characteristic>
-                    <characteristic name="WS" typeId="95d1-95f-45b4-11d6">5+</characteristic>
-                    <characteristic name="S" typeId="ab33-d393-96ce-ccba">4</characteristic>
-                    <characteristic name="AP" typeId="41a0-1301-112a-e2f2">0</characteristic>
-                    <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
-                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Lethal Hits</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Unholy Gnawstaff" hidden="false" id="f0ae-e45d-c2e2-0d3e">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b705-eb8c-921b-df36" includeChildSelections="false"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5391-4627-b4b3-5da9" includeChildSelections="false"/>
-              </constraints>
-              <infoLinks>
-                <infoLink name="Psychic" id="2aa8-b2d5-6534-ee28" hidden="false" type="rule" targetId="e9c4-2bb8-12ee-cd1b"/>
-                <infoLink name="Devastating Wounds" id="6ab6-8ad8-cf68-3ff3" hidden="false" type="rule" targetId="be1e-ac8e-1e2c-3528"/>
-              </infoLinks>
-              <profiles>
-                <profile name="Unholy Gnawstaff" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="0378-c7f7-cc58-949d">
-                  <characteristics>
-                    <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
-                    <characteristic name="A" typeId="2337-daa1-6682-b110">6</characteristic>
-                    <characteristic name="WS" typeId="95d1-95f-45b4-11d6">4+</characteristic>
-                    <characteristic name="S" typeId="ab33-d393-96ce-ccba">10</characteristic>
-                    <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-1</characteristic>
-                    <characteristic name="D" typeId="3254-9fe6-d824-513e">D6</characteristic>
-                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Devastating Wounds, Psychic</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-            </selectionEntry>
-          </selectionEntries>
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b0ac-eae5-2e1b-3e24" includeChildSelections="false"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e112-accc-0e3a-2940" includeChildSelections="false"/>
-          </constraints>
-        </selectionEntry>
-      </selectionEntries>
-    </selectionEntry>
     <selectionEntry type="unit" import="true" name="Warp-Grinder" hidden="false" id="ca8f-ac46-2ebe-8c60">
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="75"/>
@@ -5721,95 +5594,6 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Plagueclaw" hidden="false" id="6b29-0d1d-1458-21a5">
-      <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="165"/>
-        <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
-        <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
-        <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
-        <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
-        <cost name="Blackstone Fragments" typeId="ac6b-ced3-9b5e-9a6e" value="0"/>
-      </costs>
-      <categoryLinks>
-        <categoryLink targetId="8cab-448d-37b7-32bc" id="ed92-b1ad-ac68-1724" primary="false" name="Artillery"/>
-        <categoryLink targetId="dbd4-63-af05-998" id="736d-8fe4-36b3-e453" primary="true" name="Vehicle"/>
-        <categoryLink targetId="4c00-2578-faf5-6918" id="d005-474d-e342-c2bd" primary="false" name="Chaos"/>
-        <categoryLink targetId="ce38-8d0a-f198-944e" id="b549-0800-9cb5-7583" primary="false" name="Pestilens"/>
-        <categoryLink targetId="0613-1c32-e59f-42fc" id="916e-db9d-3df0-3e69" primary="false" name="Plagueclaw"/>
-        <categoryLink targetId="e1e8-5b24-6211-117f" id="21c2-290a-3c46-5f4f" primary="false" name="Faction: Skaven"/>
-      </categoryLinks>
-      <constraints>
-        <constraint type="max" value="3" field="selections" scope="force" shared="true" id="8022-2707-8ef5-b355" includeChildSelections="true"/>
-      </constraints>
-      <infoLinks>
-        <infoLink name="Great Vermintide" id="9b91-3669-76c0-9568" hidden="false" type="rule" targetId="fb49-cf71-d602-5614"/>
-        <infoLink name="Deadly Demise" id="89fa-5f92-ea67-76ef" hidden="false" type="rule" targetId="b68a-5ded-65ac-98c">
-          <modifiers>
-            <modifier type="append" value="D3" field="name"/>
-          </modifiers>
-        </infoLink>
-      </infoLinks>
-      <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Plagueclaw" hidden="false" id="85f0-96e6-3908-9d30">
-          <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Crew’s Teeth and Knives" hidden="false" id="c13c-25d2-7fdb-1c71">
-              <infoLinks>
-                <infoLink name="Crew&apos;s Teeth and Knives" id="de7d-b30d-929d-23e0" hidden="false" type="profile" targetId="0633-e81c-6c4b-0e4e"/>
-              </infoLinks>
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="93dc-6e3a-4619-2374"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c556-f35c-1c83-7b08"/>
-              </constraints>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Plagueclaw Catapult" hidden="false" id="fa1c-78b1-8296-5bf3">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7c23-9635-ecca-9cc9" includeChildSelections="false"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2a93-0a24-9886-44f8" includeChildSelections="false"/>
-              </constraints>
-              <profiles>
-                <profile name="Plagueclaw Catapult" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="39f4-e16e-68c5-4b1c">
-                  <characteristics>
-                    <characteristic name="Range" typeId="914c-b413-91e3-a132">24&quot;</characteristic>
-                    <characteristic name="A" typeId="2337-daa1-6682-b110">2</characteristic>
-                    <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
-                    <characteristic name="S" typeId="ab33-d393-96ce-ccba">10</characteristic>
-                    <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-1</characteristic>
-                    <characteristic name="D" typeId="3254-9fe6-d824-513e">D6</characteristic>
-                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Anti-Infantry 3+, Heavy, Indirect Fire</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <infoLinks>
-                <infoLink name="Indirect Fire" id="f4b7-cda6-a4e1-ceba" hidden="false" type="rule" targetId="4ddd-4e29-acdd-5e6d"/>
-                <infoLink name="Anti-" id="de27-f947-4bfd-920f" hidden="false" type="rule" targetId="4111-82e3-9444-e942"/>
-                <infoLink name="Heavy" id="543b-53af-4242-dde3" hidden="false" type="rule" targetId="1202-10a8-78e9-4c67"/>
-              </infoLinks>
-            </selectionEntry>
-          </selectionEntries>
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e050-10ed-6563-6b74" includeChildSelections="false"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3a58-f2ea-6eb0-83d1" includeChildSelections="false"/>
-          </constraints>
-        </selectionEntry>
-      </selectionEntries>
-      <profiles>
-        <profile name="Plagueclaw" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="406c-e54c-e6b9-6633">
-          <characteristics>
-            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">3&quot;</characteristic>
-            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">8</characteristic>
-            <characteristic name="SV" typeId="450-a17e-9d5e-29da">4+</characteristic>
-            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">8</characteristic>
-            <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
-            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">2</characteristic>
-          </characteristics>
-        </profile>
-        <profile name="Bubonic Barrage" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2f94-0772-e6fe-7486">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this unit uses a Shoot ability, if all of its attacks targeted the same enemy unit, after that ability has been resolved, roll a dice. If the result is equal to or less than the number of models in that enemy unit that were slain by attacks made by this unit’s **Plagueclaw Catapult** this phase, that enemy unit has **Fight Last** for the rest of the turn.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-    </selectionEntry>
     <selectionEntry type="model" import="true" name="Warp Lightning Cannon" hidden="false" id="7bd7-176d-1bbb-75c0">
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="200"/>
@@ -6273,6 +6057,222 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
       <constraints>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ea8c-062c-8d19-39d6"/>
       </constraints>
+    </selectionEntry>
+    <selectionEntry type="unit" name="Vizzik Skour, Prophet of the Horned Rat" hidden="false" id="722b-6213-f5f7-4b6e">
+      <costs>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="225"/>
+        <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+        <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+        <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+        <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+        <cost name="Blackstone Fragments" typeId="ac6b-ced3-9b5e-9a6e" value="0"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="9cfd-1c32-585f-7d5c" id="704e-206c-7f6a-7921" primary="false" name="Character"/>
+        <categoryLink targetId="4f3a-f0f7-6647-348d" id="0359-b69f-47fe-4671" primary="true" name="Epic Hero"/>
+        <categoryLink targetId="9693-cf84-fe69-37a9" id="13e3-8ff1-5003-0723" primary="false" name="Monster"/>
+        <categoryLink targetId="4c00-2578-faf5-6918" id="5434-b247-519a-65a3" primary="false" name="Chaos"/>
+        <categoryLink targetId="9c0e-7e25-4580-e439" id="d27e-aa69-3c25-a3a5" primary="false" name="Daemon"/>
+        <categoryLink targetId="5004-405c-0631-27da" id="d665-0327-557c-9617" primary="false" name="Masterclan"/>
+        <categoryLink targetId="13bf-2bee-3ae0-b414" id="6f74-9b53-e989-9e62" primary="false" name="Psyker"/>
+        <categoryLink targetId="67bd-2342-cca1-349c" id="60c6-d4ce-1520-10fd" primary="false" name="Vizzik Skour, Prophet of the Horned Rat"/>
+        <categoryLink targetId="e1e8-5b24-6211-117f" id="e64f-273e-53ec-7d3a" primary="false" name="Faction: Skaven"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="Warlord" hidden="false" id="4b4f-a409-bbca-f489" type="selectionEntry" targetId="fd0b-986d-d500-26a3"/>
+      </entryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="0821-5b9e-8aeb-6290" includeChildSelections="true" includeChildForces="true"/>
+      </constraints>
+      <infoLinks>
+        <infoLink name="Great Vermintide" id="259e-7571-9a20-57db" hidden="false" type="rule" targetId="fb49-cf71-d602-5614"/>
+        <infoLink name="Feel No Pain" id="4748-308e-aacb-dea9" hidden="false" type="rule" targetId="9bf4-280f-bbe2-6fbb"/>
+        <infoLink name="Lone Operative" id="f0d4-1b2b-21ce-5a04" hidden="false" type="rule" targetId="a8a0-8fe7-898-e0f3"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Vizzik Skour, Prophet of the Horned Rat" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="b304-dfcf-fd1b-9df7">
+          <characteristics>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">10&quot;</characteristic>
+            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">10</characteristic>
+            <characteristic name="SV" typeId="450-a17e-9d5e-29da">5+</characteristic>
+            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">15</characteristic>
+            <characteristic name="LD" typeId="58d2-b879-49c7-43bc">5+</characteristic>
+            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">5</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Prophet of the Horned Rat" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="364d-f5d6-9be7-d903">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">During your command phase, make one of the following predictions for this round:
+
+- **Filled With Cheese Holes**: Pick a friendly SKAVEN unit, if its ranged weapons bring an enemy unit below half-strength this round, its ranged weapons gain +1 damage for the rest of the battle.
+- **Vermin Swarm**: Pick 3 friendly SKAVEN units, if they successfully charge the same target, they gain 2&quot; to charge rolls for the rest of the battle.
+- **Ripped in Twain**: Pick a friendly SKAVEN unit, if its melee weapons bring an enemy unit below half-strength this round, its melee weapons gain +1 damage for the rest of the battle.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Fissures In Reality" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="98b6-c3fa-fe03-8d2b">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When this unit is in combat and has fought, the unit(s) it has fought against must take a Battle-Shock test, if they fail, they also take D3 mortal wounds.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Vizzik Skour, Prophet of the Horned Rat" hidden="false" id="9769-68bb-f0d0-6490">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Psychic Strike" hidden="false" id="d4cd-5449-b2df-96b2">
+              <infoLinks>
+                <infoLink name="➤ Psychic Strike - Witchfire" id="5a5b-75aa-d798-179c" hidden="false" type="profile" targetId="d7d8-4fca-1a2d-898f"/>
+                <infoLink name="➤ Psychic Strike - Focused Witchfire" id="f998-a996-04cd-ce38" hidden="false" type="profile" targetId="b015-3b14-1acd-636a"/>
+                <infoLink name="Psychic" id="bc95-cbd6-d095-9632" hidden="false" type="rule" targetId="e9c4-2bb8-12ee-cd1b"/>
+                <infoLink name="Blast" id="908f-c9af-8c20-165d" hidden="false" type="rule" targetId="6c1f-1cf7-ff25-c99e"/>
+                <infoLink name="Hazardous" id="6b92-2091-bea5-ba23" hidden="false" type="rule" targetId="8367-374c-f87-c627"/>
+                <infoLink name="Devastating Wounds" id="cb0c-601b-0c97-1d69" hidden="false" type="rule" targetId="be1e-ac8e-1e2c-3528"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7fcb-60cc-fcbf-ef67"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8e55-ba65-a193-0363"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Host of Vermin" hidden="false" id="10af-1ec7-960d-008d">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="dd21-fe76-3c54-371b" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6ccb-2cc3-0b9a-6739" includeChildSelections="false"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Lethal Hits" id="2a77-0f41-9737-a429" hidden="false" type="rule" targetId="d1d1-611e-5191-1095"/>
+              </infoLinks>
+              <profiles>
+                <profile name="Host of Vermin" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="8168-18a6-47e1-1ff8">
+                  <characteristics>
+                    <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                    <characteristic name="A" typeId="2337-daa1-6682-b110">10</characteristic>
+                    <characteristic name="WS" typeId="95d1-95f-45b4-11d6">5+</characteristic>
+                    <characteristic name="S" typeId="ab33-d393-96ce-ccba">4</characteristic>
+                    <characteristic name="AP" typeId="41a0-1301-112a-e2f2">0</characteristic>
+                    <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
+                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Lethal Hits</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Unholy Gnawstaff" hidden="false" id="0391-c112-ee6e-778a">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e7e8-add2-c71f-5f4c" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0910-7a5c-6041-35a4" includeChildSelections="false"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Psychic" id="f52f-adc6-52e5-2a8d" hidden="false" type="rule" targetId="e9c4-2bb8-12ee-cd1b"/>
+                <infoLink name="Devastating Wounds" id="baa7-f2ee-ee51-0e36" hidden="false" type="rule" targetId="be1e-ac8e-1e2c-3528"/>
+              </infoLinks>
+              <profiles>
+                <profile name="Unholy Gnawstaff" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="f94c-f2b3-dc5e-675d">
+                  <characteristics>
+                    <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                    <characteristic name="A" typeId="2337-daa1-6682-b110">6</characteristic>
+                    <characteristic name="WS" typeId="95d1-95f-45b4-11d6">4+</characteristic>
+                    <characteristic name="S" typeId="ab33-d393-96ce-ccba">10</characteristic>
+                    <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-1</characteristic>
+                    <characteristic name="D" typeId="3254-9fe6-d824-513e">D6</characteristic>
+                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Devastating Wounds, Psychic</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f511-a653-19ff-4f2b" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="49ea-6b10-b02e-c60c" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Plagueclaw" hidden="false" id="965f-1890-a4b7-3e7f">
+      <costs>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="165"/>
+        <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+        <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+        <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+        <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+        <cost name="Blackstone Fragments" typeId="ac6b-ced3-9b5e-9a6e" value="0"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="8cab-448d-37b7-32bc" id="1d95-ebf4-8172-06d4" primary="false" name="Artillery"/>
+        <categoryLink targetId="dbd4-63-af05-998" id="b9a0-f239-b2e0-161b" primary="true" name="Vehicle"/>
+        <categoryLink targetId="4c00-2578-faf5-6918" id="83dc-7d70-1506-bfda" primary="false" name="Chaos"/>
+        <categoryLink targetId="ce38-8d0a-f198-944e" id="446e-bd1b-9ee8-d3c6" primary="false" name="Pestilens"/>
+        <categoryLink targetId="0613-1c32-e59f-42fc" id="bf8e-c2a5-16f1-9402" primary="false" name="Plagueclaw"/>
+        <categoryLink targetId="e1e8-5b24-6211-117f" id="5bb2-a769-6702-7857" primary="false" name="Faction: Skaven"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="3" field="selections" scope="force" shared="true" id="8e5d-f4d6-6fc1-f8d2" includeChildSelections="true"/>
+      </constraints>
+      <infoLinks>
+        <infoLink name="Great Vermintide" id="b1e5-b95a-8466-ae0e" hidden="false" type="rule" targetId="fb49-cf71-d602-5614"/>
+        <infoLink name="Deadly Demise" id="3029-21b9-e7cd-f1a3" hidden="false" type="rule" targetId="b68a-5ded-65ac-98c">
+          <modifiers>
+            <modifier type="append" value="D3" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Plagueclaw" hidden="false" id="cc57-3fd9-4ea4-fa5b">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Crew’s Teeth and Knives" hidden="false" id="3f05-6732-29ba-7101">
+              <infoLinks>
+                <infoLink name="Crew&apos;s Teeth and Knives" id="be83-763a-cdcd-3a8d" hidden="false" type="profile" targetId="0633-e81c-6c4b-0e4e"/>
+              </infoLinks>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="41a3-5472-de0e-289a"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3e82-7581-49f8-ffd1"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Plagueclaw Catapult" hidden="false" id="9d9a-9300-5b9d-6024">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="03d0-008d-65c8-04c5" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3328-7137-33cb-9d62" includeChildSelections="false"/>
+              </constraints>
+              <profiles>
+                <profile name="Plagueclaw Catapult" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="a8d5-3a33-e955-df03">
+                  <characteristics>
+                    <characteristic name="Range" typeId="914c-b413-91e3-a132">24&quot;</characteristic>
+                    <characteristic name="A" typeId="2337-daa1-6682-b110">2</characteristic>
+                    <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
+                    <characteristic name="S" typeId="ab33-d393-96ce-ccba">10</characteristic>
+                    <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-1</characteristic>
+                    <characteristic name="D" typeId="3254-9fe6-d824-513e">D6</characteristic>
+                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Anti-Infantry 3+, Heavy, Indirect Fire</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink name="Indirect Fire" id="7123-1210-b079-6ed7" hidden="false" type="rule" targetId="4ddd-4e29-acdd-5e6d"/>
+                <infoLink name="Anti-" id="24d6-f561-1701-d477" hidden="false" type="rule" targetId="4111-82e3-9444-e942"/>
+                <infoLink name="Heavy" id="9674-5c60-ece5-14d5" hidden="false" type="rule" targetId="1202-10a8-78e9-4c67"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9b33-7d0c-3132-5f0e" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6da7-63dc-92be-98d1" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <profiles>
+        <profile name="Plagueclaw" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="0b1b-d90c-11c3-8e18">
+          <characteristics>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">3&quot;</characteristic>
+            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">8</characteristic>
+            <characteristic name="SV" typeId="450-a17e-9d5e-29da">4+</characteristic>
+            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">8</characteristic>
+            <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
+            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">2</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Bubonic Barrage" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3f5a-5cc9-fcf4-4694">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this unit uses a Shoot ability, if all of its attacks targeted the same enemy unit, after that ability has been resolved, roll a dice. If the result is equal to or less than the number of models in that enemy unit that were slain by attacks made by this unit’s **Plagueclaw Catapult** this phase, that enemy unit has **Fight Last** for the rest of the turn.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
     </selectionEntry>
   </sharedSelectionEntries>
   <selectionEntries>
@@ -7050,7 +7050,6 @@ Designer’s Note: This ability allows the target to set up in combat with a new
     <entryLink import="true" name="Night Runners" hidden="false" id="d1b8-1985-3089-8a27" type="selectionEntry" targetId="1113-2b9e-d187-dfee"/>
     <entryLink import="true" name="Plague Monks" hidden="false" id="2a8b-4ad6-06f1-6f23" type="selectionEntry" targetId="c501-a45e-5161-dbad"/>
     <entryLink import="true" name="Plague Priest on Plague Furnace" hidden="false" id="0ae5-9671-8b85-ea64" type="selectionEntry" targetId="ef6f-c273-d191-c3c5"/>
-    <entryLink import="true" name="Plagueclaw" hidden="false" id="d251-f4c9-23f0-08a6" type="selectionEntry" targetId="6b29-0d1d-1458-21a5"/>
     <entryLink import="true" name="Plaguepack" hidden="false" id="c4dc-268e-45eb-c9ed" type="selectionEntry" targetId="aa18-f2de-f067-1d74"/>
     <entryLink import="true" name="Rat Ogors" hidden="false" id="5454-c81c-fb63-9629" type="selectionEntry" targetId="3c0d-ff59-c4da-44f2"/>
     <entryLink import="true" name="Ratling Guns" hidden="false" id="6dfe-2de2-aba3-25e6" type="selectionEntry" targetId="e56a-55b2-824f-1c59"/>
@@ -7062,7 +7061,6 @@ Designer’s Note: This ability allows the target to set up in combat with a new
     <entryLink import="true" name="Verminlord Deceiver" hidden="false" id="2b05-2299-2d8a-5813" type="selectionEntry" targetId="ba29-a088-7f78-9f66"/>
     <entryLink import="true" name="Verminlord Warbringer" hidden="false" id="2a9e-94b8-554d-1c7f" type="selectionEntry" targetId="c32e-5461-1565-6d81"/>
     <entryLink import="true" name="Verminlord Warpseer" hidden="false" id="b3e4-6622-e479-267e" type="selectionEntry" targetId="0711-f560-543b-6b2b"/>
-    <entryLink import="true" name="Vizzik Skour, Prophet of the Horned Rat" hidden="false" id="c11f-1b0a-154d-3203" type="selectionEntry" targetId="6a12-807e-5ae8-18cb"/>
     <entryLink import="true" name="Warlock Bombardier" hidden="false" id="376f-496c-ba57-0dbf" type="selectionEntry" targetId="99dd-690f-e7b4-77ab"/>
     <entryLink import="true" name="Warlock Engineer" hidden="false" id="9428-cc4d-cf1a-043e" type="selectionEntry" targetId="4cc1-c137-4ed1-d96f"/>
     <entryLink import="true" name="Warlock Galvaneer" hidden="false" id="c36f-c13b-deb0-7537" type="selectionEntry" targetId="9ae3-21bc-2a9f-f425"/>
@@ -7071,6 +7069,8 @@ Designer’s Note: This ability allows the target to set up in combat with a new
     <entryLink import="true" name="Warpfire Throwers" hidden="false" id="9de6-1c18-9f1f-a5b9" type="selectionEntry" targetId="d81f-ba33-a928-511b"/>
     <entryLink import="true" name="Warplock Jezzails" hidden="false" id="1d08-9a7a-302e-f2dd" type="selectionEntry" targetId="5dbe-1f51-2388-fa5e"/>
     <entryLink import="true" name="Arch-Warlock" hidden="false" id="d79c-e4fc-699e-52e3" type="selectionEntry" targetId="7e33-4d29-18b6-5c15"/>
+    <entryLink import="true" name="Vizzik Skour, Prophet of the Horned Rat" hidden="false" id="8326-2af9-85ca-592b" type="selectionEntry" targetId="722b-6213-f5f7-4b6e"/>
+    <entryLink import="true" name="Plagueclaw" hidden="false" id="e82a-876a-311d-d35d" type="selectionEntry" targetId="965f-1890-a4b7-3e7f"/>
   </entryLinks>
   <sharedProfiles>
     <profile name="Hidden Weapon Team" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="c203-9e5c-8587-2803">
