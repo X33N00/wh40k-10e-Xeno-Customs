@@ -80,7 +80,6 @@
           <modifierGroups>
             <modifierGroup type="and">
               <modifiers>
-                <modifier type="set" value="0" field="cd0b-ab30-d485-06b0"/>
                 <modifier type="set" value="0" field="d499-b0e6-2f13-b1a3"/>
               </modifiers>
               <conditions>
