@@ -6638,7 +6638,7 @@ Designer’s Note: This ability allows the target to set up in combat with a new
     <entryLink import="true" name="Detachment" hidden="false" id="0b1e-e222-9f6d-ad5f" type="selectionEntry" targetId="f160-ba43-c94c-0645"/>
     <entryLink import="true" name="Warpvolt Scourgers" hidden="false" id="feda-58ca-bd52-3218" type="selectionEntry" targetId="0c5b-92fe-f90a-6295"/>
     <entryLink import="true" name="Doomwheel" hidden="false" id="6515-b63e-33ab-4761" type="selectionEntry" targetId="05b8-41cc-a200-f34b"/>
-    <entryLink import="true" name="Arch-Warlock" hidden="false" id="cdb6-2940-6855-fbf8" type="selectionEntry" targetId="7e33-4d29-18b6-5c15"/>
+    <entryLink import="true" name="Acolyte Globadiers" hidden="false" id="cdb6-2940-6855-fbf8" type="selectionEntry" targetId="a107-dc0f-4fdf-4a08"/>
     <entryLink import="true" name="Brood Terror" hidden="false" id="feb2-069e-7d74-f659" type="selectionEntry" targetId="d4c4-70e4-397b-4b14"/>
     <entryLink import="true" name="Clanrats" hidden="false" id="6dd5-1278-4fb2-f3a3" type="selectionEntry" targetId="add0-052a-e92d-31fc"/>
     <entryLink import="true" name="Clawlord" hidden="false" id="63b4-df3e-d380-8f53" type="selectionEntry" targetId="76a8-eef9-e8a9-612b"/>
@@ -6675,6 +6675,7 @@ Designer’s Note: This ability allows the target to set up in combat with a new
     <entryLink import="true" name="Warp-Grinder" hidden="false" id="2ff5-d2d2-030b-cb42" type="selectionEntry" targetId="ca8f-ac46-2ebe-8c60"/>
     <entryLink import="true" name="Warpfire Throwers" hidden="false" id="9de6-1c18-9f1f-a5b9" type="selectionEntry" targetId="d81f-ba33-a928-511b"/>
     <entryLink import="true" name="Warplock Jezzails" hidden="false" id="1d08-9a7a-302e-f2dd" type="selectionEntry" targetId="5dbe-1f51-2388-fa5e"/>
+    <entryLink import="true" name="Arch-Warlock" hidden="false" id="d79c-e4fc-699e-52e3" type="selectionEntry" targetId="7e33-4d29-18b6-5c15"/>
   </entryLinks>
   <sharedProfiles>
     <profile name="Hidden Weapon Team" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="c203-9e5c-8587-2803">
