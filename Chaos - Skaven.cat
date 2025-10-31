@@ -5728,13 +5728,6 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
       <constraints>
         <constraint type="max" value="3" field="selections" scope="force" shared="true" id="97a9-89b4-7cf7-1819" includeChildSelections="true"/>
       </constraints>
-      <modifiers>
-        <modifier type="increment" value="180" field="51b2-306e-1021-d207">
-          <conditions>
-            <condition type="atLeast" value="6" field="selections" scope="42fb-1229-f43f-a6f9" childId="model" shared="true" includeChildSelections="false"/>
-          </conditions>
-        </modifier>
-      </modifiers>
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="Ratling Warpblaster" hidden="false" id="e56c-730b-71dd-f998">
           <selectionEntries>
