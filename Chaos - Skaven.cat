@@ -6397,7 +6397,7 @@ Designer’s Note: This ability allows the target to set up in combat with a new
         </modifierGroup>
       </modifierGroups>
       <categoryLinks>
-        <categoryLink targetId="4ac9-fd30-1e3d-b249" id="cf78-9fe0-0fa9-a474" primary="false" name="Configuration"/>
+        <categoryLink targetId="4ac9-fd30-1e3d-b249" id="cf78-9fe0-0fa9-a474" primary="true" name="Configuration"/>
       </categoryLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Reference Options" hidden="false" id="a20e-8607-ff50-af73">
@@ -6426,7 +6426,7 @@ Designer’s Note: This ability allows the target to set up in combat with a new
         <constraint type="max" value="1" field="selections" scope="force" shared="true" id="1a04-0caf-594b-10b9" includeChildSelections="true"/>
       </constraints>
       <categoryLinks>
-        <categoryLink targetId="4ac9-fd30-1e3d-b249" id="4080-703d-6b0d-8496" primary="false" name="Configuration"/>
+        <categoryLink targetId="4ac9-fd30-1e3d-b249" id="4080-703d-6b0d-8496" primary="true" name="Configuration"/>
       </categoryLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" name="[Reference] Base Guide" hidden="true" id="6cda-8292-3122-3b78">
@@ -6647,14 +6647,14 @@ Designer’s Note: This ability allows the target to set up in combat with a new
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink targetId="4ac9-fd30-1e3d-b249" id="768d-cd33-569d-9328" primary="false" name="Configuration"/>
+        <categoryLink targetId="4ac9-fd30-1e3d-b249" id="768d-cd33-569d-9328" primary="true" name="Configuration"/>
       </categoryLinks>
     </selectionEntry>
   </selectionEntries>
   <entryLinks>
     <entryLink import="true" name="Detachment" hidden="false" id="0b1e-e222-9f6d-ad5f" type="selectionEntry" targetId="f160-ba43-c94c-0645">
       <categoryLinks>
-        <categoryLink targetId="4ac9-fd30-1e3d-b249" id="94b7-153c-a53f-037f" primary="false" name="Configuration"/>
+        <categoryLink targetId="4ac9-fd30-1e3d-b249" id="94b7-153c-a53f-037f" primary="true" name="Configuration"/>
       </categoryLinks>
     </entryLink>
     <entryLink import="true" name="Warpvolt Scourgers" hidden="false" id="feda-58ca-bd52-3218" type="selectionEntry" targetId="0c5b-92fe-f90a-6295"/>
