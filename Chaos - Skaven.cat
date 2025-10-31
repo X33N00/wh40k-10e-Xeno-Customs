@@ -6722,7 +6722,6 @@ Designer’s Note: This ability allows the target to set up in combat with a new
     <entryLink import="true" name="Warp-Grinder" hidden="false" id="2ff5-d2d2-030b-cb42" type="selectionEntry" targetId="ca8f-ac46-2ebe-8c60"/>
     <entryLink import="true" name="Warpfire Throwers" hidden="false" id="9de6-1c18-9f1f-a5b9" type="selectionEntry" targetId="d81f-ba33-a928-511b"/>
     <entryLink import="true" name="Warplock Jezzails" hidden="false" id="1d08-9a7a-302e-f2dd" type="selectionEntry" targetId="5dbe-1f51-2388-fa5e"/>
-    <entryLink import="true" name="Doomwheel" hidden="false" id="9d03-ed4c-1336-330d" type="selectionEntry" targetId="05b8-41cc-a200-f34b"/>
   </entryLinks>
   <sharedProfiles>
     <profile name="Hidden Weapon Team" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="c203-9e5c-8587-2803">
