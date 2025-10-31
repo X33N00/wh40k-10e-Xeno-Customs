@@ -5029,8 +5029,8 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Clubbing Blows" hidden="false" id="fe5e-d4c0-e1af-6b27" collective="true">
                       <constraints>
-                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="55b4-4945-8c11-7215"/>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c5ac-f272-a9d8-e4c5"/>
+                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4fb6-e9c2-e6b1-e876" includeChildSelections="false"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e265-a373-2185-c275" includeChildSelections="false"/>
                       </constraints>
                       <profiles>
                         <profile name="Clubbing Blows" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="5ceb-af2f-1c3d-415d">
