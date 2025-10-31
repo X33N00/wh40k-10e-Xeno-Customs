@@ -5059,8 +5059,8 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
                   <selectionEntries>
                     <selectionEntry type="upgrade" import="true" name="Grinderfists" hidden="false" id="9b8e-7563-a54a-5392" collective="true">
                       <constraints>
-                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="605e-d9af-7f7d-1a59"/>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="29f3-7474-aef9-7285"/>
+                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="252f-c07e-ae4b-3058" includeChildSelections="false"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="430f-bbc6-07ce-ae8c" includeChildSelections="false"/>
                       </constraints>
                       <profiles>
                         <profile name="Grinderfists" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="7251-1299-b4d8-4d07">
