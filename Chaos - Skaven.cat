@@ -5063,7 +5063,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
                         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="29f3-7474-aef9-7285"/>
                       </constraints>
                       <profiles>
-                        <profile name="Grinderfists" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="53b1-2d65-7423-c8c9">
+                        <profile name="Grinderfists" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="7251-1299-b4d8-4d07">
                           <characteristics>
                             <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
                             <characteristic name="A" typeId="2337-daa1-6682-b110">4</characteristic>
@@ -5113,7 +5113,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
                   <selectionEntries>
                     <selectionEntry type="upgrade" import="true" name="Clubbing Blows" hidden="false" id="b0a5-8d07-8390-3fdd" collective="true">
                       <profiles>
-                        <profile name="Clubbing Blows" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="b576-3fc6-621e-beac">
+                        <profile name="Clubbing Blows" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="d4f7-3a58-3aeb-3fcc">
                           <characteristics>
                             <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
                             <characteristic name="A" typeId="2337-daa1-6682-b110">3</characteristic>
@@ -5136,7 +5136,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
                         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3a54-3853-2f58-6fa6"/>
                       </constraints>
                       <profiles>
-                        <profile name="Warpfire Projectors" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="832b-4580-b3a4-06fa">
+                        <profile name="Warpfire Projectors" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="06fa-07bd-daf2-483e">
                           <characteristics>
                             <characteristic name="Range" typeId="9896-9419-16a1-92fc">10&quot;</characteristic>
                             <characteristic name="A" typeId="3bb-c35f-f54-fb08">2D6</characteristic>
@@ -5147,7 +5147,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
                             <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Pistol, Torrent</characteristic>
                           </characteristics>
                         </profile>
-                        <profile name="Warpfire Projectors - Overcharged" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="2ffe-4882-ec0e-8d61">
+                        <profile name="Warpfire Projectors - Overcharged" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="1ad1-c2b6-9b69-1c58">
                           <characteristics>
                             <characteristic name="Range" typeId="9896-9419-16a1-92fc">10&quot;</characteristic>
                             <characteristic name="A" typeId="3bb-c35f-f54-fb08">2D6</characteristic>
@@ -5174,7 +5174,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
                   <selectionEntries>
                     <selectionEntry type="upgrade" import="true" name="Clubbing Blows" hidden="false" id="7b6b-cb42-2f29-80eb" collective="true">
                       <profiles>
-                        <profile name="Clubbing Blows" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="f092-cc22-3603-3e39">
+                        <profile name="Clubbing Blows" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="d85e-422e-3735-80bc">
                           <characteristics>
                             <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
                             <characteristic name="A" typeId="2337-daa1-6682-b110">3</characteristic>
@@ -5193,18 +5193,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Windlaunchers" hidden="false" id="a09a-6df3-673e-4b60" collective="true">
                       <profiles>
-                        <profile name="Windlaunchers" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="b951-1f0c-2528-3f48">
-                          <characteristics>
-                            <characteristic name="Range" typeId="9896-9419-16a1-92fc">15&quot;</characteristic>
-                            <characteristic name="A" typeId="3bb-c35f-f54-fb08">3</characteristic>
-                            <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
-                            <characteristic name="S" typeId="2229-f494-25db-c5d3">8</characteristic>
-                            <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
-                            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">D3</characteristic>
-                            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-Infantry 3+, Devastating Wounds</characteristic>
-                          </characteristics>
-                        </profile>
-                        <profile name="Windlaunchers - Overcharged" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="3b9e-a97e-b923-614e">
+                        <profile name="Windlaunchers - Overcharged" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="baa2-85b3-a1ae-a37a">
                           <characteristics>
                             <characteristic name="Range" typeId="9896-9419-16a1-92fc">15&quot;</characteristic>
                             <characteristic name="A" typeId="3bb-c35f-f54-fb08">3</characteristic>
@@ -5213,6 +5202,17 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
                             <characteristic name="AP" typeId="9ead-8a10-520-de15">-3</characteristic>
                             <characteristic name="D" typeId="a354-c1c8-a745-f9e3">3</characteristic>
                             <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-Infantry 3+, Devastating Wounds, Hazardous</characteristic>
+                          </characteristics>
+                        </profile>
+                        <profile name="Windlaunchers" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="7d94-ceb4-0279-5eb4">
+                          <characteristics>
+                            <characteristic name="Range" typeId="9896-9419-16a1-92fc">15&quot;</characteristic>
+                            <characteristic name="A" typeId="3bb-c35f-f54-fb08">3</characteristic>
+                            <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
+                            <characteristic name="S" typeId="2229-f494-25db-c5d3">8</characteristic>
+                            <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
+                            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">D3</characteristic>
+                            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-Infantry 3+, Devastating Wounds</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
