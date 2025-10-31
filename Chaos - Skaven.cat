@@ -6689,4 +6689,7 @@ Designer’s Note: This ability allows the target to set up in combat with a new
   <catalogueLinks>
     <catalogueLink type="catalogue" name="Unaligned Forces" id="7cde-374f-d509-fa33" targetId="581a-46b9-5b86-44b7" importRootEntries="true"/>
   </catalogueLinks>
+  <publications>
+    <publication name="Github" id="9ad4-bbda-ccfa-d695" hidden="false" publisherUrl="https://github.com/X33N00/wh40k-10e-Xeno-Customs" shortName="X33N00/wh40k-10e-Xeno-Customs"/>
+  </publications>
 </catalogue>
