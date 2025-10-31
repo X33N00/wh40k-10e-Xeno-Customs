@@ -2634,7 +2634,8 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
             <categoryLink name="Manifestation" hidden="false" id="0563-87f5-a82c-b663" targetId="f0ab-7297-addd-5c15" primary="false"/>
           </categoryLinks>
           <constraints>
-            <constraint type="max" value="1" field="selections" scope="force" shared="true" id="4b79-c0d8-f3c3-7d71" includeChildSelections="true"/>
+            <constraint type="max" value="1" field="selections" scope="force" shared="true" id="ff2c-7c5f-11b1-39a5" includeChildSelections="true"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="df80-f2f5-6be0-ee99" includeChildSelections="false"/>
           </constraints>
           <infoLinks>
             <infoLink name="Great Vermintide" id="358b-3178-dcf2-ad1c" hidden="false" type="rule" targetId="fb49-cf71-d602-5614"/>
@@ -2653,17 +2654,17 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
             </profile>
             <profile name="Warp Lightning Bolts" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="1efa-20d9-0300-4e29">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Any Command Phase. If this unit was not set up this turn, pick each enemy unit within 6&quot; of this Manifestation to be the targets. Roll a dice for each target. On a 4+, inflict D3 mortal damage on the target.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Any Command Phase. If this unit was not set up this turn, pick each enemy unit within 6&quot; of this unit to be the targets. Roll a dice for each target. On a 4+, inflict D3 mortal wounds on the target.</characteristic>
               </characteristics>
             </profile>
             <profile name="Multiple Parts" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ce95-d344-823d-af6c">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When a number of damage points equal to this unit&apos;s health characteristic are allocated to it, this unit is destroyed and all its parts are removed from play.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When a number of damage points equal to this unit&apos;s Health characteristic are allocated to it, this unit is destroyed and all its parts are removed from play.</characteristic>
               </characteristics>
             </profile>
             <profile name="Warp Vortex" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ebae-f968-01e3-f2e3">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Subtract 2 from advance rolls and charge rolls for enemy units while they are within 6&quot; of this unit. In addition, if an enemy unit passes across this unit and/or the round-cornered triangle formed by drawing a line around all the bases of the unit&apos;s parts, inflict D3 mortal damage on that enemy unit after the Move ability has been resolved.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Subtract 2 from advance rolls and charge rolls for enemy units while they are within 6&quot; of this unit. In addition, if an enemy unit passes across this unit and/or the round-cornered triangle formed by drawing a line around all the bases of the unit&apos;s parts, inflict D3 mortal damage on that enemy unit after the move ability has been resolved.</characteristic>
               </characteristics>
             </profile>
           </profiles>
