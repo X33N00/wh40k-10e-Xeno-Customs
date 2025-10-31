@@ -4967,8 +4967,20 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
           </selectionEntries>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7871-4f05-2921-a675" includeChildSelections="false"/>
-            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="f8be-be40-53a4-2c37" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f8be-be40-53a4-2c37" includeChildSelections="false"/>
           </constraints>
+          <modifiers>
+            <modifier type="increment" value="1" field="2bdb-9d12-a5d2-b11e">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="root-entry" childId="a426-2146-508f-0f87" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="increment" value="1" field="f446-b83a-b11c-78db">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="root-entry" childId="a426-2146-508f-0f87" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="Stormfiends" hidden="false" id="847b-5ea4-a295-e4a8" collective="true">
           <selectionEntries>
@@ -5074,8 +5086,20 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
           </selectionEntries>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6078-f710-6a9b-7967" includeChildSelections="false"/>
-            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="a226-d25f-4ad0-45cd" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a226-d25f-4ad0-45cd" includeChildSelections="false"/>
           </constraints>
+          <modifiers>
+            <modifier type="increment" value="1" field="2bdb-9d12-a5d2-b11e">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="root-entry" childId="a426-2146-508f-0f87" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="increment" value="1" field="f446-b83a-b11c-78db">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="root-entry" childId="a426-2146-508f-0f87" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="Stormfiends" hidden="false" id="fa0d-cd26-d420-55a7" collective="true">
           <selectionEntries>
@@ -5216,8 +5240,20 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
           </selectionEntries>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2bdb-9d12-a5d2-b11e" includeChildSelections="false"/>
-            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="f446-b83a-b11c-78db" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f446-b83a-b11c-78db" includeChildSelections="false"/>
           </constraints>
+          <modifiers>
+            <modifier type="increment" value="1" field="2bdb-9d12-a5d2-b11e">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="root-entry" childId="a426-2146-508f-0f87" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="increment" value="1" field="f446-b83a-b11c-78db">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="root-entry" childId="a426-2146-508f-0f87" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
@@ -6036,6 +6072,11 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
           </characteristics>
         </profile>
       </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Reinforced" hidden="false" id="a426-2146-508f-0f87">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ea8c-062c-8d19-39d6"/>
+      </constraints>
     </selectionEntry>
   </sharedSelectionEntries>
   <selectionEntries>
