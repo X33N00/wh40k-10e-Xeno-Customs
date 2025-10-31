@@ -1214,7 +1214,7 @@
       </categoryLinks>
       <entryLinks>
         <entryLink import="true" name="Warlord" hidden="false" id="66d3-c718-4497-7d59" type="selectionEntry" targetId="fd0b-986d-d500-26a3"/>
-        <entryLink import="true" name="Enhancements" hidden="false" id="81ec-3437-8543-5afe" type="selectionEntryGroup" targetId="bb4c-acbd-655e-0b41"/>
+        <entryLink import="true" name="Enhancements" hidden="false" id="e4bf-09ba-905a-7fbc" type="selectionEntry" targetId="9555-98d8-b4e1-49db"/>
       </entryLinks>
       <constraints>
         <constraint type="max" value="3" field="selections" scope="force" shared="true" id="3d67-46c9-71bf-6109" includeChildSelections="true"/>
@@ -1361,7 +1361,7 @@
       </costs>
       <entryLinks>
         <entryLink import="true" name="Warlord" hidden="false" id="229a-e84c-331e-d337" type="selectionEntry" targetId="fd0b-986d-d500-26a3"/>
-        <entryLink import="true" name="Enhancements" hidden="false" id="fc23-1ed8-646c-fe16" type="selectionEntryGroup" targetId="bb4c-acbd-655e-0b41"/>
+        <entryLink import="true" name="Enhancements" hidden="false" id="e2c5-3891-faa6-c4f7" type="selectionEntry" targetId="9555-98d8-b4e1-49db"/>
       </entryLinks>
       <constraints>
         <constraint type="max" value="3" field="selections" scope="force" shared="true" id="78c8-526f-82bc-581f" includeChildSelections="true"/>
@@ -1447,7 +1447,7 @@
       </costs>
       <entryLinks>
         <entryLink import="true" name="Warlord" hidden="false" id="89d0-9231-7891-58fe" type="selectionEntry" targetId="fd0b-986d-d500-26a3"/>
-        <entryLink import="true" name="Enhancements" hidden="false" id="b408-3d33-3b48-804f" type="selectionEntryGroup" targetId="bb4c-acbd-655e-0b41"/>
+        <entryLink import="true" name="Enhancements" hidden="false" id="ed4a-99bc-3485-66e9" type="selectionEntry" targetId="9555-98d8-b4e1-49db"/>
       </entryLinks>
       <constraints>
         <constraint type="max" value="3" field="selections" scope="force" shared="true" id="7479-3452-2a5e-5be2" includeChildSelections="true"/>
@@ -1590,7 +1590,7 @@
       </costs>
       <entryLinks>
         <entryLink import="true" name="Warlord" hidden="false" id="b314-f5f3-499b-8191" type="selectionEntry" targetId="fd0b-986d-d500-26a3"/>
-        <entryLink import="true" name="Enhancements" hidden="false" id="a996-99ae-0d59-32b9" type="selectionEntryGroup" targetId="bb4c-acbd-655e-0b41"/>
+        <entryLink import="true" name="Enhancements" hidden="false" id="09c3-b5a5-4a99-6a00" type="selectionEntry" targetId="9555-98d8-b4e1-49db"/>
       </entryLinks>
       <constraints>
         <constraint type="max" value="3" field="selections" scope="force" shared="true" id="364b-73f5-b442-41e4" includeChildSelections="true"/>
@@ -1702,7 +1702,7 @@
       </costs>
       <entryLinks>
         <entryLink import="true" name="Warlord" hidden="false" id="1d9d-12d2-f417-7699" type="selectionEntry" targetId="fd0b-986d-d500-26a3"/>
-        <entryLink import="true" name="Enhancements" hidden="false" id="ee08-48e5-1f7f-6d50" type="selectionEntryGroup" targetId="bb4c-acbd-655e-0b41"/>
+        <entryLink import="true" name="Enhancements" hidden="false" id="2a0f-2638-9c37-1a0a" type="selectionEntry" targetId="9555-98d8-b4e1-49db"/>
       </entryLinks>
       <constraints>
         <constraint type="max" value="3" field="selections" scope="force" shared="true" id="def4-3562-d898-27dc" includeChildSelections="true"/>
@@ -1796,7 +1796,7 @@
       </costs>
       <entryLinks>
         <entryLink import="true" name="Warlord" hidden="false" id="9ca4-3abe-97ed-a937" type="selectionEntry" targetId="fd0b-986d-d500-26a3"/>
-        <entryLink import="true" name="Enhancements" hidden="false" id="d39c-6ab3-4253-03b1" type="selectionEntryGroup" targetId="bb4c-acbd-655e-0b41"/>
+        <entryLink import="true" name="Enhancements" hidden="false" id="60d7-ea9a-c3ba-6e95" type="selectionEntry" targetId="9555-98d8-b4e1-49db"/>
       </entryLinks>
       <constraints>
         <constraint type="max" value="3" field="selections" scope="force" shared="true" id="baa5-2176-425d-f511" includeChildSelections="true"/>
@@ -1918,7 +1918,7 @@
       </costs>
       <entryLinks>
         <entryLink import="true" name="Warlord" hidden="false" id="a015-4af6-fab7-40f0" type="selectionEntry" targetId="fd0b-986d-d500-26a3"/>
-        <entryLink import="true" name="Enhancements" hidden="false" id="ea95-7daa-6fd4-965b" type="selectionEntryGroup" targetId="bb4c-acbd-655e-0b41"/>
+        <entryLink import="true" name="Enhancements" hidden="false" id="2f12-d7b9-8bc6-f569" type="selectionEntry" targetId="9555-98d8-b4e1-49db"/>
       </entryLinks>
       <constraints>
         <constraint type="max" value="3" field="selections" scope="force" shared="true" id="3d10-0b88-3512-c06f" includeChildSelections="true"/>
@@ -2039,7 +2039,7 @@
       </categoryLinks>
       <entryLinks>
         <entryLink import="true" name="Warlord" hidden="false" id="daa4-91e1-14b1-9766" type="selectionEntry" targetId="fd0b-986d-d500-26a3"/>
-        <entryLink import="true" name="Enhancements" hidden="false" id="0932-79d5-113c-6158" type="selectionEntryGroup" targetId="bb4c-acbd-655e-0b41"/>
+        <entryLink import="true" name="Enhancements" hidden="false" id="5545-24c3-b3bd-0612" type="selectionEntry" targetId="9555-98d8-b4e1-49db"/>
       </entryLinks>
       <constraints>
         <constraint type="max" value="3" field="selections" scope="force" shared="true" id="365b-29bd-f9a0-bdb6" includeChildSelections="true"/>
@@ -2198,7 +2198,7 @@
       </categoryLinks>
       <entryLinks>
         <entryLink import="true" name="Warlord" hidden="false" id="407e-3fdf-69c7-61da" type="selectionEntry" targetId="fd0b-986d-d500-26a3"/>
-        <entryLink import="true" name="Enhancements" hidden="false" id="94b2-3dd2-84a5-4fa6" type="selectionEntryGroup" targetId="bb4c-acbd-655e-0b41"/>
+        <entryLink import="true" name="Enhancements" hidden="false" id="dfd6-e312-e89c-69ba" type="selectionEntry" targetId="9555-98d8-b4e1-49db"/>
       </entryLinks>
       <constraints>
         <constraint type="max" value="3" field="selections" scope="force" shared="true" id="5005-0b9f-7f3b-1475" includeChildSelections="true"/>
@@ -2298,7 +2298,7 @@
       </costs>
       <entryLinks>
         <entryLink import="true" name="Warlord" hidden="false" id="2bd3-3b36-61f7-661d" type="selectionEntry" targetId="fd0b-986d-d500-26a3"/>
-        <entryLink import="true" name="Enhancements" hidden="false" id="6c33-13fa-9cc7-603b" type="selectionEntryGroup" targetId="bb4c-acbd-655e-0b41"/>
+        <entryLink import="true" name="Enhancements" hidden="false" id="c14b-f74e-a640-8ddf" type="selectionEntry" targetId="9555-98d8-b4e1-49db"/>
       </entryLinks>
       <constraints>
         <constraint type="max" value="3" field="selections" scope="force" shared="true" id="90cc-81e4-d162-7837" includeChildSelections="true"/>
@@ -2444,7 +2444,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
       </categoryLinks>
       <entryLinks>
         <entryLink import="true" name="Warlord" hidden="false" id="3f7a-65e1-d437-2dae" type="selectionEntry" targetId="fd0b-986d-d500-26a3"/>
-        <entryLink import="true" name="Enhancements" hidden="false" id="78be-ccbf-c18a-1c24" type="selectionEntryGroup" targetId="bb4c-acbd-655e-0b41"/>
+        <entryLink import="true" name="Enhancements" hidden="false" id="c720-5d3e-58e2-e3a7" type="selectionEntry" targetId="9555-98d8-b4e1-49db"/>
       </entryLinks>
       <constraints>
         <constraint type="max" value="3" field="selections" scope="force" shared="true" id="0a6c-6c74-b829-f450" includeChildSelections="true"/>
@@ -2566,7 +2566,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
       </categoryLinks>
       <entryLinks>
         <entryLink import="true" name="Warlord" hidden="false" id="69c0-d8b5-0986-e7fd" type="selectionEntry" targetId="fd0b-986d-d500-26a3"/>
-        <entryLink import="true" name="Enhancements" hidden="false" id="01fc-a322-a1b1-5a4f" type="selectionEntryGroup" targetId="bb4c-acbd-655e-0b41"/>
+        <entryLink import="true" name="Enhancements" hidden="false" id="e0a2-8196-2cd4-faf6" type="selectionEntry" targetId="9555-98d8-b4e1-49db"/>
       </entryLinks>
       <constraints>
         <constraint type="max" value="3" field="selections" scope="force" shared="true" id="6ae9-332f-458b-f4f5" includeChildSelections="true"/>
@@ -2716,7 +2716,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
       </categoryLinks>
       <entryLinks>
         <entryLink import="true" name="Warlord" hidden="false" id="ea2a-3a38-5644-9c11" type="selectionEntry" targetId="fd0b-986d-d500-26a3"/>
-        <entryLink import="true" name="Enhancements" hidden="false" id="6f00-5ae4-5df0-3fed" type="selectionEntryGroup" targetId="bb4c-acbd-655e-0b41"/>
+        <entryLink import="true" name="Enhancements" hidden="false" id="ee77-4140-6d8b-3a27" type="selectionEntry" targetId="9555-98d8-b4e1-49db"/>
       </entryLinks>
       <constraints>
         <constraint type="max" value="3" field="selections" scope="force" shared="true" id="03e5-163f-6968-7f1d" includeChildSelections="true"/>
@@ -2841,7 +2841,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
       </categoryLinks>
       <entryLinks>
         <entryLink import="true" name="Warlord" hidden="false" id="9a2b-21f8-97b7-721c" type="selectionEntry" targetId="fd0b-986d-d500-26a3"/>
-        <entryLink import="true" name="Enhancements" hidden="false" id="d559-ab23-742e-3513" type="selectionEntryGroup" targetId="bb4c-acbd-655e-0b41"/>
+        <entryLink import="true" name="Enhancements" hidden="false" id="626f-e433-6ea7-af79" type="selectionEntry" targetId="9555-98d8-b4e1-49db"/>
       </entryLinks>
       <constraints>
         <constraint type="max" value="3" field="selections" scope="force" shared="true" id="6d4a-f3f5-bd10-72c5" includeChildSelections="true"/>
@@ -2960,7 +2960,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
       </categoryLinks>
       <entryLinks>
         <entryLink import="true" name="Warlord" hidden="false" id="9918-bb07-9a91-2781" type="selectionEntry" targetId="fd0b-986d-d500-26a3"/>
-        <entryLink import="true" name="Enhancements" hidden="false" id="75cf-8bdb-0301-ebb8" type="selectionEntryGroup" targetId="bb4c-acbd-655e-0b41"/>
+        <entryLink import="true" name="Enhancements" hidden="false" id="12ba-9164-3a9e-fcf4" type="selectionEntry" targetId="9555-98d8-b4e1-49db"/>
       </entryLinks>
       <constraints>
         <constraint type="max" value="3" field="selections" scope="force" shared="true" id="232c-789d-bc44-5883" includeChildSelections="true"/>
