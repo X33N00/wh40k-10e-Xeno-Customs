@@ -76,10 +76,26 @@
   <sharedSelectionEntryGroups>
     <selectionEntryGroup name="Enhancements" id="bb4c-acbd-655e-0b41" hidden="false">
       <entryLinks>
-        <entryLink import="true" name="Enhancements" hidden="false" id="b8ac-5241-b1f1-f01a" type="selectionEntry" targetId="9555-98d8-b4e1-49db"/>
+        <entryLink import="true" name="Enhancements" hidden="false" id="b8ac-5241-b1f1-f01a" type="selectionEntry" targetId="9555-98d8-b4e1-49db">
+          <modifierGroups>
+            <modifierGroup type="and">
+              <modifiers>
+                <modifier type="set" value="0" field="d499-b0e6-2f13-b1a3"/>
+                <modifier type="set" value="0" field="cd0b-ab30-d485-06b0"/>
+              </modifiers>
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="parent" childId="7661-cf6f-c466-213b" shared="true"/>
+              </conditions>
+            </modifierGroup>
+          </modifierGroups>
+        </entryLink>
       </entryLinks>
       <modifiers>
-        <modifier type="set" value="false" field="hidden"/>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="7661-cf6f-c466-213b" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
       </modifiers>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
