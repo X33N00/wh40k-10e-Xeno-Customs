@@ -4917,8 +4917,8 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Options" hidden="false" id="4473-8012-27ae-9346">
               <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7871-4f05-2921-a675" includeChildSelections="false"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f8be-be40-53a4-2c37" includeChildSelections="false"/>
+                <constraint type="min" value="3" field="selections" scope="parent" shared="true" id="7871-4f05-2921-a675" includeChildSelections="false"/>
+                <constraint type="max" value="6" field="selections" scope="parent" shared="true" id="f8be-be40-53a4-2c37" includeChildSelections="false"/>
               </constraints>
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Clubbing Blows" hidden="false" id="6672-e308-d0a7-f73a" collective="true">
