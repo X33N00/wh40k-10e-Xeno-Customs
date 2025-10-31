@@ -4970,12 +4970,12 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f8be-be40-53a4-2c37" includeChildSelections="false"/>
           </constraints>
           <modifiers>
-            <modifier type="increment" value="1" field="2bdb-9d12-a5d2-b11e">
+            <modifier type="increment" value="1" field="7871-4f05-2921-a675">
               <repeats>
                 <repeat value="1" repeats="1" field="selections" scope="root-entry" childId="a426-2146-508f-0f87" shared="true" roundUp="false"/>
               </repeats>
             </modifier>
-            <modifier type="increment" value="1" field="f446-b83a-b11c-78db">
+            <modifier type="increment" value="1" field="f8be-be40-53a4-2c37">
               <repeats>
                 <repeat value="1" repeats="1" field="selections" scope="root-entry" childId="a426-2146-508f-0f87" shared="true" roundUp="false"/>
               </repeats>
@@ -5089,12 +5089,12 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a226-d25f-4ad0-45cd" includeChildSelections="false"/>
           </constraints>
           <modifiers>
-            <modifier type="increment" value="1" field="2bdb-9d12-a5d2-b11e">
+            <modifier type="increment" value="1" field="6078-f710-6a9b-7967">
               <repeats>
                 <repeat value="1" repeats="1" field="selections" scope="root-entry" childId="a426-2146-508f-0f87" shared="true" roundUp="false"/>
               </repeats>
             </modifier>
-            <modifier type="increment" value="1" field="f446-b83a-b11c-78db">
+            <modifier type="increment" value="1" field="a226-d25f-4ad0-45cd">
               <repeats>
                 <repeat value="1" repeats="1" field="selections" scope="root-entry" childId="a426-2146-508f-0f87" shared="true" roundUp="false"/>
               </repeats>
