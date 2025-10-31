@@ -1125,7 +1125,7 @@
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Arch-Warlock" hidden="false" id="7e33-4d29-18b6-5c15">
+    <selectionEntry type="model" import="true" name="Arch-Warlock" hidden="false" id="7e33-4d29-18b6-5c15">
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="65"/>
         <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
@@ -1145,6 +1145,7 @@
       </categoryLinks>
       <entryLinks>
         <entryLink import="true" name="Warlord" hidden="false" id="66d3-c718-4497-7d59" type="selectionEntry" targetId="fd0b-986d-d500-26a3"/>
+        <entryLink import="true" name="Enhancements" hidden="false" id="81ec-3437-8543-5afe" type="selectionEntryGroup" targetId="bb4c-acbd-655e-0b41"/>
       </entryLinks>
       <constraints>
         <constraint type="max" value="3" field="selections" scope="force" shared="true" id="3d67-46c9-71bf-6109" includeChildSelections="true"/>
@@ -1268,7 +1269,7 @@
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Clawlord" hidden="false" id="76a8-eef9-e8a9-612b">
+    <selectionEntry type="model" import="true" name="Clawlord" hidden="false" id="76a8-eef9-e8a9-612b">
       <categoryLinks>
         <categoryLink targetId="cf47-a0d7-7207-29dc" id="ac9a-3751-7248-8ef6" primary="false" name="Infantry"/>
         <categoryLink targetId="9cfd-1c32-585f-7d5c" id="e19d-a2f3-6c45-c1a2" primary="false" name="Character"/>
@@ -1287,6 +1288,7 @@
       </costs>
       <entryLinks>
         <entryLink import="true" name="Warlord" hidden="false" id="229a-e84c-331e-d337" type="selectionEntry" targetId="fd0b-986d-d500-26a3"/>
+        <entryLink import="true" name="Enhancements" hidden="false" id="fc23-1ed8-646c-fe16" type="selectionEntryGroup" targetId="bb4c-acbd-655e-0b41"/>
       </entryLinks>
       <constraints>
         <constraint type="max" value="3" field="selections" scope="force" shared="true" id="78c8-526f-82bc-581f" includeChildSelections="true"/>
@@ -1349,7 +1351,7 @@
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Clawlord on Gnaw-beast" hidden="false" id="5614-da8b-f35f-f2fd">
+    <selectionEntry type="model" import="true" name="Clawlord on Gnaw-beast" hidden="false" id="5614-da8b-f35f-f2fd">
       <categoryLinks>
         <categoryLink targetId="9cfd-1c32-585f-7d5c" id="8e1d-af38-ae1e-725c" primary="false" name="Character"/>
         <categoryLink targetId="14a0-40c9-2748-ae6e" id="1806-bfd7-de6c-d2bd" primary="false" name="Mounted"/>
@@ -1368,6 +1370,7 @@
       </costs>
       <entryLinks>
         <entryLink import="true" name="Warlord" hidden="false" id="89d0-9231-7891-58fe" type="selectionEntry" targetId="fd0b-986d-d500-26a3"/>
+        <entryLink import="true" name="Enhancements" hidden="false" id="b408-3d33-3b48-804f" type="selectionEntryGroup" targetId="bb4c-acbd-655e-0b41"/>
       </entryLinks>
       <constraints>
         <constraint type="max" value="3" field="selections" scope="force" shared="true" id="7479-3452-2a5e-5be2" includeChildSelections="true"/>
@@ -1487,7 +1490,7 @@
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Deathmaster" hidden="false" id="9557-587d-bc50-1475">
+    <selectionEntry type="model" import="true" name="Deathmaster" hidden="false" id="9557-587d-bc50-1475">
       <categoryLinks>
         <categoryLink targetId="9cfd-1c32-585f-7d5c" id="3428-a6b9-3156-d952" primary="false" name="Character"/>
         <categoryLink targetId="cf47-a0d7-7207-29dc" id="6109-3c44-4686-0b3d" primary="false" name="Infantry"/>
@@ -1506,6 +1509,7 @@
       </costs>
       <entryLinks>
         <entryLink import="true" name="Warlord" hidden="false" id="b314-f5f3-499b-8191" type="selectionEntry" targetId="fd0b-986d-d500-26a3"/>
+        <entryLink import="true" name="Enhancements" hidden="false" id="a996-99ae-0d59-32b9" type="selectionEntryGroup" targetId="bb4c-acbd-655e-0b41"/>
       </entryLinks>
       <constraints>
         <constraint type="max" value="3" field="selections" scope="force" shared="true" id="364b-73f5-b442-41e4" includeChildSelections="true"/>
@@ -1593,7 +1597,7 @@
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Grey Seer" hidden="false" id="db3c-3451-041a-255f">
+    <selectionEntry type="model" import="true" name="Grey Seer" hidden="false" id="db3c-3451-041a-255f">
       <categoryLinks>
         <categoryLink targetId="1782-5824-5c6a-5b7e" id="41ca-a510-fe52-b55e" primary="false" name="Grey Seer"/>
         <categoryLink targetId="e1e8-5b24-6211-117f" id="9700-2fbe-eea5-e49c" primary="false" name="Faction: Skaven"/>
@@ -1613,6 +1617,7 @@
       </costs>
       <entryLinks>
         <entryLink import="true" name="Warlord" hidden="false" id="1d9d-12d2-f417-7699" type="selectionEntry" targetId="fd0b-986d-d500-26a3"/>
+        <entryLink import="true" name="Enhancements" hidden="false" id="ee08-48e5-1f7f-6d50" type="selectionEntryGroup" targetId="bb4c-acbd-655e-0b41"/>
       </entryLinks>
       <constraints>
         <constraint type="max" value="3" field="selections" scope="force" shared="true" id="def4-3562-d898-27dc" includeChildSelections="true"/>
@@ -1682,7 +1687,7 @@
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Grey Seer on Screaming Bell" hidden="false" id="67e2-713d-a423-b18b">
+    <selectionEntry type="model" import="true" name="Grey Seer on Screaming Bell" hidden="false" id="67e2-713d-a423-b18b">
       <categoryLinks>
         <categoryLink targetId="9cfd-1c32-585f-7d5c" id="743c-4638-4dbd-9ca9" primary="false" name="Character"/>
         <categoryLink targetId="47c9-ed64-4af2-9835" id="2f9e-0dae-4807-a50c" primary="false" name="Grey Seer on Screaming Bell"/>
@@ -1702,6 +1707,7 @@
       </costs>
       <entryLinks>
         <entryLink import="true" name="Warlord" hidden="false" id="9ca4-3abe-97ed-a937" type="selectionEntry" targetId="fd0b-986d-d500-26a3"/>
+        <entryLink import="true" name="Enhancements" hidden="false" id="d39c-6ab3-4253-03b1" type="selectionEntryGroup" targetId="bb4c-acbd-655e-0b41"/>
       </entryLinks>
       <constraints>
         <constraint type="max" value="3" field="selections" scope="force" shared="true" id="baa5-2176-425d-f511" includeChildSelections="true"/>
@@ -1800,7 +1806,7 @@
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Master Moulder" hidden="false" id="8d80-ca83-5bed-cf3e">
+    <selectionEntry type="model" import="true" name="Master Moulder" hidden="false" id="8d80-ca83-5bed-cf3e">
       <categoryLinks>
         <categoryLink targetId="cf47-a0d7-7207-29dc" id="39e7-ab7c-cf91-aed4" primary="false" name="Infantry"/>
         <categoryLink targetId="9cfd-1c32-585f-7d5c" id="9419-dbb2-c80f-cb14" primary="false" name="Character"/>
@@ -1819,6 +1825,7 @@
       </costs>
       <entryLinks>
         <entryLink import="true" name="Warlord" hidden="false" id="a015-4af6-fab7-40f0" type="selectionEntry" targetId="fd0b-986d-d500-26a3"/>
+        <entryLink import="true" name="Enhancements" hidden="false" id="ea95-7daa-6fd4-965b" type="selectionEntryGroup" targetId="bb4c-acbd-655e-0b41"/>
       </entryLinks>
       <constraints>
         <constraint type="max" value="3" field="selections" scope="force" shared="true" id="3d10-0b88-3512-c06f" includeChildSelections="true"/>
@@ -1915,7 +1922,7 @@
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Plague Priest on Plague Furnace" hidden="false" id="ef6f-c273-d191-c3c5">
+    <selectionEntry type="model" import="true" name="Plague Priest on Plague Furnace" hidden="false" id="ef6f-c273-d191-c3c5">
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="225"/>
         <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
@@ -1935,6 +1942,7 @@
       </categoryLinks>
       <entryLinks>
         <entryLink import="true" name="Warlord" hidden="false" id="daa4-91e1-14b1-9766" type="selectionEntry" targetId="fd0b-986d-d500-26a3"/>
+        <entryLink import="true" name="Enhancements" hidden="false" id="0932-79d5-113c-6158" type="selectionEntryGroup" targetId="bb4c-acbd-655e-0b41"/>
       </entryLinks>
       <constraints>
         <constraint type="max" value="3" field="selections" scope="force" shared="true" id="365b-29bd-f9a0-bdb6" includeChildSelections="true"/>
@@ -2068,7 +2076,7 @@
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Verminlord Corruptor" hidden="false" id="a926-6196-6525-25c6">
+    <selectionEntry type="model" import="true" name="Verminlord Corruptor" hidden="false" id="a926-6196-6525-25c6">
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="80"/>
         <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
@@ -2089,6 +2097,7 @@
       </categoryLinks>
       <entryLinks>
         <entryLink import="true" name="Warlord" hidden="false" id="407e-3fdf-69c7-61da" type="selectionEntry" targetId="fd0b-986d-d500-26a3"/>
+        <entryLink import="true" name="Enhancements" hidden="false" id="94b2-3dd2-84a5-4fa6" type="selectionEntryGroup" targetId="bb4c-acbd-655e-0b41"/>
       </entryLinks>
       <constraints>
         <constraint type="max" value="3" field="selections" scope="force" shared="true" id="5005-0b9f-7f3b-1475" includeChildSelections="true"/>
@@ -2163,7 +2172,7 @@
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Verminlord Deceiver" hidden="false" id="ba29-a088-7f78-9f66">
+    <selectionEntry type="model" import="true" name="Verminlord Deceiver" hidden="false" id="ba29-a088-7f78-9f66">
       <categoryLinks>
         <categoryLink targetId="9cfd-1c32-585f-7d5c" id="34b5-d298-46d5-9434" primary="false" name="Character"/>
         <categoryLink targetId="9693-cf84-fe69-37a9" id="273d-7080-716d-b962" primary="false" name="Monster"/>
@@ -2184,6 +2193,7 @@
       </costs>
       <entryLinks>
         <entryLink import="true" name="Warlord" hidden="false" id="2bd3-3b36-61f7-661d" type="selectionEntry" targetId="fd0b-986d-d500-26a3"/>
+        <entryLink import="true" name="Enhancements" hidden="false" id="6c33-13fa-9cc7-603b" type="selectionEntryGroup" targetId="bb4c-acbd-655e-0b41"/>
       </entryLinks>
       <constraints>
         <constraint type="max" value="3" field="selections" scope="force" shared="true" id="90cc-81e4-d162-7837" includeChildSelections="true"/>
@@ -2304,7 +2314,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Verminlord Warbringer" hidden="false" id="c32e-5461-1565-6d81">
+    <selectionEntry type="model" import="true" name="Verminlord Warbringer" hidden="false" id="c32e-5461-1565-6d81">
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="80"/>
         <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
@@ -2325,6 +2335,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
       </categoryLinks>
       <entryLinks>
         <entryLink import="true" name="Warlord" hidden="false" id="3f7a-65e1-d437-2dae" type="selectionEntry" targetId="fd0b-986d-d500-26a3"/>
+        <entryLink import="true" name="Enhancements" hidden="false" id="78be-ccbf-c18a-1c24" type="selectionEntryGroup" targetId="bb4c-acbd-655e-0b41"/>
       </entryLinks>
       <constraints>
         <constraint type="max" value="3" field="selections" scope="force" shared="true" id="0a6c-6c74-b829-f450" includeChildSelections="true"/>
@@ -2421,7 +2432,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Verminlord Warpseer" hidden="false" id="0711-f560-543b-6b2b">
+    <selectionEntry type="model" import="true" name="Verminlord Warpseer" hidden="false" id="0711-f560-543b-6b2b">
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="80"/>
         <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
@@ -2442,6 +2453,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
       </categoryLinks>
       <entryLinks>
         <entryLink import="true" name="Warlord" hidden="false" id="69c0-d8b5-0986-e7fd" type="selectionEntry" targetId="fd0b-986d-d500-26a3"/>
+        <entryLink import="true" name="Enhancements" hidden="false" id="01fc-a322-a1b1-5a4f" type="selectionEntryGroup" targetId="bb4c-acbd-655e-0b41"/>
       </entryLinks>
       <constraints>
         <constraint type="max" value="3" field="selections" scope="force" shared="true" id="6ae9-332f-458b-f4f5" includeChildSelections="true"/>
@@ -2518,7 +2530,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Warlock Bombardier" hidden="false" id="99dd-690f-e7b4-77ab">
+    <selectionEntry type="model" import="true" name="Warlock Bombardier" hidden="false" id="99dd-690f-e7b4-77ab">
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="45"/>
         <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
@@ -2537,6 +2549,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
       </categoryLinks>
       <entryLinks>
         <entryLink import="true" name="Warlord" hidden="false" id="ea2a-3a38-5644-9c11" type="selectionEntry" targetId="fd0b-986d-d500-26a3"/>
+        <entryLink import="true" name="Enhancements" hidden="false" id="6f00-5ae4-5df0-3fed" type="selectionEntryGroup" targetId="bb4c-acbd-655e-0b41"/>
       </entryLinks>
       <constraints>
         <constraint type="max" value="3" field="selections" scope="force" shared="true" id="03e5-163f-6968-7f1d" includeChildSelections="true"/>
@@ -2638,7 +2651,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Warlock Engineer" hidden="false" id="4cc1-c137-4ed1-d96f">
+    <selectionEntry type="model" import="true" name="Warlock Engineer" hidden="false" id="4cc1-c137-4ed1-d96f">
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="45"/>
         <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
@@ -2657,6 +2670,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
       </categoryLinks>
       <entryLinks>
         <entryLink import="true" name="Warlord" hidden="false" id="9a2b-21f8-97b7-721c" type="selectionEntry" targetId="fd0b-986d-d500-26a3"/>
+        <entryLink import="true" name="Enhancements" hidden="false" id="d559-ab23-742e-3513" type="selectionEntryGroup" targetId="bb4c-acbd-655e-0b41"/>
       </entryLinks>
       <constraints>
         <constraint type="max" value="3" field="selections" scope="force" shared="true" id="6d4a-f3f5-bd10-72c5" includeChildSelections="true"/>
@@ -2752,7 +2766,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Warlock Galvaneer" hidden="false" id="9ae3-21bc-2a9f-f425">
+    <selectionEntry type="model" import="true" name="Warlock Galvaneer" hidden="false" id="9ae3-21bc-2a9f-f425">
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="45"/>
         <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
@@ -2771,6 +2785,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
       </categoryLinks>
       <entryLinks>
         <entryLink import="true" name="Warlord" hidden="false" id="9918-bb07-9a91-2781" type="selectionEntry" targetId="fd0b-986d-d500-26a3"/>
+        <entryLink import="true" name="Enhancements" hidden="false" id="75cf-8bdb-0301-ebb8" type="selectionEntryGroup" targetId="bb4c-acbd-655e-0b41"/>
       </entryLinks>
       <constraints>
         <constraint type="max" value="3" field="selections" scope="force" shared="true" id="232c-789d-bc44-5883" includeChildSelections="true"/>
@@ -2866,7 +2881,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Gnawhole" hidden="false" id="dcec-67f2-a218-a50d">
+    <selectionEntry type="model" import="true" name="Gnawhole" hidden="false" id="dcec-67f2-a218-a50d">
       <categoryLinks>
         <categoryLink targetId="ba07-411c-2832-1f79" id="acb4-ac96-07d7-977c" primary="false" name="Dedicated Transport"/>
         <categoryLink targetId="4c00-2578-faf5-6918" id="3d45-32c1-b255-34f1" primary="false" name="Chaos"/>
@@ -2928,7 +2943,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Krittok Foulblade" hidden="false" id="1c23-0cdd-df54-30ba">
+    <selectionEntry type="model" import="true" name="Krittok Foulblade" hidden="false" id="1c23-0cdd-df54-30ba">
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="150"/>
         <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
@@ -3044,7 +3059,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Lord Skreech Verminking" hidden="false" id="a961-2e01-3c03-1b84">
+    <selectionEntry type="model" import="true" name="Lord Skreech Verminking" hidden="false" id="a961-2e01-3c03-1b84">
       <categoryLinks>
         <categoryLink targetId="4f3a-f0f7-6647-348d" id="8391-83d6-0e94-ce35" primary="false" name="Epic Hero"/>
         <categoryLink targetId="9cfd-1c32-585f-7d5c" id="eab3-d199-719d-d999" primary="false" name="Character"/>
@@ -3169,7 +3184,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Thanquol on Boneripper" hidden="false" id="7cc3-5b61-dd61-9bee">
+    <selectionEntry type="model" import="true" name="Thanquol on Boneripper" hidden="false" id="7cc3-5b61-dd61-9bee">
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="270"/>
         <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
@@ -4936,7 +4951,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Brood Terror" hidden="false" id="d4c4-70e4-397b-4b14">
+    <selectionEntry type="model" import="true" name="Brood Terror" hidden="false" id="d4c4-70e4-397b-4b14">
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="135"/>
         <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
@@ -5056,7 +5071,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Hell Pit Abomination" hidden="false" id="7070-fc93-c66d-2913">
+    <selectionEntry type="model" import="true" name="Hell Pit Abomination" hidden="false" id="7070-fc93-c66d-2913">
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="155"/>
         <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
@@ -5297,7 +5312,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Warp Lightning Cannon" hidden="false" id="7bd7-176d-1bbb-75c0">
+    <selectionEntry type="model" import="true" name="Warp Lightning Cannon" hidden="false" id="7bd7-176d-1bbb-75c0">
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="200"/>
         <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
@@ -5404,7 +5419,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="b796-9a35-8a32-1c56" includeChildSelections="true"/>
       </constraints>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Ratling Warpblaster" hidden="false" id="42fb-1229-f43f-a6f9">
+    <selectionEntry type="model" import="true" name="Ratling Warpblaster" hidden="false" id="42fb-1229-f43f-a6f9">
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="135"/>
         <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
@@ -5518,7 +5533,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Doomwheel" hidden="false" id="05b8-41cc-a200-f34b">
+    <selectionEntry type="model" import="true" name="Doomwheel" hidden="false" id="05b8-41cc-a200-f34b">
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="115"/>
         <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
@@ -5730,7 +5745,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
     </selectionEntry>
   </sharedSelectionEntries>
   <selectionEntries>
-    <selectionEntry type="upgrade" import="true" name="[Reference] Stratagems" hidden="false" id="dde2-90cf-561e-a4a4">
+    <selectionEntry type="upgrade" name="[Reference] Stratagems" hidden="true" id="dde2-90cf-561e-a4a4">
       <selectionEntryGroups>
         <selectionEntryGroup name="Detachments" id="4ff9-9e26-9f49-8761" hidden="false">
           <selectionEntries>
@@ -6242,7 +6257,7 @@ Designer’s Note: This ability allows the target to set up in combat with a new
         <constraint type="max" value="1" field="selections" scope="force" shared="true" id="1a04-0caf-594b-10b9" includeChildSelections="true"/>
       </constraints>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="[Reference] Base Guide" hidden="false" id="6cda-8292-3122-3b78">
+    <selectionEntry type="upgrade" name="[Reference] Base Guide" hidden="true" id="6cda-8292-3122-3b78">
       <constraints>
         <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="debd-62e4-f30d-0390" automatic="true" includeChildSelections="true" includeChildForces="true"/>
       </constraints>
@@ -6619,4 +6634,7 @@ Designer’s Note: This ability allows the target to set up in combat with a new
       </characteristics>
     </profile>
   </sharedProfiles>
+  <catalogueLinks>
+    <catalogueLink type="catalogue" name="New Catalogue (link)" id="7cde-374f-d509-fa33" targetId="581a-46b9-5b86-44b7"/>
+  </catalogueLinks>
 </catalogue>
