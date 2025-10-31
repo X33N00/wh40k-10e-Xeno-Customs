@@ -57,6 +57,7 @@
     <categoryEntry name="Faction: Skaven" id="e1e8-5b24-6211-117f" hidden="false"/>
     <categoryEntry name="Weapon Team" id="cac3-6339-a9aa-dbe7" hidden="false"/>
     <categoryEntry name="Doom-flayers" id="1394-97bc-8d04-b038" hidden="false"/>
+    <categoryEntry name="Manifestation" id="f0ab-7297-addd-5c15" hidden="false"/>
   </categoryEntries>
   <sharedRules>
     <rule name="Great Vermintide" id="fb49-cf71-d602-5614" hidden="false">
@@ -783,7 +784,7 @@
     <selectionEntry type="unit" import="true" name="Clanrats" hidden="false" id="add0-052a-e92d-31fc">
       <categoryLinks>
         <categoryLink targetId="cf47-a0d7-7207-29dc" id="89b2-7f72-95c6-a41a" primary="false" name="Infantry"/>
-        <categoryLink targetId="e338-111e-d0c6-b687" id="20de-d5c4-4b64-21fc" primary="false" name="Battleline"/>
+        <categoryLink targetId="e338-111e-d0c6-b687" id="20de-d5c4-4b64-21fc" primary="true" name="Battleline"/>
         <categoryLink targetId="4c00-2578-faf5-6918" id="f698-c36e-3250-8f28" primary="false" name="Chaos"/>
         <categoryLink targetId="b2a0-ac51-cde6-2be1" id="e392-e536-1698-2a26" primary="false" name="Verminus"/>
         <categoryLink targetId="4a10-ed37-ff95-ca26" id="6b64-6ed0-32b5-d3e5" primary="false" name="Clanrats"/>
@@ -967,7 +968,7 @@
     <selectionEntry type="unit" import="true" name="Plague Monks" hidden="false" id="c501-a45e-5161-dbad">
       <categoryLinks>
         <categoryLink targetId="cf47-a0d7-7207-29dc" id="24c6-dd35-a88f-3661" primary="false" name="Infantry"/>
-        <categoryLink targetId="e338-111e-d0c6-b687" id="7269-2c9d-218c-b735" primary="false" name="Battleline"/>
+        <categoryLink targetId="e338-111e-d0c6-b687" id="7269-2c9d-218c-b735" primary="true" name="Battleline"/>
         <categoryLink targetId="4c00-2578-faf5-6918" id="7fa9-9cd3-88e5-7dea" primary="false" name="Chaos"/>
         <categoryLink targetId="ce38-8d0a-f198-944e" id="9644-3d36-d84a-46e2" primary="false" name="Pestilens"/>
         <categoryLink targetId="aa08-a8c8-787b-abb1" id="ccd2-ab36-f59f-2667" primary="false" name="Plague Monks"/>
@@ -1159,7 +1160,7 @@
         <cost name="Blackstone Fragments" typeId="ac6b-ced3-9b5e-9a6e" value="0"/>
       </costs>
       <categoryLinks>
-        <categoryLink targetId="9cfd-1c32-585f-7d5c" id="95b3-5970-f398-2550" primary="false" name="Character"/>
+        <categoryLink targetId="9cfd-1c32-585f-7d5c" id="95b3-5970-f398-2550" primary="true" name="Character"/>
         <categoryLink targetId="4c00-2578-faf5-6918" id="00f0-5e91-17c3-a540" primary="false" name="Chaos"/>
         <categoryLink targetId="613e-636d-cd3a-b304" id="102b-1281-305e-3413" primary="false" name="Skryre"/>
         <categoryLink targetId="e1e8-5b24-6211-117f" id="88ec-8f12-6578-1fc9" primary="false" name="Faction: Skaven"/>
@@ -1296,7 +1297,7 @@
     <selectionEntry type="model" import="true" name="Clawlord" hidden="false" id="76a8-eef9-e8a9-612b">
       <categoryLinks>
         <categoryLink targetId="cf47-a0d7-7207-29dc" id="ac9a-3751-7248-8ef6" primary="false" name="Infantry"/>
-        <categoryLink targetId="9cfd-1c32-585f-7d5c" id="e19d-a2f3-6c45-c1a2" primary="false" name="Character"/>
+        <categoryLink targetId="9cfd-1c32-585f-7d5c" id="e19d-a2f3-6c45-c1a2" primary="true" name="Character"/>
         <categoryLink targetId="4c00-2578-faf5-6918" id="1e03-7e80-fa06-26de" primary="false" name="Chaos"/>
         <categoryLink targetId="b2a0-ac51-cde6-2be1" id="b2f2-97c7-6786-deb2" primary="false" name="Verminus"/>
         <categoryLink targetId="9e21-4bff-d3d1-8549" id="5b25-8359-f816-a2b3" primary="false" name="Clawlord"/>
@@ -1377,7 +1378,7 @@
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Clawlord on Gnaw-beast" hidden="false" id="5614-da8b-f35f-f2fd">
       <categoryLinks>
-        <categoryLink targetId="9cfd-1c32-585f-7d5c" id="8e1d-af38-ae1e-725c" primary="false" name="Character"/>
+        <categoryLink targetId="9cfd-1c32-585f-7d5c" id="8e1d-af38-ae1e-725c" primary="true" name="Character"/>
         <categoryLink targetId="14a0-40c9-2748-ae6e" id="1806-bfd7-de6c-d2bd" primary="false" name="Mounted"/>
         <categoryLink targetId="4c00-2578-faf5-6918" id="f4d4-4691-46c9-65f4" primary="false" name="Chaos"/>
         <categoryLink targetId="b2a0-ac51-cde6-2be1" id="bd78-0c57-d8ad-51b1" primary="false" name="Verminus"/>
@@ -1516,7 +1517,7 @@
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Deathmaster" hidden="false" id="9557-587d-bc50-1475">
       <categoryLinks>
-        <categoryLink targetId="9cfd-1c32-585f-7d5c" id="3428-a6b9-3156-d952" primary="false" name="Character"/>
+        <categoryLink targetId="9cfd-1c32-585f-7d5c" id="3428-a6b9-3156-d952" primary="true" name="Character"/>
         <categoryLink targetId="cf47-a0d7-7207-29dc" id="6109-3c44-4686-0b3d" primary="false" name="Infantry"/>
         <categoryLink targetId="4c00-2578-faf5-6918" id="bddb-fe90-ee4c-94c4" primary="false" name="Chaos"/>
         <categoryLink targetId="8253-c354-db65-633e" id="c9db-f14e-2878-e09b" primary="false" name="Eshin"/>
@@ -1627,7 +1628,7 @@
         <categoryLink targetId="e1e8-5b24-6211-117f" id="9700-2fbe-eea5-e49c" primary="false" name="Faction: Skaven"/>
         <categoryLink targetId="4c00-2578-faf5-6918" id="be5c-c7d9-ca30-ed36" primary="false" name="Chaos"/>
         <categoryLink targetId="13bf-2bee-3ae0-b414" id="09fb-77b0-5fa0-dd24" primary="false" name="Psyker"/>
-        <categoryLink targetId="9cfd-1c32-585f-7d5c" id="fc04-c4fd-e8ec-9033" primary="false" name="Character"/>
+        <categoryLink targetId="9cfd-1c32-585f-7d5c" id="fc04-c4fd-e8ec-9033" primary="true" name="Character"/>
         <categoryLink targetId="cf47-a0d7-7207-29dc" id="1d53-32c5-8ba4-6571" primary="false" name="Infantry"/>
         <categoryLink targetId="5004-405c-0631-27da" id="cd82-979e-05f7-c984" primary="false" name="Masterclan"/>
       </categoryLinks>
@@ -1713,7 +1714,7 @@
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Grey Seer on Screaming Bell" hidden="false" id="67e2-713d-a423-b18b">
       <categoryLinks>
-        <categoryLink targetId="9cfd-1c32-585f-7d5c" id="743c-4638-4dbd-9ca9" primary="false" name="Character"/>
+        <categoryLink targetId="9cfd-1c32-585f-7d5c" id="743c-4638-4dbd-9ca9" primary="true" name="Character"/>
         <categoryLink targetId="47c9-ed64-4af2-9835" id="2f9e-0dae-4807-a50c" primary="false" name="Grey Seer on Screaming Bell"/>
         <categoryLink targetId="4c00-2578-faf5-6918" id="2179-dade-87e8-e0b4" primary="false" name="Chaos"/>
         <categoryLink targetId="e1e8-5b24-6211-117f" id="0ba9-3482-5fab-6d48" primary="false" name="Faction: Skaven"/>
@@ -1833,7 +1834,7 @@
     <selectionEntry type="model" import="true" name="Master Moulder" hidden="false" id="8d80-ca83-5bed-cf3e">
       <categoryLinks>
         <categoryLink targetId="cf47-a0d7-7207-29dc" id="39e7-ab7c-cf91-aed4" primary="false" name="Infantry"/>
-        <categoryLink targetId="9cfd-1c32-585f-7d5c" id="9419-dbb2-c80f-cb14" primary="false" name="Character"/>
+        <categoryLink targetId="9cfd-1c32-585f-7d5c" id="9419-dbb2-c80f-cb14" primary="true" name="Character"/>
         <categoryLink targetId="4c00-2578-faf5-6918" id="dd7b-aee8-5925-17c4" primary="false" name="Chaos"/>
         <categoryLink targetId="f328-2d22-ec3a-0e28" id="8065-3ef6-0199-2007" primary="false" name="Moulder"/>
         <categoryLink targetId="a7b6-585b-477d-672f" id="daf2-4d68-3abd-1519" primary="false" name="Master Moulder"/>
@@ -1957,7 +1958,7 @@
       </costs>
       <categoryLinks>
         <categoryLink targetId="dbd4-63-af05-998" id="de78-ba5b-78e8-56dd" primary="false" name="Vehicle"/>
-        <categoryLink targetId="9cfd-1c32-585f-7d5c" id="c29f-241d-afc9-0a3e" primary="false" name="Character"/>
+        <categoryLink targetId="9cfd-1c32-585f-7d5c" id="c29f-241d-afc9-0a3e" primary="true" name="Character"/>
         <categoryLink targetId="4c00-2578-faf5-6918" id="98df-6ba6-28e2-4f30" primary="false" name="Chaos"/>
         <categoryLink targetId="ce38-8d0a-f198-944e" id="94ee-0d5f-61c8-2307" primary="false" name="Pestilens"/>
         <categoryLink targetId="13bf-2bee-3ae0-b414" id="7f0d-4090-2f70-065f" primary="false" name="Psyker"/>
@@ -2110,7 +2111,7 @@
         <cost name="Blackstone Fragments" typeId="ac6b-ced3-9b5e-9a6e" value="0"/>
       </costs>
       <categoryLinks>
-        <categoryLink targetId="9cfd-1c32-585f-7d5c" id="033f-579b-e53d-9812" primary="false" name="Character"/>
+        <categoryLink targetId="9cfd-1c32-585f-7d5c" id="033f-579b-e53d-9812" primary="true" name="Character"/>
         <categoryLink targetId="9693-cf84-fe69-37a9" id="356a-db29-8e62-9e3b" primary="false" name="Monster"/>
         <categoryLink targetId="4c00-2578-faf5-6918" id="7e36-e33c-679d-2d1b" primary="false" name="Chaos"/>
         <categoryLink targetId="9c0e-7e25-4580-e439" id="e291-a4b4-042f-2df5" primary="false" name="Daemon"/>
@@ -2198,7 +2199,7 @@
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Verminlord Deceiver" hidden="false" id="ba29-a088-7f78-9f66">
       <categoryLinks>
-        <categoryLink targetId="9cfd-1c32-585f-7d5c" id="34b5-d298-46d5-9434" primary="false" name="Character"/>
+        <categoryLink targetId="9cfd-1c32-585f-7d5c" id="34b5-d298-46d5-9434" primary="true" name="Character"/>
         <categoryLink targetId="9693-cf84-fe69-37a9" id="273d-7080-716d-b962" primary="false" name="Monster"/>
         <categoryLink targetId="4c00-2578-faf5-6918" id="fcb1-0377-66f7-b77e" primary="false" name="Chaos"/>
         <categoryLink targetId="9c0e-7e25-4580-e439" id="5762-d46a-26d5-480e" primary="false" name="Daemon"/>
@@ -2348,7 +2349,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
         <cost name="Blackstone Fragments" typeId="ac6b-ced3-9b5e-9a6e" value="0"/>
       </costs>
       <categoryLinks>
-        <categoryLink targetId="9cfd-1c32-585f-7d5c" id="4ef2-dabc-71c7-22dd" primary="false" name="Character"/>
+        <categoryLink targetId="9cfd-1c32-585f-7d5c" id="4ef2-dabc-71c7-22dd" primary="true" name="Character"/>
         <categoryLink targetId="9693-cf84-fe69-37a9" id="4339-9cc5-0861-a9da" primary="false" name="Monster"/>
         <categoryLink targetId="4c00-2578-faf5-6918" id="1714-aebf-acea-9533" primary="false" name="Chaos"/>
         <categoryLink targetId="13bf-2bee-3ae0-b414" id="ef75-cd72-7fd3-f6f4" primary="false" name="Psyker"/>
@@ -2466,7 +2467,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
         <cost name="Blackstone Fragments" typeId="ac6b-ced3-9b5e-9a6e" value="0"/>
       </costs>
       <categoryLinks>
-        <categoryLink targetId="9cfd-1c32-585f-7d5c" id="3275-e81c-bed7-0ce6" primary="false" name="Character"/>
+        <categoryLink targetId="9cfd-1c32-585f-7d5c" id="3275-e81c-bed7-0ce6" primary="true" name="Character"/>
         <categoryLink targetId="9693-cf84-fe69-37a9" id="5ddd-8056-a63f-0bb9" primary="false" name="Monster"/>
         <categoryLink targetId="9c0e-7e25-4580-e439" id="452d-039f-f6ba-0ccd" primary="false" name="Daemon"/>
         <categoryLink targetId="4c00-2578-faf5-6918" id="ec5b-2fd4-9511-97d4" primary="false" name="Chaos"/>
@@ -2564,7 +2565,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
         <cost name="Blackstone Fragments" typeId="ac6b-ced3-9b5e-9a6e" value="0"/>
       </costs>
       <categoryLinks>
-        <categoryLink targetId="9cfd-1c32-585f-7d5c" id="980f-b784-c41e-28cb" primary="false" name="Character"/>
+        <categoryLink targetId="9cfd-1c32-585f-7d5c" id="980f-b784-c41e-28cb" primary="true" name="Character"/>
         <categoryLink targetId="cf47-a0d7-7207-29dc" id="10b0-43b5-2827-4624" primary="false" name="Infantry"/>
         <categoryLink targetId="4c00-2578-faf5-6918" id="ee6f-e6c8-3abc-0b00" primary="false" name="Chaos"/>
         <categoryLink targetId="613e-636d-cd3a-b304" id="a9dc-b878-8736-682a" primary="false" name="Skryre"/>
@@ -2685,7 +2686,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
         <cost name="Blackstone Fragments" typeId="ac6b-ced3-9b5e-9a6e" value="0"/>
       </costs>
       <categoryLinks>
-        <categoryLink targetId="9cfd-1c32-585f-7d5c" id="4a2f-d2f4-6b12-09a4" primary="false" name="Character"/>
+        <categoryLink targetId="9cfd-1c32-585f-7d5c" id="4a2f-d2f4-6b12-09a4" primary="true" name="Character"/>
         <categoryLink targetId="cf47-a0d7-7207-29dc" id="3fd9-5a23-7165-20f8" primary="false" name="Infantry"/>
         <categoryLink targetId="e1e8-5b24-6211-117f" id="984a-0983-0dad-7029" primary="false" name="Faction: Skaven"/>
         <categoryLink targetId="9d22-362f-af90-91cc" id="c1df-0ebf-6823-3f90" primary="false" name="Warlock Engineer"/>
@@ -2800,7 +2801,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
         <cost name="Blackstone Fragments" typeId="ac6b-ced3-9b5e-9a6e" value="0"/>
       </costs>
       <categoryLinks>
-        <categoryLink targetId="9cfd-1c32-585f-7d5c" id="e726-ee05-4def-d6bd" primary="false" name="Character"/>
+        <categoryLink targetId="9cfd-1c32-585f-7d5c" id="e726-ee05-4def-d6bd" primary="true" name="Character"/>
         <categoryLink targetId="cf47-a0d7-7207-29dc" id="3708-da86-6ec0-f7c3" primary="false" name="Infantry"/>
         <categoryLink targetId="613e-636d-cd3a-b304" id="0283-b139-4438-e068" primary="false" name="Skryre"/>
         <categoryLink targetId="2e67-1584-069d-0c9e" id="969a-89d8-2d22-3fa7" primary="false" name="Warlock Galvaneer"/>
@@ -2907,7 +2908,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Gnawhole" hidden="false" id="dcec-67f2-a218-a50d">
       <categoryLinks>
-        <categoryLink targetId="ba07-411c-2832-1f79" id="acb4-ac96-07d7-977c" primary="false" name="Dedicated Transport"/>
+        <categoryLink targetId="ba07-411c-2832-1f79" id="acb4-ac96-07d7-977c" primary="true" name="Dedicated Transport"/>
         <categoryLink targetId="4c00-2578-faf5-6918" id="3d45-32c1-b255-34f1" primary="false" name="Chaos"/>
         <categoryLink targetId="56c4-fb23-fdfd-f81d" id="c476-bb85-4b10-9942" primary="false" name="Gnawhole"/>
         <categoryLink targetId="e1e8-5b24-6211-117f" id="9698-6532-935c-f2fb" primary="false" name="Faction: Skaven"/>
@@ -2978,7 +2979,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
       </costs>
       <categoryLinks>
         <categoryLink targetId="cf47-a0d7-7207-29dc" id="46ab-a985-76a5-a3f6" primary="false" name="Infantry"/>
-        <categoryLink targetId="4f3a-f0f7-6647-348d" id="7d61-99b2-f615-fb19" primary="false" name="Epic Hero"/>
+        <categoryLink targetId="4f3a-f0f7-6647-348d" id="7d61-99b2-f615-fb19" primary="true" name="Epic Hero"/>
         <categoryLink targetId="9cfd-1c32-585f-7d5c" id="a610-48bd-e7b7-5780" primary="false" name="Character"/>
         <categoryLink targetId="4c00-2578-faf5-6918" id="df70-5f2d-304a-fdb3" primary="false" name="Chaos"/>
         <categoryLink targetId="b2a0-ac51-cde6-2be1" id="3715-a4df-af10-163d" primary="false" name="Verminus"/>
@@ -3085,7 +3086,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Lord Skreech Verminking" hidden="false" id="a961-2e01-3c03-1b84">
       <categoryLinks>
-        <categoryLink targetId="4f3a-f0f7-6647-348d" id="8391-83d6-0e94-ce35" primary="false" name="Epic Hero"/>
+        <categoryLink targetId="4f3a-f0f7-6647-348d" id="8391-83d6-0e94-ce35" primary="true" name="Epic Hero"/>
         <categoryLink targetId="9cfd-1c32-585f-7d5c" id="eab3-d199-719d-d999" primary="false" name="Character"/>
         <categoryLink targetId="9693-cf84-fe69-37a9" id="acc3-5492-0027-ade9" primary="false" name="Monster"/>
         <categoryLink targetId="4c00-2578-faf5-6918" id="6230-1b80-865e-9138" primary="false" name="Chaos"/>
@@ -3219,7 +3220,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
       </costs>
       <categoryLinks>
         <categoryLink targetId="9cfd-1c32-585f-7d5c" id="9138-4a49-3c80-3805" primary="false" name="Character"/>
-        <categoryLink targetId="4f3a-f0f7-6647-348d" id="8832-cba7-a255-ed6c" primary="false" name="Epic Hero"/>
+        <categoryLink targetId="4f3a-f0f7-6647-348d" id="8832-cba7-a255-ed6c" primary="true" name="Epic Hero"/>
         <categoryLink targetId="4c00-2578-faf5-6918" id="beb6-f608-9a69-3e1f" primary="false" name="Chaos"/>
         <categoryLink targetId="5004-405c-0631-27da" id="48cf-97bb-1725-8d56" primary="false" name="Masterclan"/>
         <categoryLink targetId="3859-bd3f-6f61-580a" id="39d8-ce2c-c810-4d23" primary="false" name="Thanquol on Boneripper"/>
@@ -3375,7 +3376,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
       </costs>
       <categoryLinks>
         <categoryLink targetId="9cfd-1c32-585f-7d5c" id="9619-8d67-73b1-5af4" primary="false" name="Character"/>
-        <categoryLink targetId="4f3a-f0f7-6647-348d" id="fff1-763f-3a7b-e0cb" primary="false" name="Epic Hero"/>
+        <categoryLink targetId="4f3a-f0f7-6647-348d" id="fff1-763f-3a7b-e0cb" primary="true" name="Epic Hero"/>
         <categoryLink targetId="9693-cf84-fe69-37a9" id="e57e-2fa6-261e-9aa7" primary="false" name="Monster"/>
         <categoryLink targetId="4c00-2578-faf5-6918" id="48b4-7b3a-94e2-ac53" primary="false" name="Chaos"/>
         <categoryLink targetId="9c0e-7e25-4580-e439" id="7feb-fe01-647d-7e65" primary="false" name="Daemon"/>
@@ -3498,7 +3499,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
         <cost name="Blackstone Fragments" typeId="ac6b-ced3-9b5e-9a6e" value="0"/>
       </costs>
       <categoryLinks>
-        <categoryLink targetId="cf47-a0d7-7207-29dc" id="a8ef-de93-cd24-a071" primary="false" name="Infantry"/>
+        <categoryLink targetId="cf47-a0d7-7207-29dc" id="a8ef-de93-cd24-a071" primary="true" name="Infantry"/>
         <categoryLink targetId="4c00-2578-faf5-6918" id="9285-1cea-a5b1-e1e9" primary="false" name="Chaos"/>
         <categoryLink targetId="e1e8-5b24-6211-117f" id="de80-668c-4667-29b6" primary="false" name="Faction: Skaven"/>
         <categoryLink targetId="613e-636d-cd3a-b304" id="127a-1914-895e-4790" primary="false" name="Skryre"/>
@@ -3595,7 +3596,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
         <cost name="Blackstone Fragments" typeId="ac6b-ced3-9b5e-9a6e" value="0"/>
       </costs>
       <categoryLinks>
-        <categoryLink targetId="cf47-a0d7-7207-29dc" id="b1cb-bb59-81ce-fcb3" primary="false" name="Infantry"/>
+        <categoryLink targetId="cf47-a0d7-7207-29dc" id="b1cb-bb59-81ce-fcb3" primary="true" name="Infantry"/>
         <categoryLink targetId="4c00-2578-faf5-6918" id="32b4-92f4-8ad9-d8ff" primary="false" name="Chaos"/>
         <categoryLink targetId="e1e8-5b24-6211-117f" id="7319-1e2a-4cac-0fb1" primary="false" name="Faction: Skaven"/>
         <categoryLink targetId="613e-636d-cd3a-b304" id="cad2-1db1-12f6-6fcb" primary="false" name="Skryre"/>
@@ -3689,7 +3690,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
         <cost name="Blackstone Fragments" typeId="ac6b-ced3-9b5e-9a6e" value="0"/>
       </costs>
       <categoryLinks>
-        <categoryLink targetId="cf47-a0d7-7207-29dc" id="1038-8224-9ed3-a682" primary="false" name="Infantry"/>
+        <categoryLink targetId="cf47-a0d7-7207-29dc" id="1038-8224-9ed3-a682" primary="true" name="Infantry"/>
         <categoryLink targetId="4c00-2578-faf5-6918" id="2255-e967-1598-c835" primary="false" name="Chaos"/>
         <categoryLink targetId="8253-c354-db65-633e" id="f651-bd1b-7f51-8b5e" primary="false" name="Eshin"/>
         <categoryLink targetId="cb96-7273-113f-2765" id="994c-73df-bff9-b77d" primary="false" name="Night Runners"/>
@@ -3847,7 +3848,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
         <cost name="Blackstone Fragments" typeId="ac6b-ced3-9b5e-9a6e" value="0"/>
       </costs>
       <categoryLinks>
-        <categoryLink targetId="cf47-a0d7-7207-29dc" id="2c1b-d17d-b818-d3da" primary="false" name="Infantry"/>
+        <categoryLink targetId="cf47-a0d7-7207-29dc" id="2c1b-d17d-b818-d3da" primary="true" name="Infantry"/>
         <categoryLink targetId="4c00-2578-faf5-6918" id="d4c4-b965-1037-4068" primary="false" name="Chaos"/>
         <categoryLink targetId="ce38-8d0a-f198-944e" id="0c31-c0ab-d9a1-53e9" primary="false" name="Pestilens"/>
         <categoryLink targetId="13bf-2bee-3ae0-b414" id="679f-606f-d1ae-0ccd" primary="false" name="Psyker"/>
@@ -4027,7 +4028,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
         <cost name="Blackstone Fragments" typeId="ac6b-ced3-9b5e-9a6e" value="0"/>
       </costs>
       <categoryLinks>
-        <categoryLink targetId="cf47-a0d7-7207-29dc" id="9542-0738-e291-348f" primary="false" name="Infantry"/>
+        <categoryLink targetId="cf47-a0d7-7207-29dc" id="9542-0738-e291-348f" primary="true" name="Infantry"/>
         <categoryLink targetId="4c00-2578-faf5-6918" id="b382-c3f9-8c87-7b05" primary="false" name="Chaos"/>
         <categoryLink targetId="613e-636d-cd3a-b304" id="b073-1ae3-deb2-11a5" primary="false" name="Skryre"/>
         <categoryLink targetId="cac3-6339-a9aa-dbe7" id="96cf-c888-5a43-9308" primary="false" name="Weapon Team"/>
@@ -4123,7 +4124,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Stormvermin" hidden="false" id="87f8-4d64-2955-68ee">
       <categoryLinks>
-        <categoryLink targetId="cf47-a0d7-7207-29dc" id="b3f8-3d4b-79ec-37da" primary="false" name="Infantry"/>
+        <categoryLink targetId="cf47-a0d7-7207-29dc" id="b3f8-3d4b-79ec-37da" primary="true" name="Infantry"/>
         <categoryLink targetId="5069-e1af-1ec3-28aa" id="3707-9d54-eb68-e9c6" primary="false" name="Stormvermin"/>
         <categoryLink targetId="4c00-2578-faf5-6918" id="1df5-d123-080b-fc70" primary="false" name="Chaos"/>
         <categoryLink targetId="b2a0-ac51-cde6-2be1" id="cb53-9070-b1f8-0e2b" primary="false" name="Verminus"/>
@@ -4317,7 +4318,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
         <cost name="Blackstone Fragments" typeId="ac6b-ced3-9b5e-9a6e" value="0"/>
       </costs>
       <categoryLinks>
-        <categoryLink targetId="cf47-a0d7-7207-29dc" id="b2e2-c220-b829-c199" primary="false" name="Infantry"/>
+        <categoryLink targetId="cf47-a0d7-7207-29dc" id="b2e2-c220-b829-c199" primary="true" name="Infantry"/>
         <categoryLink targetId="4c00-2578-faf5-6918" id="a0f2-a723-6588-e473" primary="false" name="Chaos"/>
         <categoryLink targetId="cac3-6339-a9aa-dbe7" id="d47a-39ef-53cb-1a8b" primary="false" name="Weapon Team"/>
         <categoryLink targetId="b6f1-d61e-31c7-3c3b" id="9cfc-3045-068c-5247" primary="false" name="Warpfire Throwers"/>
@@ -4417,7 +4418,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
         <cost name="Blackstone Fragments" typeId="ac6b-ced3-9b5e-9a6e" value="0"/>
       </costs>
       <categoryLinks>
-        <categoryLink targetId="cf47-a0d7-7207-29dc" id="9dae-5664-5b61-c496" primary="false" name="Infantry"/>
+        <categoryLink targetId="cf47-a0d7-7207-29dc" id="9dae-5664-5b61-c496" primary="true" name="Infantry"/>
         <categoryLink targetId="4c00-2578-faf5-6918" id="7310-bf8c-1e1e-3cf1" primary="false" name="Chaos"/>
         <categoryLink targetId="613e-636d-cd3a-b304" id="52dd-8da8-fbfd-ad40" primary="false" name="Skryre"/>
         <categoryLink targetId="cac3-6339-a9aa-dbe7" id="d2ee-37fe-ea13-3676" primary="false" name="Weapon Team"/>
@@ -4589,6 +4590,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
         <categoryLink targetId="4c00-2578-faf5-6918" id="7f4c-ac79-68db-57f1" primary="false" name="Chaos"/>
         <categoryLink targetId="c619-2086-bbcf-69c9" id="9037-d8ca-fd67-ab42" primary="false" name="Fly"/>
         <categoryLink targetId="7dd2-676a-51da-fba1" id="362b-a901-c644-34b1" primary="false" name="Warp Lightning Vortex"/>
+        <categoryLink targetId="f0ab-7297-addd-5c15" id="82c8-dbb5-8383-17ed" primary="true" name="Manifestation"/>
       </categoryLinks>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="force" shared="true" id="3754-263e-0207-9459" includeChildSelections="true"/>
@@ -4635,7 +4637,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
         <cost name="Blackstone Fragments" typeId="ac6b-ced3-9b5e-9a6e" value="0"/>
       </costs>
       <categoryLinks>
-        <categoryLink targetId="cf47-a0d7-7207-29dc" id="48b0-531c-1bda-fa4c" primary="false" name="Infantry"/>
+        <categoryLink targetId="cf47-a0d7-7207-29dc" id="48b0-531c-1bda-fa4c" primary="true" name="Infantry"/>
         <categoryLink targetId="4c00-2578-faf5-6918" id="b982-24de-5d10-2de5" primary="false" name="Chaos"/>
         <categoryLink targetId="f328-2d22-ec3a-0e28" id="5019-aec6-0393-1d40" primary="false" name="Moulder"/>
         <categoryLink targetId="3ffc-6d1e-d234-b7a4" id="37cf-2f9f-5dfd-3ce1" primary="false" name="Rat Ogors"/>
@@ -4748,7 +4750,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
         <cost name="Blackstone Fragments" typeId="ac6b-ced3-9b5e-9a6e" value="0"/>
       </costs>
       <categoryLinks>
-        <categoryLink targetId="cf47-a0d7-7207-29dc" id="c725-0e4c-be14-e6ff" primary="false" name="Infantry"/>
+        <categoryLink targetId="cf47-a0d7-7207-29dc" id="c725-0e4c-be14-e6ff" primary="true" name="Infantry"/>
         <categoryLink targetId="4c00-2578-faf5-6918" id="3d58-5140-4d12-31f1" primary="false" name="Chaos"/>
         <categoryLink targetId="f328-2d22-ec3a-0e28" id="1ede-dfcf-357b-d678" primary="false" name="Moulder"/>
         <categoryLink targetId="613e-636d-cd3a-b304" id="d75b-ea61-6914-2032" primary="false" name="Skryre"/>
@@ -5011,7 +5013,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
         <cost name="Blackstone Fragments" typeId="ac6b-ced3-9b5e-9a6e" value="0"/>
       </costs>
       <categoryLinks>
-        <categoryLink targetId="9693-cf84-fe69-37a9" id="6d3c-e373-bfb6-a814" primary="false" name="Monster"/>
+        <categoryLink targetId="9693-cf84-fe69-37a9" id="6d3c-e373-bfb6-a814" primary="true" name="Monster"/>
         <categoryLink targetId="4c00-2578-faf5-6918" id="153c-8761-a856-aaec" primary="false" name="Chaos"/>
         <categoryLink targetId="f328-2d22-ec3a-0e28" id="8f64-7c54-bcd3-76e2" primary="false" name="Moulder"/>
         <categoryLink targetId="f5fe-bf1c-7658-96ed" id="888b-bf66-5116-6c02" primary="false" name="Brood Terror"/>
@@ -5131,7 +5133,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
         <cost name="Blackstone Fragments" typeId="ac6b-ced3-9b5e-9a6e" value="0"/>
       </costs>
       <categoryLinks>
-        <categoryLink targetId="9693-cf84-fe69-37a9" id="57d7-c499-3049-352e" primary="false" name="Monster"/>
+        <categoryLink targetId="9693-cf84-fe69-37a9" id="57d7-c499-3049-352e" primary="true" name="Monster"/>
         <categoryLink targetId="4c00-2578-faf5-6918" id="10a9-7170-5553-517e" primary="false" name="Chaos"/>
         <categoryLink targetId="f328-2d22-ec3a-0e28" id="bc15-265f-9f68-3e54" primary="false" name="Moulder"/>
         <categoryLink targetId="e1e8-5b24-6211-117f" id="ffc7-ad1e-f16f-13b2" primary="false" name="Faction: Skaven"/>
@@ -5214,7 +5216,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
         <categoryLink targetId="613e-636d-cd3a-b304" id="c3bb-91b0-569e-ef39" primary="false" name="Skryre"/>
         <categoryLink targetId="ad4e-9e00-b86a-590f" id="da54-2e4e-2bd8-0c34" primary="false" name="Doomwheel"/>
         <categoryLink targetId="e1e8-5b24-6211-117f" id="d6bb-0e61-87ba-80e0" primary="false" name="Faction: Skaven"/>
-        <categoryLink targetId="14a0-40c9-2748-ae6e" id="b569-0669-3090-fda0" primary="false" name="Mounted"/>
+        <categoryLink targetId="14a0-40c9-2748-ae6e" id="b569-0669-3090-fda0" primary="true" name="Mounted"/>
       </categoryLinks>
       <constraints>
         <constraint type="max" value="3" field="selections" scope="force" shared="true" id="d2cb-5e7f-22e6-750d" includeChildSelections="true"/>
@@ -5292,7 +5294,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
       </costs>
       <categoryLinks>
         <categoryLink targetId="8cab-448d-37b7-32bc" id="ed92-b1ad-ac68-1724" primary="false" name="Artillery"/>
-        <categoryLink targetId="dbd4-63-af05-998" id="736d-8fe4-36b3-e453" primary="false" name="Vehicle"/>
+        <categoryLink targetId="dbd4-63-af05-998" id="736d-8fe4-36b3-e453" primary="true" name="Vehicle"/>
         <categoryLink targetId="4c00-2578-faf5-6918" id="d005-474d-e342-c2bd" primary="false" name="Chaos"/>
         <categoryLink targetId="ce38-8d0a-f198-944e" id="b549-0800-9cb5-7583" primary="false" name="Pestilens"/>
         <categoryLink targetId="0613-1c32-e59f-42fc" id="916e-db9d-3df0-3e69" primary="false" name="Plagueclaw"/>
@@ -5372,7 +5374,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
         <cost name="Blackstone Fragments" typeId="ac6b-ced3-9b5e-9a6e" value="0"/>
       </costs>
       <categoryLinks>
-        <categoryLink targetId="dbd4-63-af05-998" id="7e19-7579-8b94-89c2" primary="false" name="Vehicle"/>
+        <categoryLink targetId="dbd4-63-af05-998" id="7e19-7579-8b94-89c2" primary="true" name="Vehicle"/>
         <categoryLink targetId="4c00-2578-faf5-6918" id="6973-cdb4-cba4-6fcc" primary="false" name="Chaos"/>
         <categoryLink targetId="613e-636d-cd3a-b304" id="4e1e-bc62-ccf3-3ae5" primary="false" name="Skryre"/>
         <categoryLink targetId="e1e8-5b24-6211-117f" id="f2fc-5523-e986-177b" primary="false" name="Faction: Skaven"/>
@@ -5482,7 +5484,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
         <categoryLink targetId="4c00-2578-faf5-6918" id="7609-50f2-b76e-efab" primary="false" name="Chaos"/>
         <categoryLink targetId="613e-636d-cd3a-b304" id="8ded-804c-5c53-3b08" primary="false" name="Skryre"/>
         <categoryLink targetId="e1e8-5b24-6211-117f" id="2e1b-d544-8a57-01c6" primary="false" name="Faction: Skaven"/>
-        <categoryLink targetId="dbd4-63-af05-998" id="76da-2c22-d108-d31f" primary="false" name="Vehicle"/>
+        <categoryLink targetId="dbd4-63-af05-998" id="76da-2c22-d108-d31f" primary="true" name="Vehicle"/>
         <categoryLink targetId="6738-7e7f-5af1-1a99" id="8eff-d429-1fa0-ad0a" primary="false" name="Ratling Warpblaster"/>
       </categoryLinks>
       <constraints>
@@ -5597,7 +5599,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
         <categoryLink targetId="613e-636d-cd3a-b304" id="a540-15ab-f512-69b8" primary="false" name="Skryre"/>
         <categoryLink targetId="ad4e-9e00-b86a-590f" id="7305-0729-bee5-e7c7" primary="false" name="Doomwheel"/>
         <categoryLink targetId="e1e8-5b24-6211-117f" id="893b-cc2d-e1a9-defe" primary="false" name="Faction: Skaven"/>
-        <categoryLink targetId="14a0-40c9-2748-ae6e" id="3453-d223-a1c2-3c7f" primary="false" name="Mounted"/>
+        <categoryLink targetId="14a0-40c9-2748-ae6e" id="3453-d223-a1c2-3c7f" primary="true" name="Mounted"/>
       </categoryLinks>
       <constraints>
         <constraint type="max" value="3" field="selections" scope="force" shared="true" id="c7cb-a203-06cf-1668" includeChildSelections="true"/>
@@ -5702,7 +5704,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
         <categoryLink targetId="613e-636d-cd3a-b304" id="62a1-336f-fc89-a47f" primary="false" name="Skryre"/>
         <categoryLink targetId="cac3-6339-a9aa-dbe7" id="4566-bb12-c45a-465a" primary="false" name="Weapon Team"/>
         <categoryLink targetId="4c00-2578-faf5-6918" id="7f75-42eb-96c4-04ae" primary="false" name="Chaos"/>
-        <categoryLink targetId="cf47-a0d7-7207-29dc" id="60d4-076c-c03a-2f42" primary="false" name="Infantry"/>
+        <categoryLink targetId="cf47-a0d7-7207-29dc" id="60d4-076c-c03a-2f42" primary="true" name="Infantry"/>
       </categoryLinks>
       <constraints>
         <constraint type="max" value="3" field="selections" scope="force" shared="true" id="c392-e223-b410-67b3" includeChildSelections="true"/>
