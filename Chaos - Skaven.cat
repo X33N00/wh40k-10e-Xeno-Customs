@@ -680,7 +680,7 @@
       <selectionEntryGroups>
         <selectionEntryGroup name="Detachements" id="f2a3-c3ca-6279-e016" hidden="false">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Envoys of the Deepengnaw" hidden="false" id="3f53-45c1-f66f-373f">
+            <selectionEntry type="upgrade" import="true" name="Envoys of the Deepengnaw" hidden="false" id="3f53-45c1-f66f-373f" sortIndex="2">
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="062f-afca-c94e-e24c" includeChildSelections="false"/>
               </constraints>
@@ -696,7 +696,7 @@
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Claw-horde" hidden="false" id="206c-039c-3817-5e49">
+            <selectionEntry type="upgrade" import="true" name="Claw-horde" hidden="false" id="206c-039c-3817-5e49" sortIndex="1">
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2f5a-8f02-3788-96ee" includeChildSelections="false"/>
               </constraints>
@@ -708,7 +708,7 @@
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Fleshmeld Menagerie" hidden="false" id="a645-8c1f-e237-3b9b">
+            <selectionEntry type="upgrade" import="true" name="Fleshmeld Menagerie" hidden="false" id="a645-8c1f-e237-3b9b" sortIndex="3">
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cf4d-6e4d-097c-00da" includeChildSelections="false"/>
               </constraints>
@@ -726,7 +726,7 @@
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Gathering of the Clans" hidden="false" id="e8f0-b869-edf7-6b7e">
+            <selectionEntry type="upgrade" import="true" name="Gathering of the Clans" hidden="false" id="e8f0-b869-edf7-6b7e" sortIndex="4">
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8d72-3534-5bf7-291c" includeChildSelections="false"/>
               </constraints>
@@ -738,7 +738,7 @@
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Virulent Procession" hidden="false" id="ff50-b788-dc80-1269">
+            <selectionEntry type="upgrade" import="true" name="Virulent Procession" hidden="false" id="ff50-b788-dc80-1269" sortIndex="5">
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6605-168c-0693-072b" includeChildSelections="false"/>
               </constraints>
@@ -756,7 +756,7 @@
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Warpcog Convocation" hidden="false" id="7661-cf6f-c466-213b">
+            <selectionEntry type="upgrade" import="true" name="Warpcog Convocation" hidden="false" id="7661-cf6f-c466-213b" sortIndex="6">
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d2d0-00dc-4056-c12d" includeChildSelections="false"/>
               </constraints>
@@ -778,6 +778,10 @@
               </profiles>
             </selectionEntry>
           </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b932-c164-ee86-04f4" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ff3e-5303-b43b-5a91" includeChildSelections="false"/>
+          </constraints>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <constraints>
@@ -6372,6 +6376,10 @@ Designer’s Note: This ability allows the target to set up in combat with a new
               </modifierGroups>
             </selectionEntry>
           </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="383f-e0a9-91f1-c001" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="77d7-186f-fc24-98d0" includeChildSelections="false"/>
+          </constraints>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <constraints>
