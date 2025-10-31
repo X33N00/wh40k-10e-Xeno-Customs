@@ -3666,9 +3666,9 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
         </selectionEntry>
       </selectionEntries>
       <modifiers>
-        <modifier type="increment" value="60" field="51b2-306e-1021-d207">
+        <modifier type="set" value="120" field="51b2-306e-1021-d207">
           <conditions>
-            <condition type="atLeast" value="6" field="selections" scope="a107-dc0f-4fdf-4a08" childId="model" shared="true" includeChildSelections="true"/>
+            <condition type="greaterThan" value="5" field="selections" scope="a107-dc0f-4fdf-4a08" childId="model" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
       </modifiers>
