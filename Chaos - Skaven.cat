@@ -6231,7 +6231,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
         <constraint type="max" value="3" field="selections" scope="force" shared="true" id="b1ba-7b42-e41f-1e10" includeChildSelections="false"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Plagueclaw" hidden="false" id="04ee-7ce9-788f-feb1">
+        <selectionEntry type="model" import="true" name="Plagueclaw" hidden="false" id="04ee-7ce9-788f-feb1">
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Crew’s Teeth and Knives" hidden="false" id="488b-b0ec-145e-6c53">
               <constraints>
