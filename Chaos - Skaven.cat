@@ -6262,6 +6262,17 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
           </characteristics>
         </profile>
       </profiles>
+      <categoryLinks>
+        <categoryLink targetId="9cfd-1c32-585f-7d5c" id="23ba-be0a-77c8-9b7f" primary="false" name="Character"/>
+        <categoryLink targetId="4f3a-f0f7-6647-348d" id="0bf0-f4c8-60c7-aa27" primary="true" name="Epic Hero"/>
+        <categoryLink targetId="9693-cf84-fe69-37a9" id="66a0-f2db-d785-d4f7" primary="false" name="Monster"/>
+        <categoryLink targetId="4c00-2578-faf5-6918" id="cd8a-01fa-3f29-7857" primary="false" name="Chaos"/>
+        <categoryLink targetId="9c0e-7e25-4580-e439" id="20d9-3a24-1651-19d8" primary="false" name="Daemon"/>
+        <categoryLink targetId="e1e8-5b24-6211-117f" id="f012-2372-21e7-a8a8" primary="false" name="Faction: Skaven"/>
+        <categoryLink targetId="5004-405c-0631-27da" id="1f67-f9d9-9ad3-98b4" primary="false" name="Masterclan"/>
+        <categoryLink targetId="13bf-2bee-3ae0-b414" id="5cc9-c36c-b027-bcbb" primary="false" name="Psyker"/>
+        <categoryLink targetId="67bd-2342-cca1-349c" id="3c2a-4542-14db-bafc" primary="false" name="Vizzik Skour, Prophet of the Horned Rat"/>
+      </categoryLinks>
     </selectionEntry>
   </sharedSelectionEntries>
   <selectionEntries>
