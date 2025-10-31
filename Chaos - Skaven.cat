@@ -104,7 +104,7 @@
       <selectionEntryGroups>
         <selectionEntryGroup name="Enhancement" id="8498-7d6c-f5d8-1d35" hidden="false">
           <selectionEntryGroups>
-            <selectionEntryGroup name="Claw-horde Enhancements" id="51c5-1d25-8fda-41c5" hidden="false">
+            <selectionEntryGroup name="Claw-horde Enhancements" id="51c5-1d25-8fda-41c5" hidden="true" flatten="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Short-tempered" hidden="false" id="d60c-320d-2f5d-a931">
                   <constraints>
@@ -199,7 +199,7 @@
                 </modifier>
               </modifiers>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Envoys of the Deepengnaw Enhancements" id="31f2-4235-9c89-2828" hidden="false">
+            <selectionEntryGroup name="Envoys of the Deepengnaw Enhancements" id="31f2-4235-9c89-2828" hidden="true" flatten="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Warpstone Charm" hidden="false" id="5c86-f927-af31-8d65">
                   <profiles>
@@ -298,7 +298,7 @@
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9315-83c2-0c54-ea16" includeChildSelections="false"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Fleshmeld Menagerie Enhancements" id="9b98-c107-8991-b8c0" hidden="false">
+            <selectionEntryGroup name="Fleshmeld Menagerie Enhancements" id="9b98-c107-8991-b8c0" hidden="true" flatten="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Foulhide" hidden="false" id="f6dc-76da-4dbc-2095">
                   <profiles>
@@ -397,7 +397,7 @@
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e712-0b52-488c-cf7d" includeChildSelections="false"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Gathering of the Clans Enhancements" id="83c8-23f6-c3f1-62df" hidden="false">
+            <selectionEntryGroup name="Gathering of the Clans Enhancements" id="83c8-23f6-c3f1-62df" hidden="true" flatten="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Scurry Away" hidden="false" id="e6c4-4eaa-dabe-2c3a">
                   <profiles>
@@ -502,7 +502,7 @@
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="668f-0919-307a-67a9" includeChildSelections="false"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Virulent Procession Enhancements" id="8483-8604-da1c-af67" hidden="false">
+            <selectionEntryGroup name="Virulent Procession Enhancements" id="8483-8604-da1c-af67" hidden="true" flatten="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Poisonous Smell" hidden="false" id="31fc-74b2-a74d-f716">
                   <profiles>
@@ -601,7 +601,7 @@
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ea99-79be-48eb-a59f" includeChildSelections="false"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Warpcog Convocation Enhancements" id="c010-2d8b-a743-6448" hidden="false">
+            <selectionEntryGroup name="Warpcog Convocation Enhancements" id="c010-2d8b-a743-6448" hidden="true" flatten="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Pit Tinkerer" hidden="false" id="a6a7-c860-d2aa-2a02">
                   <profiles>
