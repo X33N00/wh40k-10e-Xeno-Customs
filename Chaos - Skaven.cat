@@ -268,7 +268,7 @@
                   <profiles>
                     <profile name="Endless Swarm of Rats" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="fc9a-86dc-1cce-9322">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When a friendly CLANRATS unit uses its *Seething Swarm* ability within 13&quot; of the bearer, it may return D6 units instead of D3 units.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When a friendly CLANRATS unit uses its **Seething Swarm** ability within 13&quot; of the bearer, it may return D6 units instead of D3 units.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -550,7 +550,7 @@
                   <profiles>
                     <profile name="Disease-Ridden Weapon" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a4ea-5ced-c1b0-9342">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">For each hit the bearer lands on an enemy unit with their melee weapons, subtract 1 from the enemy unit&apos;s Save characteristic for the rest of the phase.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">For each hit the bearer lands on an enemy unit with their melee weapons, subtract 1 from the enemy unit&apos;s Save characteristic to a max of 6 for the rest of the phase.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -607,7 +607,7 @@
                   <profiles>
                     <profile name="Pit Tinkerer" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4c77-eff0-12eb-b221">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">You can re-roll the random characteristic rolls for the Move characteristic of friendly SKRYRE VEHICLE and SKRYRE MOUNTED units while they are wholly within 13&quot; of the bearer. In addition, each time a friendly SKRYRE MOUNTED unit that is wholly within 18&quot; of this unit uses the ‘Rolling Doom’ or ‘Whirling Doom’ ability, add 1 to the amount of mortal wounds inflicted, if any.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">You can re-roll the random characteristic rolls for the Move characteristic of friendly SKRYRE VEHICLE and SKRYRE MOUNTED units while they are wholly within 13&quot; of the bearer. In addition, each time a friendly SKRYRE MOUNTED unit that is wholly within 18&quot; of this unit uses the **Rolling Doom’**or **Whirling Doom** ability, add 1 to the amount of mortal wounds inflicted, if any.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -670,7 +670,7 @@
                   <profiles>
                     <profile name="Warpstone Hyper Explosion" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="848d-c6e5-31b5-bfdd">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When the bearer triggers Deadly Demise, it is now Deadly Demise D6 instead of the original value. Additionally, the range of Deadly Demise is now 12&quot; instead of 6&quot;.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When the bearer triggers **Deadly Demise**, it is now **Deadly Demise D6** instead of the original value. Additionally, the range of **Deadly Demise** is now 12&quot; instead of 6&quot;.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -1048,7 +1048,7 @@
         </profile>
         <profile name="Spreaders of Filth and Disease" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4cbd-1ae5-c9ad-eec3">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time a model in this unit is slain by a melee attack, roll a dice. On a 6+, inflict 1 mortal wound on non-*Pestilens* units within 6&quot; after the Fight ability has been resolved.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time a model in this unit is slain by a melee attack, roll a dice. On a 6+, inflict 1 mortal wound on non-PESTILENS units within 6&quot; after the Fight ability has been resolved.</characteristic>
           </characteristics>
         </profile>
         <profile name="Plague Lands" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="8fb6-a0bb-0f6a-b9f4">
@@ -1879,12 +1879,12 @@
         </profile>
         <profile name="The Bell Tolls" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="342f-fa3a-782e-5dd4">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If the current battle round number is odd, add 2&quot; to the Move characteristic of friendly *Skaven* units while they are wholly within 13&quot; of this unit. If the current battle round number is even, subtract 1 from hit rolls for attacks made by enemy units that target a friendly *Skaven* unit while it is wholly within 13&quot; of this unit.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If the current battle round number is odd, add 2&quot; to the Move characteristic of friendly SKAVEN units while they are wholly within 13&quot; of this unit. If the current battle round number is even, subtract 1 from hit rolls for attacks made by enemy units that target a friendly SKAVEN unit while it is wholly within 13&quot; of this unit.</characteristic>
           </characteristics>
         </profile>
         <profile name="Altar of the Horned Rat" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6709-916a-abe7-2dd1">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Friendly *Skaven Infantry* units have Feel No Pain 6+ while they are wholly within 13&quot; of this unit.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Friendly SKAVEN INFANTRY units have Feel No Pain 6+ while they are wholly within 13&quot; of this unit.</characteristic>
           </characteristics>
         </profile>
         <profile name="Grey Seer on Screaming Bell" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="15a6-baed-4bc7-faea">
@@ -2741,7 +2741,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
         </profile>
         <profile name="Warp Devastation" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="0036-2812-cf30-009e">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this model is leading a unit: the attached unit benefits from the Explosive Payload ability.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this model is leading a unit: the attached unit benefits from the **Explosive Payload** ability.</characteristic>
           </characteristics>
         </profile>
         <profile name="Explosive Payload" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b70f-e6f4-ca40-e601">
@@ -2751,7 +2751,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
         </profile>
         <profile name="More-more Doom!" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="89af-e226-9800-3cdf">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">On your shooting phase if this model has not moved this turn you may roll one D6. On a 2+ set the damage characteristic for Doomrocket to D3 + 3 until the end of the phase. On a 1, inflict D3 Mortal Wounds to this unit.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">On your shooting phase if this model has not moved this turn you may roll one D6. On a 2+ set the damage characteristic for **Doomrocket - Frag** and **Doomrocket-Krark** to D3 + 3 until the end of the phase. On a 1, inflict D3 mortal wounds to this unit.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2866,12 +2866,12 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
         </profile>
         <profile name="Sniper-master" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="23a3-6de9-c510-ea45">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this model is leading a unit: all models in this unit can ignore the effects of Stealth and Lone Operative.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this model is leading a unit: all models in this unit can ignore the effects of **Stealth** and **Lone Operative**.</characteristic>
           </characteristics>
         </profile>
         <profile name="More-more Warp Energy!" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="234f-e4e5-d6b8-5a36">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">On your shooting phase if this model has not moved this turn you may roll one D6. On a 2+ this model&apos;s Warplock Musket gains [Blast], [Anti-Monster 3+], and [Anti-Vehicle 3+]. On a 1, inflict D3 Mortal Wounds to this unit.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">On your shooting phase if this model has not moved this turn you may roll one D6. On a 2+ this model&apos;s **Warplock Musket** and **Warplock Musket - Overcharged** gains Anti-Monster 3+, and Anti-Vehicle 3+, and Blast. On a 1, inflict D3 Mortal Wounds to this unit.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3102,7 +3102,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
         </profile>
         <profile name="Tunnels Below" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="54cf-de9d-cae2-c9c1">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">All **Gnawholes** transport the same units. One **Gnawhole** can support up to 55 *Battline*, 7 *Mounted*, 5 *Monsters*, or 5 *Vehicles*.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">All GNAWHOLE transport the same units. One GNAWHOLE can support up to 55 BATTLINE, 7 MOUNTED, 5 MONSTERS, or 5 VEHICLES.</characteristic>
           </characteristics>
         </profile>
         <profile name="Volatile Ground" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4d5b-3b2c-da1a-c315">
@@ -3165,7 +3165,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
         </profile>
         <profile name="Unexpected Bravery" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="1665-990b-ca73-b516">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While a friendly *Skaven* unit is wholly within 13&quot; of this unit, it may re-roll leadership tests.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While a friendly SKAVEN unit is wholly within 13&quot; of this unit, it may re-roll leadership tests.</characteristic>
           </characteristics>
         </profile>
         <profile name="Foster Competition" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3f96-629a-63a0-575a">
@@ -3421,7 +3421,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
         </profile>
         <profile name="More-more Psychic Energy!" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="82b1-34d5-6b3c-f7a3">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Once Per Turn. Your Shooting Phase. Roll a a dice, on a 1-3 take damage corresponding to the result. On a result of 4-6: your *Psychic* weapons gain Extra Attacks.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Once Per Turn. Your Shooting Phase. Roll a a dice, on a 1-3 take damage corresponding to the result. On a result of 4-6: your Psychic weapons gain Extra Attacks.</characteristic>
           </characteristics>
         </profile>
         <profile name="Warp-Amulet" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a430-270d-70a6-ce60">
@@ -3577,10 +3577,9 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
           <characteristics>
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">During your command phase, make one of the following predictions for this round:
 
-
-- **Filled With Cheese Holes**: Pick a friendly *Skaven* unit, if its ranged weapons bring an enemy unit below half-strength this round, its ranged weapons gain +1 damage for the rest of the battle.
-- **Vermin Swarm**: Pick 3 friendly *Skaven* units, if they succesfully charge the same target, they gain 2&quot; to charge rolls for the rest of the battle.
-- **Ripped in Twain**: Pick a friendly *Skaven* unit, if its melee weapons bring an enemy unit below half-strength this round, its melee weapons gain +1 damage for the rest of the battle.</characteristic>
+- **Filled With Cheese Holes**: Pick a friendly SKAVEN unit, if its ranged weapons bring an enemy unit below half-strength this round, its ranged weapons gain +1 damage for the rest of the battle.
+- **Vermin Swarm**: Pick 3 friendly SKAVEN units, if they successfully charge the same target, they gain 2&quot; to charge rolls for the rest of the battle.
+- **Ripped in Twain**: Pick a friendly SKAVEN unit, if its melee weapons bring an enemy unit below half-strength this round, its melee weapons gain +1 damage for the rest of the battle.</characteristic>
           </characteristics>
         </profile>
         <profile name="Fissures In Reality" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2fea-48eb-82ee-53fb">
@@ -3710,7 +3709,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
         </profile>
         <profile name="Tunnel Skulkers" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9505-eb2c-66e1-7ac1">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Pick this unit and up to 1 friendly non-*Skaven Monster* unit if those units have not been deployed, both units are now considered to have Deep Strike.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Pick this unit and up to 1 friendly non-SKAVEN MONSTER unit if those units have not been deployed, both units are now considered to have **Deep Strike**.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4335,7 +4334,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
         </profile>
         <profile name="Elite Bodyguard" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="d682-3982-3cb9-35c9">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Friendly *Skaven Infantry Characters* have 4+ Invulernable Save while they are within 3&quot; this unit.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Friendly SKAVEN INFANTRY CHARACTER units have 4+ Invulernable Save while they are within 3&quot; this unit.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4740,7 +4739,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
         </profile>
         <profile name="Warpstone Snipers" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3ed8-9fdd-07e6-0075">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">On your shooting phase if this model has not moved this turn: add 6&quot; to the Range characteristic of this unit&apos;s *Warplock Jezzails* for the rest of the turn.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">On your shooting phase if this model has not moved this turn: add 6&quot; to the Range characteristic of this unit&apos;s **Warplock Jezzails** and **Warplock Jezzails - Overcharged** for the rest of the turn.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4903,7 +4902,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
         </profile>
         <profile name="Grinderfist Tunnellers" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="dd92-da14-a771-9cf4">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If a model in this unit has taken **Grinderfists**, the whole unit gains [Deep Strike].</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If a model in this unit has taken **Grinderfists**, the whole unit gains **Deep Strike**.</characteristic>
           </characteristics>
         </profile>
         <profile name="Get Swept-Blown Away!" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9fb3-54cd-b08f-559e">
@@ -5273,7 +5272,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
       <profiles>
         <profile name="Avalanche of Flesh" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ab55-332c-5c29-3d01">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Upon a succesful charge, the target must take D6 damage.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Upon a successful charge, the target must take D6 mortal wounds.</characteristic>
           </characteristics>
         </profile>
         <profile name="Too Horrible to Die" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4c94-c78f-29f8-ba66">
@@ -5586,7 +5585,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
         </profile>
         <profile name="More-more Warp Lightning!" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a6c0-0004-e150-c6d2">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Once Per Turn. Your Shooting Phase. If this unit is within the 3&quot; of a friendly **Skryre Character**, add 6 to the Attacks characteristic of this unit’s **Warp Lightning Blast** for the rest of the turn. However, for each unmodified hit roll of 1 for an attack made with this unit’s **Warp Lightning Blast**, inflict 1 mortal wound on this unit after the Shoot ability has been resolved.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Once Per Turn. Your Shooting Phase. If this unit is within the 3&quot; of a friendly SKRYRE CHARACTER, add 6 to the Attacks characteristic of this unit’s **Warp Lightning Blast** for the rest of the turn. However, for each unmodified hit roll of 1 for an attack made with this unit’s **Warp Lightning Blast**, inflict 1 mortal wound on this unit after the Shoot ability has been resolved.</characteristic>
           </characteristics>
         </profile>
         <profile name="Warp Lightning Blast" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4c96-005a-40c8-4931">
@@ -5713,7 +5712,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
         </profile>
         <profile name="More-more Warpstone Bullets!" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a63e-5a5e-5e2d-4eaf">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Once Per Turn. Your Shooting Phase. If this unit is within the 3&quot; of a friendly **Skryre Character**, this unit’s **Hail of Warpstone Bullets** has an Attacks characteristic of 6D6+3 instead of 3D6+3 for the rest of the turn. However, for each unmodified hit roll of 1 for an attack made with this unit’s **Hail of Warpstone Bullets**, inflict 1 mortal wound on this unit after the Shoot ability has been resolved.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Once Per Turn. Your Shooting Phase. If this unit is within the 3&quot; of a friendly SKRYRE CHARACTER, this unit’s **Hail of Warpstone Bullets** has an Attacks characteristic of 6D6+3 instead of 3D6+3 for the rest of the turn. However, for each unmodified hit roll of 1 for an attack made with this unit’s **Hail of Warpstone Bullets**, inflict 1 mortal wound on this unit after the Shoot ability has been resolved.</characteristic>
           </characteristics>
         </profile>
         <profile name="Overwhelming Fire" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e259-ee99-04af-717c">
@@ -5932,7 +5931,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
         </profile>
         <profile name="Jumping Volt" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9f5d-25f5-337e-a556">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If this unit&apos;s **Warpvolt Scourger** is targeting an enemy unit that is within engagement range of another unit, each unit is targeted by the attack.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If this unit&apos;s **Warpvolt Scourger** and **Warpvolt Scourger - Overcharged** is targeting an enemy unit that is within engagement range of another unit, each unit is targeted by the attack.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6733,7 +6732,7 @@ Designer’s Note: This ability allows the target to set up in combat with a new
   <sharedProfiles>
     <profile name="Hidden Weapon Team" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="c203-9e5c-8587-2803">
       <characteristics>
-        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this unit is within the combat range of a friendly CLANRATS unit that has 5 or more models, and there are no other friendly Weapon Team units within that unit’s engagement range, this unit has the Lone Operative ability.</characteristic>
+        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this unit is within the combat range of a friendly CLANRATS unit that has 5 or more models, and there are no other friendly WEAPON TEAM units within that unit’s engagement range, this unit has the Lone Operative ability.</characteristic>
       </characteristics>
     </profile>
     <profile name="➤ Plague Stricken Curse - Witchfire" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="07f7-9fe6-4b23-614f">
@@ -6826,12 +6825,12 @@ Designer’s Note: This ability allows the target to set up in combat with a new
     </profile>
     <profile name="Hidden Amongst The Many" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="8048-a67a-bc5c-b929">
       <characteristics>
-        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If this CHARACTER is within 3&quot; of one or more other friendly SKAVEN units, this model has the Lone Operative ability.</characteristic>
+        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If this CHARACTER is within 3&quot; of one or more other friendly SKAVEN units, this model has the **Lone Operative** ability.</characteristic>
       </characteristics>
     </profile>
     <profile name="Sweep of Flames" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="43f4-3437-7eef-8109">
       <characteristics>
-        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If this unit&apos;s [TORRENT] weapon is targeting an enemy unit that is within engagement range of another unit, each unit is targeted by the attack.</characteristic>
+        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If this unit&apos;s Torrent weapon is targeting an enemy unit that is within engagement range of another unit, each unit is targeted by the attack.</characteristic>
       </characteristics>
     </profile>
     <profile name="Damaged: 1-5 Wounds Remaining" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6eac-369a-f9e3-cf11">
