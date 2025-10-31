@@ -4907,6 +4907,9 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
             <selectionEntry type="upgrade" import="true" name="Options" hidden="false" id="4473-8012-27ae-9346">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Doomflayer Gauntlets" hidden="false" id="566e-74b6-5b92-7c92" collective="true">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c39e-fb0c-2118-0354" includeChildSelections="false"/>
+                  </constraints>
                   <profiles>
                     <profile name="Doomflayer Gauntlets" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="1d77-cb15-8ff2-8361">
                       <characteristics>
@@ -4925,6 +4928,9 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
                   </infoLinks>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Shock Gauntlets" hidden="false" id="cba0-93ed-80c4-0901" collective="true">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="75a3-e3c0-4410-3d40" includeChildSelections="false"/>
+                  </constraints>
                   <profiles>
                     <profile name="Shock Gauntlets" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="1ea8-7444-6a49-a5f1">
                       <characteristics>
@@ -4947,7 +4953,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
           </selectionEntries>
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7871-4f05-2921-a675" includeChildSelections="false"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f8be-be40-53a4-2c37" includeChildSelections="false"/>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="f8be-be40-53a4-2c37" includeChildSelections="false"/>
           </constraints>
           <modifiers>
             <modifier type="increment" value="1" field="7871-4f05-2921-a675">
