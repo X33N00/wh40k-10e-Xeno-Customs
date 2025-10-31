@@ -4852,18 +4852,26 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Warpfire Gun" hidden="false" id="3dfe-b409-b28e-0c3b" collective="true">
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="3" field="selections" scope="parent" shared="true" id="d24e-4ba1-6b7d-04ac" includeChildSelections="false"/>
+            <constraint type="max" value="6" field="selections" scope="parent" shared="true" id="7be6-203f-6d7e-5290" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Rat Ogors w/ Warpfire Gun" hidden="false" id="1756-401c-0a24-2168">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Warpfire Gun" hidden="false" id="4abb-b54e-7b66-5fb4" collective="true">
               <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f16d-9422-e09d-4bc8" includeChildSelections="false"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="318f-be65-a7a5-edae" includeChildSelections="false"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="546d-7613-a1a6-a0a1" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="de9d-e005-bed3-e246" includeChildSelections="false"/>
               </constraints>
               <infoLinks>
-                <infoLink name="Hazardous" id="78bc-0e60-7a2f-3a57" hidden="false" type="rule" targetId="8367-374c-f87-c627"/>
-                <infoLink name="Pistol" id="be94-b125-5225-12da" hidden="false" type="rule" targetId="8bf7-8812-923d-29e4"/>
-                <infoLink name="Torrent" id="d311-c2e3-0b0b-8894" hidden="false" type="rule" targetId="5edf-d619-23e0-9b56"/>
+                <infoLink name="Hazardous" id="6354-1ddd-a27f-f140" hidden="false" type="rule" targetId="8367-374c-f87-c627"/>
+                <infoLink name="Pistol" id="9408-337b-833a-2e0f" hidden="false" type="rule" targetId="8bf7-8812-923d-29e4"/>
+                <infoLink name="Torrent" id="a1fe-3626-5e12-90da" hidden="false" type="rule" targetId="5edf-d619-23e0-9b56"/>
               </infoLinks>
               <profiles>
-                <profile name="Warpfire Gun - Overcharged" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="d02a-225c-fa2f-99e1">
+                <profile name="Warpfire Gun - Overcharged" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="b1b9-9f54-ec97-5be8">
                   <characteristics>
                     <characteristic name="Range" typeId="9896-9419-16a1-92fc">10&quot;</characteristic>
                     <characteristic name="A" typeId="3bb-c35f-f54-fb08">2D6</characteristic>
@@ -4874,7 +4882,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
                     <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Hazardous, Pistol, Torrent</characteristic>
                   </characteristics>
                 </profile>
-                <profile name="Warpfire Gun" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="9f08-31ef-53db-a4e6">
+                <profile name="Warpfire Gun" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="d246-9235-0b07-c025">
                   <characteristics>
                     <characteristic name="Range" typeId="9896-9419-16a1-92fc">10&quot;</characteristic>
                     <characteristic name="A" typeId="3bb-c35f-f54-fb08">2D6</characteristic>
@@ -4889,8 +4897,8 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
             </selectionEntry>
           </selectionEntries>
           <constraints>
-            <constraint type="min" value="3" field="selections" scope="parent" shared="true" id="d24e-4ba1-6b7d-04ac" includeChildSelections="false"/>
-            <constraint type="max" value="6" field="selections" scope="parent" shared="true" id="7be6-203f-6d7e-5290" includeChildSelections="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6051-8b87-c477-1cba" includeChildSelections="false"/>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="c94d-6b7b-aace-cbc9" includeChildSelections="false"/>
           </constraints>
         </selectionEntry>
       </selectionEntries>
