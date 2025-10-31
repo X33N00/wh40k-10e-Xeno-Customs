@@ -178,7 +178,7 @@
               <modifiers>
                 <modifier type="set" value="false" field="hidden">
                   <conditions>
-                    <condition type="atLeast" value="1" field="selections" scope="parent" shared="true" includeChildForces="true" includeChildSelections="true" childId="206c-039c-3817-5e49"/>
+                    <condition type="atLeast" value="1" field="selections" scope="force" shared="true" includeChildForces="true" includeChildSelections="true" childId="206c-039c-3817-5e49"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -273,7 +273,7 @@
               <modifiers>
                 <modifier type="set" value="false" field="hidden">
                   <conditions>
-                    <condition type="atLeast" value="1" field="selections" scope="parent" shared="true" includeChildForces="true" includeChildSelections="true" childId="3f53-45c1-f66f-373f"/>
+                    <condition type="atLeast" value="1" field="selections" scope="force" shared="true" includeChildForces="true" includeChildSelections="true" childId="3f53-45c1-f66f-373f"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -368,7 +368,7 @@
               <modifiers>
                 <modifier type="set" value="false" field="hidden">
                   <conditions>
-                    <condition type="atLeast" value="1" field="selections" scope="parent" shared="true" includeChildForces="true" includeChildSelections="true" childId="a645-8c1f-e237-3b9b"/>
+                    <condition type="atLeast" value="1" field="selections" scope="force" shared="true" includeChildForces="true" includeChildSelections="true" childId="a645-8c1f-e237-3b9b"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -469,7 +469,7 @@
               <modifiers>
                 <modifier type="set" value="false" field="hidden">
                   <conditions>
-                    <condition type="atLeast" value="1" field="selections" scope="parent" shared="true" includeChildForces="true" includeChildSelections="true" childId="e8f0-b869-edf7-6b7e"/>
+                    <condition type="atLeast" value="1" field="selections" scope="force" shared="true" includeChildForces="true" includeChildSelections="true" childId="e8f0-b869-edf7-6b7e"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -564,7 +564,7 @@
               <modifiers>
                 <modifier type="set" value="false" field="hidden">
                   <conditions>
-                    <condition type="atLeast" value="1" field="selections" scope="parent" shared="true" includeChildForces="true" includeChildSelections="true" childId="ff50-b788-dc80-1269"/>
+                    <condition type="atLeast" value="1" field="selections" scope="force" shared="true" includeChildForces="true" includeChildSelections="true" childId="ff50-b788-dc80-1269"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -659,18 +659,18 @@
               <modifiers>
                 <modifier type="set" value="false" field="hidden">
                   <conditions>
-                    <condition type="atLeast" value="1" field="selections" scope="parent" shared="true" includeChildForces="true" includeChildSelections="true" childId="7661-cf6f-c466-213b"/>
+                    <condition type="atLeast" value="1" field="selections" scope="force" shared="true" includeChildForces="true" includeChildSelections="true" childId="7661-cf6f-c466-213b"/>
                   </conditions>
                 </modifier>
               </modifiers>
             </selectionEntryGroup>
           </selectionEntryGroups>
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8968-6af0-17c6-4702" includeChildSelections="false"/>
-            <constraint type="max" value="1" field="selections" scope="force" shared="true" id="ea6a-d1f7-4e63-93ce" includeChildSelections="false"/>
-          </constraints>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="690c-2276-7259-bdb5" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="a8a1-c798-d0e0-bf1c" includeChildSelections="false"/>
+      </constraints>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Detachment" hidden="false" id="f160-ba43-c94c-0645">
       <selectionEntryGroups>
@@ -4705,56 +4705,6 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Warp Lightning Vortex" hidden="false" id="5b4d-751c-5095-a330">
-      <costs>
-        <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
-        <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
-        <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
-        <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
-        <cost name="Blackstone Fragments" typeId="ac6b-ced3-9b5e-9a6e" value="0"/>
-      </costs>
-      <categoryLinks>
-        <categoryLink targetId="e1e8-5b24-6211-117f" id="c7db-1228-4be7-2657" primary="false" name="Faction: Skaven"/>
-        <categoryLink targetId="4c00-2578-faf5-6918" id="7f4c-ac79-68db-57f1" primary="false" name="Chaos"/>
-        <categoryLink targetId="c619-2086-bbcf-69c9" id="9037-d8ca-fd67-ab42" primary="false" name="Fly"/>
-        <categoryLink targetId="7dd2-676a-51da-fba1" id="362b-a901-c644-34b1" primary="false" name="Warp Lightning Vortex"/>
-        <categoryLink targetId="f0ab-7297-addd-5c15" id="82c8-dbb5-8383-17ed" primary="false" name="Manifestation"/>
-      </categoryLinks>
-      <constraints>
-        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="3754-263e-0207-9459" includeChildSelections="true"/>
-      </constraints>
-      <infoLinks>
-        <infoLink name="Great Vermintide" id="40da-6f0c-c2af-8e9d" hidden="false" type="rule" targetId="fb49-cf71-d602-5614"/>
-        <infoLink name="Feel No Pain" id="4833-c6e9-80d3-15fb" hidden="false" type="rule" targetId="9bf4-280f-bbe2-6fbb"/>
-      </infoLinks>
-      <profiles>
-        <profile name="Warp Lightning Vortex" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="0073-12c6-c59b-1574">
-          <characteristics>
-            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">0&quot;</characteristic>
-            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">8</characteristic>
-            <characteristic name="SV" typeId="450-a17e-9d5e-29da">6+</characteristic>
-            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">7</characteristic>
-            <characteristic name="LD" typeId="58d2-b879-49c7-43bc">7+</characteristic>
-            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">0</characteristic>
-          </characteristics>
-        </profile>
-        <profile name="Warp Lightning Bolts" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5b8d-c5ae-4ce0-b911">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Any Command Phase. If this unit was not set up this turn, pick each enemy unit within 6&quot; of this Manifestation to be the targets. Roll a dice for each target. On a 4+, inflict D3 mortal damage on the target.</characteristic>
-          </characteristics>
-        </profile>
-        <profile name="Multiple Parts" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="0b0c-e4ca-dfb6-a01d">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When a number of damage points equal to this unit&apos;s health characteristic are allocated to it, this unit is destroyed and all its parts are removed from play.</characteristic>
-          </characteristics>
-        </profile>
-        <profile name="Warp Vortex" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="7d8c-89a3-6ced-bf5c">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Subtract 2 from advance rolls and charge rolls for enemy units while they are within 6&quot; of this unit. In addition, if an enemy unit passes across this unit and/or the round-cornered triangle formed by drawing a line around all the bases of the unit&apos;s parts, inflict D3 mortal damage on that enemy unit after the Move ability has been resolved.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-    </selectionEntry>
     <selectionEntry type="unit" import="true" name="Rat Ogors" hidden="false" id="3c0d-ff59-c4da-44f2">
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="60"/>
@@ -6718,7 +6668,6 @@ Designer’s Note: This ability allows the target to set up in combat with a new
     <entryLink import="true" name="Warlock Engineer" hidden="false" id="9428-cc4d-cf1a-043e" type="selectionEntry" targetId="4cc1-c137-4ed1-d96f"/>
     <entryLink import="true" name="Warlock Galvaneer" hidden="false" id="c36f-c13b-deb0-7537" type="selectionEntry" targetId="9ae3-21bc-2a9f-f425"/>
     <entryLink import="true" name="Warp Lightning Cannon" hidden="false" id="229c-2c0b-286e-85c4" type="selectionEntry" targetId="7bd7-176d-1bbb-75c0"/>
-    <entryLink import="true" name="Warp Lightning Vortex" hidden="false" id="848d-0b75-fe02-2b2b" type="selectionEntry" targetId="5b4d-751c-5095-a330"/>
     <entryLink import="true" name="Warp-Grinder" hidden="false" id="2ff5-d2d2-030b-cb42" type="selectionEntry" targetId="ca8f-ac46-2ebe-8c60"/>
     <entryLink import="true" name="Warpfire Throwers" hidden="false" id="9de6-1c18-9f1f-a5b9" type="selectionEntry" targetId="d81f-ba33-a928-511b"/>
     <entryLink import="true" name="Warplock Jezzails" hidden="false" id="1d08-9a7a-302e-f2dd" type="selectionEntry" targetId="5dbe-1f51-2388-fa5e"/>
