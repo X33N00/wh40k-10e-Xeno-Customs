@@ -6277,6 +6277,10 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
               </infoLinks>
             </selectionEntry>
           </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9298-f485-e35c-2cc9" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4213-1ee1-0b4f-0c33" includeChildSelections="false"/>
+          </constraints>
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
