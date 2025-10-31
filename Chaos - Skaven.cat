@@ -4907,12 +4907,11 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
             <selectionEntry type="upgrade" import="true" name="Options" hidden="false" id="4473-8012-27ae-9346">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d626-aff0-09c0-ec70" includeChildSelections="false"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f7ce-b70b-bf18-76d8" includeChildSelections="false"/>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="f7ce-b70b-bf18-76d8" includeChildSelections="false"/>
               </constraints>
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Doomflayer Gauntlets" hidden="false" id="566e-74b6-5b92-7c92" collective="true">
                   <constraints>
-                    <constraint type="min" value="1" field="selections" scope="upgrade" shared="true" id="4da7-e0b1-ac47-07cc" includeChildSelections="false"/>
                     <constraint type="max" value="1" field="selections" scope="upgrade" shared="true" id="a26a-3ee9-c0e4-c557" includeChildSelections="false"/>
                   </constraints>
                   <profiles>
@@ -4934,7 +4933,6 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Shock Gauntlets" hidden="false" id="cba0-93ed-80c4-0901" collective="true">
                   <constraints>
-                    <constraint type="min" value="1" field="selections" scope="upgrade" shared="true" id="412d-34f5-cff9-4566" includeChildSelections="false"/>
                     <constraint type="max" value="1" field="selections" scope="upgrade" shared="true" id="0f8d-df10-a62b-7b87" includeChildSelections="false"/>
                   </constraints>
                   <profiles>
@@ -4979,7 +4977,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
             <selectionEntry type="upgrade" import="true" name="Options" hidden="false" id="3f03-fe94-826f-44c1">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1db-7fe4-f1e2-2b81" includeChildSelections="false"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c6a5-97d1-c233-9bcb" includeChildSelections="false"/>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="c6a5-97d1-c233-9bcb" includeChildSelections="false"/>
               </constraints>
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Grinderfists" hidden="false" id="7457-217f-9a35-8695" collective="true">
@@ -5072,7 +5070,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
             <selectionEntry type="upgrade" import="true" name="Options" hidden="false" id="c21b-7c56-169d-cf0b">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="01c1-59a3-6723-5c2e" includeChildSelections="false"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d650-01e6-66fe-438e" includeChildSelections="false"/>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="d650-01e6-66fe-438e" includeChildSelections="false"/>
               </constraints>
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Warpfire Projectors and Clubbing Blows" hidden="false" id="214a-d373-0a8b-9385" collective="true">
