@@ -5183,6 +5183,117 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
             </modifier>
           </modifiers>
         </selectionEntry>
+        <selectionEntry type="model" import="true" name="Stormfiend" hidden="false" id="f9a9-20a5-7e89-5906">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a668-d963-a973-805c"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f4ab-7ad3-b87e-2f32"/>
+          </constraints>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Wargear Options" id="1059-529b-1fea-40bc" hidden="false">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Ratling Cannons and Clubbing Blows" hidden="false" id="b314-b825-3cd6-95c6">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Ratling Cannons" hidden="false" id="e0ec-9239-ce1f-505a">
+                      <constraints>
+                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7474-4f0d-c3a1-cf8"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="99a0-a787-c541-18c0"/>
+                      </constraints>
+                      <profiles>
+                        <profile name="Ratling Cannons" typeId="1fd-a42f-41d3-fe05" typeName="Ranged Weapon" hidden="false" id="a878-eaf7-985-b770">
+                          <characteristics>
+                            <characteristic name="Rng" typeId="c6b5-908c-a604-1a98">15&quot;</characteristic>
+                            <characteristic name="Atk" typeId="aa17-4296-2887-e05d">3D6</characteristic>
+                            <characteristic name="Hit" typeId="194d-aeb6-5ba7-83b4">4+</characteristic>
+                            <characteristic name="Wnd" typeId="d3d5-9dc6-13de-8d1">3+</characteristic>
+                            <characteristic name="Rnd" typeId="d03f-a9ae-3eec-755">1</characteristic>
+                            <characteristic name="Dmg" typeId="96c2-d0a5-ea1e-653b">1</characteristic>
+                            <characteristic name="Ability" typeId="d793-3dd7-9c13-741e">-</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Clubbing Blows" hidden="false" id="fe5e-d4c0-e1af-6b27">
+                      <constraints>
+                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="55b4-4945-8c11-7215"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c5ac-f272-a9d8-e4c5"/>
+                      </constraints>
+                      <profiles>
+                        <profile name="Clubbing Blows" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="603b-3b61-d951-7c78">
+                          <characteristics>
+                            <characteristic name="Atk" typeId="60e-35aa-31ed-e488">3</characteristic>
+                            <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
+                            <characteristic name="Wnd" typeId="61c1-22cc-40af-2847">2+</characteristic>
+                            <characteristic name="Rnd" typeId="eccc-10fa-6958-fb73">-</characteristic>
+                            <characteristic name="Dmg" typeId="e948-9c71-12a6-6be4">2</characteristic>
+                            <characteristic name="Ability" typeId="eda3-7332-5db1-4159">-</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Grinderfists" hidden="false" id="e04f-9aa2-a82c-e3df">
+                  <profiles>
+                    <profile name="Grinderfist Tunnellers" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="365f-f8ed-3a29-ba64">
+                      <characteristics>
+                        <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Once Per Turn (Army), Any Movement Phase</characteristic>
+                        <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Pick this unit if it is **in the tunnels below** and includes any models armed with **Grinderfists**.</characteristic>
+                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Set up this unit anywhere on the battlefield more than 9&quot; from all enemy units.</characteristic>
+                        <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
+                        <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
+                      </characteristics>
+                      <attributes>
+                        <attribute typeId="5a11-eab3-180c-ddf5" name="Color">Gray</attribute>
+                        <attribute typeId="6d16-c86b-2698-85a4" name="Type">Movement</attribute>
+                      </attributes>
+                    </profile>
+                  </profiles>
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Grinderfists" hidden="false" id="9b8e-7563-a54a-5392">
+                      <constraints>
+                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="605e-d9af-7f7d-1a59"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="29f3-7474-aef9-7285"/>
+                      </constraints>
+                      <profiles>
+                        <profile name="Grinderfists" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="42f2-2197-f92a-6b62">
+                          <characteristics>
+                            <characteristic name="Atk" typeId="60e-35aa-31ed-e488">4</characteristic>
+                            <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
+                            <characteristic name="Wnd" typeId="61c1-22cc-40af-2847">2+</characteristic>
+                            <characteristic name="Rnd" typeId="eccc-10fa-6958-fb73">2</characteristic>
+                            <characteristic name="Dmg" typeId="e948-9c71-12a6-6be4">2</characteristic>
+                            <characteristic name="Ability" typeId="eda3-7332-5db1-4159">-</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntry>
+              </selectionEntries>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7b90-afb0-9184-d2db"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="986c-7284-1c6a-20e8"/>
+              </constraints>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <modifiers>
+            <modifier type="increment" value="1" field="a668-d963-a973-805c">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="root-entry" childId="a426-2146-508f-0f87" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="increment" value="1" field="f4ab-7ad3-b87e-2f32">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="root-entry" childId="a426-2146-508f-0f87" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <rules>
+            <rule name="Base Size" id="5672-b680-e158-871c" hidden="true">
+              <description>60mm</description>
+            </rule>
+          </rules>
+        </selectionEntry>
       </selectionEntries>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Brood Terror" hidden="false" id="d4c4-70e4-397b-4b14">
