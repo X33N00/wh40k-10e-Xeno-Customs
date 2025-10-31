@@ -4855,7 +4855,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
           </selectionEntries>
           <constraints>
             <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="d24e-4ba1-6b7d-04ac" includeChildSelections="false"/>
-            <constraint type="max" value="5" field="selections" scope="parent" shared="true" id="7be6-203f-6d7e-5290" includeChildSelections="false"/>
+            <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="7be6-203f-6d7e-5290" includeChildSelections="false"/>
           </constraints>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="Rat Ogors w/ Warpfire Gun" hidden="false" id="1756-401c-0a24-2168">
