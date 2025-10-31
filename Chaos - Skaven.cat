@@ -6187,7 +6187,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Plagueclaw" hidden="false" id="c3f7-8130-3b4d-c0f9">
       <categoryLinks>
-        <categoryLink targetId="dbd4-63-af05-998" id="d4dc-9c55-7160-d9a6" primary="false" name="Vehicle"/>
+        <categoryLink targetId="dbd4-63-af05-998" id="d4dc-9c55-7160-d9a6" primary="true" name="Vehicle"/>
         <categoryLink targetId="4c00-2578-faf5-6918" id="2029-84e5-8cb4-100b" primary="false" name="Chaos"/>
         <categoryLink targetId="e1e8-5b24-6211-117f" id="d41c-76e2-0248-235a" primary="false" name="Faction: Skaven"/>
         <categoryLink targetId="ce38-8d0a-f198-944e" id="1fcb-42a6-6fc5-7f61" primary="false" name="Pestilens"/>
