@@ -6058,95 +6058,6 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ea8c-062c-8d19-39d6"/>
       </constraints>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Plagueclaw" hidden="false" id="965f-1890-a4b7-3e7f">
-      <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="165"/>
-        <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
-        <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
-        <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
-        <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
-        <cost name="Blackstone Fragments" typeId="ac6b-ced3-9b5e-9a6e" value="0"/>
-      </costs>
-      <categoryLinks>
-        <categoryLink targetId="8cab-448d-37b7-32bc" id="1d95-ebf4-8172-06d4" primary="false" name="Artillery"/>
-        <categoryLink targetId="dbd4-63-af05-998" id="b9a0-f239-b2e0-161b" primary="true" name="Vehicle"/>
-        <categoryLink targetId="4c00-2578-faf5-6918" id="83dc-7d70-1506-bfda" primary="false" name="Chaos"/>
-        <categoryLink targetId="ce38-8d0a-f198-944e" id="446e-bd1b-9ee8-d3c6" primary="false" name="Pestilens"/>
-        <categoryLink targetId="0613-1c32-e59f-42fc" id="bf8e-c2a5-16f1-9402" primary="false" name="Plagueclaw"/>
-        <categoryLink targetId="e1e8-5b24-6211-117f" id="5bb2-a769-6702-7857" primary="false" name="Faction: Skaven"/>
-      </categoryLinks>
-      <constraints>
-        <constraint type="max" value="3" field="selections" scope="force" shared="true" id="8e5d-f4d6-6fc1-f8d2" includeChildSelections="true"/>
-      </constraints>
-      <infoLinks>
-        <infoLink name="Great Vermintide" id="b1e5-b95a-8466-ae0e" hidden="false" type="rule" targetId="fb49-cf71-d602-5614"/>
-        <infoLink name="Deadly Demise" id="3029-21b9-e7cd-f1a3" hidden="false" type="rule" targetId="b68a-5ded-65ac-98c">
-          <modifiers>
-            <modifier type="append" value="D3" field="name"/>
-          </modifiers>
-        </infoLink>
-      </infoLinks>
-      <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Plagueclaw" hidden="false" id="cc57-3fd9-4ea4-fa5b">
-          <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Crew’s Teeth and Knives" hidden="false" id="3f05-6732-29ba-7101">
-              <infoLinks>
-                <infoLink name="Crew&apos;s Teeth and Knives" id="be83-763a-cdcd-3a8d" hidden="false" type="profile" targetId="0633-e81c-6c4b-0e4e"/>
-              </infoLinks>
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="41a3-5472-de0e-289a"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3e82-7581-49f8-ffd1"/>
-              </constraints>
-            </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Plagueclaw Catapult" hidden="false" id="9d9a-9300-5b9d-6024">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="03d0-008d-65c8-04c5" includeChildSelections="false"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3328-7137-33cb-9d62" includeChildSelections="false"/>
-              </constraints>
-              <profiles>
-                <profile name="Plagueclaw Catapult" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="a8d5-3a33-e955-df03">
-                  <characteristics>
-                    <characteristic name="Range" typeId="914c-b413-91e3-a132">24&quot;</characteristic>
-                    <characteristic name="A" typeId="2337-daa1-6682-b110">2</characteristic>
-                    <characteristic name="WS" typeId="95d1-95f-45b4-11d6">3+</characteristic>
-                    <characteristic name="S" typeId="ab33-d393-96ce-ccba">10</characteristic>
-                    <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-1</characteristic>
-                    <characteristic name="D" typeId="3254-9fe6-d824-513e">D6</characteristic>
-                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Anti-Infantry 3+, Heavy, Indirect Fire</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <infoLinks>
-                <infoLink name="Indirect Fire" id="7123-1210-b079-6ed7" hidden="false" type="rule" targetId="4ddd-4e29-acdd-5e6d"/>
-                <infoLink name="Anti-" id="24d6-f561-1701-d477" hidden="false" type="rule" targetId="4111-82e3-9444-e942"/>
-                <infoLink name="Heavy" id="9674-5c60-ece5-14d5" hidden="false" type="rule" targetId="1202-10a8-78e9-4c67"/>
-              </infoLinks>
-            </selectionEntry>
-          </selectionEntries>
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9b33-7d0c-3132-5f0e" includeChildSelections="false"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6da7-63dc-92be-98d1" includeChildSelections="false"/>
-          </constraints>
-        </selectionEntry>
-      </selectionEntries>
-      <profiles>
-        <profile name="Plagueclaw" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="0b1b-d90c-11c3-8e18">
-          <characteristics>
-            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">3&quot;</characteristic>
-            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">8</characteristic>
-            <characteristic name="SV" typeId="450-a17e-9d5e-29da">4+</characteristic>
-            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">8</characteristic>
-            <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
-            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">2</characteristic>
-          </characteristics>
-        </profile>
-        <profile name="Bubonic Barrage" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3f5a-5cc9-fcf4-4694">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this unit uses a Shoot ability, if all of its attacks targeted the same enemy unit, after that ability has been resolved, roll a dice. If the result is equal to or less than the number of models in that enemy unit that were slain by attacks made by this unit’s **Plagueclaw Catapult** this phase, that enemy unit has **Fight Last** for the rest of the turn.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-    </selectionEntry>
     <selectionEntry type="model" import="true" name="Vizzik Skour, Prophet of the Horned Rat" hidden="false" id="b076-2664-17de-8030">
       <costs>
         <cost name="pts" typeId="51b2-306e-1021-d207" value="225"/>
@@ -6273,6 +6184,101 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
         <categoryLink targetId="13bf-2bee-3ae0-b414" id="5cc9-c36c-b027-bcbb" primary="false" name="Psyker"/>
         <categoryLink targetId="67bd-2342-cca1-349c" id="3c2a-4542-14db-bafc" primary="false" name="Vizzik Skour, Prophet of the Horned Rat"/>
       </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Plagueclaw" hidden="false" id="c3f7-8130-3b4d-c0f9">
+      <categoryLinks>
+        <categoryLink targetId="dbd4-63-af05-998" id="d4dc-9c55-7160-d9a6" primary="false" name="Vehicle"/>
+        <categoryLink targetId="4c00-2578-faf5-6918" id="2029-84e5-8cb4-100b" primary="false" name="Chaos"/>
+        <categoryLink targetId="e1e8-5b24-6211-117f" id="d41c-76e2-0248-235a" primary="false" name="Faction: Skaven"/>
+        <categoryLink targetId="ce38-8d0a-f198-944e" id="1fcb-42a6-6fc5-7f61" primary="false" name="Pestilens"/>
+        <categoryLink targetId="8cab-448d-37b7-32bc" id="05e7-cde9-e423-7518" primary="false" name="Artillery"/>
+        <categoryLink targetId="0613-1c32-e59f-42fc" id="8c06-0980-e552-beee" primary="false" name="Plagueclaw"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="165"/>
+        <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+        <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+        <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+        <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+        <cost name="Blackstone Fragments" typeId="ac6b-ced3-9b5e-9a6e" value="0"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Deadly Demise" id="2637-d471-621e-11bb" hidden="false" type="rule" targetId="b68a-5ded-65ac-98c">
+          <modifiers>
+            <modifier type="append" value="D3" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Great Vermintide" id="c1a4-e673-defe-3b2f" hidden="false" type="rule" targetId="fb49-cf71-d602-5614"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Plagueclaw" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="e6b8-ed5d-2aae-a373">
+          <characteristics>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">3&quot;</characteristic>
+            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">8</characteristic>
+            <characteristic name="SV" typeId="450-a17e-9d5e-29da">4+</characteristic>
+            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">8</characteristic>
+            <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
+            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">2</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Bubonic Barrage" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5b8e-b07c-bbcf-a9ef">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this unit uses a Shoot ability, if all of its attacks targeted the same enemy unit, after that ability has been resolved, roll a dice. If the result is equal to or less than the number of models in that enemy unit that were slain by attacks made by this unit’s **Plagueclaw Catapult** this phase, that enemy unit has **Fight Last** for the rest of the turn.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <constraints>
+        <constraint type="max" value="3" field="selections" scope="force" shared="true" id="b1ba-7b42-e41f-1e10" includeChildSelections="false"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Plagueclaw" hidden="false" id="04ee-7ce9-788f-feb1">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Crew’s Teeth and Knives" hidden="false" id="488b-b0ec-145e-6c53">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2624-a3f5-5c30-edd7" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7688-0a88-db86-b243" includeChildSelections="false"/>
+              </constraints>
+              <profiles>
+                <profile name="Crew’s Teeth and Knives" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="1f64-f508-2a08-b5b9">
+                  <characteristics>
+                    <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                    <characteristic name="A" typeId="2337-daa1-6682-b110">D6</characteristic>
+                    <characteristic name="WS" typeId="95d1-95f-45b4-11d6">4+</characteristic>
+                    <characteristic name="S" typeId="ab33-d393-96ce-ccba">5</characteristic>
+                    <characteristic name="AP" typeId="41a0-1301-112a-e2f2">0</characteristic>
+                    <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
+                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Plagueclaw Catapult" hidden="false" id="97f1-e2c2-a8af-ad91">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1bfb-ff75-a5b4-761a" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b960-23f5-bc85-7a44" includeChildSelections="false"/>
+              </constraints>
+              <profiles>
+                <profile name="Plagueclaw Catapult" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="2a83-a76f-3ffc-de38">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">24&quot;</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
+                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">10</characteristic>
+                    <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">D6</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-Infantry 3+, Heavy, Indirect Fire</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink name="Indirect Fire" id="cd0f-df7d-73b7-86ab" hidden="false" type="rule" targetId="4ddd-4e29-acdd-5e6d"/>
+                <infoLink name="Anti-" id="5008-9f6d-da7f-d3ed" hidden="false" type="rule" targetId="4111-82e3-9444-e942"/>
+                <infoLink name="Heavy" id="cd76-d4f6-40cf-c829" hidden="false" type="rule" targetId="1202-10a8-78e9-4c67"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntry>
+      </selectionEntries>
     </selectionEntry>
   </sharedSelectionEntries>
   <selectionEntries>
@@ -7050,7 +7056,7 @@ Designer’s Note: This ability allows the target to set up in combat with a new
     <entryLink import="true" name="Night Runners" hidden="false" id="d1b8-1985-3089-8a27" type="selectionEntry" targetId="1113-2b9e-d187-dfee"/>
     <entryLink import="true" name="Plague Monks" hidden="false" id="2a8b-4ad6-06f1-6f23" type="selectionEntry" targetId="c501-a45e-5161-dbad"/>
     <entryLink import="true" name="Plague Priest on Plague Furnace" hidden="false" id="0ae5-9671-8b85-ea64" type="selectionEntry" targetId="ef6f-c273-d191-c3c5"/>
-    <entryLink import="true" name="Plaguepack" hidden="false" id="c4dc-268e-45eb-c9ed" type="selectionEntry" targetId="aa18-f2de-f067-1d74"/>
+    <entryLink import="true" name="Plagueclaw" hidden="false" id="c4dc-268e-45eb-c9ed" type="selectionEntry" targetId="c3f7-8130-3b4d-c0f9"/>
     <entryLink import="true" name="Rat Ogors" hidden="false" id="5454-c81c-fb63-9629" type="selectionEntry" targetId="3c0d-ff59-c4da-44f2"/>
     <entryLink import="true" name="Ratling Guns" hidden="false" id="6dfe-2de2-aba3-25e6" type="selectionEntry" targetId="e56a-55b2-824f-1c59"/>
     <entryLink import="true" name="Ratling Warpblaster" hidden="false" id="4bd1-1d5c-63eb-6f54" type="selectionEntry" targetId="42fb-1229-f43f-a6f9"/>
@@ -7069,8 +7075,8 @@ Designer’s Note: This ability allows the target to set up in combat with a new
     <entryLink import="true" name="Warpfire Throwers" hidden="false" id="9de6-1c18-9f1f-a5b9" type="selectionEntry" targetId="d81f-ba33-a928-511b"/>
     <entryLink import="true" name="Warplock Jezzails" hidden="false" id="1d08-9a7a-302e-f2dd" type="selectionEntry" targetId="5dbe-1f51-2388-fa5e"/>
     <entryLink import="true" name="Arch-Warlock" hidden="false" id="d79c-e4fc-699e-52e3" type="selectionEntry" targetId="7e33-4d29-18b6-5c15"/>
-    <entryLink import="true" name="Plagueclaw" hidden="false" id="e82a-876a-311d-d35d" type="selectionEntry" targetId="965f-1890-a4b7-3e7f"/>
     <entryLink import="true" name="Warpvolt Scourgers" hidden="false" id="76b5-a7a9-0e9f-d4ce" type="selectionEntry" targetId="0c5b-92fe-f90a-6295"/>
+    <entryLink import="true" name="Plaguepack" hidden="false" id="2f15-5054-4c42-90a3" type="selectionEntry" targetId="aa18-f2de-f067-1d74"/>
   </entryLinks>
   <sharedProfiles>
     <profile name="Hidden Weapon Team" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="c203-9e5c-8587-2803">
