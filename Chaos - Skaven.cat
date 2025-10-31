@@ -5092,8 +5092,8 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
         </selectionEntry>
         <selectionEntry type="model" import="true" name="Stormfiend" hidden="false" id="f9a9-20a5-7e89-5906">
           <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a668-d963-a973-805c"/>
-            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="f4ab-7ad3-b87e-2f32"/>
+            <constraint type="min" value="1" field="selections" scope="root-entry" shared="true" id="a668-d963-a973-805c"/>
+            <constraint type="max" value="2" field="selections" scope="root-entry" shared="true" id="f4ab-7ad3-b87e-2f32"/>
           </constraints>
           <selectionEntryGroups>
             <selectionEntryGroup name="Wargear Options" id="1059-529b-1fea-40bc" hidden="false">
