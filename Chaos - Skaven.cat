@@ -4911,56 +4911,40 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
               </constraints>
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Doomflayer Gauntlets" hidden="false" id="566e-74b6-5b92-7c92" collective="true">
-                  <selectionEntries>
-                    <selectionEntry type="upgrade" import="true" name="Doomflayer Gauntlets" hidden="false" id="f5cc-19ed-f570-0619">
-                      <constraints>
-                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="820a-3d99-40c0-0180" includeChildSelections="false"/>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ae63-168d-d869-9276" includeChildSelections="false"/>
-                      </constraints>
-                      <profiles>
-                        <profile name="Doomflayer Gauntlets" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="de31-9d9b-16da-d922">
-                          <characteristics>
-                            <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
-                            <characteristic name="A" typeId="2337-daa1-6682-b110">5</characteristic>
-                            <characteristic name="WS" typeId="95d1-95f-45b4-11d6">4+</characteristic>
-                            <characteristic name="S" typeId="ab33-d393-96ce-ccba">8</characteristic>
-                            <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
-                            <characteristic name="D" typeId="3254-9fe6-d824-513e">D3</characteristic>
-                            <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Lancer</characteristic>
-                          </characteristics>
-                        </profile>
-                      </profiles>
-                      <infoLinks>
-                        <infoLink name="Lance" id="f87c-c8ec-ba71-6e6e" hidden="false" type="rule" targetId="2ebc-abdf-8129-6c57"/>
-                      </infoLinks>
-                    </selectionEntry>
-                  </selectionEntries>
+                  <profiles>
+                    <profile name="Doomflayer Gauntlets" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="1d77-cb15-8ff2-8361">
+                      <characteristics>
+                        <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                        <characteristic name="A" typeId="2337-daa1-6682-b110">5</characteristic>
+                        <characteristic name="WS" typeId="95d1-95f-45b4-11d6">4+</characteristic>
+                        <characteristic name="S" typeId="ab33-d393-96ce-ccba">8</characteristic>
+                        <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
+                        <characteristic name="D" typeId="3254-9fe6-d824-513e">D3</characteristic>
+                        <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Lancer</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink name="Lance" id="5718-6e5d-e43b-7e2a" hidden="false" type="rule" targetId="2ebc-abdf-8129-6c57"/>
+                  </infoLinks>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Shock Gauntlets" hidden="false" id="cba0-93ed-80c4-0901" collective="true">
-                  <selectionEntries>
-                    <selectionEntry type="upgrade" import="true" name="Shock Gauntlets" hidden="false" id="9d5f-68e0-bb12-33a9">
-                      <constraints>
-                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4b88-e573-bc82-26f4" includeChildSelections="false"/>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="eef9-ea39-52ec-0334" includeChildSelections="false"/>
-                      </constraints>
-                      <profiles>
-                        <profile name="Shock Gauntlets" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="e5f2-097b-3036-fd77">
-                          <characteristics>
-                            <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
-                            <characteristic name="A" typeId="2337-daa1-6682-b110">4</characteristic>
-                            <characteristic name="WS" typeId="95d1-95f-45b4-11d6">4+</characteristic>
-                            <characteristic name="S" typeId="ab33-d393-96ce-ccba">12</characteristic>
-                            <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-1</characteristic>
-                            <characteristic name="D" typeId="3254-9fe6-d824-513e">2</characteristic>
-                            <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Sustained Hits D6</characteristic>
-                          </characteristics>
-                        </profile>
-                      </profiles>
-                      <infoLinks>
-                        <infoLink name="Sustained Hits" id="f72e-1073-a7ba-0c8c" hidden="false" type="rule" targetId="1897-c22c-9597-12b1"/>
-                      </infoLinks>
-                    </selectionEntry>
-                  </selectionEntries>
+                  <profiles>
+                    <profile name="Shock Gauntlets" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="1ea8-7444-6a49-a5f1">
+                      <characteristics>
+                        <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                        <characteristic name="A" typeId="2337-daa1-6682-b110">4</characteristic>
+                        <characteristic name="WS" typeId="95d1-95f-45b4-11d6">4+</characteristic>
+                        <characteristic name="S" typeId="ab33-d393-96ce-ccba">12</characteristic>
+                        <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-1</characteristic>
+                        <characteristic name="D" typeId="3254-9fe6-d824-513e">2</characteristic>
+                        <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Sustained Hits D6</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink name="Sustained Hits" id="48bf-1af8-3ee7-12dc" hidden="false" type="rule" targetId="1897-c22c-9597-12b1"/>
+                  </infoLinks>
                 </selectionEntry>
               </selectionEntries>
             </selectionEntry>
