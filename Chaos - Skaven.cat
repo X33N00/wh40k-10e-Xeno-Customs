@@ -4955,6 +4955,18 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7871-4f05-2921-a675" includeChildSelections="false"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f8be-be40-53a4-2c37" includeChildSelections="false"/>
           </constraints>
+          <modifiers>
+            <modifier type="increment" value="1" field="7871-4f05-2921-a675">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="root-entry" childId="a426-2146-508f-0f87" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="increment" value="1" field="f8be-be40-53a4-2c37">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="root-entry" childId="a426-2146-508f-0f87" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
         </selectionEntry>
         <selectionEntry type="model" import="true" name="Stormfiends" hidden="false" id="847b-5ea4-a295-e4a8" collective="true">
           <selectionEntries>
