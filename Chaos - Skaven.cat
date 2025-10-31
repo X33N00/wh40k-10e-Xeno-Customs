@@ -665,11 +665,15 @@
               </modifiers>
             </selectionEntryGroup>
           </selectionEntryGroups>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8968-6af0-17c6-4702" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="force" shared="true" id="ea6a-d1f7-4e63-93ce" includeChildSelections="false"/>
+          </constraints>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="690c-2276-7259-bdb5" includeChildSelections="false"/>
-        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="a8a1-c798-d0e0-bf1c" includeChildSelections="false"/>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d499-b0e6-2f13-b1a3" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="cd0b-ab30-d485-06b0" includeChildSelections="false"/>
       </constraints>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Detachment" hidden="false" id="f160-ba43-c94c-0645">
@@ -1271,8 +1275,8 @@
             </selectionEntry>
           </selectionEntries>
           <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0b60-cb16-3904-f7af" includeChildSelections="false"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6fca-db14-1913-2b80" includeChildSelections="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7eb7-e5db-d752-1bc7" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5a08-e0b7-ad91-6d52" includeChildSelections="false"/>
           </constraints>
         </selectionEntry>
       </selectionEntries>
