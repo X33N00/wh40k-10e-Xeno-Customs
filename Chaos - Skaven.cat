@@ -804,7 +804,7 @@
       <modifiers>
         <modifier type="set" value="130" field="51b2-306e-1021-d207">
           <conditions>
-            <condition type="greaterThan" value="17" field="selections" scope="add0-052a-e92d-31fc" childId="model" shared="true" includeChildSelections="true"/>
+            <condition type="greaterThan" value="20" field="selections" scope="add0-052a-e92d-31fc" childId="model" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -988,7 +988,7 @@
       <modifiers>
         <modifier type="set" value="130" field="51b2-306e-1021-d207">
           <conditions>
-            <condition type="greaterThan" value="17" field="selections" scope="c501-a45e-5161-dbad" childId="model" shared="true" includeChildSelections="true"/>
+            <condition type="greaterThan" value="20" field="selections" scope="c501-a45e-5161-dbad" childId="model" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -1141,6 +1141,10 @@
               <infoLinks>
                 <infoLink name="Lethal Hits" id="9e0b-e67f-b068-286c" hidden="false" type="rule" targetId="d1d1-611e-5191-1095"/>
               </infoLinks>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="25f4-5d28-e9b7-76e8" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c7cc-3ccb-a69e-a8e0" includeChildSelections="false"/>
+              </constraints>
             </selectionEntry>
           </selectionEntries>
           <constraints>
@@ -1266,6 +1270,10 @@
               </profiles>
             </selectionEntry>
           </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0b60-cb16-3904-f7af" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6fca-db14-1913-2b80" includeChildSelections="false"/>
+          </constraints>
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
@@ -1373,6 +1381,10 @@
               </constraints>
             </selectionEntry>
           </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="facd-9bd2-df48-88d5" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5015-3f84-b886-5a99" includeChildSelections="false"/>
+          </constraints>
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
@@ -1512,6 +1524,10 @@
               </infoLinks>
             </selectionEntry>
           </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f1cc-99fb-8c53-3879" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dbee-3cec-a6b3-b8e6" includeChildSelections="false"/>
+          </constraints>
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
@@ -1619,6 +1635,10 @@
               </infoLinks>
             </selectionEntry>
           </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="29cf-1b15-e974-e3a2" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ed35-efe6-29f0-a4f2" includeChildSelections="false"/>
+          </constraints>
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
@@ -1675,6 +1695,10 @@
               </infoLinks>
             </selectionEntry>
           </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="acfb-6da5-6196-e59a" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fd1b-ea4d-b2b5-63f1" includeChildSelections="false"/>
+          </constraints>
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
@@ -1795,6 +1819,10 @@
               </profiles>
             </selectionEntry>
           </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="14a6-8c8a-cf6f-43a7" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e656-400b-f885-a998" includeChildSelections="false"/>
+          </constraints>
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
@@ -1944,6 +1972,10 @@
               </infoLinks>
             </selectionEntry>
           </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c51c-8119-c830-a1e1" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="669b-472d-25bc-5b20" includeChildSelections="false"/>
+          </constraints>
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
@@ -2070,6 +2102,10 @@
               </profiles>
             </selectionEntry>
           </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="81e0-e02b-8549-7b84" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1c24-c890-a160-1fd2" includeChildSelections="false"/>
+          </constraints>
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
@@ -2167,6 +2203,10 @@
               </profiles>
             </selectionEntry>
           </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8272-8d6f-595c-b161" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7f37-e90b-b1fb-fe44" includeChildSelections="false"/>
+          </constraints>
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
@@ -2312,6 +2352,10 @@
               </profiles>
             </selectionEntry>
           </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="fcf2-4c5c-9449-9f5c" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8808-2685-d3ae-48b8" includeChildSelections="false"/>
+          </constraints>
         </selectionEntry>
       </selectionEntries>
       <profiles>
@@ -2432,6 +2476,10 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
               </profiles>
             </selectionEntry>
           </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6a61-cf5b-9224-d54c" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="423f-ef63-63e6-aba9" includeChildSelections="false"/>
+          </constraints>
         </selectionEntry>
       </selectionEntries>
       <profiles>
@@ -2525,6 +2573,60 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
               </profiles>
             </selectionEntry>
           </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c9f5-f595-1f46-3b08" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="476a-7281-9c9f-a2c4" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="unit" import="true" name="Warp Lightning Vortex" hidden="false" id="1f89-2742-1258-2b6f">
+          <costs>
+            <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+            <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+            <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+            <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+            <cost name="Blackstone Fragments" typeId="ac6b-ced3-9b5e-9a6e" value="0"/>
+          </costs>
+          <categoryLinks>
+            <categoryLink name="Faction: Skaven" hidden="false" id="c657-0397-b39e-f941" targetId="e1e8-5b24-6211-117f" primary="false"/>
+            <categoryLink name="Chaos" hidden="false" id="32ed-8c0a-5d5b-7d44" targetId="4c00-2578-faf5-6918" primary="false"/>
+            <categoryLink name="Fly" hidden="false" id="a3f8-ef21-312e-29f2" targetId="c619-2086-bbcf-69c9" primary="false"/>
+            <categoryLink name="Warp Lightning Vortex" hidden="false" id="01c9-7b0c-89bd-b3aa" targetId="7dd2-676a-51da-fba1" primary="false"/>
+            <categoryLink name="Manifestation" hidden="false" id="0563-87f5-a82c-b663" targetId="f0ab-7297-addd-5c15" primary="false"/>
+          </categoryLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="force" shared="true" id="4b79-c0d8-f3c3-7d71" includeChildSelections="true"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Great Vermintide" id="358b-3178-dcf2-ad1c" hidden="false" type="rule" targetId="fb49-cf71-d602-5614"/>
+            <infoLink name="Feel No Pain" id="706a-dfee-5f57-be80" hidden="false" type="rule" targetId="9bf4-280f-bbe2-6fbb"/>
+          </infoLinks>
+          <profiles>
+            <profile name="Warp Lightning Vortex" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="afa1-4317-d134-5ec7">
+              <characteristics>
+                <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">0&quot;</characteristic>
+                <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">8</characteristic>
+                <characteristic name="SV" typeId="450-a17e-9d5e-29da">6+</characteristic>
+                <characteristic name="W" typeId="750a-a2ec-90d3-21fe">7</characteristic>
+                <characteristic name="LD" typeId="58d2-b879-49c7-43bc">7+</characteristic>
+                <characteristic name="OC" typeId="bef7-942a-1a23-59f8">0</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Warp Lightning Bolts" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="1efa-20d9-0300-4e29">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Any Command Phase. If this unit was not set up this turn, pick each enemy unit within 6&quot; of this Manifestation to be the targets. Roll a dice for each target. On a 4+, inflict D3 mortal damage on the target.</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Multiple Parts" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ce95-d344-823d-af6c">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When a number of damage points equal to this unit&apos;s health characteristic are allocated to it, this unit is destroyed and all its parts are removed from play.</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Warp Vortex" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ebae-f968-01e3-f2e3">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Subtract 2 from advance rolls and charge rolls for enemy units while they are within 6&quot; of this unit. In addition, if an enemy unit passes across this unit and/or the round-cornered triangle formed by drawing a line around all the bases of the unit&apos;s parts, inflict D3 mortal damage on that enemy unit after the Move ability has been resolved.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
         </selectionEntry>
       </selectionEntries>
       <profiles>
@@ -2673,6 +2775,10 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
               </profiles>
             </selectionEntry>
           </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3f86-efb2-55ff-7b80" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fc31-b72e-b50f-d144" includeChildSelections="false"/>
+          </constraints>
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
@@ -2788,6 +2894,10 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
               </profiles>
             </selectionEntry>
           </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9a56-5024-6475-7b1a" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="25ec-6cf1-6cf5-26ba" includeChildSelections="false"/>
+          </constraints>
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
@@ -2903,6 +3013,10 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
               </profiles>
             </selectionEntry>
           </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c101-8d50-4f8c-75d5" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="de11-ef64-697c-f996" includeChildSelections="false"/>
+          </constraints>
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
@@ -3081,6 +3195,10 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
               </infoLinks>
             </selectionEntry>
           </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="97d0-a928-6e97-e6ea" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9944-6280-d0ba-8b15" includeChildSelections="false"/>
+          </constraints>
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
@@ -3177,6 +3295,10 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
               </infoLinks>
             </selectionEntry>
           </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="accf-dbb4-f9a8-b7cd" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0d29-eda5-72bd-9eb4" includeChildSelections="false"/>
+          </constraints>
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
@@ -3362,6 +3484,10 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
               </profiles>
             </selectionEntry>
           </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ffc1-0012-e5d2-7990" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="66ea-f1a3-5acb-df95" includeChildSelections="false"/>
+          </constraints>
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
@@ -3486,6 +3612,10 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
               </profiles>
             </selectionEntry>
           </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b0ac-eae5-2e1b-3e24" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e112-accc-0e3a-2940" includeChildSelections="false"/>
+          </constraints>
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
@@ -3702,7 +3832,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
       <modifiers>
         <modifier type="set" value="220" field="51b2-306e-1021-d207">
           <conditions>
-            <condition type="greaterThan" value="9" field="selections" scope="1113-2b9e-d187-dfee" childId="model" shared="true" includeChildSelections="true"/>
+            <condition type="greaterThan" value="10" field="selections" scope="1113-2b9e-d187-dfee" childId="model" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -3734,8 +3864,8 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Poisoned Blades" hidden="false" id="611f-1e7c-3d1b-d710" collective="true">
               <constraints>
-                <constraint type="min" value="9" field="selections" scope="parent" shared="true" id="10b1-9508-91bb-a2bd" includeChildSelections="false"/>
-                <constraint type="max" value="19" field="selections" scope="parent" shared="true" id="55a5-976b-d2c3-383e" includeChildSelections="false"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="10b1-9508-91bb-a2bd" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="55a5-976b-d2c3-383e" includeChildSelections="false"/>
               </constraints>
               <profiles>
                 <profile name="Poisoned Blades" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="b0d8-80d4-bd6d-d19e">
@@ -4144,7 +4274,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
       <modifiers>
         <modifier type="set" value="140" field="51b2-306e-1021-d207">
           <conditions>
-            <condition type="greaterThan" value="7" field="selections" scope="87f8-4d64-2955-68ee" childId="model" shared="true" includeChildSelections="true"/>
+            <condition type="greaterThan" value="10" field="selections" scope="87f8-4d64-2955-68ee" childId="model" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -4233,8 +4363,6 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
             </selectionEntry>
           </selectionEntries>
           <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="11ce-7638-984b-0454"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9fc2-d091-0f1c-4c2e"/>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="af19-1c69-afe8-d6de"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3eae-33d3-0578-2d16"/>
           </constraints>
@@ -4431,7 +4559,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
       <modifiers>
         <modifier type="set" value="150" field="51b2-306e-1021-d207">
           <conditions>
-            <condition type="greaterThan" value="2" field="selections" scope="5dbe-1f51-2388-fa5e" childId="model" shared="true" includeChildSelections="true"/>
+            <condition type="greaterThan" value="3" field="selections" scope="5dbe-1f51-2388-fa5e" childId="model" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -4590,7 +4718,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
         <categoryLink targetId="4c00-2578-faf5-6918" id="7f4c-ac79-68db-57f1" primary="false" name="Chaos"/>
         <categoryLink targetId="c619-2086-bbcf-69c9" id="9037-d8ca-fd67-ab42" primary="false" name="Fly"/>
         <categoryLink targetId="7dd2-676a-51da-fba1" id="362b-a901-c644-34b1" primary="false" name="Warp Lightning Vortex"/>
-        <categoryLink targetId="f0ab-7297-addd-5c15" id="82c8-dbb5-8383-17ed" primary="true" name="Manifestation"/>
+        <categoryLink targetId="f0ab-7297-addd-5c15" id="82c8-dbb5-8383-17ed" primary="false" name="Manifestation"/>
       </categoryLinks>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="force" shared="true" id="3754-263e-0207-9459" includeChildSelections="true"/>
@@ -4805,7 +4933,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Clubbing Blows" hidden="false" id="6672-e308-d0a7-f73a" collective="true">
                   <constraints>
-                    <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="0016-70e7-9a2f-e4f3" includeChildSelections="false"/>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0016-70e7-9a2f-e4f3" includeChildSelections="false"/>
                     <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="6545-1ce9-ccdf-a2a1" includeChildSelections="false"/>
                   </constraints>
                   <profiles>
@@ -4882,7 +5010,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
                 <selectionEntry type="upgrade" import="true" name="Warpfire Projectors" hidden="false" id="aaae-2bd6-a1c4-7bfe" collective="true">
                   <constraints>
                     <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9103-b630-7b03-6f24" includeChildSelections="false"/>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3426-40be-e1d5-58df" includeChildSelections="false"/>
+                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="3426-40be-e1d5-58df" includeChildSelections="false"/>
                   </constraints>
                   <infoLinks>
                     <infoLink name="Hazardous" id="7291-edd6-d6aa-a20d" hidden="false" type="rule" targetId="8367-374c-f87-c627"/>
@@ -4917,7 +5045,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
                 <selectionEntry type="upgrade" import="true" name="Windlaunchers" hidden="false" id="6693-44be-6f07-c962" collective="true">
                   <constraints>
                     <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f80d-910c-9be4-7a8a" includeChildSelections="false"/>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5c13-ab12-6583-804f" includeChildSelections="false"/>
+                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="5c13-ab12-6583-804f" includeChildSelections="false"/>
                   </constraints>
                   <infoLinks>
                     <infoLink name="Hazardous" id="2eee-b2ca-3dfd-a19a" hidden="false" type="rule" targetId="8367-374c-f87-c627"/>
@@ -5120,6 +5248,10 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
               </infoLinks>
             </selectionEntry>
           </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3168-f285-56d0-baf3" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0579-f16e-4562-d015" includeChildSelections="false"/>
+          </constraints>
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
@@ -5199,6 +5331,10 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
               </infoLinks>
             </selectionEntry>
           </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="fdb1-2fb8-7d3b-84be" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ddfd-b79d-c2de-4153" includeChildSelections="false"/>
+          </constraints>
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
@@ -5344,6 +5480,10 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
               </infoLinks>
             </selectionEntry>
           </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e050-10ed-6563-6b74" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3a58-f2ea-6eb0-83d1" includeChildSelections="false"/>
+          </constraints>
         </selectionEntry>
       </selectionEntries>
       <profiles>
@@ -5437,6 +5577,10 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
               </profiles>
             </selectionEntry>
           </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4561-ced4-7964-9fe9" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5bda-f227-ba1d-4a8d" includeChildSelections="false"/>
+          </constraints>
         </selectionEntry>
       </selectionEntries>
       <profiles>
@@ -5556,6 +5700,10 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
               </infoLinks>
             </selectionEntry>
           </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="cfe2-0068-7705-5fa7" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3a66-eb7c-7ad8-60a2" includeChildSelections="false"/>
+          </constraints>
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
@@ -5686,6 +5834,10 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
               </infoLinks>
             </selectionEntry>
           </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c27a-3151-6d59-f585" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7b9a-a647-d4ec-42ad" includeChildSelections="false"/>
+          </constraints>
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
@@ -6531,7 +6683,7 @@ Designer’s Note: This ability allows the target to set up in combat with a new
   <entryLinks>
     <entryLink import="true" name="Detachment" hidden="false" id="0b1e-e222-9f6d-ad5f" type="selectionEntry" targetId="f160-ba43-c94c-0645"/>
     <entryLink import="true" name="Warpvolt Scourgers" hidden="false" id="feda-58ca-bd52-3218" type="selectionEntry" targetId="0c5b-92fe-f90a-6295"/>
-    <entryLink import="true" name="Acolyte Globadiers" hidden="false" id="6515-b63e-33ab-4761" type="selectionEntry" targetId="a107-dc0f-4fdf-4a08"/>
+    <entryLink import="true" name="Doomwheel" hidden="false" id="6515-b63e-33ab-4761" type="selectionEntry" targetId="05b8-41cc-a200-f34b"/>
     <entryLink import="true" name="Arch-Warlock" hidden="false" id="cdb6-2940-6855-fbf8" type="selectionEntry" targetId="7e33-4d29-18b6-5c15"/>
     <entryLink import="true" name="Brood Terror" hidden="false" id="feb2-069e-7d74-f659" type="selectionEntry" targetId="d4c4-70e4-397b-4b14"/>
     <entryLink import="true" name="Clanrats" hidden="false" id="6dd5-1278-4fb2-f3a3" type="selectionEntry" targetId="add0-052a-e92d-31fc"/>
@@ -6570,6 +6722,7 @@ Designer’s Note: This ability allows the target to set up in combat with a new
     <entryLink import="true" name="Warp-Grinder" hidden="false" id="2ff5-d2d2-030b-cb42" type="selectionEntry" targetId="ca8f-ac46-2ebe-8c60"/>
     <entryLink import="true" name="Warpfire Throwers" hidden="false" id="9de6-1c18-9f1f-a5b9" type="selectionEntry" targetId="d81f-ba33-a928-511b"/>
     <entryLink import="true" name="Warplock Jezzails" hidden="false" id="1d08-9a7a-302e-f2dd" type="selectionEntry" targetId="5dbe-1f51-2388-fa5e"/>
+    <entryLink import="true" name="Doomwheel" hidden="false" id="9d03-ed4c-1336-330d" type="selectionEntry" targetId="05b8-41cc-a200-f34b"/>
   </entryLinks>
   <sharedProfiles>
     <profile name="Hidden Weapon Team" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="c203-9e5c-8587-2803">
