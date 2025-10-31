@@ -4922,7 +4922,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
           <selectionEntryGroups>
             <selectionEntryGroup name="Wargear Options" id="43e6-a678-290b-b296" hidden="false">
               <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Doomflayer Gauntlets" hidden="false" id="ea88-4b29-840a-39dd" collective="true">
+                <selectionEntry type="upgrade" import="true" name="Doomflayer Gauntlets" hidden="false" id="ea88-4b29-840a-39dd">
                   <selectionEntries>
                     <selectionEntry type="upgrade" import="true" name="Doomflayer Gauntlets" hidden="false" id="2c46-1310-2c86-cd6c" collective="true">
                       <constraints>
@@ -4948,7 +4948,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
                     </selectionEntry>
                   </selectionEntries>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Shock Gauntlets" hidden="false" id="25b8-a40d-ac28-4820" collective="true">
+                <selectionEntry type="upgrade" import="true" name="Shock Gauntlets" hidden="false" id="25b8-a40d-ac28-4820">
                   <selectionEntries>
                     <selectionEntry type="upgrade" import="true" name="Shock Gauntlets" hidden="false" id="2a78-1a37-29bc-15bc" collective="true">
                       <constraints>
@@ -5104,7 +5104,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
         <selectionEntry type="model" import="true" name="Stormfiend" hidden="false" id="9e5a-5612-fa01-28b2" collective="true">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="root-entry" shared="true" id="2f5-838f-ee9e-639e"/>
-            <constraint type="max" value="1" field="selections" scope="root-entry" shared="true" id="ff5a-3cc4-4a23-e30b"/>
+            <constraint type="max" value="2" field="selections" scope="root-entry" shared="true" id="ff5a-3cc4-4a23-e30b"/>
           </constraints>
           <selectionEntryGroups>
             <selectionEntryGroup name="Wargear Options" id="4d15-dd3-22ba-1678" hidden="false">
