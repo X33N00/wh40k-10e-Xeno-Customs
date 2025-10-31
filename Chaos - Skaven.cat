@@ -4907,9 +4907,6 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
             <selectionEntry type="upgrade" import="true" name="Options" hidden="false" id="4473-8012-27ae-9346">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Doomflayer Gauntlets" hidden="false" id="566e-74b6-5b92-7c92" collective="true">
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5bc2-6c0b-a97c-c2cb" includeChildSelections="false"/>
-                  </constraints>
                   <profiles>
                     <profile name="Doomflayer Gauntlets" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="1d77-cb15-8ff2-8361">
                       <characteristics>
@@ -4928,9 +4925,6 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
                   </infoLinks>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Shock Gauntlets" hidden="false" id="cba0-93ed-80c4-0901" collective="true">
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6ee1-7c4d-6915-4c0b" includeChildSelections="false"/>
-                  </constraints>
                   <profiles>
                     <profile name="Shock Gauntlets" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="1ea8-7444-6a49-a5f1">
                       <characteristics>
