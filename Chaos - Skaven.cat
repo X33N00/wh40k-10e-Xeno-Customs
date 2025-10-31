@@ -1038,12 +1038,12 @@
       <profiles>
         <profile name="Plague Monks" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="32ac-c2fc-340f-3d60">
           <characteristics>
-            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1"/>
-            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4"/>
-            <characteristic name="SV" typeId="450-a17e-9d5e-29da"/>
-            <characteristic name="W" typeId="750a-a2ec-90d3-21fe"/>
-            <characteristic name="LD" typeId="58d2-b879-49c7-43bc"/>
-            <characteristic name="OC" typeId="bef7-942a-1a23-59f8"/>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">6&quot;</characteristic>
+            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">3</characteristic>
+            <characteristic name="SV" typeId="450-a17e-9d5e-29da">6+</characteristic>
+            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">1</characteristic>
+            <characteristic name="LD" typeId="58d2-b879-49c7-43bc">8+</characteristic>
+            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">1</characteristic>
           </characteristics>
         </profile>
         <profile name="Spreaders of Filth and Disease" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4cbd-1ae5-c9ad-eec3">
@@ -6989,9 +6989,9 @@ Designer’s Note: This ability allows the target to set up in combat with a new
             <characteristic name="Base" typeId="66c2-7455-807c-0aa2">120x92mm</characteristic>
           </characteristics>
         </profile>
-        <profile name="Doom-flayers" typeId="cde7-440c-5e06-98ec" typeName="Model" hidden="false" id="89ea-c53a-65e1-ac8d">
+        <profile name="Doomwheel" typeId="cde7-440c-5e06-98ec" typeName="Model" hidden="false" id="89ea-c53a-65e1-ac8d">
           <characteristics>
-            <characteristic name="Base" typeId="66c2-7455-807c-0aa2">50mm</characteristic>
+            <characteristic name="Base" typeId="66c2-7455-807c-0aa2">120x92mm</characteristic>
           </characteristics>
         </profile>
         <profile name="Ratling Warpblaster" typeId="cde7-440c-5e06-98ec" typeName="Model" hidden="false" id="62b5-cf46-01ed-e554">
@@ -7012,6 +7012,11 @@ Designer’s Note: This ability allows the target to set up in combat with a new
         <profile name="Acolyte Globadiers" typeId="cde7-440c-5e06-98ec" typeName="Model" hidden="false" id="22c0-124b-ced3-7b3e">
           <characteristics>
             <characteristic name="Base" typeId="66c2-7455-807c-0aa2">28mm</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Doom-flayers" typeId="cde7-440c-5e06-98ec" typeName="Model" hidden="false" id="192d-a53b-41f1-2994">
+          <characteristics>
+            <characteristic name="Base" typeId="66c2-7455-807c-0aa2">50mm</characteristic>
           </characteristics>
         </profile>
       </profiles>
