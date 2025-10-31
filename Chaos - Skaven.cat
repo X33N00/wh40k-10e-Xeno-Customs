@@ -4907,7 +4907,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
             <selectionEntry type="upgrade" import="true" name="Options" hidden="false" id="4473-8012-27ae-9346">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d626-aff0-09c0-ec70" includeChildSelections="false"/>
-                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="f7ce-b70b-bf18-76d8" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f7ce-b70b-bf18-76d8" includeChildSelections="false"/>
               </constraints>
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Doomflayer Gauntlets" hidden="false" id="566e-74b6-5b92-7c92" collective="true">
