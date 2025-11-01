@@ -704,7 +704,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d499-b0e6-2f13-b1a3" includeChildSelections="false"/>
+        <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="d499-b0e6-2f13-b1a3" includeChildSelections="false"/>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a948-be31-aba1-2e60" includeChildSelections="false"/>
       </constraints>
     </selectionEntry>
