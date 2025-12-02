@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="e0af-67df-9d63-8fb7" name="Imperium - Adeptus Astartes - Space Marines" revision="168" battleScribeVersion="2.03" library="false" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" type="catalogue" authorName="Acebaur">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="e0af-67df-9d63-8fb7" name="Imperium - Adeptus Astartes - Space Marines" revision="171" battleScribeVersion="2.03" library="false" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" type="catalogue" authorName="Acebaur">
   <categoryEntries>
     <categoryEntry id="5179-8ede-45e3-49a2" name="Tacticus" hidden="false"/>
     <categoryEntry id="930d-2875-125b-a65e" name="Bladeguard Veteran Squad" hidden="false"/>
@@ -3080,9 +3080,9 @@
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry id="b273-b85e-4018-a0cd" name="Bolt Pistol" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="b273-b85e-4018-a0cd" name="Bolt pistol" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="3104-8d29-e431-05d7" name="Bolt Pistol" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
+        <profile id="3104-8d29-e431-05d7" name="Bolt pistol" hidden="false" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
           <characteristics>
             <characteristic name="Range" typeId="9896-9419-16a1-92fc">12&quot;</characteristic>
             <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
@@ -3100,6 +3100,8 @@
       <comment>BS2+</comment>
       <categoryLinks>
         <categoryLink name="Ranged Weapon" hidden="false" id="b0d2-4384-39ba-0cb4" targetId="eeda-8544-a2f3-3fab" primary="false"/>
+        <categoryLink name="Bolt Weapon" hidden="false" id="3984-6eef-5e08-d61b" targetId="1c08-e7e4-55b9-8e30" primary="false"/>
+        <categoryLink name="Pistol Weapon" hidden="false" id="a1d9-bc11-6b4e-db0a" targetId="1db0-c6b5-19db-8d0c" primary="false"/>
       </categoryLinks>
     </selectionEntry>
     <selectionEntry id="99de-5985-8cb8-f571" name="Power Fist" hidden="false" collective="false" import="true" type="upgrade">
@@ -3325,7 +3327,7 @@
       <selectionEntryGroups>
         <selectionEntryGroup name="Wargear" id="0dc3-5140-8124-c459" hidden="false" sortIndex="4">
           <entryLinks>
-            <entryLink import="true" name="Bolt Pistol" hidden="false" id="8d43-adfc-b9a1-14e6" type="selectionEntry" targetId="b273-b85e-4018-a0cd">
+            <entryLink import="true" name="Bolt pistol" hidden="false" id="8d43-adfc-b9a1-14e6" type="selectionEntry" targetId="b273-b85e-4018-a0cd">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9fab-8021-8c82-6b0b"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fbf7-4f24-e585-1916"/>
@@ -23298,16 +23300,16 @@ Normal move. If it does so, until the end of the turn, this unit is not eligible
                     <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Defensive Array, Sustained Hits 1, Twin-linked</characteristic>
                   </characteristics>
                 </profile>
+                <profile name="Defensive Array" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5135-64df-1bca-487a">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">You can target this Fortification with the Fire Overwatch Strategem for 0CP, and can do so even if you have already targeted another unit with that Stratagem this turn. This Fortification can only be targeted with that Stratagem once per turn.</characteristic>
+                  </characteristics>
+                </profile>
               </profiles>
               <infoLinks>
                 <infoLink name="Twin-linked" hidden="false" type="rule" id="9810-5eb1-6210-c849" targetId="cf93-ad4d-2f08-a79d"/>
                 <infoLink name="Sustained Hits" hidden="false" type="rule" id="6143-e412-296d-a331" targetId="1897-c22c-9597-12b1"/>
               </infoLinks>
-              <rules>
-                <rule name="Defensive Array" hidden="false" id="9ba-9cc7-81e0-92b2">
-                  <description>You can target this Fortification with the Fire Overwatch Strategem for 0CP, and can do so even if you have already targeted another unit with that Stratagem this turn. This Fortification can only be targeted with that Stratagem once per turn.</description>
-                </rule>
-              </rules>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Hammerfall Heavy Flamer Array" hidden="false" id="725e-41b4-8752-ebd9">
               <profiles>
@@ -23322,17 +23324,17 @@ Normal move. If it does so, until the end of the turn, this unit is not eligible
                     <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Defensive Array, Ignores Cover, Torrent, Twin-linked</characteristic>
                   </characteristics>
                 </profile>
+                <profile name="Defensive Array" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3bbb-1703-fefa-e577">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">You can target this Fortification with the Fire Overwatch Strategem for 0CP, and can do so even if you have already targeted another unit with that Stratagem this turn. This Fortification can only be targeted with that Stratagem once per turn.</characteristic>
+                  </characteristics>
+                </profile>
               </profiles>
               <infoLinks>
                 <infoLink name="Torrent" hidden="false" type="rule" id="2780-8a14-5591-a233" targetId="5edf-d619-23e0-9b56"/>
                 <infoLink name="Ignores Cover" hidden="false" type="rule" id="564f-5e5f-5122-27d5" targetId="4640-43e7-30b-215a"/>
                 <infoLink name="Twin-linked" hidden="false" type="rule" id="d94a-7295-9131-d143" targetId="cf93-ad4d-2f08-a79d"/>
               </infoLinks>
-              <rules>
-                <rule name="Defensive Array" hidden="false" id="fdd4-bd85-1186-8cae">
-                  <description>You can target this Fortification with the Fire Overwatch Strategem for 0CP, and can do so even if you have already targeted another unit with that Stratagem this turn. This Fortification can only be targeted with that Stratagem once per turn.</description>
-                </rule>
-              </rules>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -23476,7 +23478,7 @@ Normal move. If it does so, until the end of the turn, this unit is not eligible
                     </entryLink>
                   </entryLinks>
                 </entryLink>
-                <entryLink import="true" name="Bolt Pistol" hidden="false" id="e25e-ba6e-b399-919" type="selectionEntry" targetId="b273-b85e-4018-a0cd">
+                <entryLink import="true" name="Bolt pistol" hidden="false" id="e25e-ba6e-b399-919" type="selectionEntry" targetId="b273-b85e-4018-a0cd">
                   <entryLinks>
                     <entryLink import="true" name="Archeotech Armament upgrade" hidden="false" id="9196-d988-f49e-2af3" type="selectionEntry" targetId="4485-e8e3-43a0-6c02"/>
                     <entryLink import="true" name="Weapon Modifications" hidden="false" id="fd82-a81c-4c57-300d" type="selectionEntryGroup" targetId="f9da-852a-d7f0-92e9">
@@ -23807,7 +23809,7 @@ Normal move. If it does so, until the end of the turn, this unit is not eligible
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f811-243d-2da5-26f5"/>
                   </constraints>
                   <entryLinks>
-                    <entryLink import="true" name="Bolt Pistol" hidden="false" type="selectionEntry" id="4e9d-2724-513d-216a" targetId="b273-b85e-4018-a0cd">
+                    <entryLink import="true" name="Bolt pistol" hidden="false" type="selectionEntry" id="4e9d-2724-513d-216a" targetId="b273-b85e-4018-a0cd">
                       <entryLinks>
                         <entryLink import="true" name="Archeotech Armament upgrade" hidden="false" id="304f-0e65-5b5c-3701" type="selectionEntry" targetId="4485-e8e3-43a0-6c02"/>
                         <entryLink import="true" name="Weapon Upgrades" hidden="false" id="5969-f8eb-ee8c-1764" type="selectionEntryGroup" targetId="8cf2-a48c-58d2-cb4e"/>
@@ -24313,7 +24315,7 @@ You can attach this model to a unit it can lead units even if one Captain or Ch
       <selectionEntryGroups>
         <selectionEntryGroup name="Wargear" id="f7f4-83b6-0676-ae9d" hidden="false" sortIndex="4">
           <entryLinks>
-            <entryLink import="true" name="Bolt Pistol" hidden="false" id="7702-8ccf-fa3-57c7" type="selectionEntry" targetId="b273-b85e-4018-a0cd">
+            <entryLink import="true" name="Bolt pistol" hidden="false" id="7702-8ccf-fa3-57c7" type="selectionEntry" targetId="b273-b85e-4018-a0cd">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e3df-8547-1ea-b39d"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3b3d-5fd8-2496-dd5e"/>
@@ -28654,7 +28656,7 @@ You can attach this model to one of the above units even if one Captain, Chapte
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <entryLinks>
-                <entryLink id="87a5-6849-3981-d57e" name="Bolt Pistol" hidden="false" collective="false" import="true" targetId="b273-b85e-4018-a0cd" type="selectionEntry">
+                <entryLink id="87a5-6849-3981-d57e" name="Bolt pistol" hidden="false" collective="false" import="true" targetId="b273-b85e-4018-a0cd" type="selectionEntry">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3a7c-516b-81d4-8662" type="min"/>
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7af4-fba3-4f74-a2a" type="max"/>
@@ -28738,7 +28740,7 @@ You can attach this model to one of the above units even if one Captain, Chapte
                             <characteristic name="BS" typeId="94d-8a98-cf90-183e">2+</characteristic>
                             <characteristic name="S" typeId="2229-f494-25db-c5d3">5</characteristic>
                             <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
-                            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
                             <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Devastating Wounds, Pistol</characteristic>
                           </characteristics>
                         </profile>
@@ -33719,7 +33721,7 @@ Attacks characteristic of 7.</characteristic>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5032-a8e9-88ce-edf9"/>
               </constraints>
               <entryLinks>
-                <entryLink import="true" name="Bolt Pistol" hidden="false" id="20a2-f386-d104-3b0c" type="selectionEntry" targetId="b273-b85e-4018-a0cd" defaultAmount="1">
+                <entryLink import="true" name="Bolt pistol" hidden="false" id="20a2-f386-d104-3b0c" type="selectionEntry" targetId="b273-b85e-4018-a0cd" defaultAmount="1">
                   <entryLinks>
                     <entryLink import="true" name="Archeotech Armament upgrade" hidden="false" id="7333-02f7-3128-0458" type="selectionEntry" targetId="4485-e8e3-43a0-6c02"/>
                     <entryLink import="true" name="Weapon Upgrades" hidden="false" id="64a3-52b1-ad37-a73b" type="selectionEntryGroup" targetId="8cf2-a48c-58d2-cb4e"/>
@@ -35860,7 +35862,7 @@ per turn.</characteristic>
             <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
             <characteristic name="S" typeId="2229-f494-25db-c5d3">4</characteristic>
             <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
-            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
             <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-vehicle 2+, Pistol</characteristic>
           </characteristics>
         </profile>
@@ -35873,7 +35875,7 @@ per turn.</characteristic>
         <categoryLink name="Ranged Weapon" hidden="false" id="51d3-3aa7-aa8e-0618" targetId="eeda-8544-a2f3-3fab" primary="false"/>
         <categoryLink name="Pistol Weapon" hidden="false" id="627c-2472-cd28-ad76" targetId="1db0-c6b5-19db-8d0c" primary="false"/>
       </categoryLinks>
-      <comment>BS3+ D1</comment>
+      <comment>BS3+ D2</comment>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Astartes Chainsword" hidden="false" id="bfe9-3520-54d3-9a90" collective="true">
       <profiles>
@@ -37217,12 +37219,41 @@ your Oath of Moment target until you select a new one</characteristic>
           <profiles>
             <profile name="Storm-Swift Onslaught" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="69ae-77b5-332b-f84c">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Adeptus Astartes units from your army are eligible to declare a charge in a turn in which they Advanced or Fell Back. </characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Adeptus Astartes units from your army are eligible to declare a charge in a turn in which they Advanced or Fell Back.</characteristic>
               </characteristics>
             </profile>
             <profile name="Wrath of the First Khan" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2f3b-c99a-6a60-2c19">
               <characteristics>
                 <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the end of the Fight phase, if a Suboden Khan unit from your army destroyed one or more enemy units this phase and is not within Engagement Range of one or more enemy units, that unit can make a Normal move of up to 6&quot;</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Blade of Ultramar" hidden="false" id="6d9d-6462-1738-6bb3">
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="4029-9237-e8db-af55" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <profiles>
+            <profile name="Combat Doctrines" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="7a13-7c46-80b5-e8bb">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">DEVASTATOR DOCTRINE 
+This unit is eligible to shoot in a turn in which it Advanced.
+
+TACTICAL DOCTRINE
+This unit is eligible to shoot and declare a charge in a turn in which it Fell Back.
+
+ASSAULT DOCTRINE
+This unit is eligible to declare a charge in a turn in which it Advanced.</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Mastered Doctrines" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="8e8f-26ff-5929-23fe">
+              <characteristics>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">At the start of up to three of your Command phases, you can select one of the Combat Doctrines listed below. Until the start of your next Command phase, that Combat Doctrine is active and its
+effects apply to all Adeptus Astartes units from your army. You cannot select a Combat Doctrine you have already selected this battle, unless a friendly Marneus Calgar model is on the battlefield.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -40801,6 +40832,120 @@ its controlling player). Once per battle, when such an enemy unit fails a Battl
           </selectionEntries>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="52e9-c28f-49fd-f891" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Blade of Ultramar Enhancements" id="0685-ad9f-e930-9daf" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Armour of Antoninus" hidden="false" id="03fe-b253-1408-b008">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="5efb-6a21-1840-a5d7" includeChildSelections="true" includeChildForces="true"/>
+              </constraints>
+              <profiles>
+                <profile name="Armour of Antoninus" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="207b-71f8-17d3-ee99">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Adeptus Astartes^^** model only. The bearer has a Save characteristic of 2+ and the Feel No Pain 5+ ability.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="10"/>
+              </costs>
+              <infoLinks>
+                <infoLink name="Feel No Pain" id="23a4-c7e8-b539-65d6" hidden="false" type="rule" targetId="9bf4-280f-bbe2-6fbb">
+                  <modifiers>
+                    <modifier type="append" value="5+" field="name" join=" "/>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+              <modifierGroups>
+                <modifierGroup type="and">
+                  <modifiers>
+                    <modifier type="append" value="Armour of Antoninus" field="annotation" join=", " scope="model" affects="self.entries.recursive.9cfd-1c32-585f-7d5c.profiles.Unit"/>
+                    <modifier type="set" value="2+" field="450-a17e-9d5e-29da" join=", " scope="model" affects="self.entries.recursive.9cfd-1c32-585f-7d5c.profiles.Unit"/>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Oath of Macragge" hidden="false" id="9757-8da6-e934-619c">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="1774-580e-2301-c680" includeChildSelections="true" includeChildForces="true"/>
+              </constraints>
+              <profiles>
+                <profile name="Oath of Macragge" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="7f27-b6e7-8a54-0b32">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Adeptus Astartes^^** model only. Add 1 to the Attacks and Strength characteristics of the bearer’s melee weapons. While the bearer is under the effects of the Assault Doctrine, add 2 to the Attacks and Strength characteristics of the bearer’s melee weapons instead.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="15"/>
+              </costs>
+              <modifierGroups>
+                <modifierGroup type="and">
+                  <modifiers>
+                    <modifier type="append" value="Oath of Macragge" field="annotation" join=", " scope="model" affects="self.entries.recursive.profiles.Melee Weapons"/>
+                    <modifier type="increment" value="1" field="ab33-d393-96ce-ccba" scope="model" affects="self.entries.recursive.profiles.Melee Weapons"/>
+                    <modifier type="append" value="+0" field="2337-daa1-6682-b110" scope="model" affects="self.entries.recursive.e993-e086-6de1-12af.profiles.Melee Weapons" arg="+0" join=""/>
+                    <modifier type="replace" value="true" field="2337-daa1-6682-b110" scope="model" affects="self.entries.recursive.6337-b83b-0d1e-5770.profiles.Melee Weapons" arg="+0"/>
+                    <modifier type="increment" value="1" field="2337-daa1-6682-b110" scope="model" affects="self.entries.recursive.profiles.Melee Weapons" position="-1"/>
+                    <modifier type="decrement" value="1" field="2337-daa1-6682-b110" scope="model" affects="self.entries.recursive.84c4-6d1e-e724-bd6e.profiles.Melee Weapons" position="-1"/>
+                    <modifier type="replace" value="true" field="2337-daa1-6682-b110" scope="model" affects="self.entries.recursive.profiles.Melee Weapons" arg="+0"/>
+                    <modifier type="add" value="6337-b83b-0d1e-5770" field="category" scope="model" arg="+0" affects="self.entries.recursive.e993-e086-6de1-12af"/>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Student of the Codex" hidden="false" id="f676-594e-f3c4-65fc">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="2f21-f14d-d632-caa4" includeChildSelections="true" includeChildForces="true"/>
+              </constraints>
+              <profiles>
+                <profile name="Student of the Codex" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="c1af-7626-6064-c073">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Adeptus Astartes model only. At the start of your Command phase, if the bearer is on the battlefield, it
+can use this Enhancement. If it does, until the start of your next Command phase, the Tactical  doctrine is active for this unit (instead of any other Combat Doctrine you select to be active for your army, and even if there is no Combat Doctrine active for your army).</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="20"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Veteran of Behemoth" hidden="false" id="0f6d-3963-47b6-4f79">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="d4b4-08ed-db96-6e32" includeChildSelections="true" includeChildForces="true"/>
+              </constraints>
+              <profiles>
+                <profile name="Veteran of Behemoth" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f4d9-7a39-2a0e-ceba">
+                  <characteristics>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Adeptus Astartes model only. While the bearer is leading a unit, ranged weapons equipped by models in that unit have the [SUSTAINED HITS 1] ability. In addition, while the bearer’s unit is under the effects of the Devastator Doctrine, , you can reroll Advance rolls made for that unit.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="51b2-306e-1021-d207" value="25"/>
+                <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+                <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+                <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+                <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+                <cost name="Honour Points" typeId="8135-9a2f-6627-09e2" value="0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="lessThan" value="1" field="forces" scope="roster" childId="cac3-71d1-ea4b-795d" shared="true" includeChildSelections="true"/>
+                    <condition type="lessThan" value="1" field="selections" scope="roster" childId="6d9d-6462-1738-6bb3" shared="true" id="d26e-2d8f-1632-44cb" includeChildSelections="true" includeChildForces="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8e80-5a4f-5fb7-491f"/>
           </constraints>
         </selectionEntryGroup>
       </selectionEntryGroups>
