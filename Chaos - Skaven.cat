@@ -4777,7 +4777,7 @@ Designer’s Note: This ability allows the unit to set up in engagement with a n
         <constraint type="max" value="3" field="selections" scope="force" shared="true" id="bd71-ccbf-27bc-7150" includeChildSelections="true"/>
       </constraints>
       <modifiers>
-        <modifier type="set" value="120" field="51b2-306e-1021-d207">
+        <modifier type="set" value="230" field="51b2-306e-1021-d207">
           <conditions>
             <condition type="greaterThan" value="3" field="selections" scope="3c0d-ff59-c4da-44f2" childId="model" shared="true" includeChildSelections="true"/>
           </conditions>
