@@ -719,11 +719,11 @@
               <profiles>
                 <profile name="Will of the Horned Rat" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="cc6d-2770-1418-f690">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While a friendly SKAVEN DAEMON is within the engagement range of a friendly non-CHARACTER SKAVEN INFANTRY unit:
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While a friendly SKAVEN DAEMON is within the 3&quot; of a friendly non-CHARACTER SKAVEN INFANTRY unit:
 
 • That SKAVEN DAEMON has Feel No Pain (4+).
 
-• Each time you make a successful Feel No Pain roll for that SKAVEN DAEMON, allocate 1 mortal damage on a friendly non-CHARACTER SKAVEN INFANTRY unit within that unit’s engagement range after the damage sequence for that unit has been resolved.</characteristic>
+• Each time you make a successful Feel No Pain roll for that SKAVEN DAEMON, allocate 1 mortal damage on a friendly non-CHARACTER SKAVEN INFANTRY unit within 3&quot; of that unit after the damage sequence for that unit has been resolved.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -856,7 +856,7 @@
           <characteristics>
             <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">6&quot;</characteristic>
             <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">3</characteristic>
-            <characteristic name="SV" typeId="450-a17e-9d5e-29da">4+</characteristic>
+            <characteristic name="SV" typeId="450-a17e-9d5e-29da">6+</characteristic>
             <characteristic name="W" typeId="750a-a2ec-90d3-21fe">1</characteristic>
             <characteristic name="LD" typeId="58d2-b879-49c7-43bc">8+</characteristic>
             <characteristic name="OC" typeId="bef7-942a-1a23-59f8">1</characteristic>
@@ -885,13 +885,10 @@
                     <characteristic name="S" typeId="ab33-d393-96ce-ccba">3</characteristic>
                     <characteristic name="AP" typeId="41a0-1301-112a-e2f2">0</characteristic>
                     <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
-                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Lethal Hits</characteristic>
+                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
                   </characteristics>
                 </profile>
               </profiles>
-              <infoLinks>
-                <infoLink name="Lethal Hits" id="caad-f735-e31c-815e" hidden="false" type="rule" targetId="d1d1-611e-5191-1095"/>
-              </infoLinks>
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6096-8f4f-12fe-be66" includeChildSelections="false"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f75d-6b3b-dea5-15a9" includeChildSelections="false"/>
@@ -911,13 +908,10 @@
                     <characteristic name="S" typeId="ab33-d393-96ce-ccba">4</characteristic>
                     <characteristic name="AP" typeId="41a0-1301-112a-e2f2">0</characteristic>
                     <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
-                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Lethal Hits</characteristic>
+                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
                   </characteristics>
                 </profile>
               </profiles>
-              <infoLinks>
-                <infoLink name="Lethal Hits" id="760a-6b57-7d4a-29cd" hidden="false" type="rule" targetId="d1d1-611e-5191-1095"/>
-              </infoLinks>
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4df9-40ba-7ab1-f2b5" includeChildSelections="false"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="219c-2a59-3655-1836" includeChildSelections="false"/>
@@ -941,13 +935,10 @@
                     <characteristic name="S" typeId="ab33-d393-96ce-ccba">3</characteristic>
                     <characteristic name="AP" typeId="41a0-1301-112a-e2f2">0</characteristic>
                     <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
-                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Lethal Hits</characteristic>
+                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
                   </characteristics>
                 </profile>
               </profiles>
-              <infoLinks>
-                <infoLink name="Lethal Hits" id="a9ef-c47f-f071-533c" hidden="false" type="rule" targetId="d1d1-611e-5191-1095"/>
-              </infoLinks>
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="fda6-5879-7aca-366f" includeChildSelections="false"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5d74-f995-6071-91d1" includeChildSelections="false"/>
@@ -978,13 +969,10 @@
                     <characteristic name="S" typeId="ab33-d393-96ce-ccba">3</characteristic>
                     <characteristic name="AP" typeId="41a0-1301-112a-e2f2">0</characteristic>
                     <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
-                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Lethal Hits</characteristic>
+                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
                   </characteristics>
                 </profile>
               </profiles>
-              <infoLinks>
-                <infoLink name="Lethal Hits" id="4a7b-9cbb-0503-5eb5" hidden="false" type="rule" targetId="d1d1-611e-5191-1095"/>
-              </infoLinks>
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3604-f638-3fe5-c66b" includeChildSelections="false"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e50c-8a0e-18a7-bff6" includeChildSelections="false"/>
@@ -1015,7 +1003,7 @@
         <categoryLink targetId="e1e8-5b24-6211-117f" id="1a3c-ff16-a2ba-2c73" primary="false" name="Faction: Skaven"/>
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="65"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="75"/>
         <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
         <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
         <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
@@ -1026,7 +1014,7 @@
         <constraint type="max" value="3" field="selections" scope="force" shared="true" id="5ee8-14a5-4069-ab61" includeChildSelections="true"/>
       </constraints>
       <modifiers>
-        <modifier type="set" value="130" field="51b2-306e-1021-d207">
+        <modifier type="set" value="150" field="51b2-306e-1021-d207">
           <conditions>
             <condition type="greaterThan" value="20" field="selections" scope="c501-a45e-5161-dbad" childId="model" shared="true" includeChildSelections="true"/>
           </conditions>
@@ -1038,8 +1026,8 @@
       <profiles>
         <profile name="Plague Monks" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="32ac-c2fc-340f-3d60">
           <characteristics>
-            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">6&quot;</characteristic>
-            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">3</characteristic>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">4&quot;</characteristic>
+            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">4</characteristic>
             <characteristic name="SV" typeId="450-a17e-9d5e-29da">6+</characteristic>
             <characteristic name="W" typeId="750a-a2ec-90d3-21fe">1</characteristic>
             <characteristic name="LD" typeId="58d2-b879-49c7-43bc">8+</characteristic>
@@ -1053,7 +1041,7 @@
         </profile>
         <profile name="Plague Lands" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="8fb6-a0bb-0f6a-b9f4">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If you control an Objective Marker at the end of your command phase and this unit is within range of that Objective Marker, that Objective Marker is considered Difficult Terrain and all non-*Pestilens* units within range of the Objective Marker roll a dice, where on a 6+ they take 1 mortal wound.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If you control an Objective Marker at the end of your command phase and this unit is within range of that Objective Marker, that Objective Marker is considered Difficult Terrain and all non-PESTILENS units within range of the Objective Marker roll a dice, where on a 6+ they take 1 mortal wound.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1074,13 +1062,10 @@
                     <characteristic name="S" typeId="ab33-d393-96ce-ccba">3</characteristic>
                     <characteristic name="AP" typeId="41a0-1301-112a-e2f2">0</characteristic>
                     <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
-                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Lethal Hits</characteristic>
+                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
                   </characteristics>
                 </profile>
               </profiles>
-              <infoLinks>
-                <infoLink name="Lethal Hits" id="e2a1-6725-3fc4-79fe" hidden="false" type="rule" targetId="d1d1-611e-5191-1095"/>
-              </infoLinks>
             </selectionEntry>
           </selectionEntries>
           <profiles>
@@ -1111,13 +1096,10 @@
                     <characteristic name="S" typeId="ab33-d393-96ce-ccba">4</characteristic>
                     <characteristic name="AP" typeId="41a0-1301-112a-e2f2">0</characteristic>
                     <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
-                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Lethal Hits</characteristic>
+                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
                   </characteristics>
                 </profile>
               </profiles>
-              <infoLinks>
-                <infoLink name="Lethal Hits" id="3d02-c4f6-4458-f267" hidden="false" type="rule" targetId="d1d1-611e-5191-1095"/>
-              </infoLinks>
             </selectionEntry>
           </selectionEntries>
           <constraints>
@@ -1141,13 +1123,10 @@
                     <characteristic name="S" typeId="ab33-d393-96ce-ccba">3</characteristic>
                     <characteristic name="AP" typeId="41a0-1301-112a-e2f2">0</characteristic>
                     <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
-                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Lethal Hits</characteristic>
+                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
                   </characteristics>
                 </profile>
               </profiles>
-              <infoLinks>
-                <infoLink name="Lethal Hits" id="af2a-267a-7473-34ca" hidden="false" type="rule" targetId="d1d1-611e-5191-1095"/>
-              </infoLinks>
             </selectionEntry>
           </selectionEntries>
           <profiles>
@@ -1174,13 +1153,10 @@
                     <characteristic name="S" typeId="ab33-d393-96ce-ccba">3</characteristic>
                     <characteristic name="AP" typeId="41a0-1301-112a-e2f2">0</characteristic>
                     <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
-                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Lethal Hits</characteristic>
+                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
                   </characteristics>
                 </profile>
               </profiles>
-              <infoLinks>
-                <infoLink name="Lethal Hits" id="9e0b-e67f-b068-286c" hidden="false" type="rule" targetId="d1d1-611e-5191-1095"/>
-              </infoLinks>
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="25f4-5d28-e9b7-76e8" includeChildSelections="false"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c7cc-3ccb-a69e-a8e0" includeChildSelections="false"/>
@@ -1559,13 +1535,10 @@
                     <characteristic name="S" typeId="ab33-d393-96ce-ccba">9</characteristic>
                     <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-1</characteristic>
                     <characteristic name="D" typeId="3254-9fe6-d824-513e">D3</characteristic>
-                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Assault</characteristic>
+                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
                   </characteristics>
                 </profile>
               </profiles>
-              <infoLinks>
-                <infoLink name="Assault" id="8fa2-8678-3ab2-3392" hidden="false" type="rule" targetId="fc8a-8c24-bae9-cc1c"/>
-              </infoLinks>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Warpforged Halberd" hidden="false" id="f2d1-937a-8d63-99d7">
               <constraints>
@@ -1643,12 +1616,12 @@
         </profile>
         <profile name="Running Death" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="50a8-2966-7f39-9814">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this model is leading a unit: all their weapons gain Assault.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this model is leading a unit: all their ranged weapons gain Assault.</characteristic>
           </characteristics>
         </profile>
         <profile name="Shadowy Killers" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6a69-c3fe-b2bf-8bb3">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If the unmodified hit roll for an attack that targets this unit is 1-4, the attack fails and the attack sequence ends.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit may attack enemy units that use FALL BACK to leave its engagement range with all Melee Weapons and/or Ranged Weapons with the Pistol keyword.</characteristic>
           </characteristics>
         </profile>
         <profile name="Leader" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="890f-d372-a72a-80bb">
@@ -1834,7 +1807,7 @@
         <categoryLink targetId="13bf-2bee-3ae0-b414" id="f529-a587-2c52-badb" primary="false" name="Psyker"/>
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="225"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="265"/>
         <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
         <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
         <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
@@ -1882,7 +1855,6 @@
               </constraints>
               <infoLinks>
                 <infoLink name="Crushing Bulk" id="160a-dfde-3ee8-618f" hidden="false" type="profile" targetId="74a6-0a67-a0d3-4c94"/>
-                <infoLink name="Assault" id="e2d0-55fa-a636-15fc" hidden="false" type="rule" targetId="fc8a-8c24-bae9-cc1c"/>
                 <infoLink name="Lance" id="1c54-cc50-5414-9a2f" hidden="false" type="rule" targetId="2ebc-abdf-8129-6c57"/>
               </infoLinks>
             </selectionEntry>
@@ -1918,7 +1890,11 @@
             <modifier type="append" value="D6" field="name"/>
           </modifiers>
         </infoLink>
-        <infoLink name="Feel No Pain" id="ee4e-d017-1b6c-e592" hidden="false" type="rule" targetId="9bf4-280f-bbe2-6fbb"/>
+        <infoLink name="Feel No Pain" id="ee4e-d017-1b6c-e592" hidden="false" type="rule" targetId="9bf4-280f-bbe2-6fbb">
+          <modifiers>
+            <modifier type="append" value="5+" field="name"/>
+          </modifiers>
+        </infoLink>
         <infoLink name="Damaged: 1-5 Wounds Remaining" id="ebd1-8cf4-3c12-038d" hidden="false" type="profile" targetId="6eac-369a-f9e3-cf11"/>
         <infoLink name="Great Vermintide" id="3f7e-a10a-bf5e-6503" hidden="false" type="rule" targetId="fb49-cf71-d602-5614"/>
       </infoLinks>
@@ -2087,7 +2063,7 @@
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Plague Priest on Plague Furnace" hidden="false" id="ef6f-c273-d191-c3c5">
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="225"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="265"/>
         <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
         <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
         <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
@@ -2134,7 +2110,6 @@
               </constraints>
               <infoLinks>
                 <infoLink name="Crushing Bulk" id="f12e-7fb7-fdad-fc66" hidden="false" type="profile" targetId="74a6-0a67-a0d3-4c94"/>
-                <infoLink name="Assault" id="ecf9-d120-bfbb-ffe8" hidden="false" type="rule" targetId="fc8a-8c24-bae9-cc1c"/>
                 <infoLink name="Lance" id="aa63-5c74-ec12-7c46" hidden="false" type="rule" targetId="2ebc-abdf-8129-6c57"/>
               </infoLinks>
             </selectionEntry>
@@ -2143,9 +2118,6 @@
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2e1c-d4db-c7a9-3b73" includeChildSelections="false"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="267c-f70f-a135-fac5" includeChildSelections="false"/>
               </constraints>
-              <infoLinks>
-                <infoLink name="Lethal Hits" id="05af-884e-028f-6f5f" hidden="false" type="rule" targetId="d1d1-611e-5191-1095"/>
-              </infoLinks>
               <profiles>
                 <profile name="Foetid Blades" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="6f9b-93f0-6164-e9f4">
                   <characteristics>
@@ -2155,7 +2127,7 @@
                     <characteristic name="S" typeId="ab33-d393-96ce-ccba">4</characteristic>
                     <characteristic name="AP" typeId="41a0-1301-112a-e2f2">0</characteristic>
                     <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
-                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Lethal Hits</characteristic>
+                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -2216,7 +2188,11 @@
       </selectionEntries>
       <infoLinks>
         <infoLink name="Damaged: 1-5 Wounds Remaining" id="87e1-8da0-8436-89f3" hidden="false" type="profile" targetId="6eac-369a-f9e3-cf11"/>
-        <infoLink name="Feel No Pain" id="a57d-e9a8-58e8-8ccf" hidden="false" type="rule" targetId="9bf4-280f-bbe2-6fbb"/>
+        <infoLink name="Feel No Pain" id="a57d-e9a8-58e8-8ccf" hidden="false" type="rule" targetId="9bf4-280f-bbe2-6fbb">
+          <modifiers>
+            <modifier type="append" value="5+" field="name"/>
+          </modifiers>
+        </infoLink>
         <infoLink name="Deadly Demise" id="cc14-1d8a-a7bb-c6eb" hidden="false" type="rule" targetId="b68a-5ded-65ac-98c">
           <modifiers>
             <modifier type="append" value="D6" field="name"/>
@@ -2227,7 +2203,7 @@
       <profiles>
         <profile name="Corrupting Influence" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="7636-7645-2af3-4791">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Subtract 1 from Save, Invulnerable Save, and Feel No Pain rolls for enemy units while they are within 13&quot; of this unit.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Subtract 1 from Save and Invulnerable Save rolls for enemy units while they are within 13&quot; of this unit.</characteristic>
           </characteristics>
         </profile>
         <profile name="Altar of the Great Corruptor" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="81db-9726-82cd-bd50">
@@ -2320,8 +2296,11 @@
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
-        <infoLink name="Feel No Pain" id="56f4-0095-6c7d-4c96" hidden="false" type="rule" targetId="9bf4-280f-bbe2-6fbb"/>
-        <infoLink name="Leader" id="f9ac-f9bb-9339-9f2e" hidden="false" type="rule" targetId="b4dd-3e1f-41cb-218f"/>
+        <infoLink name="Feel No Pain" id="56f4-0095-6c7d-4c96" hidden="false" type="rule" targetId="9bf4-280f-bbe2-6fbb">
+          <modifiers>
+            <modifier type="append" value="5+" field="name"/>
+          </modifiers>
+        </infoLink>
         <infoLink name="Great Vermintide" id="06a9-9769-e3a4-ef2c" hidden="false" type="rule" targetId="fb49-cf71-d602-5614"/>
       </infoLinks>
       <profiles>
@@ -2343,14 +2322,6 @@
             <characteristic name="W" typeId="750a-a2ec-90d3-21fe">13</characteristic>
             <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
             <characteristic name="OC" typeId="bef7-942a-1a23-59f8">5</characteristic>
-          </characteristics>
-        </profile>
-        <profile name="Leader" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2f9c-a969-c319-7d5f">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model can be attached to the following units:
-■ Clanrats
-■ Plague Monks
-■ Plaguepack</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2383,8 +2354,11 @@
       </constraints>
       <infoLinks>
         <infoLink name="Great Vermintide" id="e574-abe5-5a3a-cf9d" hidden="false" type="rule" targetId="fb49-cf71-d602-5614"/>
-        <infoLink name="Feel No Pain" id="bd65-5d7e-46d8-09ce" hidden="false" type="rule" targetId="9bf4-280f-bbe2-6fbb"/>
-        <infoLink name="Leader" id="67e4-30c1-9d62-6893" hidden="false" type="rule" targetId="b4dd-3e1f-41cb-218f"/>
+        <infoLink name="Feel No Pain" id="bd65-5d7e-46d8-09ce" hidden="false" type="rule" targetId="9bf4-280f-bbe2-6fbb">
+          <modifiers>
+            <modifier type="append" value="5+" field="name"/>
+          </modifiers>
+        </infoLink>
       </infoLinks>
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="Verminlord Deceiver" hidden="false" id="c2ea-8b9b-c27d-9e55">
@@ -2461,7 +2435,7 @@
                     <characteristic name="Range" typeId="9896-9419-16a1-92fc">13&quot;</characteristic>
                     <characteristic name="A" typeId="3bb-c35f-f54-fb08">6</characteristic>
                     <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
-                    <characteristic name="S" typeId="2229-f494-25db-c5d3">10</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">8</characteristic>
                     <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
                     <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
                     <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Lethal Hits</characteristic>
@@ -2486,7 +2460,7 @@
           <characteristics>
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If you use the &apos;**Burst from the Shadows**&apos; stratagem on this unit you may pick a point that is within 1&quot; of any enemy units. Remove this unit from the battlefield and set it up again within 1&quot; of that point.
 
-Designer’s Note: This ability allows the unit to set up in combat with a new enemy unit.</characteristic>
+Designer’s Note: This ability allows the unit to set up in engagement with a new enemy unit.</characteristic>
           </characteristics>
         </profile>
         <profile name="Verminlord Deceiver" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="fdd7-6faa-238f-f98f">
@@ -2497,14 +2471,6 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
             <characteristic name="W" typeId="750a-a2ec-90d3-21fe">13</characteristic>
             <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
             <characteristic name="OC" typeId="bef7-942a-1a23-59f8">5</characteristic>
-          </characteristics>
-        </profile>
-        <profile name="Leader" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="eeba-1999-bf8a-27fd">
-          <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model can be attached to the following units:
-■ Clanrats
-■ Night Runners
-■ Plague Monks</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2537,7 +2503,11 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
       </constraints>
       <infoLinks>
         <infoLink name="Great Vermintide" id="b1c0-d431-4b7b-6864" hidden="false" type="rule" targetId="fb49-cf71-d602-5614"/>
-        <infoLink name="Feel No Pain" id="3e15-1c94-5c0c-a0bb" hidden="false" type="rule" targetId="9bf4-280f-bbe2-6fbb"/>
+        <infoLink name="Feel No Pain" id="3e15-1c94-5c0c-a0bb" hidden="false" type="rule" targetId="9bf4-280f-bbe2-6fbb">
+          <modifiers>
+            <modifier type="append" value="5+" field="name"/>
+          </modifiers>
+        </infoLink>
         <infoLink name="Fights First" id="23be-9222-0eff-297e" hidden="false" type="rule" targetId="24-c886-e8ba-5a89"/>
       </infoLinks>
       <selectionEntries>
@@ -2720,12 +2690,16 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
             <categoryLink name="Manifestation" hidden="false" id="0563-87f5-a82c-b663" targetId="f0ab-7297-addd-5c15" primary="false"/>
           </categoryLinks>
           <constraints>
-            <constraint type="max" value="1" field="selections" scope="force" shared="true" id="ff2c-7c5f-11b1-39a5" includeChildSelections="true"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ff2c-7c5f-11b1-39a5" includeChildSelections="false"/>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="df80-f2f5-6be0-ee99" includeChildSelections="false"/>
           </constraints>
           <infoLinks>
             <infoLink name="Great Vermintide" id="358b-3178-dcf2-ad1c" hidden="false" type="rule" targetId="fb49-cf71-d602-5614"/>
-            <infoLink name="Feel No Pain" id="706a-dfee-5f57-be80" hidden="false" type="rule" targetId="9bf4-280f-bbe2-6fbb"/>
+            <infoLink name="Feel No Pain" id="706a-dfee-5f57-be80" hidden="false" type="rule" targetId="9bf4-280f-bbe2-6fbb">
+              <modifiers>
+                <modifier type="append" value="5+" field="name"/>
+              </modifiers>
+            </infoLink>
           </infoLinks>
           <profiles>
             <profile name="Warp Lightning Vortex" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="afa1-4317-d134-5ec7">
@@ -2861,15 +2835,15 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5dbe-76bd-5712-c429" includeChildSelections="false"/>
               </constraints>
               <profiles>
-                <profile name="Doomrocket - Krark" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="8eca-5eb4-a18e-8bcc">
+                <profile name="Doomrocket - Krak" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="8eca-5eb4-a18e-8bcc">
                   <characteristics>
                     <characteristic name="Range" typeId="914c-b413-91e3-a132">36&quot;</characteristic>
-                    <characteristic name="A" typeId="2337-daa1-6682-b110">2</characteristic>
+                    <characteristic name="A" typeId="2337-daa1-6682-b110">1</characteristic>
                     <characteristic name="WS" typeId="95d1-95f-45b4-11d6">4+</characteristic>
                     <characteristic name="S" typeId="ab33-d393-96ce-ccba">9</characteristic>
                     <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
                     <characteristic name="D" typeId="3254-9fe6-d824-513e">D6</characteristic>
-                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Anti-Vehicle 3+, Devastating Wounds, Hazardous, Heavy</characteristic>
+                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Anti-Vehicle 3+, Devastating Wounds, Hazardous</characteristic>
                   </characteristics>
                 </profile>
                 <profile name="Doomrocket - Frag" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="c0e8-c381-e4ce-0d62">
@@ -2877,10 +2851,10 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
                     <characteristic name="Range" typeId="914c-b413-91e3-a132">36&quot;</characteristic>
                     <characteristic name="A" typeId="2337-daa1-6682-b110">D6</characteristic>
                     <characteristic name="WS" typeId="95d1-95f-45b4-11d6">4+</characteristic>
-                    <characteristic name="S" typeId="ab33-d393-96ce-ccba">5</characteristic>
+                    <characteristic name="S" typeId="ab33-d393-96ce-ccba">4</characteristic>
                     <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-1</characteristic>
-                    <characteristic name="D" typeId="3254-9fe6-d824-513e">D6</characteristic>
-                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Anti-Infantry 3+, Blast, Devastating Wounds, Hazardous</characteristic>
+                    <characteristic name="D" typeId="3254-9fe6-d824-513e">2</characteristic>
+                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Blast, Devastating Wounds, Hazardous</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -2888,7 +2862,6 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
                 <infoLink name="Hazardous" id="1bf8-8013-b054-bc7c" hidden="false" type="rule" targetId="8367-374c-f87-c627"/>
                 <infoLink name="Devastating Wounds" id="78b6-85e4-7ec9-d793" hidden="false" type="rule" targetId="be1e-ac8e-1e2c-3528"/>
                 <infoLink name="Blast" id="8cd3-7d03-1af0-5fa0" hidden="false" type="rule" targetId="6c1f-1cf7-ff25-c99e"/>
-                <infoLink name="Heavy" id="d1c0-b202-730f-f5f0" hidden="false" type="rule" targetId="1202-10a8-78e9-4c67"/>
                 <infoLink name="Anti-" id="e945-52f8-2188-ee4f" hidden="false" type="rule" targetId="4111-82e3-9444-e942"/>
               </infoLinks>
             </selectionEntry>
@@ -3223,7 +3196,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
         </profile>
         <profile name="Tunnels Below" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="54cf-de9d-cae2-c9c1">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">All GNAWHOLE transport the same units. One GNAWHOLE can support up to 55 BATTLINE, 7 MOUNTED, 5 MONSTERS, or 5 VEHICLES.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">All GNAWHOLE transport the same units. One GNAWHOLE can support up to 20 INFANTRY, 4 MOUNTED, 3 MONSTERS, and 3 VEHICLES.</characteristic>
           </characteristics>
         </profile>
         <profile name="Volatile Ground" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4d5b-3b2c-da1a-c315">
@@ -3272,6 +3245,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
         <infoLink name="Hidden Amongst The Many" id="3172-489e-6e8f-865e" hidden="false" type="profile" targetId="8048-a67a-bc5c-b929"/>
         <infoLink name="Leader" id="3a5d-6eea-d40b-b1a9" hidden="false" type="rule" targetId="b4dd-3e1f-41cb-218f"/>
         <infoLink name="Fights First" id="6771-362d-baf5-d1a6" hidden="false" type="rule" targetId="24-c886-e8ba-5a89"/>
+        <infoLink name="Invulnerable Save (5+)" id="3563-20e8-7a16-e30d" hidden="false" type="profile" targetId="30d6-3998-8498-5c22"/>
       </infoLinks>
       <profiles>
         <profile name="Krittok Foulblade" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="9c26-9b32-55d5-b960">
@@ -3388,7 +3362,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
         <categoryLink targetId="e1e8-5b24-6211-117f" id="dd7f-8ee2-7891-82d8" primary="false" name="Faction: Skaven"/>
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="335"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="385"/>
         <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
         <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
         <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
@@ -3470,7 +3444,11 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
-        <infoLink name="Feel No Pain" id="83af-3088-8478-e84e" hidden="false" type="rule" targetId="9bf4-280f-bbe2-6fbb"/>
+        <infoLink name="Feel No Pain" id="83af-3088-8478-e84e" hidden="false" type="rule" targetId="9bf4-280f-bbe2-6fbb">
+          <modifiers>
+            <modifier type="append" value="5+" field="name"/>
+          </modifiers>
+        </infoLink>
         <infoLink name="Lone Operative" id="b4d3-9e35-379e-7f28" hidden="false" type="rule" targetId="a8a0-8fe7-898-e0f3"/>
         <infoLink name="Great Vermintide" id="2baf-d169-c046-f115" hidden="false" type="rule" targetId="fb49-cf71-d602-5614"/>
       </infoLinks>
@@ -3527,9 +3505,13 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
       <infoLinks>
         <infoLink name="Great Vermintide" id="a66a-246c-f066-b991" hidden="false" type="rule" targetId="fb49-cf71-d602-5614"/>
         <infoLink name="Leader" id="36a0-8a7d-42a5-4472" hidden="false" type="rule" targetId="b4dd-3e1f-41cb-218f"/>
-        <infoLink name="Feel No Pain" id="09db-1965-e2a5-82ab" hidden="false" type="rule" targetId="9bf4-280f-bbe2-6fbb"/>
-        <infoLink name="Deadly Demise" id="441d-20b5-1c87-3c59" hidden="false" type="rule" targetId="b68a-5ded-65ac-98c"/>
+        <infoLink name="Deadly Demise" id="441d-20b5-1c87-3c59" hidden="false" type="rule" targetId="b68a-5ded-65ac-98c">
+          <modifiers>
+            <modifier type="append" value="D3" field="name"/>
+          </modifiers>
+        </infoLink>
         <infoLink name="Sweep of Flames" id="e72c-91ea-c340-f437" hidden="false" type="profile" targetId="43f4-3437-7eef-8109"/>
+        <infoLink name="Invulnerable Save (5+)" id="ed22-6118-36d7-6104" hidden="false" type="profile" targetId="30d6-3998-8498-5c22"/>
       </infoLinks>
       <profiles>
         <profile name="Thanquol on Boneripper" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="3b8e-43af-02c4-8f32">
@@ -3537,7 +3519,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
             <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">8&quot;</characteristic>
             <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">10</characteristic>
             <characteristic name="SV" typeId="450-a17e-9d5e-29da">4+</characteristic>
-            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">14</characteristic>
+            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">8</characteristic>
             <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
             <characteristic name="OC" typeId="bef7-942a-1a23-59f8">5</characteristic>
           </characteristics>
@@ -3549,7 +3531,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
         </profile>
         <profile name="More-more Psychic Energy!" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="82b1-34d5-6b3c-f7a3">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Once Per Turn. Your Shooting Phase. Roll a a dice, on a 1-3 take damage corresponding to the result. On a result of 4-6: your Psychic weapons gain Extra Attacks.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Once Per Turn. Your Shooting Phase. Roll a a dice, on a 1-3 take mortal wounds corresponding to the result. On a result of 4-6: your Psychic weapons gain Extra Attacks.</characteristic>
           </characteristics>
         </profile>
         <profile name="Warp-Amulet" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a430-270d-70a6-ce60">
@@ -3560,8 +3542,6 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
         <profile name="Leader" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ce37-92a0-c23e-2f14">
           <characteristics>
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model can be attached to the following units:
-■ Clanrats
-■ Plague Monks
 ■ Rat Ogors
 ■ Stormfiends</characteristic>
           </characteristics>
@@ -3718,7 +3698,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
         </profile>
         <profile name="Warp-Ambush" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6409-1619-4a9a-c418">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Before you would set up this unit and the unit it took with it: pick an enemy unit more than 6&quot; from all other enemy units to be the target and then roll a dice. On a 4+, set up both units within 3&quot; of the target and more than 6&quot; from all other enemy units. On a 6, you may put both units in enagagement range of the target instead.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Before you would set up this unit and the unit selected from &quot;Tunnel Skulkers&quot;: pick an enemy unit more than 6&quot; from all other enemy units to be the target and then roll a dice. On a 4+, set up both units within 3&quot; of the target and more than 6&quot; from all other enemy units. On a 6, you may put both units in engagement range of the target instead.</characteristic>
           </characteristics>
         </profile>
         <profile name="Tunnel Skulkers" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9505-eb2c-66e1-7ac1">
@@ -3737,6 +3717,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
               </constraints>
               <infoLinks>
                 <infoLink name="Lance" id="1609-c4bd-3fab-e124" hidden="false" type="rule" targetId="2ebc-abdf-8129-6c57"/>
+                <infoLink name="Anti-" id="b9ca-4d24-9852-c704" hidden="false" type="rule" targetId="4111-82e3-9444-e942"/>
               </infoLinks>
               <profiles>
                 <profile name="Warpstone Drill-fang" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="b6f5-6628-20e9-9525">
@@ -3747,7 +3728,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
                     <characteristic name="S" typeId="ab33-d393-96ce-ccba">5</characteristic>
                     <characteristic name="AP" typeId="41a0-1301-112a-e2f2">0</characteristic>
                     <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
-                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Lance</characteristic>
+                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Anti-Vehicle 3+, Lance</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -3897,11 +3878,8 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
         <infoLink name="Great Vermintide" id="d1b0-439a-a56b-321c" hidden="false" type="rule" targetId="fb49-cf71-d602-5614"/>
         <infoLink name="Stealth" id="a1ea-06be-171b-835c" hidden="false" type="rule" targetId="bec5-4288-34a6-ccfa"/>
         <infoLink name="Lone Operative" id="8965-970a-d8c0-0d5f" hidden="false" type="rule" targetId="a8a0-8fe7-898-e0f3"/>
-        <infoLink name="Scouts" id="34aa-d1f7-4abe-f125" hidden="false" type="rule" targetId="ada6-bac1-ffe0-d6f7">
-          <modifiers>
-            <modifier type="append" value="7&quot;" field="name"/>
-          </modifiers>
-        </infoLink>
+        <infoLink name="Deep Strike" id="34aa-d1f7-4abe-f125" hidden="false" type="rule" targetId="7cb5-dd6b-dd87-ad3b"/>
+        <infoLink name="Infiltrators" id="6949-c989-941b-83ff" hidden="false" type="rule" targetId="c05d-f4c3-f091-4938"/>
       </infoLinks>
       <profiles>
         <profile name="Night Runners" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="629c-3c02-a448-c5d2">
@@ -3916,7 +3894,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
         </profile>
         <profile name="Sneaky Infiltrators" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4916-cf16-3bf0-d57c">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While each model in this unit is within 1&quot; of any terrain features, this unit cannot be targeted by shooting attacks unless the attacking model is within 9&quot; of it.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While each model in this unit is within 3&quot; of any terrain features, this unit cannot be targeted by shooting attacks unless the attacking model is within 9&quot; of it.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4262,7 +4240,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
                 <profile name="Ratling Gun - Overcharged" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="0671-8e42-0b09-64cf">
                   <characteristics>
                     <characteristic name="Range" typeId="9896-9419-16a1-92fc">15&quot;</characteristic>
-                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">3D6</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">D6</characteristic>
                     <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
                     <characteristic name="S" typeId="2229-f494-25db-c5d3">8</characteristic>
                     <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
@@ -4273,7 +4251,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
                 <profile name="Ratling Gun" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="5aed-adde-f2a3-fec5">
                   <characteristics>
                     <characteristic name="Range" typeId="9896-9419-16a1-92fc">15&quot;</characteristic>
-                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">3D6</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">D6</characteristic>
                     <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
                     <characteristic name="S" typeId="2229-f494-25db-c5d3">7</characteristic>
                     <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
@@ -4345,7 +4323,8 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
       </modifiers>
       <infoLinks>
         <infoLink name="Great Vermintide" id="ff61-6c9c-8759-c28a" hidden="false" type="rule" targetId="fb49-cf71-d602-5614"/>
-        <infoLink name="Feel No Pain" id="fe86-887f-5f42-a394" hidden="false" type="rule" targetId="9bf4-280f-bbe2-6fbb"/>
+        <infoLink name="Fights First" id="fe86-887f-5f42-a394" hidden="false" type="rule" targetId="24-c886-e8ba-5a89"/>
+        <infoLink name="Invulnerable Save (5+)" id="4ab0-77f5-b866-1346" hidden="false" type="profile" targetId="30d6-3998-8498-5c22"/>
       </infoLinks>
       <profiles>
         <profile name="Stormvermin" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="71c8-d576-2dbc-886a">
@@ -4554,7 +4533,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
                 <profile name="Warpfire Thrower - Overcharged" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="40b6-07e3-d972-f406">
                   <characteristics>
                     <characteristic name="Range" typeId="914c-b413-91e3-a132">10&quot;</characteristic>
-                    <characteristic name="A" typeId="2337-daa1-6682-b110">2D6</characteristic>
+                    <characteristic name="A" typeId="2337-daa1-6682-b110">D6</characteristic>
                     <characteristic name="WS" typeId="95d1-95f-45b4-11d6">-</characteristic>
                     <characteristic name="S" typeId="ab33-d393-96ce-ccba">8</characteristic>
                     <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-3</characteristic>
@@ -4565,7 +4544,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
                 <profile name="Warpfire Thrower" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="97f3-b2c8-33d3-1836">
                   <characteristics>
                     <characteristic name="Range" typeId="914c-b413-91e3-a132">10&quot;</characteristic>
-                    <characteristic name="A" typeId="2337-daa1-6682-b110">2D6</characteristic>
+                    <characteristic name="A" typeId="2337-daa1-6682-b110">D6</characteristic>
                     <characteristic name="WS" typeId="95d1-95f-45b4-11d6">-</characteristic>
                     <characteristic name="S" typeId="ab33-d393-96ce-ccba">7</characteristic>
                     <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
@@ -4812,6 +4791,11 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
             <modifier type="append" value="1" field="name"/>
           </modifiers>
         </infoLink>
+        <infoLink name="Feel No Pain" id="0e82-86a9-9c0d-5b00" hidden="false" type="rule" targetId="9bf4-280f-bbe2-6fbb">
+          <modifiers>
+            <modifier type="append" value="5+" field="name"/>
+          </modifiers>
+        </infoLink>
       </infoLinks>
       <profiles>
         <profile name="Rat Ogors" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="599e-0413-9d8e-b9af">
@@ -4905,7 +4889,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Stormfiends" hidden="false" id="d204-4169-1804-d84d">
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="100"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="125"/>
         <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
         <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
         <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
@@ -4924,7 +4908,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
         <constraint type="max" value="3" field="selections" scope="force" shared="true" id="b0e3-adf9-3a4f-0210" includeChildSelections="true"/>
       </constraints>
       <modifiers>
-        <modifier type="set" value="200" field="51b2-306e-1021-d207">
+        <modifier type="set" value="250" field="51b2-306e-1021-d207">
           <conditions>
             <condition type="greaterThan" value="3" field="selections" scope="d204-4169-1804-d84d" childId="model" shared="true" includeChildSelections="true"/>
           </conditions>
@@ -4937,6 +4921,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
             <modifier type="append" value="D3" field="name"/>
           </modifiers>
         </infoLink>
+        <infoLink name="Invulnerable Save (5+)" id="6a89-5f7f-d16d-525a" hidden="false" type="profile" targetId="30d6-3998-8498-5c22"/>
       </infoLinks>
       <profiles>
         <profile name="Stormfiends" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="843d-11e5-84b4-ddd4">
@@ -5308,7 +5293,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Brood Terror" hidden="false" id="d4c4-70e4-397b-4b14">
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="135"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="155"/>
         <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
         <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
         <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
@@ -5396,7 +5381,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
                     <characteristic name="S" typeId="2229-f494-25db-c5d3">6</characteristic>
                     <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
                     <characteristic name="D" typeId="a354-c1c8-a745-f9e3">D3</characteristic>
-                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-Infantry 3+, Lethal Hits, Torrent</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-Infantry 3+, Torrent</characteristic>
                   </characteristics>
                 </profile>
                 <profile name="Warpflame Scourger - Overcharged" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="b7a1-88e6-6901-b4cf">
@@ -5407,7 +5392,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
                     <characteristic name="S" typeId="2229-f494-25db-c5d3">7</characteristic>
                     <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
                     <characteristic name="D" typeId="a354-c1c8-a745-f9e3">3</characteristic>
-                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-Infantry 3+, Lethal Hits, Torrent, Hazardous</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-Infantry 3+, Torrent, Hazardous</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -5418,7 +5403,6 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
               <infoLinks>
                 <infoLink name="Anti-" id="dd5d-3dce-e0a2-6e9a" hidden="false" type="rule" targetId="4111-82e3-9444-e942"/>
                 <infoLink name="Torrent" id="8491-d780-5716-8d72" hidden="false" type="rule" targetId="5edf-d619-23e0-9b56"/>
-                <infoLink name="Lethal Hits" id="0bf4-60c9-0ccb-e762" hidden="false" type="rule" targetId="d1d1-611e-5191-1095"/>
                 <infoLink name="Hazardous" id="77c8-3933-6eae-9838" hidden="false" type="rule" targetId="8367-374c-f87-c627"/>
               </infoLinks>
             </selectionEntry>
@@ -5432,7 +5416,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Hell Pit Abomination" hidden="false" id="7070-fc93-c66d-2913">
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="155"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="185"/>
         <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
         <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
         <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
@@ -5462,7 +5446,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
       <profiles>
         <profile name="Avalanche of Flesh" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ab55-332c-5c29-3d01">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Upon a successful charge, the target must take D6 mortal wounds.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this model ends a Charge move, select one enemy unit within Engagement Range of it and roll one D6: on a 2-3, that enemy unit suffers D3 mortal wounds; on a 4-5, that enemy unit suffers 3 mortal wounds; on a 6, that enemy unit suffers D3+3 mortal wounds</characteristic>
           </characteristics>
         </profile>
         <profile name="Too Horrible to Die" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4c94-c78f-29f8-ba66">
@@ -5500,7 +5484,7 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
                     <characteristic name="S" typeId="ab33-d393-96ce-ccba">8</characteristic>
                     <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
                     <characteristic name="D" typeId="3254-9fe6-d824-513e">2</characteristic>
-                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Anti-Infantry 2+, Lance</characteristic>
+                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Anti-Infantry 3+, Lance</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -5767,23 +5751,23 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
                 <profile name="Hail of Warpstone Bullets - Overcharged" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="c280-7739-d91d-3714">
                   <characteristics>
                     <characteristic name="Range" typeId="9896-9419-16a1-92fc">20&quot;</characteristic>
-                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">3D6</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">3D6+3</characteristic>
                     <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
                     <characteristic name="S" typeId="2229-f494-25db-c5d3">9</characteristic>
                     <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
                     <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
-                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Hazardous, Lethal Hits, Sustained Hits, Twin-linked</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Hazardous, Sustained Hits, Twin-linked</characteristic>
                   </characteristics>
                 </profile>
                 <profile name="Hail of Warpstone Bullets" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="3e02-17a8-6ac7-0cda">
                   <characteristics>
                     <characteristic name="Range" typeId="9896-9419-16a1-92fc">20&quot;</characteristic>
-                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">3D6</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">3D6+3</characteristic>
                     <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
                     <characteristic name="S" typeId="2229-f494-25db-c5d3">7</characteristic>
                     <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
                     <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
-                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Lethal Hits, Sustained Hits, Twin-linked</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Sustained Hits, Twin-linked</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -5791,7 +5775,6 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
                 <infoLink name="Twin-linked" id="707d-b175-4309-e67e" hidden="false" type="rule" targetId="cf93-ad4d-2f08-a79d"/>
                 <infoLink name="Hazardous" id="28b0-9beb-f576-a6bd" hidden="false" type="rule" targetId="8367-374c-f87-c627"/>
                 <infoLink name="Sustained Hits" id="baee-3bfb-7a1d-fc56" hidden="false" type="rule" targetId="1897-c22c-9597-12b1"/>
-                <infoLink name="Lethal Hits" id="1d50-33c7-36f7-8cf3" hidden="false" type="rule" targetId="d1d1-611e-5191-1095"/>
               </infoLinks>
             </selectionEntry>
           </selectionEntries>
@@ -5999,23 +5982,23 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
                 <profile name="Warpvolt Scourger - Overcharged" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="cce3-829b-1ddd-49f0">
                   <characteristics>
                     <characteristic name="Range" typeId="9896-9419-16a1-92fc">15&quot;</characteristic>
-                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">2D6</characteristic>
-                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">-</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">D6</characteristic>
+                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
                     <characteristic name="S" typeId="2229-f494-25db-c5d3">7</characteristic>
                     <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
                     <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
-                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Blast, Hazardous, Heavy, Sustained Hits 2, Torrent</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Blast, Hazardous, Heavy, Sustained Hits 2</characteristic>
                   </characteristics>
                 </profile>
                 <profile name="Warpvolt Scourger" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="a184-f81f-af32-7a9f">
                   <characteristics>
                     <characteristic name="Range" typeId="9896-9419-16a1-92fc">15&quot;</characteristic>
-                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">2D6</characteristic>
-                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">-</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">D6</characteristic>
+                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
                     <characteristic name="S" typeId="2229-f494-25db-c5d3">6</characteristic>
                     <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
                     <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
-                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Blast, Heavy, Sustained Hits 2, Torrent</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Blast, Heavy, Sustained Hits 2</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -6073,7 +6056,11 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
       </entryLinks>
       <infoLinks>
         <infoLink name="Lone Operative" id="56d3-5ad7-b7a0-86ca" hidden="false" type="rule" targetId="a8a0-8fe7-898-e0f3"/>
-        <infoLink name="Feel No Pain" id="2dc5-2a4d-bba5-d7bb" hidden="false" type="rule" targetId="9bf4-280f-bbe2-6fbb"/>
+        <infoLink name="Feel No Pain" id="2dc5-2a4d-bba5-d7bb" hidden="false" type="rule" targetId="9bf4-280f-bbe2-6fbb">
+          <modifiers>
+            <modifier type="append" value="5+" field="name"/>
+          </modifiers>
+        </infoLink>
         <infoLink name="Great Vermintide" id="b9ad-cefb-3529-7e18" hidden="false" type="rule" targetId="fb49-cf71-d602-5614"/>
       </infoLinks>
       <selectionEntries>
@@ -6263,8 +6250,8 @@ Designer’s Note: This ability allows the unit to set up in combat with a new e
                   <characteristics>
                     <characteristic name="Range" typeId="9896-9419-16a1-92fc">24&quot;</characteristic>
                     <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
-                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
-                    <characteristic name="S" typeId="2229-f494-25db-c5d3">10</characteristic>
+                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">7</characteristic>
                     <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
                     <characteristic name="D" typeId="a354-c1c8-a745-f9e3">D6</characteristic>
                     <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-Infantry 3+, Heavy, Indirect Fire</characteristic>
@@ -7086,7 +7073,7 @@ Designer’s Note: This ability allows the target to set up in combat with a new
   <sharedProfiles>
     <profile name="Hidden Weapon Team" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="c203-9e5c-8587-2803">
       <characteristics>
-        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this unit is within the combat range of a friendly CLANRATS unit that has 5 or more models, and there are no other friendly WEAPON TEAM units within that unit’s engagement range, this unit has the Lone Operative ability.</characteristic>
+        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this unit is within 3&quot; of a friendly CLANRATS unit that has 5 or more models, and there are no other friendly WEAPON TEAM units within that unit’s engagement range, this unit has the **Lone Operative** ability.</characteristic>
       </characteristics>
     </profile>
     <profile name="➤ Plague Stricken Curse - Witchfire" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="07f7-9fe6-4b23-614f">
@@ -7174,7 +7161,7 @@ Designer’s Note: This ability allows the target to set up in combat with a new
         <characteristic name="S" typeId="ab33-d393-96ce-ccba">12</characteristic>
         <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-1</characteristic>
         <characteristic name="D" typeId="3254-9fe6-d824-513e">2</characteristic>
-        <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Lance, Assault</characteristic>
+        <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Lance</characteristic>
       </characteristics>
     </profile>
     <profile name="Hidden Amongst The Many" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="8048-a67a-bc5c-b929">
@@ -7194,7 +7181,7 @@ Designer’s Note: This ability allows the target to set up in combat with a new
     </profile>
     <profile name="Regenerating Monstrosity" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b6c3-e0d6-5261-183a">
       <characteristics>
-        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">End of Any Turn. Heal (D6) this unit.</characteristic>
+        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">End of Any Round. Heal (D6) this unit.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
