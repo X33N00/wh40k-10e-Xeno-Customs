@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="4ef9-15ce-e3e6-36de" name="Imperium - Adeptus Astartes - Blood Angels" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" revision="72" battleScribeVersion="2.03" type="catalogue" authorName="Acebaur">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="4ef9-15ce-e3e6-36de" name="Imperium - Adeptus Astartes - Blood Angels" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" revision="75" battleScribeVersion="2.03" type="catalogue" authorName="Acebaur">
   <catalogueLinks>
     <catalogueLink type="catalogue" name="Imperium - Space Marines" id="abd0-8ebd-6fbd-2d94" targetId="e0af-67df-9d63-8fb7" importRootEntries="true"/>
     <catalogueLink type="catalogue" name="Imperium - Imperial Knights - Library" id="9c08-8ffc-d746-7384" targetId="1b6d-dc06-5db9-c7d1" importRootEntries="true"/>
@@ -1828,6 +1828,7 @@ If a Character unit from your army with the Leader ability can be attached to a
         <categoryLink targetId="5179-8ede-45e3-49a2" id="749f-787e-7471-8b31" primary="false" name="Tacticus"/>
         <categoryLink targetId="c619-2086-bbcf-69c9" id="9a42-3f1b-5c44-bd51" primary="false" name="Fly"/>
         <categoryLink targetId="dda2-bb0a-215e-ad9c" id="a612-4dc6-19f1-960e" primary="false" name="Jump Pack"/>
+        <categoryLink name="Death Company" hidden="false" id="0d4c-f000-e07b-c9d7" targetId="7278-781b-ce6c-d23c" primary="false"/>
       </categoryLinks>
       <profiles>
         <profile name="Death Company Marine with Jump Pack" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="4d41-5eed-844a-2b1c">
@@ -3606,7 +3607,14 @@ You can attach this model to one of the above units, even if one Captain, Chapt
         </profile>
       </profiles>
       <costs>
-        <cost name="pts" typeId="51b2-306e-1021-d207" value="140"/>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="130"/>
+        <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+        <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+        <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+        <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+        <cost name="Blackstone Fragments" typeId="ac6b-ced3-9b5e-9a6e" value="0"/>
+        <cost name="Honour Points" typeId="8135-9a2f-6627-09e2" value="0"/>
+        <cost name="Relic Fragments" typeId="0ece-6541-4662-ece2" value="0"/>
       </costs>
       <categoryLinks>
         <categoryLink targetId="4f3a-f0f7-6647-348d" id="9458-848b-3ef4-a0ad" primary="true" name="Epic Hero"/>
@@ -4859,7 +4867,7 @@ You can attach this model to one of the above units, even if one Captain, Chapt
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6182-6d27-f110-d9e1" includeChildSelections="false"/>
                     <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f0dc-04f6-2248-be26" includeChildSelections="false"/>
-                    <constraint type="max" value="1" field="selections" scope="2ed1-aba1-feec-a885" shared="true" id="57e0-15ea-a7bd-a74d" includeChildSelections="true"/>
+                    <constraint type="max" value="2" field="selections" scope="2ed1-aba1-feec-a885" shared="true" id="57e0-15ea-a7bd-a74d" includeChildSelections="true"/>
                   </constraints>
                   <entryLinks>
                     <entryLink import="true" name="Thunder Hammer" hidden="false" id="d21e-f281-5e3f-e0b2" type="selectionEntry" targetId="3acf-2a72-a5a2-84a2"/>
