@@ -394,7 +394,7 @@
         <entryLink import="true" name="Warlord" hidden="false" id="986b-de96-b31f-ce47" type="selectionEntry" targetId="a618-aeb9-f07d-5ed5"/>
       </entryLinks>
       <categoryLinks>
-        <categoryLink name="Vehicle" hidden="false" id="7e00-6be5-96da-07eb" targetId="dbd4-63-af05-998" primary="false"/>
+        <categoryLink name="Vehicle" hidden="false" id="7e00-6be5-96da-07eb" targetId="dbd4-63-af05-998" primary="true"/>
         <categoryLink name="Walker" hidden="false" id="afc3-6ed2-6221-0581" targetId="6dda-e157-334d-e93a" primary="false"/>
         <categoryLink name="Titanic" hidden="false" id="850d-f378-5968-e1fb" targetId="5929-ad51-d006-e008" primary="false"/>
         <categoryLink name="Faction: Adeptus Titanicus" hidden="false" id="fe3e-c038-bc3d-b943" targetId="169a-d3f4-23b5-ba7" primary="false"/>
