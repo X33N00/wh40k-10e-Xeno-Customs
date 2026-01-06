@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="bdc0-c0d-72d7-87e2" name="Imperium - Adeptus Titanicus" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" revision="5" battleScribeVersion="2.03" type="catalogue">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="bdc0-c0d-72d7-87e2" name="Imperium - Adeptus Titanicus" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" revision="6" battleScribeVersion="2.03" type="catalogue">
   <sharedSelectionEntries>
     <selectionEntry type="upgrade" import="true" name="Warlord" hidden="false" id="a618-aeb9-f07d-5ed5">
       <categoryLinks>
@@ -64,4 +64,352 @@
       </entryLinks>
     </entryLink>
   </entryLinks>
+  <selectionEntries>
+    <selectionEntry type="model" import="true" name="Imperator Titan" hidden="false" id="8cee-11ce-4faf-d2a4">
+      <costs>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="5000"/>
+        <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+        <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+        <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+        <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+        <cost name="Blackstone Fragments" typeId="ac6b-ced3-9b5e-9a6e" value="0"/>
+      </costs>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Wargear" id="1a49-1441-834d-2677" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Imperator Feet" hidden="false" id="b1b7-906f-2815-7712">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6e55-bd77-9c30-ece1" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="aad2-b204-9d4c-fba0" includeChildSelections="false"/>
+              </constraints>
+              <profiles>
+                <profile name="Imperator Feet" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="fd0b-1eee-9d53-0f4b">
+                  <characteristics>
+                    <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                    <characteristic name="A" typeId="2337-daa1-6682-b110">10</characteristic>
+                    <characteristic name="WS" typeId="95d1-95f-45b4-11d6">4+</characteristic>
+                    <characteristic name="S" typeId="ab33-d393-96ce-ccba">15</characteristic>
+                    <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-3</characteristic>
+                    <characteristic name="D" typeId="3254-9fe6-d824-513e">5</characteristic>
+                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Main Weapon" id="51b8-a1d8-6fb6-c0e9" hidden="false">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="79e9-037b-8143-caeb" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="04bd-6d1f-3ba4-d204" includeChildSelections="false"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Hellstorm Cannon" hidden="false" id="5ef0-a777-752c-c11c">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8221-144c-8b28-ac96" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6a9f-a5a7-eb96-1823" includeChildSelections="false"/>
+                  </constraints>
+                  <profiles>
+                    <profile name="Hellstorm Cannon" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="d5c0-34ae-93a4-bfdf">
+                      <characteristics>
+                        <characteristic name="Range" typeId="9896-9419-16a1-92fc">120&quot;</characteristic>
+                        <characteristic name="A" typeId="3bb-c35f-f54-fb08">6</characteristic>
+                        <characteristic name="BS" typeId="94d-8a98-cf90-183e">2+</characteristic>
+                        <characteristic name="S" typeId="2229-f494-25db-c5d3">20</characteristic>
+                        <characteristic name="AP" typeId="9ead-8a10-520-de15">-4</characteristic>
+                        <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2D6+6</characteristic>
+                        <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Rapid Fire 6</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink name="Rapid Fire" id="cc11-158b-defd-34de" hidden="false" type="rule" targetId="c5c8-8b58-b8b6-7786"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Novafury Plasma Annihilator" hidden="false" id="fd8a-76e7-5315-6b27">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="bbb6-c36f-cbc6-382c" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="573a-2e92-adb4-cb89" includeChildSelections="false"/>
+                  </constraints>
+                  <profiles>
+                    <profile name="➤ Novafury Plasma Annihilator - Standard" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="3027-f92a-534b-d10b">
+                      <characteristics>
+                        <characteristic name="Range" typeId="9896-9419-16a1-92fc">72&quot;</characteristic>
+                        <characteristic name="A" typeId="3bb-c35f-f54-fb08">2D6+6</characteristic>
+                        <characteristic name="BS" typeId="94d-8a98-cf90-183e">2+</characteristic>
+                        <characteristic name="S" typeId="2229-f494-25db-c5d3">12</characteristic>
+                        <characteristic name="AP" typeId="9ead-8a10-520-de15">-3</characteristic>
+                        <characteristic name="D" typeId="a354-c1c8-a745-f9e3">5</characteristic>
+                        <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Blast</characteristic>
+                      </characteristics>
+                    </profile>
+                    <profile name="➤ Novafury Plasma Annihilator - Overcharged" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="5321-d750-7192-d692">
+                      <characteristics>
+                        <characteristic name="Range" typeId="9896-9419-16a1-92fc">72&quot;</characteristic>
+                        <characteristic name="A" typeId="3bb-c35f-f54-fb08">2D6+6</characteristic>
+                        <characteristic name="BS" typeId="94d-8a98-cf90-183e">2+</characteristic>
+                        <characteristic name="S" typeId="2229-f494-25db-c5d3">16</characteristic>
+                        <characteristic name="AP" typeId="9ead-8a10-520-de15">-4</characteristic>
+                        <characteristic name="D" typeId="a354-c1c8-a745-f9e3">6</characteristic>
+                        <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Blast, Hazardous</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink name="Blast" id="cc21-2cda-b0be-c3ba" hidden="false" type="rule" targetId="6c1f-1cf7-ff25-c99e"/>
+                    <infoLink name="Hazardous" id="2dc2-ed13-8a23-d223" hidden="false" type="rule" targetId="8367-374c-f87-c627"/>
+                  </infoLinks>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Sub Weapons" id="0806-f4a6-5adc-ae47" hidden="false">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Apocalypse Launchers" hidden="false" id="955d-a168-42d3-4137">
+                  <constraints>
+                    <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="e28e-eec5-444f-a1cb" includeChildSelections="false"/>
+                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="aa70-ded9-f1d0-2fe8" includeChildSelections="false"/>
+                  </constraints>
+                  <profiles>
+                    <profile name="Apocalypse launcher" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="a924-a2d2-33ef-16f6">
+                      <characteristics>
+                        <characteristic name="Range" typeId="9896-9419-16a1-92fc">200&quot;</characteristic>
+                        <characteristic name="A" typeId="3bb-c35f-f54-fb08">20</characteristic>
+                        <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+                        <characteristic name="S" typeId="2229-f494-25db-c5d3">8</characteristic>
+                        <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
+                        <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
+                        <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Blast, Indirect Fire</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink name="Blast" id="41e4-e198-93c2-49a8" hidden="false" type="rule" targetId="6c1f-1cf7-ff25-c99e"/>
+                    <infoLink name="Indirect Fire" id="a0b8-cc0b-73f8-6b5d" hidden="false" type="rule" targetId="4ddd-4e29-acdd-5e6d"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Gatling Blaster" hidden="false" id="b114-dea8-aa04-ea92">
+                  <profiles>
+                    <profile name="Gatling Blaster" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="e528-b1ae-da3f-1523">
+                      <characteristics>
+                        <characteristic name="Range" typeId="9896-9419-16a1-92fc">100&quot;</characteristic>
+                        <characteristic name="A" typeId="3bb-c35f-f54-fb08">30</characteristic>
+                        <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+                        <characteristic name="S" typeId="2229-f494-25db-c5d3">9</characteristic>
+                        <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
+                        <characteristic name="D" typeId="a354-c1c8-a745-f9e3">3</characteristic>
+                        <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Sustained Hits 1</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <constraints>
+                    <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="3268-6068-21fd-7e16" includeChildSelections="false"/>
+                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="26ed-2358-dc49-0a70" includeChildSelections="false"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink name="Sustained Hits" id="232e-9fc2-a02b-ce87" hidden="false" type="rule" targetId="1897-c22c-9597-12b1"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Imperator Inferno Gun" hidden="false" id="08c2-e1ff-fd28-70d6">
+                  <constraints>
+                    <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="4d48-30e1-4199-38f1" includeChildSelections="false"/>
+                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="457b-3c31-7a47-8afb" includeChildSelections="false"/>
+                  </constraints>
+                  <profiles>
+                    <profile name="Imperator Inferno Gun" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="01df-aaec-fb4c-a006">
+                      <characteristics>
+                        <characteristic name="Range" typeId="9896-9419-16a1-92fc">36&quot;</characteristic>
+                        <characteristic name="A" typeId="3bb-c35f-f54-fb08">5D6</characteristic>
+                        <characteristic name="BS" typeId="94d-8a98-cf90-183e">-</characteristic>
+                        <characteristic name="S" typeId="2229-f494-25db-c5d3">7</characteristic>
+                        <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
+                        <characteristic name="D" typeId="a354-c1c8-a745-f9e3">3</characteristic>
+                        <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Ignores Cover, Torrent</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink name="Torrent" id="6345-a3ba-51c4-59d6" hidden="false" type="rule" targetId="5edf-d619-23e0-9b56"/>
+                    <infoLink name="Ignores Cover" id="f538-eb6c-88e8-1182" hidden="false" type="rule" targetId="4640-43e7-30b-215a"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Laser Blaster" hidden="false" id="2886-1afd-a9ab-c6b1">
+                  <constraints>
+                    <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="5746-19a0-c372-3ff6" includeChildSelections="false"/>
+                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="6a28-1f5b-540f-4e75" includeChildSelections="false"/>
+                  </constraints>
+                  <profiles>
+                    <profile name="Laser blaster" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="2a6f-53c2-2e13-57ac">
+                      <characteristics>
+                        <characteristic name="Range" typeId="9896-9419-16a1-92fc">72&quot;</characteristic>
+                        <characteristic name="A" typeId="3bb-c35f-f54-fb08">6</characteristic>
+                        <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+                        <characteristic name="S" typeId="2229-f494-25db-c5d3">16</characteristic>
+                        <characteristic name="AP" typeId="9ead-8a10-520-de15">-4</characteristic>
+                        <characteristic name="D" typeId="a354-c1c8-a745-f9e3">D6+3</characteristic>
+                        <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Blast</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink name="Blast" id="1b64-0eaf-335c-70a8" hidden="false" type="rule" targetId="6c1f-1cf7-ff25-c99e"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Imperator Melta Cannon" hidden="false" id="4887-3fff-c98d-2a4d">
+                  <constraints>
+                    <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="7cc7-90b0-18bc-1e9f" includeChildSelections="false"/>
+                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="421d-5486-0d69-fdd1" includeChildSelections="false"/>
+                  </constraints>
+                  <profiles>
+                    <profile name="Imperator Melta Cannon" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="1a28-6f03-f41d-4ec2">
+                      <characteristics>
+                        <characteristic name="Range" typeId="9896-9419-16a1-92fc">48&quot;</characteristic>
+                        <characteristic name="A" typeId="3bb-c35f-f54-fb08">D6+2</characteristic>
+                        <characteristic name="BS" typeId="94d-8a98-cf90-183e">2+</characteristic>
+                        <characteristic name="S" typeId="2229-f494-25db-c5d3">15</characteristic>
+                        <characteristic name="AP" typeId="9ead-8a10-520-de15">-5</characteristic>
+                        <characteristic name="D" typeId="a354-c1c8-a745-f9e3">6</characteristic>
+                        <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Blast, Melta 6</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink name="Melta" id="0a47-d41a-0984-47e2" hidden="false" type="rule" targetId="7cdb-fb99-44a9-8849"/>
+                    <infoLink name="Blast" id="5901-b2b4-6432-55d1" hidden="false" type="rule" targetId="6c1f-1cf7-ff25-c99e"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Imperator Quake Cannon" hidden="false" id="c270-c24c-d32f-7960">
+                  <constraints>
+                    <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="7565-8dc3-ea65-584a" includeChildSelections="false"/>
+                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="7529-f48a-b6f1-aba8" includeChildSelections="false"/>
+                  </constraints>
+                  <profiles>
+                    <profile name="Imperator Quake Cannon" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="c785-1ac6-6bf7-9018">
+                      <characteristics>
+                        <characteristic name="Range" typeId="9896-9419-16a1-92fc">500&quot;</characteristic>
+                        <characteristic name="A" typeId="3bb-c35f-f54-fb08">3D6</characteristic>
+                        <characteristic name="BS" typeId="94d-8a98-cf90-183e">2+</characteristic>
+                        <characteristic name="S" typeId="2229-f494-25db-c5d3">16</characteristic>
+                        <characteristic name="AP" typeId="9ead-8a10-520-de15">-4</characteristic>
+                        <characteristic name="D" typeId="a354-c1c8-a745-f9e3">6</characteristic>
+                        <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Blast, Ignores Cover</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink name="Blast" id="e5a5-795e-96a6-b007" hidden="false" type="rule" targetId="6c1f-1cf7-ff25-c99e"/>
+                    <infoLink name="Ignores Cover" id="b8ad-04a4-d410-1d78" hidden="false" type="rule" targetId="4640-43e7-30b-215a"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Belicosa Volcanno Cannon" hidden="false" id="b359-d284-a3f1-4899">
+                  <constraints>
+                    <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="0f5d-464a-11fa-8c65" includeChildSelections="false"/>
+                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="22fd-edf2-2e26-68c1" includeChildSelections="false"/>
+                  </constraints>
+                  <profiles>
+                    <profile name="Belicosa volcano cannon" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="e9f9-b005-e981-b19c">
+                      <characteristics>
+                        <characteristic name="Range" typeId="9896-9419-16a1-92fc">120&quot;</characteristic>
+                        <characteristic name="A" typeId="3bb-c35f-f54-fb08">D3+3</characteristic>
+                        <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+                        <characteristic name="S" typeId="2229-f494-25db-c5d3">32</characteristic>
+                        <characteristic name="AP" typeId="9ead-8a10-520-de15">-5</characteristic>
+                        <characteristic name="D" typeId="a354-c1c8-a745-f9e3">18</characteristic>
+                        <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Blast</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink name="Blast" id="078c-63de-d4d5-252f" hidden="false" type="rule" targetId="6c1f-1cf7-ff25-c99e"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Imperator Mega Bolter" hidden="false" id="8eba-98ea-efeb-6a07">
+                  <constraints>
+                    <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="6540-f168-c0a9-abc1" includeChildSelections="false"/>
+                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="8052-0bb8-3c04-0f5f" includeChildSelections="false"/>
+                  </constraints>
+                  <profiles>
+                    <profile name="Imperator Mega Bolter" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="6398-7f0a-2c64-5f52">
+                      <characteristics>
+                        <characteristic name="Range" typeId="9896-9419-16a1-92fc">48&quot;</characteristic>
+                        <characteristic name="A" typeId="3bb-c35f-f54-fb08">20</characteristic>
+                        <characteristic name="BS" typeId="94d-8a98-cf90-183e">2+</characteristic>
+                        <characteristic name="S" typeId="2229-f494-25db-c5d3">6</characteristic>
+                        <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
+                        <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
+                        <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Rapid Fire 20, Sustained Hits 1</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink name="Sustained Hits" id="4d65-cc3f-2ec4-6f2f" hidden="false" type="rule" targetId="1897-c22c-9597-12b1"/>
+                    <infoLink name="Rapid Fire" id="3d65-cc9f-e766-abd4" hidden="false" type="rule" targetId="c5c8-8b58-b8b6-7786"/>
+                  </infoLinks>
+                </selectionEntry>
+              </selectionEntries>
+              <constraints>
+                <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="575f-6918-b7c3-0270" includeChildSelections="false"/>
+                <constraint type="max" value="6" field="selections" scope="parent" shared="true" id="6191-9854-80d9-18cb" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <profiles>
+        <profile name="Damaged: 1-66 wounds remaining" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="7ce7-f4ca-fad5-9321">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this model has 1-66 wounds remaining, subtract 25 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Striding Colossus" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6f40-050e-fbb1-6658">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time you target this model with a Stratagem, you must spend three times that Stratagem’s stated CP cost to do so.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Imperator Titan" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="9721-d78a-1973-d4c6">
+          <characteristics>
+            <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">8&quot;</characteristic>
+            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">20</characteristic>
+            <characteristic name="SV" typeId="450-a17e-9d5e-29da">2+</characteristic>
+            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">200</characteristic>
+            <characteristic name="LD" typeId="58d2-b879-49c7-43bc">6+</characteristic>
+            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">50</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="God-Engine" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ce74-c8c6-1e9e-7374">
+          <characteristics>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model is capable of shooting and charging in a turn in which it advanced.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Invulnerable Save (5+*)" id="cd54-fcf6-c4d9-0f70" hidden="false" type="profile" targetId="8552-862d-6a49-4879"/>
+        <infoLink name="Super-Heavy Walker" id="fa37-ef2f-4c89-39f0" hidden="false" type="rule" targetId="5e13-1624-d280-418d"/>
+        <infoLink name="Deadly Demise" id="db9e-daac-bf0a-fc47" hidden="false" type="rule" targetId="b68a-5ded-65ac-98c">
+          <modifiers>
+            <modifier type="append" value="3D6" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Warlord" hidden="false" id="986b-de96-b31f-ce47" type="selectionEntry" targetId="a618-aeb9-f07d-5ed5"/>
+      </entryLinks>
+      <categoryLinks>
+        <categoryLink name="Vehicle" hidden="false" id="7e00-6be5-96da-07eb" targetId="dbd4-63-af05-998" primary="false"/>
+        <categoryLink name="Walker" hidden="false" id="afc3-6ed2-6221-0581" targetId="6dda-e157-334d-e93a" primary="false"/>
+        <categoryLink name="Titanic" hidden="false" id="850d-f378-5968-e1fb" targetId="5929-ad51-d006-e008" primary="false"/>
+        <categoryLink name="Faction: Adeptus Titanicus" hidden="false" id="fe3e-c038-bc3d-b943" targetId="169a-d3f4-23b5-ba7" primary="false"/>
+        <categoryLink name="Towering" hidden="false" id="ef67-7aae-f412-6349" targetId="d666-e2c9-b6cc-5716" primary="false"/>
+        <categoryLink name="Imperium" hidden="false" id="0ca8-fd2c-d01e-584a" targetId="aff3-d6a3-2a95-9dc" primary="false"/>
+        <categoryLink name="Imperator Titan" hidden="false" id="b39d-2338-9c3a-8696" targetId="55dc-e244-1603-f6e5" primary="false"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="3" field="75bb-ded1-c86d-bdf0" scope="self" shared="true" id="5a5c-3a44-2563-baf4" includeChildSelections="false"/>
+        <constraint type="max" value="0" field="716d-91b7-d55a-1022" scope="self" shared="true" id="b2e0-1c71-2cf1-ae6e" includeChildSelections="true"/>
+        <constraint type="min" value="0" field="716d-91b7-d55a-1022" scope="self" shared="true" id="f4f2-b50d-0552-36f9" includeChildSelections="true"/>
+      </constraints>
+    </selectionEntry>
+  </selectionEntries>
+  <categoryEntries>
+    <categoryEntry name="Imperator Titan" id="55dc-e244-1603-f6e5" hidden="false"/>
+  </categoryEntries>
 </catalogue>
