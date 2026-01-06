@@ -6113,7 +6113,8 @@ Designer’s Note: This ability allows the unit to set up in engagement with a n
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d594-db79-3f0b-fe1e" includeChildSelections="false"/>
               </constraints>
               <infoLinks>
-                <infoLink name="Lethal Hits" id="34c8-ef02-7e6f-eedd" hidden="false" type="rule" targetId="d1d1-611e-5191-1095"/>
+                <infoLink name="Extra Attacks" id="34c8-ef02-7e6f-eedd" hidden="false" type="rule" targetId="115b-79dc-f723-d761"/>
+                <infoLink name="Lethal Hits" id="6e14-9414-556f-d3d2" hidden="false" type="rule" targetId="d1d1-611e-5191-1095"/>
               </infoLinks>
               <profiles>
                 <profile name="Host of Vermin" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="d7db-8840-8a19-1680">
@@ -6124,7 +6125,7 @@ Designer’s Note: This ability allows the unit to set up in engagement with a n
                     <characteristic name="S" typeId="ab33-d393-96ce-ccba">4</characteristic>
                     <characteristic name="AP" typeId="41a0-1301-112a-e2f2">0</characteristic>
                     <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
-                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Lethal Hits</characteristic>
+                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Extra Attacks, Lethal Hits</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
