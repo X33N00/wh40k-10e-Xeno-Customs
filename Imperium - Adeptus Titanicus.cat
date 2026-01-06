@@ -106,7 +106,7 @@
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Hellstorm Cannon" hidden="false" id="5ef0-a777-752c-c11c">
                   <constraints>
-                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8221-144c-8b28-ac96" includeChildSelections="false"/>
+                    <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="8221-144c-8b28-ac96" includeChildSelections="false"/>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6a9f-a5a7-eb96-1823" includeChildSelections="false"/>
                   </constraints>
                   <profiles>
@@ -128,7 +128,7 @@
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Novafury Plasma Annihilator" hidden="false" id="fd8a-76e7-5315-6b27">
                   <constraints>
-                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="bbb6-c36f-cbc6-382c" includeChildSelections="false"/>
+                    <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="bbb6-c36f-cbc6-382c" includeChildSelections="false"/>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="573a-2e92-adb4-cb89" includeChildSelections="false"/>
                   </constraints>
                   <profiles>
