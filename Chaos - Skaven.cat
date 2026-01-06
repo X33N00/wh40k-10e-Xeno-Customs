@@ -2867,18 +2867,7 @@ Designer’s Note: This ability allows the unit to set up in engagement with a n
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5dbe-76bd-5712-c429" includeChildSelections="false"/>
               </constraints>
               <profiles>
-                <profile name="➤ Doomrocket - Krak" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="8eca-5eb4-a18e-8bcc">
-                  <characteristics>
-                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">36&quot;</characteristic>
-                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
-                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
-                    <characteristic name="S" typeId="2229-f494-25db-c5d3">9</characteristic>
-                    <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
-                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">D6</characteristic>
-                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-Vehicle 3+, Devastating Wounds, Hazardous</characteristic>
-                  </characteristics>
-                </profile>
-                <profile name="➤ Doomrocket - Frag" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="c0e8-c381-e4ce-0d62">
+                <profile name="➤ Doomrocket - Frag" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="b5a3-b1af-70df-f951">
                   <characteristics>
                     <characteristic name="Range" typeId="9896-9419-16a1-92fc">36&quot;</characteristic>
                     <characteristic name="A" typeId="3bb-c35f-f54-fb08">D6</characteristic>
@@ -2887,6 +2876,17 @@ Designer’s Note: This ability allows the unit to set up in engagement with a n
                     <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
                     <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
                     <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Blast, Devastating Wounds, Hazardous</characteristic>
+                  </characteristics>
+                </profile>
+                <profile name="➤ Doomrocket - Krak" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="0ccb-6f20-b1d0-0825">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">36&quot;</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
+                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">9</characteristic>
+                    <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">D6</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-Vehicle 3+, Devastating Wounds, Hazardous</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4568,18 +4568,7 @@ Designer’s Note: This ability allows the unit to set up in engagement with a n
                 <infoLink name="Pistol" id="8bb6-ba66-db6b-981c" hidden="false" type="rule" targetId="8bf7-8812-923d-29e4"/>
               </infoLinks>
               <profiles>
-                <profile name="➤ Warpfire Thrower - Overcharged" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="40b6-07e3-d972-f406">
-                  <characteristics>
-                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">10&quot;</characteristic>
-                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">D6</characteristic>
-                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">-</characteristic>
-                    <characteristic name="S" typeId="2229-f494-25db-c5d3">8</characteristic>
-                    <characteristic name="AP" typeId="9ead-8a10-520-de15">-3</characteristic>
-                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
-                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Hazardous, Pistol, Torrent</characteristic>
-                  </characteristics>
-                </profile>
-                <profile name="➤ Warpfire Thrower" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="97f3-b2c8-33d3-1836">
+                <profile name="➤ Warpfire Thrower" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="ea6b-2223-d1d6-e8ae">
                   <characteristics>
                     <characteristic name="Range" typeId="9896-9419-16a1-92fc">10&quot;</characteristic>
                     <characteristic name="A" typeId="3bb-c35f-f54-fb08">D6</characteristic>
@@ -4588,6 +4577,17 @@ Designer’s Note: This ability allows the unit to set up in engagement with a n
                     <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
                     <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
                     <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Pistol, Torrent</characteristic>
+                  </characteristics>
+                </profile>
+                <profile name="➤ Warpfire Thrower - Overcharged" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="6863-3910-e024-decb">
+                  <characteristics>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">10&quot;</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">D6</characteristic>
+                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">-</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">7</characteristic>
+                    <characteristic name="AP" typeId="9ead-8a10-520-de15">-3</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Hazardous, Pistol, Torrent</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
