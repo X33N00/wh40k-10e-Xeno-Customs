@@ -628,7 +628,7 @@
                   <profiles>
                     <profile name="Skryre Connections" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4535-e608-fb7e-4f15">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">The Attack characteristic&apos;s of the bearer&apos;s ranged weapons is now 2D6 instead of their original value.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">The Attack characteristic&apos;s of the bearer&apos;s ranged weapons gains + 3 attacks.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -637,7 +637,7 @@
                     <constraint type="max" value="1" field="selections" scope="force" shared="true" id="04aa-b1d0-a52d-796e" includeChildSelections="true" includeChildForces="true"/>
                   </constraints>
                   <costs>
-                    <cost name="pts" typeId="51b2-306e-1021-d207" value="20"/>
+                    <cost name="pts" typeId="51b2-306e-1021-d207" value="30"/>
                     <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
                     <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
                     <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
@@ -1036,7 +1036,7 @@
         </profile>
         <profile name="Spreaders of Filth and Disease" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4cbd-1ae5-c9ad-eec3">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time a model in this unit is slain by a melee attack, roll a dice. On a 6+, inflict 1 mortal wound on non-PESTILENS units within 6&quot; after the Fight ability has been resolved.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">After the Fight ability has been resolved, each time a model in this unit was slain by melee attacks: roll Deadly Demise 1 and apply mortal wounds on non-PESTILENS units.</characteristic>
           </characteristics>
         </profile>
         <profile name="Plague Lands" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="8fb6-a0bb-0f6a-b9f4">
@@ -1218,7 +1218,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0ac8-f828-0417-fec6"/>
               </constraints>
               <profiles>
-                <profile name="Warpfire Gauntlet - Overcharged" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="e0ca-dc47-48c7-4eec">
+                <profile name="➤ Warpfire Gauntlet - Overcharged" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="e0ca-dc47-48c7-4eec">
                   <characteristics>
                     <characteristic name="Range" typeId="9896-9419-16a1-92fc">10&quot;</characteristic>
                     <characteristic name="A" typeId="3bb-c35f-f54-fb08">3</characteristic>
@@ -1229,7 +1229,7 @@
                     <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Hazardous, Pistol, Torrent</characteristic>
                   </characteristics>
                 </profile>
-                <profile name="Warpfire Gauntlet" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="442a-c663-7098-aeb7">
+                <profile name="➤ Warpfire Gauntlet" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="442a-c663-7098-aeb7">
                   <characteristics>
                     <characteristic name="Range" typeId="9896-9419-16a1-92fc">10&quot;</characteristic>
                     <characteristic name="A" typeId="3bb-c35f-f54-fb08">3</characteristic>
@@ -1307,7 +1307,7 @@
       <profiles>
         <profile name="Overseers of the Enginecovens" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="07a8-1df3-303a-183b">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If a friendly SKRYRE unit wholly within 13&quot; of this unit uses the &apos;**Fire Overwatch**&apos; stratagem, no command points are spent.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Once per Battle Round, if a friendly SKRYRE unit wholly within 13&quot; of this unit uses the &apos;**Fire Overwatch**&apos; stratagem, no command points are spent.</characteristic>
           </characteristics>
         </profile>
         <profile name="Arch-Warlock" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="fe3a-9c38-29bd-6d88">
@@ -1360,6 +1360,7 @@
         <infoLink name="Hidden Amongst The Many" id="3083-cf1c-d523-1151" hidden="false" type="profile" targetId="8048-a67a-bc5c-b929"/>
         <infoLink name="Leader" id="73ba-e30b-9e12-cf41" hidden="false" type="rule" targetId="b4dd-3e1f-41cb-218f"/>
         <infoLink name="Stealth" id="489b-35fa-3fee-061c" hidden="false" type="rule" targetId="bec5-4288-34a6-ccfa"/>
+        <infoLink name="Fights First" id="57d2-00f8-edc1-2650" hidden="false" type="rule" targetId="24-c886-e8ba-5a89"/>
       </infoLinks>
       <profiles>
         <profile name="Clawlord" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="8110-1140-623c-2b9a">
@@ -1379,7 +1380,7 @@
         </profile>
         <profile name="Gnash-gnaw on Their Bones!" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="489a-27f2-1789-d414">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this model is leading a unit all Melee Weapons in that unit gain Extra Attacks.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this model is leading a unit: all Melee Weapons in that unit gain Sustained Hits 1.</characteristic>
           </characteristics>
         </profile>
         <profile name="Leader" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="8027-83cf-cdd0-86ec">
@@ -1452,7 +1453,8 @@
         <infoLink name="Great Vermintide" id="490c-abb5-8ac1-ee91" hidden="false" type="rule" targetId="fb49-cf71-d602-5614"/>
         <infoLink name="Hidden Amongst The Many" id="8b7f-bd0f-7458-eef8" hidden="false" type="profile" targetId="8048-a67a-bc5c-b929"/>
         <infoLink name="Leader" id="bb57-10d8-82ee-0326" hidden="false" type="rule" targetId="b4dd-3e1f-41cb-218f"/>
-        <infoLink name="Stealth" id="a8fc-55ab-c1ef-6ed2" hidden="false" type="rule" targetId="bec5-4288-34a6-ccfa"/>
+        <infoLink name="Fights First" id="a8fc-55ab-c1ef-6ed2" hidden="false" type="rule" targetId="24-c886-e8ba-5a89"/>
+        <infoLink name="Stealth" id="221d-b8f8-c786-5772" hidden="false" type="rule" targetId="bec5-4288-34a6-ccfa"/>
       </infoLinks>
       <profiles>
         <profile name="Clawlord on Gnaw-beast" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="a888-9019-b29d-72b4">
@@ -1492,7 +1494,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c475-bfd3-c25a-8d81" includeChildSelections="false"/>
               </constraints>
               <profiles>
-                <profile name="Ratling Pistol" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="2c2e-b53c-5708-c9a3">
+                <profile name="➤ Ratling Pistol" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="2c2e-b53c-5708-c9a3">
                   <characteristics>
                     <characteristic name="Range" typeId="9896-9419-16a1-92fc">10&quot;</characteristic>
                     <characteristic name="A" typeId="3bb-c35f-f54-fb08">D6</characteristic>
@@ -1503,7 +1505,7 @@
                     <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Lethal Hits, Pistol</characteristic>
                   </characteristics>
                 </profile>
-                <profile name="Ratling Pistol - Overcharged" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="cc09-d432-2e4d-e032">
+                <profile name="➤ Ratling Pistol - Overcharged" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="cc09-d432-2e4d-e032">
                   <characteristics>
                     <characteristic name="Range" typeId="9896-9419-16a1-92fc">10&quot;</characteristic>
                     <characteristic name="A" typeId="3bb-c35f-f54-fb08">D6</characteristic>
@@ -1535,10 +1537,13 @@
                     <characteristic name="S" typeId="ab33-d393-96ce-ccba">9</characteristic>
                     <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-1</characteristic>
                     <characteristic name="D" typeId="3254-9fe6-d824-513e">D3</characteristic>
-                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
+                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Extra Attacks</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
+              <infoLinks>
+                <infoLink name="Extra Attacks" id="f47a-e6da-95ea-7e5c" hidden="false" type="rule" targetId="115b-79dc-f723-d761"/>
+              </infoLinks>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Warpforged Halberd" hidden="false" id="f2d1-937a-8d63-99d7">
               <constraints>
@@ -1738,9 +1743,21 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bdc6-c062-d132-6722"/>
               </constraints>
               <infoLinks>
-                <infoLink name="Warpstone Staff" id="b91d-78f1-4439-6a5e" hidden="false" type="profile" targetId="3c5c-b4e5-36df-6c8e"/>
                 <infoLink name="Psychic" id="97e9-8969-788a-970f" hidden="false" type="rule" targetId="e9c4-2bb8-12ee-cd1b"/>
               </infoLinks>
+              <profiles>
+                <profile name="Warpstone Staff" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="aeba-787d-b67d-f7f0">
+                  <characteristics>
+                    <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                    <characteristic name="A" typeId="2337-daa1-6682-b110">3</characteristic>
+                    <characteristic name="WS" typeId="95d1-95f-45b4-11d6">4+</characteristic>
+                    <characteristic name="S" typeId="ab33-d393-96ce-ccba">6</characteristic>
+                    <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-1</characteristic>
+                    <characteristic name="D" typeId="3254-9fe6-d824-513e">D3</characteristic>
+                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Psychic</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
             </selectionEntry>
           </selectionEntries>
           <constraints>
@@ -1845,7 +1862,8 @@
               </constraints>
               <infoLinks>
                 <infoLink name="Warpstone Staff" id="46f3-8ff4-af21-105f" hidden="false" type="profile" targetId="3c5c-b4e5-36df-6c8e"/>
-                <infoLink name="Psychic" id="cd83-b4a2-a5da-728a" hidden="false" type="rule" targetId="e9c4-2bb8-12ee-cd1b"/>
+                <infoLink name="Extra Attacks" id="cd83-b4a2-a5da-728a" hidden="false" type="rule" targetId="115b-79dc-f723-d761"/>
+                <infoLink name="Psychic" id="ef8d-140d-ecf7-75da" hidden="false" type="rule" targetId="e9c4-2bb8-12ee-cd1b"/>
               </infoLinks>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Crushing Bulk" hidden="false" id="9fc3-ead7-0f58-d93d">
@@ -1872,10 +1890,13 @@
                     <characteristic name="S" typeId="ab33-d393-96ce-ccba">9</characteristic>
                     <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-1</characteristic>
                     <characteristic name="D" typeId="3254-9fe6-d824-513e">2</characteristic>
-                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
+                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Extra Attacks</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
+              <infoLinks>
+                <infoLink name="Extra Attacks" id="c9de-a7ab-5d39-a113" hidden="false" type="rule" targetId="115b-79dc-f723-d761"/>
+              </infoLinks>
             </selectionEntry>
           </selectionEntries>
           <constraints>
@@ -2025,7 +2046,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4d14-3378-9a83-f21d" includeChildSelections="false"/>
               </constraints>
               <profiles>
-                <profile name="Warpsyringe Pistol - Overcharged" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="dded-929d-e1ad-d469">
+                <profile name="➤ Warpsyringe Pistol - Overcharged" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="dded-929d-e1ad-d469">
                   <characteristics>
                     <characteristic name="Range" typeId="9896-9419-16a1-92fc">10&quot;</characteristic>
                     <characteristic name="A" typeId="3bb-c35f-f54-fb08">D6</characteristic>
@@ -2036,7 +2057,7 @@
                     <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Pistol, Hazardous</characteristic>
                   </characteristics>
                 </profile>
-                <profile name="Warpsyringe Pistol" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="78fb-0d63-9c1a-d170">
+                <profile name="➤ Warpsyringe Pistol" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="78fb-0d63-9c1a-d170">
                   <characteristics>
                     <characteristic name="Range" typeId="9896-9419-16a1-92fc">10&quot;</characteristic>
                     <characteristic name="A" typeId="3bb-c35f-f54-fb08">D6</characteristic>
@@ -2127,10 +2148,13 @@
                     <characteristic name="S" typeId="ab33-d393-96ce-ccba">4</characteristic>
                     <characteristic name="AP" typeId="41a0-1301-112a-e2f2">0</characteristic>
                     <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
-                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
+                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Extra Attacks</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
+              <infoLinks>
+                <infoLink name="Extra Attacks" id="254b-b337-d4c1-9996" hidden="false" type="rule" targetId="115b-79dc-f723-d761"/>
+              </infoLinks>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Great Plague Censer" hidden="false" id="4d2c-39f5-377c-cf80">
               <constraints>
@@ -2162,8 +2186,9 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8b9b-921d-aa36-ae90" includeChildSelections="false"/>
               </constraints>
               <infoLinks>
-                <infoLink name="Lethal Hits" id="c433-0aa7-ada0-2747" hidden="false" type="rule" targetId="d1d1-611e-5191-1095"/>
+                <infoLink name="Extra Attacks" id="c433-0aa7-ada0-2747" hidden="false" type="rule" targetId="115b-79dc-f723-d761"/>
                 <infoLink name="Psychic" id="cd05-40b2-eabb-b582" hidden="false" type="rule" targetId="e9c4-2bb8-12ee-cd1b"/>
+                <infoLink name="Lethal Hits" id="a798-d44e-bded-3dcf" hidden="false" type="rule" targetId="d1d1-611e-5191-1095"/>
               </infoLinks>
               <profiles>
                 <profile name="Warpstone-tipped Staff" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="821e-4f1a-b271-d9a4">
@@ -2174,7 +2199,7 @@
                     <characteristic name="S" typeId="ab33-d393-96ce-ccba">6</characteristic>
                     <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-1</characteristic>
                     <characteristic name="D" typeId="3254-9fe6-d824-513e">D3</characteristic>
-                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Lethal Hits, Psychic</characteristic>
+                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Extra Attacks, Lethal Hits, Psychic</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -2814,7 +2839,7 @@ Designer’s Note: This ability allows the unit to set up in engagement with a n
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">All Weapons with Blast add 2 to the attacks characteristics instead of 1 for every 5 models in a unit.</characteristic>
           </characteristics>
         </profile>
-        <profile name="More-more Doom!" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="89af-e226-9800-3cdf">
+        <profile name="More-More Doom!" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="89af-e226-9800-3cdf">
           <characteristics>
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">On your shooting phase if this model has not moved this turn you may roll one D6. On a 2+ set the damage characteristic for **Doomrocket - Frag** and **Doomrocket-Krark** to D3 + 3 until the end of the phase. On a 1, inflict D3 mortal wounds to this unit.</characteristic>
           </characteristics>
@@ -2835,26 +2860,26 @@ Designer’s Note: This ability allows the unit to set up in engagement with a n
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5dbe-76bd-5712-c429" includeChildSelections="false"/>
               </constraints>
               <profiles>
-                <profile name="Doomrocket - Krak" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="8eca-5eb4-a18e-8bcc">
+                <profile name="➤ Doomrocket - Krak" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="8eca-5eb4-a18e-8bcc">
                   <characteristics>
-                    <characteristic name="Range" typeId="914c-b413-91e3-a132">36&quot;</characteristic>
-                    <characteristic name="A" typeId="2337-daa1-6682-b110">1</characteristic>
-                    <characteristic name="WS" typeId="95d1-95f-45b4-11d6">4+</characteristic>
-                    <characteristic name="S" typeId="ab33-d393-96ce-ccba">9</characteristic>
-                    <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
-                    <characteristic name="D" typeId="3254-9fe6-d824-513e">D6</characteristic>
-                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Anti-Vehicle 3+, Devastating Wounds, Hazardous</characteristic>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">36&quot;</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
+                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">9</characteristic>
+                    <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">D6</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-Vehicle 3+, Devastating Wounds, Hazardous</characteristic>
                   </characteristics>
                 </profile>
-                <profile name="Doomrocket - Frag" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="c0e8-c381-e4ce-0d62">
+                <profile name="➤ Doomrocket - Frag" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="c0e8-c381-e4ce-0d62">
                   <characteristics>
-                    <characteristic name="Range" typeId="914c-b413-91e3-a132">36&quot;</characteristic>
-                    <characteristic name="A" typeId="2337-daa1-6682-b110">D6</characteristic>
-                    <characteristic name="WS" typeId="95d1-95f-45b4-11d6">4+</characteristic>
-                    <characteristic name="S" typeId="ab33-d393-96ce-ccba">4</characteristic>
-                    <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-1</characteristic>
-                    <characteristic name="D" typeId="3254-9fe6-d824-513e">2</characteristic>
-                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Blast, Devastating Wounds, Hazardous</characteristic>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">36&quot;</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">D6</characteristic>
+                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">4</characteristic>
+                    <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Blast, Devastating Wounds, Hazardous</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -2943,7 +2968,7 @@ Designer’s Note: This ability allows the unit to set up in engagement with a n
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this model is leading a unit: all models in this unit can ignore the effects of **Stealth** and **Lone Operative**.</characteristic>
           </characteristics>
         </profile>
-        <profile name="More-more Warp Energy!" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="234f-e4e5-d6b8-5a36">
+        <profile name="More-More Warp Energy!" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="234f-e4e5-d6b8-5a36">
           <characteristics>
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">On your shooting phase if this model has not moved this turn you may roll one D6. On a 2+ this model&apos;s **Warplock Musket** and **Warplock Musket - Overcharged** gains Anti-Monster 3+, and Anti-Vehicle 3+, and Blast. On a 1, inflict D3 Mortal Wounds to this unit.</characteristic>
           </characteristics>
@@ -2989,7 +3014,7 @@ Designer’s Note: This ability allows the unit to set up in engagement with a n
                 <infoLink name="Heavy" id="6ec8-0a5c-1805-b605" hidden="false" type="rule" targetId="1202-10a8-78e9-4c67"/>
               </infoLinks>
               <profiles>
-                <profile name="Warplock Musket - Overcharged" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="9705-a877-cb72-bfac">
+                <profile name="➤ Warplock Musket - Overcharged" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="9705-a877-cb72-bfac">
                   <characteristics>
                     <characteristic name="Range" typeId="9896-9419-16a1-92fc">36&quot;</characteristic>
                     <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
@@ -3000,7 +3025,7 @@ Designer’s Note: This ability allows the unit to set up in engagement with a n
                     <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Hazardous, Heavy, Lethal Hits, Precision</characteristic>
                   </characteristics>
                 </profile>
-                <profile name="Warplock Musket" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="267c-4506-0d0a-c418">
+                <profile name="➤ Warplock Musket" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="267c-4506-0d0a-c418">
                   <characteristics>
                     <characteristic name="Range" typeId="9896-9419-16a1-92fc">36&quot;</characteristic>
                     <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
@@ -3072,7 +3097,7 @@ Designer’s Note: This ability allows the unit to set up in engagement with a n
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this model is leading a unit: set the attacks characteristic of all ranged weapons to 10.</characteristic>
           </characteristics>
         </profile>
-        <profile name="More-more Warpvolt Doom!" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5177-aaec-6068-75bf">
+        <profile name="More-More Warpvolt Doom!" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5177-aaec-6068-75bf">
           <characteristics>
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When an enemy unit has been wounded by attacks made with this unit&apos;s **Warpvolt Obliterator**: roll D3 mortal wounds for each other enemy unit within 5&quot; of that enemy unit.</characteristic>
           </characteristics>
@@ -3118,7 +3143,7 @@ Designer’s Note: This ability allows the unit to set up in engagement with a n
                 <infoLink name="Blast" id="3896-e6b5-6a29-7f1d" hidden="false" type="rule" targetId="6c1f-1cf7-ff25-c99e"/>
               </infoLinks>
               <profiles>
-                <profile name="Warpvolt Obliterator - Overcharged" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="ac9c-99a4-33cf-56da">
+                <profile name="➤ Warpvolt Obliterator - Overcharged" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="ac9c-99a4-33cf-56da">
                   <characteristics>
                     <characteristic name="Range" typeId="9896-9419-16a1-92fc">28&quot;</characteristic>
                     <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
@@ -3129,7 +3154,7 @@ Designer’s Note: This ability allows the unit to set up in engagement with a n
                     <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-Mounted 2+, Blast, Hazardous, Sustained Hits 2</characteristic>
                   </characteristics>
                 </profile>
-                <profile name="Warpvolt Obliterator" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="28ce-e3d9-4e5c-7f6a">
+                <profile name="➤ Warpvolt Obliterator" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="28ce-e3d9-4e5c-7f6a">
                   <characteristics>
                     <characteristic name="Range" typeId="9896-9419-16a1-92fc">28&quot;</characteristic>
                     <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
@@ -3285,18 +3310,18 @@ Designer’s Note: This ability allows the unit to set up in engagement with a n
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="64c4-4660-20d1-13fa" includeChildSelections="false"/>
               </constraints>
               <profiles>
-                <profile name="Warplock Pistol - Overcharged" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="dbb1-1597-839a-58e6">
+                <profile name="➤ Warplock Pistol - Overcharged" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="dbb1-1597-839a-58e6">
                   <characteristics>
                     <characteristic name="Range" typeId="9896-9419-16a1-92fc">18&quot;</characteristic>
                     <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
                     <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
-                    <characteristic name="S" typeId="2229-f494-25db-c5d3">6</characteristic>
-                    <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
-                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">D3</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">7</characteristic>
+                    <characteristic name="AP" typeId="9ead-8a10-520-de15">-3</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">3</characteristic>
                     <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Lethal Hits, Pistol, Hazardous</characteristic>
                   </characteristics>
                 </profile>
-                <profile name="Warplock Pistol" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="5632-0662-bba9-ebd8">
+                <profile name="➤ Warplock Pistol" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="5632-0662-bba9-ebd8">
                   <characteristics>
                     <characteristic name="Range" typeId="9896-9419-16a1-92fc">18&quot;</characteristic>
                     <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
@@ -3529,9 +3554,9 @@ Designer’s Note: This ability allows the unit to set up in engagement with a n
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Upon a succesful charge, the target must take D3 mortal wounds.</characteristic>
           </characteristics>
         </profile>
-        <profile name="More-more Psychic Energy!" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="82b1-34d5-6b3c-f7a3">
+        <profile name="More-More Psychic Energy!" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="82b1-34d5-6b3c-f7a3">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Once Per Turn. Your Shooting Phase. Roll a a dice, on a 1-3 take mortal wounds corresponding to the result. On a result of 4-6: your Psychic weapons gain Extra Attacks.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Once Per Turn. Your Shooting Phase. You may roll a a dice, on a 1-3 take mortal wounds corresponding to the result. On a result of 4-6: your Psychic weapons gain Lethal Hits for the rest of your turn.</characteristic>
           </characteristics>
         </profile>
         <profile name="Warp-Amulet" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a430-270d-70a6-ce60">
@@ -3616,7 +3641,7 @@ Designer’s Note: This ability allows the unit to set up in engagement with a n
                 <infoLink name="Torrent" id="a551-31ea-4597-c465" hidden="false" type="rule" targetId="5edf-d619-23e0-9b56"/>
               </infoLinks>
               <profiles>
-                <profile name="Custom Warpfire Projectors - Overcharged" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="24c1-190b-6a88-1df6">
+                <profile name="➤ Custom Warpfire Projectors - Overcharged" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="24c1-190b-6a88-1df6">
                   <characteristics>
                     <characteristic name="Range" typeId="9896-9419-16a1-92fc">10&quot;</characteristic>
                     <characteristic name="A" typeId="3bb-c35f-f54-fb08">6</characteristic>
@@ -3627,7 +3652,7 @@ Designer’s Note: This ability allows the unit to set up in engagement with a n
                     <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Hazardous, Pistol, Torrent</characteristic>
                   </characteristics>
                 </profile>
-                <profile name="Custom Warpfire Projectors" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="8e49-4574-02e4-317d">
+                <profile name="➤ Custom Warpfire Projectors" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="8e49-4574-02e4-317d">
                   <characteristics>
                     <characteristic name="Range" typeId="9896-9419-16a1-92fc">10&quot;</characteristic>
                     <characteristic name="A" typeId="3bb-c35f-f54-fb08">6</characteristic>
@@ -3717,7 +3742,8 @@ Designer’s Note: This ability allows the unit to set up in engagement with a n
               </constraints>
               <infoLinks>
                 <infoLink name="Lance" id="1609-c4bd-3fab-e124" hidden="false" type="rule" targetId="2ebc-abdf-8129-6c57"/>
-                <infoLink name="Anti-" id="b9ca-4d24-9852-c704" hidden="false" type="rule" targetId="4111-82e3-9444-e942"/>
+                <infoLink name="Extra Attacks" id="b9ca-4d24-9852-c704" hidden="false" type="rule" targetId="115b-79dc-f723-d761"/>
+                <infoLink name="Anti-" id="0443-7cf4-082c-7b41" hidden="false" type="rule" targetId="4111-82e3-9444-e942"/>
               </infoLinks>
               <profiles>
                 <profile name="Warpstone Drill-fang" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="b6f5-6628-20e9-9525">
@@ -3728,7 +3754,7 @@ Designer’s Note: This ability allows the unit to set up in engagement with a n
                     <characteristic name="S" typeId="ab33-d393-96ce-ccba">5</characteristic>
                     <characteristic name="AP" typeId="41a0-1301-112a-e2f2">0</characteristic>
                     <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
-                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Anti-Vehicle 3+, Lance</characteristic>
+                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Anti-Vehicle 3+, Extra Attacks, Lance</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -3894,7 +3920,7 @@ Designer’s Note: This ability allows the unit to set up in engagement with a n
         </profile>
         <profile name="Sneaky Infiltrators" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4916-cf16-3bf0-d57c">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While each model in this unit is within 3&quot; of any terrain features, this unit cannot be targeted by shooting attacks unless the attacking model is within 9&quot; of it.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While each model in this unit is wholly within 3&quot; of any terrain features, this unit cannot be targeted by shooting attacks unless the attacking model is within 9&quot; of it.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4057,12 +4083,12 @@ Designer’s Note: This ability allows the unit to set up in engagement with a n
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9bf9-fc75-d616-321a"/>
               </constraints>
               <infoLinks>
-                <infoLink name="➤ Plague Stricken Curse - Focused Witchfire" id="5d71-3bfc-a9ab-756e" hidden="false" type="profile" targetId="877a-813d-67a8-139a"/>
-                <infoLink name="➤ Plague Stricken Curse - Witchfire" id="d01d-0369-3491-8a5c" hidden="false" type="profile" targetId="07f7-9fe6-4b23-614f"/>
-                <infoLink name="Blast" id="ca3a-5e17-d5fd-9ce9" hidden="false" type="rule" targetId="6c1f-1cf7-ff25-c99e"/>
+                <infoLink name="Sustained Hits" id="ca3a-5e17-d5fd-9ce9" hidden="false" type="rule" targetId="1897-c22c-9597-12b1"/>
                 <infoLink name="Devastating Wounds" id="bfca-ad0c-ba54-821f" hidden="false" type="rule" targetId="be1e-ac8e-1e2c-3528"/>
                 <infoLink name="Hazardous" id="0798-0404-118a-ad04" hidden="false" type="rule" targetId="8367-374c-f87-c627"/>
                 <infoLink name="Psychic" id="ccb9-0842-2b72-2518" hidden="false" type="rule" targetId="e9c4-2bb8-12ee-cd1b"/>
+                <infoLink name="➤ Winds of Plague - Breeze" id="57d9-7d7d-a585-bc82" hidden="false" type="profile" targetId="c2d3-d543-f221-ede6"/>
+                <infoLink name="➤ Winds of Plague - Gale" id="97f6-9494-dfa8-95d1" hidden="false" type="profile" targetId="1b84-baab-3ff7-e66d"/>
               </infoLinks>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Plague Censer" hidden="false" id="3c4e-d2a9-06f0-700d" collective="true">
@@ -4072,7 +4098,8 @@ Designer’s Note: This ability allows the unit to set up in engagement with a n
               </constraints>
               <infoLinks>
                 <infoLink name="Psychic" id="e90b-ae27-29d6-ab07" hidden="false" type="rule" targetId="e9c4-2bb8-12ee-cd1b"/>
-                <infoLink name="Lethal Hits" id="fc63-7560-d955-00a5" hidden="false" type="rule" targetId="d1d1-611e-5191-1095"/>
+                <infoLink name="Lethal Hits" id="a25c-f90d-8842-2324" hidden="false" type="rule" targetId="d1d1-611e-5191-1095"/>
+                <infoLink name="Extra Attacks" id="4d5c-8960-bd83-18e6" hidden="false" type="rule" targetId="115b-79dc-f723-d761"/>
               </infoLinks>
               <profiles>
                 <profile name="Plague Censer" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="e7d5-0426-c4aa-f1f5">
@@ -4083,7 +4110,7 @@ Designer’s Note: This ability allows the unit to set up in engagement with a n
                     <characteristic name="S" typeId="ab33-d393-96ce-ccba">3</characteristic>
                     <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-1</characteristic>
                     <characteristic name="D" typeId="3254-9fe6-d824-513e">2</characteristic>
-                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Lethal Hits, Psychic</characteristic>
+                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Extra Attacks, Lethal Hits, Psychic</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4148,9 +4175,9 @@ Designer’s Note: This ability allows the unit to set up in engagement with a n
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="17b1-5314-317e-ccb4"/>
               </constraints>
               <infoLinks>
-                <infoLink name="➤ Plague Stricken Curse - Focused Witchfire" id="eb48-dd67-c832-0bec" hidden="false" type="profile" targetId="877a-813d-67a8-139a"/>
-                <infoLink name="➤ Plague Stricken Curse - Witchfire" id="bdb5-c0bd-5fba-1921" hidden="false" type="profile" targetId="07f7-9fe6-4b23-614f"/>
-                <infoLink name="Blast" id="2046-3a81-5e5f-1282" hidden="false" type="rule" targetId="6c1f-1cf7-ff25-c99e"/>
+                <infoLink name="➤ Winds of Plague - Breeze" id="eb48-dd67-c832-0bec" hidden="false" type="profile" targetId="c2d3-d543-f221-ede6"/>
+                <infoLink name="➤ Winds of Plague - Gale" id="bdb5-c0bd-5fba-1921" hidden="false" type="profile" targetId="1b84-baab-3ff7-e66d"/>
+                <infoLink name="Sustained Hits" id="2046-3a81-5e5f-1282" hidden="false" type="rule" targetId="1897-c22c-9597-12b1"/>
                 <infoLink name="Devastating Wounds" id="c1e1-a2b1-9f47-8e0c" hidden="false" type="rule" targetId="be1e-ac8e-1e2c-3528"/>
                 <infoLink name="Hazardous" id="1a26-659e-7cd6-9c84" hidden="false" type="rule" targetId="8367-374c-f87-c627"/>
                 <infoLink name="Psychic" id="5cd0-87b9-fa7c-78d4" hidden="false" type="rule" targetId="e9c4-2bb8-12ee-cd1b"/>
@@ -4163,7 +4190,8 @@ Designer’s Note: This ability allows the unit to set up in engagement with a n
               </constraints>
               <infoLinks>
                 <infoLink name="Psychic" id="4f3d-fa6c-29c3-56af" hidden="false" type="rule" targetId="e9c4-2bb8-12ee-cd1b"/>
-                <infoLink name="Lethal Hits" id="6960-2e6f-cf79-55e3" hidden="false" type="rule" targetId="d1d1-611e-5191-1095"/>
+                <infoLink name="Extra Attacks" id="6960-2e6f-cf79-55e3" hidden="false" type="rule" targetId="115b-79dc-f723-d761"/>
+                <infoLink name="Lethal Hits" id="2e2c-b072-3071-ee66" hidden="false" type="rule" targetId="d1d1-611e-5191-1095"/>
               </infoLinks>
               <profiles>
                 <profile name="Plague Censer" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="4605-c572-e02b-be24">
@@ -4174,7 +4202,7 @@ Designer’s Note: This ability allows the unit to set up in engagement with a n
                     <characteristic name="S" typeId="ab33-d393-96ce-ccba">3</characteristic>
                     <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-1</characteristic>
                     <characteristic name="D" typeId="3254-9fe6-d824-513e">2</characteristic>
-                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Lethal Hits, Psychic</characteristic>
+                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Extra Attacks, Lethal Hits, Psychic</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4237,7 +4265,7 @@ Designer’s Note: This ability allows the unit to set up in engagement with a n
                 <infoLink name="Heavy" id="cb5e-0267-51df-72c6" hidden="false" type="rule" targetId="1202-10a8-78e9-4c67"/>
               </infoLinks>
               <profiles>
-                <profile name="Ratling Gun - Overcharged" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="0671-8e42-0b09-64cf">
+                <profile name="➤ Ratling Gun - Overcharged" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="0671-8e42-0b09-64cf">
                   <characteristics>
                     <characteristic name="Range" typeId="9896-9419-16a1-92fc">15&quot;</characteristic>
                     <characteristic name="A" typeId="3bb-c35f-f54-fb08">D6</characteristic>
@@ -4248,7 +4276,7 @@ Designer’s Note: This ability allows the unit to set up in engagement with a n
                     <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Hazardous, Sustained Hits 2, Heavy</characteristic>
                   </characteristics>
                 </profile>
-                <profile name="Ratling Gun" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="5aed-adde-f2a3-fec5">
+                <profile name="➤ Ratling Gun" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="5aed-adde-f2a3-fec5">
                   <characteristics>
                     <characteristic name="Range" typeId="9896-9419-16a1-92fc">15&quot;</characteristic>
                     <characteristic name="A" typeId="3bb-c35f-f54-fb08">D6</characteristic>
@@ -4530,26 +4558,26 @@ Designer’s Note: This ability allows the unit to set up in engagement with a n
                 <infoLink name="Pistol" id="8bb6-ba66-db6b-981c" hidden="false" type="rule" targetId="8bf7-8812-923d-29e4"/>
               </infoLinks>
               <profiles>
-                <profile name="Warpfire Thrower - Overcharged" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="40b6-07e3-d972-f406">
+                <profile name="➤ Warpfire Thrower - Overcharged" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="40b6-07e3-d972-f406">
                   <characteristics>
-                    <characteristic name="Range" typeId="914c-b413-91e3-a132">10&quot;</characteristic>
-                    <characteristic name="A" typeId="2337-daa1-6682-b110">D6</characteristic>
-                    <characteristic name="WS" typeId="95d1-95f-45b4-11d6">-</characteristic>
-                    <characteristic name="S" typeId="ab33-d393-96ce-ccba">8</characteristic>
-                    <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-3</characteristic>
-                    <characteristic name="D" typeId="3254-9fe6-d824-513e">2</characteristic>
-                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Hazardous, Pistol, Torrent</characteristic>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">10&quot;</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">D6</characteristic>
+                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">-</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">8</characteristic>
+                    <characteristic name="AP" typeId="9ead-8a10-520-de15">-3</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">2</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Hazardous, Pistol, Torrent</characteristic>
                   </characteristics>
                 </profile>
-                <profile name="Warpfire Thrower" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="97f3-b2c8-33d3-1836">
+                <profile name="➤ Warpfire Thrower" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="97f3-b2c8-33d3-1836">
                   <characteristics>
-                    <characteristic name="Range" typeId="914c-b413-91e3-a132">10&quot;</characteristic>
-                    <characteristic name="A" typeId="2337-daa1-6682-b110">D6</characteristic>
-                    <characteristic name="WS" typeId="95d1-95f-45b4-11d6">-</characteristic>
-                    <characteristic name="S" typeId="ab33-d393-96ce-ccba">7</characteristic>
-                    <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
-                    <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
-                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Pistol, Torrent</characteristic>
+                    <characteristic name="Range" typeId="9896-9419-16a1-92fc">10&quot;</characteristic>
+                    <characteristic name="A" typeId="3bb-c35f-f54-fb08">D6</characteristic>
+                    <characteristic name="BS" typeId="94d-8a98-cf90-183e">-</characteristic>
+                    <characteristic name="S" typeId="2229-f494-25db-c5d3">7</characteristic>
+                    <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
+                    <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                    <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Pistol, Torrent</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4635,7 +4663,7 @@ Designer’s Note: This ability allows the unit to set up in engagement with a n
                 <infoLink name="Precision" id="c077-3706-86a1-3b0d" hidden="false" type="rule" targetId="9143-31ae-e0a6-6007"/>
               </infoLinks>
               <profiles>
-                <profile name="Warplock Jezzail - Overcharged" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="05cb-b14a-1c59-6a64">
+                <profile name="➤ Warplock Jezzail - Overcharged" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="05cb-b14a-1c59-6a64">
                   <characteristics>
                     <characteristic name="Range" typeId="9896-9419-16a1-92fc">18&quot;</characteristic>
                     <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
@@ -4646,7 +4674,7 @@ Designer’s Note: This ability allows the unit to set up in engagement with a n
                     <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Hazardous, Heavy, Lethal Hits, Precision</characteristic>
                   </characteristics>
                 </profile>
-                <profile name="Warplock Jezzail" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="7797-fd71-a65a-5680">
+                <profile name="➤ Warplock Jezzail" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="7797-fd71-a65a-5680">
                   <characteristics>
                     <characteristic name="Range" typeId="9896-9419-16a1-92fc">18&quot;</characteristic>
                     <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
@@ -4698,7 +4726,7 @@ Designer’s Note: This ability allows the unit to set up in engagement with a n
                 <infoLink name="Precision" id="b338-d19b-2762-080d" hidden="false" type="rule" targetId="9143-31ae-e0a6-6007"/>
               </infoLinks>
               <profiles>
-                <profile name="Warplock Jezzail - Overcharged" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="77fe-f149-97ab-ee06">
+                <profile name="➤ Warplock Jezzail - Overcharged" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="77fe-f149-97ab-ee06">
                   <characteristics>
                     <characteristic name="Range" typeId="9896-9419-16a1-92fc">18&quot;</characteristic>
                     <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
@@ -4709,7 +4737,7 @@ Designer’s Note: This ability allows the unit to set up in engagement with a n
                     <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Hazardous, Heavy, Lethal Hits, Precision</characteristic>
                   </characteristics>
                 </profile>
-                <profile name="Warplock Jezzail" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="3127-e64c-a13f-d875">
+                <profile name="➤ Warplock Jezzail" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="3127-e64c-a13f-d875">
                   <characteristics>
                     <characteristic name="Range" typeId="9896-9419-16a1-92fc">18&quot;</characteristic>
                     <characteristic name="A" typeId="3bb-c35f-f54-fb08">2</characteristic>
@@ -4855,7 +4883,7 @@ Designer’s Note: This ability allows the unit to set up in engagement with a n
                 <infoLink name="Torrent" id="a1fe-3626-5e12-90da" hidden="false" type="rule" targetId="5edf-d619-23e0-9b56"/>
               </infoLinks>
               <profiles>
-                <profile name="Warpfire Gun - Overcharged" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="b1b9-9f54-ec97-5be8">
+                <profile name="➤ Warpfire Gun - Overcharged" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="b1b9-9f54-ec97-5be8">
                   <characteristics>
                     <characteristic name="Range" typeId="9896-9419-16a1-92fc">10&quot;</characteristic>
                     <characteristic name="A" typeId="3bb-c35f-f54-fb08">2D6</characteristic>
@@ -4866,7 +4894,7 @@ Designer’s Note: This ability allows the unit to set up in engagement with a n
                     <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Hazardous, Pistol, Torrent</characteristic>
                   </characteristics>
                 </profile>
-                <profile name="Warpfire Gun" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="d246-9235-0b07-c025">
+                <profile name="➤ Warpfire Gun" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="d246-9235-0b07-c025">
                   <characteristics>
                     <characteristic name="Range" typeId="9896-9419-16a1-92fc">10&quot;</characteristic>
                     <characteristic name="A" typeId="3bb-c35f-f54-fb08">2D6</characteristic>
@@ -5065,7 +5093,7 @@ Designer’s Note: This ability allows the unit to set up in engagement with a n
                         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2042-ffdb-a058-1b34"/>
                       </constraints>
                       <profiles>
-                        <profile name="Ratling Cannons" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="9ac8-c0f2-e595-98d8">
+                        <profile name="➤ Ratling Cannons" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="9ac8-c0f2-e595-98d8">
                           <characteristics>
                             <characteristic name="Range" typeId="9896-9419-16a1-92fc">15&quot;</characteristic>
                             <characteristic name="A" typeId="3bb-c35f-f54-fb08">3D6</characteristic>
@@ -5076,7 +5104,7 @@ Designer’s Note: This ability allows the unit to set up in engagement with a n
                             <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Heavy, Sustained Hits 2</characteristic>
                           </characteristics>
                         </profile>
-                        <profile name="Ratling Cannons - Overcharged" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="1469-b981-4e21-eb26">
+                        <profile name="➤ Ratling Cannons - Overcharged" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="1469-b981-4e21-eb26">
                           <characteristics>
                             <characteristic name="Range" typeId="9896-9419-16a1-92fc">15&quot;</characteristic>
                             <characteristic name="A" typeId="3bb-c35f-f54-fb08">3D6</characteristic>
@@ -5170,7 +5198,7 @@ Designer’s Note: This ability allows the unit to set up in engagement with a n
                         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3a54-3853-2f58-6fa6"/>
                       </constraints>
                       <profiles>
-                        <profile name="Warpfire Projectors" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="06fa-07bd-daf2-483e">
+                        <profile name="➤ Warpfire Projectors" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="06fa-07bd-daf2-483e">
                           <characteristics>
                             <characteristic name="Range" typeId="9896-9419-16a1-92fc">10&quot;</characteristic>
                             <characteristic name="A" typeId="3bb-c35f-f54-fb08">2D6</characteristic>
@@ -5181,7 +5209,7 @@ Designer’s Note: This ability allows the unit to set up in engagement with a n
                             <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Pistol, Torrent</characteristic>
                           </characteristics>
                         </profile>
-                        <profile name="Warpfire Projectors - Overcharged" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="1ad1-c2b6-9b69-1c58">
+                        <profile name="➤ Warpfire Projectors - Overcharged" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="1ad1-c2b6-9b69-1c58">
                           <characteristics>
                             <characteristic name="Range" typeId="9896-9419-16a1-92fc">10&quot;</characteristic>
                             <characteristic name="A" typeId="3bb-c35f-f54-fb08">2D6</characteristic>
@@ -5227,7 +5255,7 @@ Designer’s Note: This ability allows the unit to set up in engagement with a n
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Windlaunchers" hidden="false" id="a09a-6df3-673e-4b60" collective="true">
                       <profiles>
-                        <profile name="Windlaunchers - Overcharged" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="baa2-85b3-a1ae-a37a">
+                        <profile name="➤ Windlaunchers - Overcharged" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="baa2-85b3-a1ae-a37a">
                           <characteristics>
                             <characteristic name="Range" typeId="9896-9419-16a1-92fc">15&quot;</characteristic>
                             <characteristic name="A" typeId="3bb-c35f-f54-fb08">3</characteristic>
@@ -5238,7 +5266,7 @@ Designer’s Note: This ability allows the unit to set up in engagement with a n
                             <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-Infantry 3+, Devastating Wounds, Hazardous</characteristic>
                           </characteristics>
                         </profile>
-                        <profile name="Windlaunchers" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="7d94-ceb4-0279-5eb4">
+                        <profile name="➤ Windlaunchers" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="7d94-ceb4-0279-5eb4">
                           <characteristics>
                             <characteristic name="Range" typeId="9896-9419-16a1-92fc">15&quot;</characteristic>
                             <characteristic name="A" typeId="3bb-c35f-f54-fb08">3</characteristic>
@@ -5340,7 +5368,7 @@ Designer’s Note: This ability allows the unit to set up in engagement with a n
                     <characteristic name="S" typeId="ab33-d393-96ce-ccba">4</characteristic>
                     <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-1</characteristic>
                     <characteristic name="D" typeId="3254-9fe6-d824-513e">2</characteristic>
-                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
+                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Extra Attacks</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -5348,6 +5376,9 @@ Designer’s Note: This ability allows the unit to set up in engagement with a n
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f825-0171-a6a3-4d17"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3259-bdf8-8992-d579"/>
               </constraints>
+              <infoLinks>
+                <infoLink name="Extra Attacks" id="a9a8-6a74-fd89-57dc" hidden="false" type="rule" targetId="115b-79dc-f723-d761"/>
+              </infoLinks>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Chain-flail" hidden="false" id="cbe3-ae1f-4954-e07c">
               <infoLinks>
@@ -5373,7 +5404,7 @@ Designer’s Note: This ability allows the unit to set up in engagement with a n
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Warpflame Scourger" hidden="false" id="c94c-c85f-b4c1-c795">
               <profiles>
-                <profile name="Warpflame Scourger" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="763d-0256-2ab5-602d">
+                <profile name="➤ Warpflame Scourger" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="763d-0256-2ab5-602d">
                   <characteristics>
                     <characteristic name="Range" typeId="9896-9419-16a1-92fc">15&quot;</characteristic>
                     <characteristic name="A" typeId="3bb-c35f-f54-fb08">2D6</characteristic>
@@ -5384,7 +5415,7 @@ Designer’s Note: This ability allows the unit to set up in engagement with a n
                     <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Anti-Infantry 3+, Torrent</characteristic>
                   </characteristics>
                 </profile>
-                <profile name="Warpflame Scourger - Overcharged" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="b7a1-88e6-6901-b4cf">
+                <profile name="➤ Warpflame Scourger - Overcharged" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="b7a1-88e6-6901-b4cf">
                   <characteristics>
                     <characteristic name="Range" typeId="9896-9419-16a1-92fc">15&quot;</characteristic>
                     <characteristic name="A" typeId="3bb-c35f-f54-fb08">2D6</characteristic>
@@ -5638,7 +5669,7 @@ Designer’s Note: This ability allows the unit to set up in engagement with a n
                 <infoLink name="Blast" id="9856-a2cb-dd17-5c53" hidden="false" type="rule" targetId="6c1f-1cf7-ff25-c99e"/>
               </infoLinks>
               <profiles>
-                <profile name="Warp Lightning Blast - Overcharged" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="a8d9-58d2-d1e5-8078">
+                <profile name="➤ Warp Lightning Blast - Overcharged" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="a8d9-58d2-d1e5-8078">
                   <characteristics>
                     <characteristic name="Range" typeId="9896-9419-16a1-92fc">20&quot;</characteristic>
                     <characteristic name="A" typeId="3bb-c35f-f54-fb08">2D6</characteristic>
@@ -5649,7 +5680,7 @@ Designer’s Note: This ability allows the unit to set up in engagement with a n
                     <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Blast, Hazardous, Heavy, Indirect Fire</characteristic>
                   </characteristics>
                 </profile>
-                <profile name="Warp Lightning Blast" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="9ec8-7002-7a7a-395e">
+                <profile name="➤ Warp Lightning Blast" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="9ec8-7002-7a7a-395e">
                   <characteristics>
                     <characteristic name="Range" typeId="9896-9419-16a1-92fc">20&quot;</characteristic>
                     <characteristic name="A" typeId="3bb-c35f-f54-fb08">2D6</characteristic>
@@ -5680,7 +5711,7 @@ Designer’s Note: This ability allows the unit to set up in engagement with a n
             <characteristic name="OC" typeId="bef7-942a-1a23-59f8">2</characteristic>
           </characteristics>
         </profile>
-        <profile name="More-more Warp Lightning!" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a6c0-0004-e150-c6d2">
+        <profile name="More-More Warp Lightning!" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a6c0-0004-e150-c6d2">
           <characteristics>
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Once Per Turn. Your Shooting Phase. If this unit is within the 3&quot; of a friendly SKRYRE CHARACTER, add 6 to the Attacks characteristic of this unit’s **Warp Lightning Blast** for the rest of the turn. However, for each unmodified hit roll of 1 for an attack made with this unit’s **Warp Lightning Blast**, inflict 1 mortal wound on this unit after the Shoot ability has been resolved.</characteristic>
           </characteristics>
@@ -5748,7 +5779,7 @@ Designer’s Note: This ability allows the unit to set up in engagement with a n
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="43af-cf42-ea01-b551" includeChildSelections="false"/>
               </constraints>
               <profiles>
-                <profile name="Hail of Warpstone Bullets - Overcharged" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="c280-7739-d91d-3714">
+                <profile name="➤ Hail of Warpstone Bullets - Overcharged" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="c280-7739-d91d-3714">
                   <characteristics>
                     <characteristic name="Range" typeId="9896-9419-16a1-92fc">20&quot;</characteristic>
                     <characteristic name="A" typeId="3bb-c35f-f54-fb08">3D6+3</characteristic>
@@ -5759,7 +5790,7 @@ Designer’s Note: This ability allows the unit to set up in engagement with a n
                     <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Hazardous, Sustained Hits, Twin-linked</characteristic>
                   </characteristics>
                 </profile>
-                <profile name="Hail of Warpstone Bullets" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="3e02-17a8-6ac7-0cda">
+                <profile name="➤ Hail of Warpstone Bullets" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="3e02-17a8-6ac7-0cda">
                   <characteristics>
                     <characteristic name="Range" typeId="9896-9419-16a1-92fc">20&quot;</characteristic>
                     <characteristic name="A" typeId="3bb-c35f-f54-fb08">3D6+3</characteristic>
@@ -5803,7 +5834,7 @@ Designer’s Note: This ability allows the unit to set up in engagement with a n
             <characteristic name="OC" typeId="bef7-942a-1a23-59f8">2</characteristic>
           </characteristics>
         </profile>
-        <profile name="More-more Warpstone Bullets!" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a63e-5a5e-5e2d-4eaf">
+        <profile name="More-More Warpstone Bullets!" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a63e-5a5e-5e2d-4eaf">
           <characteristics>
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Once Per Turn. Your Shooting Phase. If this unit is within the 3&quot; of a friendly SKRYRE CHARACTER, this unit’s **Hail of Warpstone Bullets** has an Attacks characteristic of 6D6+3 instead of 3D6+3 for the rest of the turn. However, for each unmodified hit roll of 1 for an attack made with this unit’s **Hail of Warpstone Bullets**, inflict 1 mortal wound on this unit after the Shoot ability has been resolved.</characteristic>
           </characteristics>
@@ -5891,7 +5922,7 @@ Designer’s Note: This ability allows the unit to set up in engagement with a n
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="55c1-3c4b-59b9-f660" includeChildSelections="false"/>
               </constraints>
               <profiles>
-                <profile name="Warp Bolts - Overcharged" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="e9b5-a41f-8b70-6bff">
+                <profile name="➤ Warp Bolts - Overcharged" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="e9b5-a41f-8b70-6bff">
                   <characteristics>
                     <characteristic name="Range" typeId="9896-9419-16a1-92fc">13&quot;</characteristic>
                     <characteristic name="A" typeId="3bb-c35f-f54-fb08">D6</characteristic>
@@ -5902,7 +5933,7 @@ Designer’s Note: This ability allows the unit to set up in engagement with a n
                     <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Pistol, Hazardous</characteristic>
                   </characteristics>
                 </profile>
-                <profile name="Warp Bolts" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="0933-6cba-63b4-3e79">
+                <profile name="➤ Warp Bolts" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="0933-6cba-63b4-3e79">
                   <characteristics>
                     <characteristic name="Range" typeId="9896-9419-16a1-92fc">13&quot;</characteristic>
                     <characteristic name="A" typeId="3bb-c35f-f54-fb08">D6</characteristic>
@@ -5979,7 +6010,7 @@ Designer’s Note: This ability allows the unit to set up in engagement with a n
                 <infoLink name="Heavy" id="ee4a-e233-c5f3-470e" hidden="false" type="rule" targetId="1202-10a8-78e9-4c67"/>
               </infoLinks>
               <profiles>
-                <profile name="Warpvolt Scourger - Overcharged" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="cce3-829b-1ddd-49f0">
+                <profile name="➤ Warpvolt Scourger - Overcharged" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="cce3-829b-1ddd-49f0">
                   <characteristics>
                     <characteristic name="Range" typeId="9896-9419-16a1-92fc">15&quot;</characteristic>
                     <characteristic name="A" typeId="3bb-c35f-f54-fb08">D6</characteristic>
@@ -5990,7 +6021,7 @@ Designer’s Note: This ability allows the unit to set up in engagement with a n
                     <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Blast, Hazardous, Heavy, Sustained Hits 2</characteristic>
                   </characteristics>
                 </profile>
-                <profile name="Warpvolt Scourger" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="a184-f81f-af32-7a9f">
+                <profile name="➤ Warpvolt Scourger" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="a184-f81f-af32-7a9f">
                   <characteristics>
                     <characteristic name="Range" typeId="9896-9419-16a1-92fc">15&quot;</characteristic>
                     <characteristic name="A" typeId="3bb-c35f-f54-fb08">D6</characteristic>
@@ -7084,7 +7115,7 @@ Designer’s Note: This ability allows the target to set up in combat with a new
         <characteristic name="S" typeId="2229-f494-25db-c5d3">5</characteristic>
         <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
         <characteristic name="D" typeId="a354-c1c8-a745-f9e3">D3</characteristic>
-        <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Psychic, Blast</characteristic>
+        <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Blast, Psychic</characteristic>
       </characteristics>
     </profile>
     <profile name="Rusty Knives" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="2200-91b5-34e8-8af7">
@@ -7106,7 +7137,7 @@ Designer’s Note: This ability allows the target to set up in combat with a new
         <characteristic name="S" typeId="2229-f494-25db-c5d3">6</characteristic>
         <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
         <characteristic name="D" typeId="a354-c1c8-a745-f9e3">D3</characteristic>
-        <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Psychic, Hazardous, Devastating Wounds, Blast</characteristic>
+        <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Blast, Devastating Wounds, Hazardous, Psychic</characteristic>
       </characteristics>
     </profile>
     <profile name="➤ Psychic Strike - Witchfire" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="d7d8-4fca-1a2d-898f">
@@ -7150,7 +7181,7 @@ Designer’s Note: This ability allows the target to set up in combat with a new
         <characteristic name="S" typeId="ab33-d393-96ce-ccba">6</characteristic>
         <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-1</characteristic>
         <characteristic name="D" typeId="3254-9fe6-d824-513e">D3</characteristic>
-        <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Psychic</characteristic>
+        <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Extra Attacks, Psychic</characteristic>
       </characteristics>
     </profile>
     <profile name="Crushing Bulk" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="74a6-0a67-a0d3-4c94">
@@ -7171,7 +7202,7 @@ Designer’s Note: This ability allows the target to set up in combat with a new
     </profile>
     <profile name="Sweep of Flames" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="43f4-3437-7eef-8109">
       <characteristics>
-        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If this unit&apos;s Torrent weapon is targeting an enemy unit that is within engagement range of another unit, each unit is targeted by the attack.</characteristic>
+        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">If this unit&apos;s Torrent weapon is targeting an enemy unit that is within 3&quot; of another enemy unit, each enemy unit is targeted by the attack.</characteristic>
       </characteristics>
     </profile>
     <profile name="Damaged: 1-5 Wounds Remaining" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6eac-369a-f9e3-cf11">
@@ -7182,6 +7213,28 @@ Designer’s Note: This ability allows the target to set up in combat with a new
     <profile name="Regenerating Monstrosity" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b6c3-e0d6-5261-183a">
       <characteristics>
         <characteristic name="Description" typeId="9b8f-694b-e5e-b573">End of Any Round. Heal (D6) this unit.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="➤ Winds of Plague - Gale" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="1b84-baab-3ff7-e66d">
+      <characteristics>
+        <characteristic name="Range" typeId="9896-9419-16a1-92fc">18&quot;</characteristic>
+        <characteristic name="A" typeId="3bb-c35f-f54-fb08">6</characteristic>
+        <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+        <characteristic name="S" typeId="2229-f494-25db-c5d3">6</characteristic>
+        <characteristic name="AP" typeId="9ead-8a10-520-de15">-2</characteristic>
+        <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+        <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Devastating Wounds, Hazardous, Psychic</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="➤ Winds of Plague - Breeze" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="c2d3-d543-f221-ede6">
+      <characteristics>
+        <characteristic name="Range" typeId="9896-9419-16a1-92fc">18&quot;</characteristic>
+        <characteristic name="A" typeId="3bb-c35f-f54-fb08">3</characteristic>
+        <characteristic name="BS" typeId="94d-8a98-cf90-183e">3+</characteristic>
+        <characteristic name="S" typeId="2229-f494-25db-c5d3">5</characteristic>
+        <characteristic name="AP" typeId="9ead-8a10-520-de15">-1</characteristic>
+        <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+        <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Psychic, Sustained Hits 1</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
