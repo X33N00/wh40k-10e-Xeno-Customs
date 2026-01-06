@@ -3603,10 +3603,13 @@ Designer’s Note: This ability allows the unit to set up in engagement with a n
                     <characteristic name="S" typeId="ab33-d393-96ce-ccba">10</characteristic>
                     <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
                     <characteristic name="D" typeId="3254-9fe6-d824-513e">3</characteristic>
-                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
+                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Extra Attacks</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
+              <infoLinks>
+                <infoLink name="Extra Attacks" id="de19-3649-66eb-b3b0" hidden="false" type="rule" targetId="115b-79dc-f723-d761"/>
+              </infoLinks>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Staff of the Horned Rat" hidden="false" id="917a-7213-8176-cf99">
               <constraints>
