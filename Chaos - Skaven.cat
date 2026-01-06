@@ -4080,7 +4080,7 @@ Designer’s Note: This ability allows the unit to set up in engagement with a n
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Plaguepack" hidden="false" id="c3db-ffdc-bd70-3a6e" collective="true">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Plague Stricken Curse" hidden="false" id="3ff5-b2d9-2775-a740" collective="true">
+            <selectionEntry type="upgrade" import="true" name="Winds of Plague" hidden="false" id="3ff5-b2d9-2775-a740" collective="true">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2530-d6fb-eb4a-bacc"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9bf9-fc75-d616-321a"/>
