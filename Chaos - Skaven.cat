@@ -4179,7 +4179,7 @@ Designer’s Note: This ability allows the unit to set up in engagement with a n
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Plague Stricken Curse" hidden="false" id="75cf-ac71-369c-f16c">
+            <selectionEntry type="upgrade" import="true" name="Winds of Plague" hidden="false" id="75cf-ac71-369c-f16c">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="bf1a-8abf-1fae-56a9"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="17b1-5314-317e-ccb4"/>
